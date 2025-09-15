@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "Laddar...",
+		"save": "Spara",
+		"cancel": "Avbryt",
+		"confirm": "Bekräfta",
+		"viewAll": "Visa alla"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "Växla sidofält",
+		"searchPlaceholder": "Sök spel, leverantörer...",
+		"liveChat": "Livechatt",
+		"player": "Spelare",
+		"vip": "VIP",
+		"profile": "Profil",
+		"statistics": "Statistik",
+		"wallet": "Insättning/Uttag",
+		"cashier": "Kassa",
+		"winLoss": "Vinster/Förluster",
+		"affiliate": "Affiliate",
+		"logout": "Logga ut",
+		"balance": "Saldo"
+	},
+	"navigation": {
+		"home": "Hem",
+		"games": "Spel",
+		"profile": "Profil",
+		"wallet": "Plånbok",
+		"settings": "Inställningar",
+		"promotions": "Kampanjer",
+		"affiliate": "Affiliate",
+		"providers": "Leverantörer",
+		"lobby": "Lobby"
+	},
+	"profile": {
+		"language": "Språk",
+		"welcome": "Välkommen, {name}!",
+		"settingUp": "Ställer in",
+		"profileBtn": "Visa profil",
+		"currentBalance": "Nuvarande saldo",
+		"availableFunds": "Tillgängliga medel",
+		"totalDeposits": "Totala insättningar",
+		"totalWithdrawals": "Totala uttag",
+		"walletAddress": "Plånboksadress",
+		"copySuccess": "Plånboksadressen har kopierats!",
+		"copyFailed": "Misslyckades med att kopiera plånboksadressen",
+		"notConnected": "Inte ansluten",
+		"myProfile": "Min profil",
+		"logout": "Logga ut",
+		"pendingRegistration": "Väntande registrering",
+		"noEmailProvided": "Ingen e-postadress angiven",
+		"balanceOverview": "Saldoöversikt",
+		"gettingStarted": "Kom igång",
+		"verifyEmail": "Verifiera din e-post",
+		"completeEmailVerification": "Slutför e-postverifieringen",
+		"verifyPhone": "Verifiera ditt telefonnummer",
+		"addPhoneVerification": "Lägg till telefonverifiering",
+		"firstDeposit": "Första insättningen",
+		"makeFirstDeposit": "Gör din första insättning",
+		"placeBetOrTrade": "Lägg ett spel / Gör en handel",
+		"startFirstGame": "Starta ditt första spel",
+		"recentActivity": "Senaste aktivitet",
+		"transactionHistory": "Transaktionshistorik",
+		"activityGameWinDiceRoll": "Spelvinst - Tärningskast",
+		"activityGameLossBlackjack": "Spelförlust - Blackjack",
+		"twoHoursAgo": "För 2 timmar sedan",
+		"oneDayAgo": "För 1 dag sedan",
+		"twoDaysAgo": "För 2 dagar sedan",
+		"deposit": "Insättning",
+		"loggedOutTitle": "Hoppsan! Du är utloggad",
+		"loggedOutSubtitle": "Logga in för att se din profil",
+		"goHome": "Gå till startsidan",
+		"withdrawal": "Uttag",
+		"transactions": {
+			"title": "Transaktionshistorik",
+			"trackDepositsWithdrawals": "Spåra dina insättningar och uttag",
+			"filters": "Filter",
+			"refresh": "Uppdatera",
+			"advancedFilters": "Avancerade filter",
+			"searchTransactionComingSoon": "Sök transaktion (kommer snart)",
+			"searchPlaceholderDisabled": "Sökfunktionen kommer att implementeras på API-nivå...",
+			"dateRange": "Datumintervall",
+			"selectDateRange": "Välj datumintervall",
+			"today": "Idag",
+			"last7Days": "Senaste 7 dagarna",
+			"last30Days": "Senaste 30 dagarna",
+			"last90Days": "Senaste 90 dagarna",
+			"thisMonth": "Denna månad",
+			"lastMonth": "Förra månaden",
+			"customRange": "Anpassat intervall",
+			"fromDate": "Från datum",
+			"toDate": "Till datum",
+			"transactionStatus": "Transaktionsstatus",
+			"allStatuses": "Alla statusar",
+			"success": "Lyckad",
+			"pending": "Väntande",
+			"rejected": "Avvisad",
+			"clearAll": "Rensa alla",
+			"cancel": "Avbryt",
+			"applyFilters": "Använd filter",
+			"activeFilters": "Aktiva filter:",
+			"statusLabel": "Status",
+			"dateLabel": "Datum",
+			"statsTotalTransactions": "{total} transaktioner totalt",
+			"pageOf": "Sida {current} av {total}",
+			"live": "Live",
+			"tabs": {
+				"all": "Alla",
+				"deposits": "Insättningar",
+				"withdrawals": "Uttag"
+			},
+			"errorLoadingTransactions": "Fel vid inläsning av transaktioner",
+			"tryAgain": "Försök igen",
+			"noTransactionsFound": "Inga transaktioner hittades",
+			"noTransactionsAvailableSelectedPeriod": "Inga transaktioner tillgängliga för den valda perioden.",
+			"noDepositsFoundSelectedPeriod": "Inga insättningar hittades för den valda perioden.",
+			"noWithdrawalsFoundSelectedPeriod": "Inga uttag hittades för den valda perioden.",
+			"show": "Visa",
+			"ofTransactions": "av {count} transaktioner",
+			"showingRangeOfTotal": "Visar {from}-{to} av {total}",
+			"pageShort": "Sida {current}/{total}"
+		},
+		"betHistory": {
+			"title": "Spelhistorik",
+			"trackBetsResults": "Spåra dina spel och resultat",
+			"filters": "Filter",
+			"refresh": "Uppdatera",
+			"advancedFilters": "Avancerade filter",
+			"dateRange": "Datumintervall",
+			"selectDateRange": "Välj datumintervall",
+			"today": "Idag",
+			"last7Days": "Senaste 7 dagarna",
+			"last30Days": "Senaste 30 dagarna",
+			"last90Days": "Senaste 90 dagarna",
+			"thisMonth": "Denna månad",
+			"lastMonth": "Förra månaden",
+			"customRange": "Anpassat intervall",
+			"fromDate": "Från datum",
+			"toDate": "Till datum",
+			"provider": "Leverantör",
+			"allProviders": "Alla leverantörer",
+			"status": "Status",
+			"allStatuses": "Alla statusar",
+			"outstanding": "Öppen",
+			"win": "Vinst",
+			"lose": "Förlust",
+			"draw": "Oavgjort",
+			"void": "Ogiltig",
+			"bonusWin": "Bonusvinst",
+			"clearAll": "Rensa alla",
+			"cancel": "Avbryt",
+			"applyFilters": "Använd filter",
+			"activeFilters": "Aktiva filter",
+			"statusLabel": "Status",
+			"providerLabel": "Leverantör",
+			"dateLabel": "Datum",
+			"totalBets": "Totalt antal spel",
+			"totalProfitLoss": "Total vinst/förlust",
+			"pageOf": "Sida {current} av {total}",
+			"live": "Live",
+			"errorLoadingBets": "Fel vid inläsning av spelhistorik",
+			"failedToLoadBetHistory": "Misslyckades med att ladda spelhistorik. Försök igen.",
+			"tryAgain": "Försök igen",
+			"noBetsFound": "Inga spel hittades",
+			"noBetsFoundSelectedPeriod": "Ingen spelhistorik hittades för den valda perioden och filtren.",
+			"show": "Visa",
+			"ofBets": "av {count} spel",
+			"showingRangeOfTotal": "Visar {from}-{to} av {total}",
+			"totalBet": "Total insats",
+			"totalWin": "Total vinst",
+			"net": "Netto",
+			"tableHeaders": {
+				"date": "Datum",
+				"game": "Spel",
+				"provider": "Leverantör",
+				"type": "Typ",
+				"status": "Status",
+				"betAmount": "Insatsbelopp",
+				"winAmount": "Vinstbelopp",
+				"hideAmounts": "Dölj belopp",
+				"showAmounts": "Visa belopp",
+				"gameType": "Speltyp",
+				"vendor": "Utvecklare",
+				"lastUpdate": "Senaste uppdatering",
+				"netResult": "Nettoresultat",
+				"betId": "Spel-ID"
+			},
+			"errorLoading": "Fel vid inläsning",
+			"noBetsFoundDescription": "Börja spela för att se din spelhistorik här.",
+			"betHistory": "Spelhistorik",
+			"hideAmounts": "Dölj belopp",
+			"showAmounts": "Visa belopp",
+			"date": "Datum",
+			"game": "Spel",
+			"betId": "Spel-ID",
+			"amount": "Belopp",
+			"payout": "Utbetalning",
+			"player": "Spelare",
+			"gameType": "Speltyp",
+			"vendor": "Utvecklare",
+			"lastUpdate": "Senaste uppdatering",
+			"netResult": "Nettoresultat",
+			"totalWagered": "Totalt satsat",
+			"totalWon": "Totalt vunnit",
+			"netProfit": "Nettovinst",
+			"winRate": "Vinstprocent",
+			"showingResults": "Visar {start}-{end} av {total} resultat",
+			"firstPage": "Första sidan",
+			"previousPage": "Föregående sida",
+			"nextPage": "Nästa sida",
+			"lastPage": "Sista sidan"
+		}
+	},
+	"chat": {
+		"title": "Livechatt",
+		"placeholder": "Skriv ditt meddelande...",
+		"send": "Skicka",
+		"input": {
+			"replyPlaceholder": "Svara {username}..."
+		},
+		"reply": {
+			"replyingTo": "Svarar på {username}",
+			"types": {
+				"win": "Vann {amount} {currency}",
+				"gif": "GIF-meddelande",
+				"image": "Bild",
+				"default": "Meddelande"
+			},
+			"preview": {
+				"winIn": "Vann {amount} {currency} i {game}",
+				"gifAlt": "GIF-förhandsvisning",
+				"imageAlt": "Bildförhandsvisning",
+				"emoji": "Emoji-meddelande",
+				"rain": "Regn: {amount} {currency}",
+				"system": "System: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "Dela din bild 🎰",
+			"description": "Redo att visa den för chattrummet?",
+			"previewLabel": "Förhandsvisning",
+			"statusReady": "Redo att delas",
+			"roomLabel": "🎰 Kasinochatt",
+			"shareNotice": "Din bild kommer att delas med alla spelare i chattrummet",
+			"closeAria": "Stäng dialogrutan",
+			"cancelAria": "Avbryt bilduppladdning",
+			"sendAria": "Skicka bild till chatten",
+			"send": "Skicka till chatten"
+		},
+		"picker": {
+			"searchEmojis": "Sök emojis...",
+			"searchGifs": "Sök GIFar...",
+			"tabs": {
+				"emojis": "Emojis",
+				"gifs": "GIFar"
+			},
+			"loadingEmojis": "Laddar emojis...",
+			"loadingGifs": "Laddar GIFar...",
+			"retry": "Försök igen",
+			"recent": "Nyligen använda",
+			"noEmojis": "Inga emojis hittades",
+			"noGifs": "Inga GIFar hittades",
+			"tryDifferent": "Prova ett annat sökord",
+			"gifCategories": {
+				"trending": "Trendar",
+				"reactions": "Reaktioner",
+				"gaming": "Spel",
+				"casino": "Kasino",
+				"celebration": "Firande",
+				"sports": "Sport"
+			},
+			"searchResults": "Sökresultat",
+			"availableToTag": "Tillgängliga användare att tagga 🎯",
+			"clickOrTab": "Klicka eller använd Tab för att välja",
+			"noUsers": "Inga användare hittades",
+			"noUsersMatching": "Inga matchande användare",
+			"startTyping": "Börja skriva för att söka",
+			"typeAt": "Skriv",
+			"toSeeSuggestions": "för att se förslag 🎰",
+			"errors": {
+				"emojisLoad": "Misslyckades med att ladda emojis",
+				"emojisSearch": "Misslyckades med att söka emojis",
+				"gifsLoad": "Misslyckades med att ladda GIFar"
+			}
+		},
+		"messages": {
+			"emptyTitle": "Inga meddelanden än...",
+			"emptySubtitle": "Starta konversationen och vinn stort! 🎰",
+			"loadingHistory": "Laddar chatthistorik...",
+			"loadingHistorySubtitle": "Hämtar senaste meddelanden 📜",
+			"historyError": "Kunde inte ladda chatthistorik"
+		},
+		"message": {
+			"you": "Du",
+			"winTitle": "Storvinst i \"{game}\"! 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "Uppladdad bild",
+			"rainTitle": "Det regnar pengar! 🌧️💰",
+			"recipients": "→ {count} {count, plural, one {mottagare} other {mottagare}}",
+			"eachTo": "{amount} {currency} vardera till: {list}",
+			"replyCount": "{count} {count, plural, one {svar} other {svar}}",
+			"loadingHistory": "Laddar chatthistorik..."
+		},
+		"system": {
+			"slashDisabled": "Slash-kommandon är tillfälligt inaktiverade. Använd vanliga meddelanden.",
+			"rateLimit": "Gränsen för antal meddelanden har överskridits. Vänta {seconds} sekunder innan du skickar ett nytt meddelande.",
+			"cannotTagSelf": "Du kan inte tagga dig själv i meddelanden.",
+			"processingImage": "Bearbetar bild...",
+			"failedUploadPrefix": "Misslyckades med att ladda upp bild: {message}",
+			"unknownError": "Okänt fel"
+		}
+	},
+	"sidebar": {
+		"quest": "UPPDRAG",
+		"spin": "SPINN",
+		"deposit": "INSÄTTNING",
+		"withdraw": "UTTAG",
+		"playOnTelegram": "Spela på Telegram",
+		"dailyBonus": "Daglig bonus",
+		"navigation": "Navigation",
+		"games": "Spel",
+		"providers": "Leverantörer",
+		"trendingNow": "Trendar nu",
+		"allProviders": "Alla leverantörer",
+		"allTopProviders": "Alla toppleverantörer",
+		"hotBadge": "Hett"
+	},
+	"search": {
+		"title": "Sök spel",
+		"subtitle": "Hitta efter namn, leverantör eller kategori",
+		"placeholder": "Sök spel, leverantörer, kategorier...",
+		"clear": "Rensa",
+		"recent": "Nyligen:",
+		"popular": "Populära:",
+		"favoritesTry": "Du kan prova — Dina favoriter",
+		"hotPicks": "Heta val",
+		"resultsCount": "Hittade {count} {count, plural, one {spel} other {spel}}",
+		"noResults": "Inga resultat",
+		"filterApplied": "Filtrerat på {count} {count, plural, one {leverantör} other {leverantörer}}",
+		"suggestions": {
+			"category": "Kategori",
+			"provider": "Leverantör"
+		},
+		"sections": {
+			"topProviders": "Toppleverantörer",
+			"selectedProviders": "Valda leverantörer",
+			"categories": "Kategorier",
+			"games": "Spel",
+			"providers": "Leverantörer"
+		},
+		"results": {
+			"found": "Hittade {games} spel, {categories} kategorier och {providers} leverantörer"
+		},
+		"gameTypes": {
+			"blackjack": "Blackjack",
+			"roulette": "Roulette",
+			"crash": "Crash"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "Sortera efter",
+			"a-z": "A-Ö",
+			"z-a": "Ö-A"
+		},
+		"filters": {
+			"filter": "Filter",
+			"optionsTitle": "Filteralternativ",
+			"clearAll": "Rensa alla filter",
+			"activeLabel": "Aktiva:"
+		},
+		"searchPlaceholderGeneric": "Sök...",
+		"providersDropdown": {
+			"title": "Leverantörer",
+			"selected": "{count} valda",
+			"searchPlaceholder": "Sök leverantörer...",
+			"empty": "Ingen leverantör hittades.",
+			"clear": "Rensa leverantörsfilter"
+		},
+		"category": {
+			"label": "Kategori:"
+		},
+		"view": {
+			"toggleAria": "Växla visningsläge",
+			"gridAria": "Rutnätsvy",
+			"listAria": "Listvy"
+		},
+		"loadMore": "Ladda mer"
+	},
+	"commonExtra": {
+		"connecting": "Ansluter...",
+		"offline": "Offline",
+		"online": "Online",
+		"clear": "Rensa"
+	},
+	"home": {
+		"topProviders": "Toppspel-leverantörer"
+	},
+	"lobby": {
+		"yourFavorites": "Dina favoriter",
+		"featuredCasinoGames": "Utvalda kasinospel",
+		"hotPicks": "Heta val",
+		"slots": "Slots",
+		"sports": "Sport",
+		"realTimeScoreboard": "Resultattavla i realtid"
+	},
+	"affiliate": {
+		"title": "Affiliate-program",
+		"loginPromptTitle": "Värvningsprogram",
+		"loginPromptSubtitle": "Logga in för att se din värvningsstatistik, bonusar och hämta belöningar.",
+		"goHome": "Gå till startsidan",
+		"tabs": {
+			"dashboard": "Översikt",
+			"rates": "Provisionsnivåer",
+			"calculator": "Kalkylator"
+		},
+		"refresh": "Uppdatera",
+		"refreshing": "Uppdaterar...",
+		"refreshAllSuccess": "All data har uppdaterats!",
+		"refreshPartial": "Delvis uppdaterad: {success}/{total} sektioner uppdaterade",
+		"refreshFailed": "Misslyckades med att uppdatera data. Försök igen.",
+		"dashboard": {
+			"title": "Affiliate-översikt",
+			"subtitle": "Spåra dina värvningar, intäkter och provisionsresultat",
+			"performanceOverview": "Resultatöversikt",
+			"referralManagement": "Värvningshantering",
+			"termsAndCommission": "Villkor och provisionsstruktur",
+			"unclaimedEarnings": "Ej uthämtade intäkter",
+			"claim": "Hämta",
+			"claiming": "Hämtar...",
+			"totalIncome": "Total inkomst",
+			"totalReferrals": "Totalt antal värvningar",
+			"usersUnit": "användare",
+			"yourReferralLinks": "Dina värvningslänkar",
+			"referralLinksSubtitle": "Dela dessa länkar för att värva nya användare och tjäna provision",
+			"completeReferralLink": "Fullständig värvningslänk",
+			"fullReferralPlaceholder": "Fullständig värvningslänk visas här",
+			"fullReferralHelp": "Direktlänk som användare kan klicka på för att registrera sig med din värvningskod",
+			"referralCodeOnly": "Endast värvningskod",
+			"yourReferralId": "Ditt värvnings-ID",
+			"referralIdHelp": "Dela denna kod så att användare kan ange den manuellt vid registrering",
+			"copyFullSuccess": "Fullständig värvningslänk har kopierats!",
+			"copyIdSuccess": "Värvnings-ID har kopierats!"
+		},
+		"referrals": {
+			"title": "Mina värvningar",
+			"subtitle": "Spåra och hantera alla användare som värvats via dina affiliate-länkar",
+			"totalReferrals": "värvningar totalt",
+			"monitorHelp": "Övervaka dina värvningars aktivitet, insättningar och spelmönster",
+			"sort": {
+				"placeholder": "Sortera efter...",
+				"nicknameAsc": "Användarnamn (A-Ö)",
+				"nicknameDesc": "Användarnamn (Ö-A)",
+				"lastLogin": "Senaste inloggning",
+				"unclaimedAmount": "Ej uthämtat belopp"
+			},
+			"table": {
+				"nickname": "Användarnamn",
+				"totalWager": "Total insats",
+				"lastLogin": "Senaste inloggning",
+				"registered": "Registrerad",
+				"lastDeposit": "Senaste insättning",
+				"depositDate": "Insättningsdatum",
+				"tier": "Nivå"
+			},
+			"empty": {
+				"title": "Inga värvningar hittades",
+				"subtitle": "Börja värva användare för att se dem här."
+			},
+			"pagination": {
+				"showing": "Visar {from} till {to} av {total} resultat",
+				"prev": "Föregående",
+				"next": "Nästa"
+			}
+		},
+		"rates": {
+			"title": "Provisionsnivåstruktur",
+			"subtitle": "Intäktsprocent per nivå och spelkategori",
+			"howItWorks": {
+				"title": "Hur provisionsnivåer fungerar",
+				"body": "Din provisionsnivå bestäms av dina värvningars totala dagliga insatsbelopp. Högre nivåer erbjuder bättre provisionsnivåer för alla speltyper."
+			},
+			"calculation": {
+				"title": "Hur provision beräknas",
+				"desc": "Provision beräknas var 24:e timme baserat på värvade spelares totala insatser. Exempel:",
+				"exampleTitle": "Nivå {tier}:",
+				"wagerIn": "Satsa {amount} i {gameType}"
+			},
+			"table": {
+				"tierLevel": "Nivå",
+				"wagerRange": "Insatsintervall",
+				"slots": "Slots",
+				"liveCasino": "Livekasino",
+				"sports": "Sport",
+				"tierPrefix": "NIVÅ",
+				"commissionLevel": "Provisionsnivå",
+				"dailyWager": "Daglig insatsvolym"
+			},
+			"claim": {
+				"title": "Uthämtning och uttag",
+				"points": {
+					"0": "Provision är tillgänglig för uttag så snart den har beräknats.",
+					"1": "Det finns inget utgångsdatum för ej uthämtad provision – den ackumuleras tills den hämtas.",
+					"2": "Uttag följer plattformens standardregler, såsom minimigränser och behandlingstider."
+				}
+			},
+			"system": {
+				"title": "Systemtid och operationer",
+				"dailyTimeframeLabel": "Daglig tidsram:",
+				"dailyTimeframeValue": "00:00 UTC till 23:59 UTC (varje dag).",
+				"claimDailyLabel": "Daglig uthämtning:",
+				"claimDailyValue": "Tillgänglig dagligen kl. 14:00 UTC (Din lokala tid: {local}).",
+				"note": "Obs: Även om vi arbetar med leverantörer från olika tidszoner, följer alla beräkningar UTC för att säkerställa konsekvens och undvika förvirring."
+			},
+			"amendments": {
+				"title": "Ändringar",
+				"body": "Vi kan uppdatera dessa villkor när som helst. Ändringar träder i kraft omedelbart efter publicering, och fortsatt deltagande innebär att du accepterar de nya villkoren."
+			},
+			"footer": {
+				"schedule": "Provisionsschema:",
+				"availableDaily": "Tillgänglig dagligen kl.",
+				"localTimeLabel": "(Din lokala tid: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Intäktskalkylator",
+			"subtitle": "Uppskatta dina provisionsintäkter baserat på dina värvningars insatsbelopp",
+			"interactive": {
+				"title": "Interaktivt verktyg:",
+				"body": "Ange olika insatsbelopp för att se potentiella intäkter på alla nivåer"
+			},
+			"potentialEarnings": "Potentiella intäkter",
+			"basedOnRate": "Baserat på {percentage}% provisionsnivå",
+			"tier": "Nivå {level}",
+			"commissionLevel": "Provisionsnivå {level}",
+			"enterWager": "Ange insatsbelopp (USD)",
+			"wagerPlaceholder": "t.ex. 1000",
+			"calcFor": "Beräknar intäkter för en insats på ${amount}",
+			"totalPotential": "Totala potentiella intäkter:",
+			"combinedAtTier": "Kombinerade intäkter från alla speltyper på Nivå {level}"
+		}
+	},
+	"debug": {
+		"title": "Felsökningssida"
+	},
+	"getLobby": {
+		"enteringLobby": "Går in i lobbyn...",
+		"connectingWait": "Vänligen vänta medan vi ansluter dig.",
+		"invalidSession": "Din session är ogiltig eller så saknas leverantören. Försök igen.",
+		"failedPrefix": "Misslyckades med att gå in i lobbyn: {message}",
+		"launchFailedTitle": "Start misslyckades",
+		"returnHome": "Tillbaka till startsidan"
+	},
+	"play": {
+		"connecting": "Ansluter till spelserven...",
+		"invalidSession": "Din session är ogiltig eller har gått ut. Logga in och försök igen.",
+		"launchFailedTitle": "Start misslyckades",
+		"returnHome": "Tillbaka till startsidan"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "TIDSBEGRÄNSAT ERBJUDANDE",
+		"headline": "Få 200% välkomstbonus!",
+		"subheadline": "Anslut din kryptoplånbok nu och få upp till {amount} i bonus på din första insättning!",
+		"featureDepositMatch": "200% insättningsmatchning",
+		"featureZeroFees": "Noll transaktionsavgifter",
+		"featureInstantWithdrawals": "Omedelbara uttag",
+		"featureNoKyc": "Ingen KYC krävs",
+		"ctaClaim": "HÄMTA BONUS NU!",
+		"offerExpires": "Erbjudandet upphör om:",
+		"disclaimer": "Villkor gäller. Spel innebär risk. Spela ansvarsfullt. 18+",
+		"closeAria": "Stäng modal",
+		"bannerAlt": "Reklambanner",
+		"ctaOk": "Anslut plånbok och börja spela",
+		"enterAmount": "Ange belopp",
+		"balance": "Saldo",
+		"max": "Max",
+		"deposit": "Insättning",
+		"ethereum": "Ethereum"
+	},
+	"modalsSmall": {
+		"close": "Stäng",
+		"firstDepositBoost": "Bonusboost för första insättningen",
+		"bonus": "Bonus",
+		"min": "Min",
+		"sec": "Sek",
+		"deposit": "Insättning"
+	},
+	"auth": {
+		"email": {
+			"title": "E-postinloggning",
+			"description": "Vi skickar en 6-siffrig kod till dig",
+			"emailLabel": "E-postadress",
+			"emailPlaceholder": "namn@epost.com",
+			"cancel": "Avbryt",
+			"sending": "Skickar",
+			"continue": "Fortsätt",
+			"enterCodeTitle": "Ange kod",
+			"sentTo": "Skickad till {email}",
+			"changeEmail": "Ändra e-post",
+			"resendCode": "Skicka kod igen",
+			"resendIn": "Skicka igen om {seconds}s",
+			"verifying": "Verifierar",
+			"successTitle": "Du är inloggad",
+			"successSubtitle": "Förbereder...",
+			"modalAria": "Modal för e-postverifiering",
+			"errors": {
+				"invalidEmail": "Ange en giltig e-postadress",
+				"sendFailed": "Misslyckades med att skicka verifieringskod.",
+				"invalidCode": "Ange en 6-siffrig verifieringskod"
+			}
+		},
+		"setNickname": {
+			"title": "Välj ditt användarnamn",
+			"subtitle": "Detta är en engångsinställning och kan inte ändras",
+			"logoutAria": "Logga ut",
+			"inputPlaceholder": "Välj ditt unika användarnamn",
+			"referrerCheckbox": "Jag har ett värvnings-ID",
+			"referrerPlaceholder": "Ange värvnings-ID",
+			"referrerHelp": "Valfritt. Detta kopplar ditt konto till värvaren för bonusprogram.",
+			"status": {
+				"checking": "Kontrollerar tillgänglighet...",
+				"available": "Användarnamnet är tillgängligt!",
+				"taken": "Detta användarnamn är redan upptaget."
+			},
+			"register": "Registrera och spela",
+			"termsTitle": "Användarvillkor:",
+			"termsBody": "Genom att signera detta dokument med din plånbok och/eller fortsätta använda denna Web3-applikation accepterar du applikationens användarvillkor. Att signera ditt samtycke till användarvillkoren är inte en blockkedjetransaktion och medför inga kostnader.",
+			"errors": {
+				"verifyNicknameFailed": "Kunde inte verifiera användarnamnet. Försök igen.",
+				"registerFailed": "Registrering misslyckades: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "Logga in med e-post",
+			"connectWalletBtn": "Anslut plånbok",
+			"player": "Spelare",
+			"walletConnected": "Plånbok ansluten",
+			"emailConnected": "E-post ansluten",
+			"disconnect": "Koppla från",
+			"walletAddress": "Plånboksadress",
+			"balance": "Saldo",
+			"loginWithWallet": "Logga in med plånbok"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "Insättning",
+				"withdraw": "Uttag",
+				"swap": "Växla",
+				"walletInfo": "Plånbok"
+			},
+			"mobileDropdown": {
+				"emailWallet": "E-postplånbok",
+				"wallet": "Plånbok",
+				"deposit": "Insättning",
+				"withdraw": "Uttag",
+				"swap": "Växla"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "Välj nätverk",
+			"switching": "Växlar...",
+			"walletNotConnected": "Plånboken är inte ansluten.",
+			"failedToSwitch": "Misslyckades med att byta nätverk. Försök från din plånbok.",
+			"altLogo": "Nätverkslogotyp"
+		},
+		"tokenList": {
+			"dialogTitle": "Välj en token",
+			"instantDeposit": "Omedelbar insättning",
+			"yourWalletBalance": "Ditt plånbokssaldo",
+			"searchPlaceholder": "Sök namn eller klistra in adress",
+			"emptySearch": "Inga tokens hittades som matchar din sökning.",
+			"emptyOwned": "Inga tokens med saldo hittades.",
+			"searchResults": "Sökresultat",
+			"yourTokens": "Dina tokens",
+			"otherResults": "Andra resultat"
+		},
+		"tabsSidebar": {
+			"walletInfo": "Plånbok",
+			"emailWallet": "E-postplånbok",
+			"deposit": "Insättning",
+			"withdraw": "Uttag",
+			"swap": "Växla"
+		},
+		"depositPanel": {
+			"youPay": "Du betalar",
+			"resetForm": "Återställ formulär",
+			"enterAmount": "Ange belopp",
+			"selectToken": "Välj token",
+			"max": "Max",
+			"balance": "Saldo:",
+			"calculating": "Beräknar...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Min:",
+			"ratesMayVary": "Kurserna kan variera",
+			"emailWalletAddress": "E-postplånboksadress",
+			"walletAddress": "Plånboksadress",
+			"minimumIs": "Minimum är {min}",
+			"errors": {
+				"selectTokenAndAmount": "Välj en token och ange ett belopp",
+				"insufficientBalance": "Otillräckligt saldo för denna transaktion",
+				"amountTooHighGas": "Beloppet är för högt med hänsyn till gasavgifter",
+				"checkForm": "Kontrollera formuläret och försök igen",
+				"pendingDeposit": "Du har en pågående insättning. Vänta tills den är klar"
+			},
+			"status": {
+				"processing": "Bearbetar...",
+				"awaitingApproval": "Väntar på godkännande",
+				"calculatingRate": "Beräknar kurs...",
+				"insufficientBalance": "Otillräckligt saldo"
+			},
+			"buttons": {
+				"depositUsd": "Sätt in ${amount}"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "Välj tokens",
+			"enterAmount": "Ange belopp",
+			"gettingQuote": "Hämtar pris...",
+			"confirming": "Bekräftar...",
+			"approving": "Godkänner...",
+			"insufficientBalance": "Otillräckligt saldo för växling",
+			"sameToken": "Kan inte växla samma token",
+			"approveAndSwap": "Godkänn och växla",
+			"swap": "Växla",
+			"slippageTolerance": "Slippage-tolerans",
+			"custom": "Anpassad",
+			"set": "Ställ in",
+			"currentSlippage": "Nuvarande slippage",
+			"swapSuccessful": "Växling lyckades!",
+			"transactionConfirmed": "Din transaktion har bekräftats",
+			"hash": "Hash",
+			"newSwap": "Ny växling",
+			"youPay": "Du betalar",
+			"max": "Max",
+			"low": "Låg",
+			"amountPlaceholder": "0",
+			"selectToken": "Välj token",
+			"youReceive": "Du får",
+			"gettingBestQuote": "Hämtar bästa pris...",
+			"gas": "Gas",
+			"minimumReceived": "Minimum mottaget",
+			"slippageToleranceLabel": "Slippage-tolerans",
+			"gasFee": "Gasavgift",
+			"priceWarning": "Priserna uppdateras i realtid och kan ändras innan din transaktion bekräftas",
+			"emailWalletAddress": "E-postplånboksadress",
+			"walletAddress": "Plånboksadress",
+			"minimumIs": "Minimum är {min}",
+			"errors": {
+				"selectTokenAndAmount": "Välj en token och ange ett belopp",
+				"insufficientBalance": "Otillräckligt saldo för denna transaktion",
+				"amountTooHighGas": "Beloppet är för högt med hänsyn till gasavgifter",
+				"checkForm": "Kontrollera formuläret och försök igen",
+				"pendingDeposit": "Du har en pågående insättning. Vänta tills den är klar"
+			},
+			"status": {
+				"processing": "Bearbetar...",
+				"awaitingApproval": "Väntar på godkännande",
+				"calculatingRate": "Beräknar kurs...",
+				"insufficientBalance": "Otillräckligt saldo"
+			},
+			"buttons": {
+				"depositUsd": "Sätt in ${amount}"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "Insättning bekräftad!",
+			"submittedTitle": "Transaktion skickad",
+			"confirmedDesc": "Ditt saldo har uppdaterats.",
+			"submittedDesc": "Väntar på blockkedjebekräftelse. Detta kan ta några minuter.",
+			"viewOnExplorer": "Visa på Explorer",
+			"newDepositConfirmed": "Gör en ny insättning",
+			"newDepositPending": "Starta en ny insättning"
+		},
+		"withdrawPanel": {
+			"resetForm": "Återställ formulär",
+			"networkNotSupported": "Uttag stöds endast på Arbitrum, Polygon och BNB",
+			"youWithdraw": "Du tar ut",
+			"loading": "Laddar...",
+			"amount": "Belopp",
+			"max": "Max",
+			"balance": "Saldo:",
+			"available": "Tillgängligt:",
+			"insufficientBalance": "Otillräckligt saldo",
+			"minimumIs": "Minimum är {min}",
+			"minLabel": "Min:",
+			"emailWalletAddress": "E-postplånboksadress",
+			"walletAddress": "Plånboksadress",
+			"errors": {
+				"pendingWithdrawal": "Du har redan ett pågående uttag",
+				"invalidAddress": "Ogiltig adress",
+				"enterAmount": "Ange belopp",
+				"networkNotSupported": "Nätverket stöds inte"
+			},
+			"status": {
+				"processing": "Bearbetar...",
+				"insufficientBalance": "Otillräckligt saldo",
+				"pendingWithdrawal": "Har redan ett pågående uttag"
+			},
+			"buttons": {
+				"withdraw": "Ta ut {amount} {symbol}",
+				"minimum": "Minimum {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "Uttag lyckades!",
+			"successMessage": "🎉 Tog precis ut {withdrawAmount} {tokenSymbol} från Meme Win! 🚀 Häng med på vinnarstråket på {shareUrl}",
+			"withdrawnAmount": "Uttaget belopp",
+			"shareText": "Dela",
+			"subText": "🚀 HÄNG MED PÅ VINNARSTRÅKET! 🚀",
+			"generating": "Genererar...",
+			"screenshot": "Ta skärmdump",
+			"download": "Ladda ner bild",
+			"close": "Stäng",
+			"copiedToClipboard": "Delningslänken har kopierats"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "Uttag bekräftat!",
+			"submittedTitle": "Transaktion skickad",
+			"confirmedDesc": "Dina pengar är på väg.",
+			"submittedDesc": "Väntar på blockkedjebekräftelse...",
+			"viewOnExplorer": "Visa på Explorer",
+			"manualApproval": "Detta uttag kräver manuellt godkännande.",
+			"newWithdrawalConfirmed": "Gör ett nytt uttag",
+			"newWithdrawalPending": "Starta ett nytt uttag"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "Du kommer att få"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "Uppgradera till Pro",
+		"account": "Konto",
+		"billing": "Fakturering",
+		"notifications": "Notiser",
+		"logout": "Logga ut"
+	},
+	"games": {
+		"pageTitle": "Alla spel",
+		"playNow": "Spela nu",
+		"byProvider": "Av {name}",
+		"count": "{count} {count, plural, one {Spel} other {Spel}}",
+		"noResults": "Inga spel hittades som matchar dina kriterier.",
+		"errorLoading": "Kunde inte ladda spelen. Försök igen senare.",
+		"slots": "Slots",
+		"sports": "Sport",
+		"liveCasino": "Livekasino",
+		"explore": "Utforska",
+		"exploreSubtitle": "Upptäck fantastiska spelupplevelser",
+		"poker": "Poker",
+		"lottery": "Lotteri",
+		"futures": "Futures",
+		"vr": "VR",
+		"swap": "Växla",
+		"slotsDescription": "Snurra på hjulen och vinn massiva jackpottar",
+		"liveCasinoDescription": "Upplev kasinoaction i realtid med live-dealers",
+		"sportsDescription": "Satsa på dina favoritlag och sportevenemang",
+		"pokerDescription": "Testa dina färdigheter i klassiska pokerspel",
+		"lotteryDescription": "Testa lyckan med lotteri- och direktvinstspel",
+		"futuresDescription": "Handla och förutsäg marknadsrörelser",
+		"vrDescription": "Fördjupa dig i virtual reality-spel",
+		"swapDescription": "Växla tokens och kryptovalutor sömlöst",
+		"categories": {
+			"slot": {
+				"title": "Slotspel"
+			},
+			"liveCasino": {
+				"title": "Livekasinospel"
+			},
+			"sports": {
+				"title": "Sportspel"
+			},
+			"rng": {
+				"title": "RNG-spel"
+			},
+			"other": {
+				"title": "{category}-spel"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "Alla spelleverantörer",
+		"searchPlaceholder": "Sök efter en leverantör...",
+		"empty": "Inga leverantörer hittades som matchar din sökning.",
+		"logoAlt": "{name}-logotyp",
+		"filteredBy": "Filtrerat efter kategori:",
+		"clearFilter": "Rensa filter",
+		"categories": {
+			"slot": {
+				"title": "Leverantörer av slotspel"
+			},
+			"liveCasino": {
+				"title": "Leverantörer av livekasino"
+			},
+			"sports": {
+				"title": "Leverantörer av sportspel"
+			},
+			"rng": {
+				"title": "Leverantörer av RNG-spel"
+			},
+			"other": {
+				"title": "Leverantörer av {category}-spel"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "Delta i spänningen",
+			"subtitle": "Registrera dig nu och få en exklusiv välkomstbonus!",
+			"cta": "Registrera dig nu"
+		},
+		"welcome": {
+			"title1": "Välkomstbonus",
+			"title2": "Upp till 590%",
+			"subtitle": "+ 225 gratissnurr",
+			"cta": "Sätt in och få"
+		},
+		"jackpot": {
+			"title1": "Mega Jackpot",
+			"title2": "1 000 000 $",
+			"subtitle": "Spela nu och vinn stort",
+			"cta": "Spela nu"
+		},
+		"cards": {
+			"casino": {
+				"title": "Kasino",
+				"badge": "590+ SPEL",
+				"desc": "Njut av MemeWin Originals och andra kasinospel från toppleverantörer.",
+				"link": "Gå till kasinot"
+			},
+			"slots": {
+				"title": "Slots",
+				"badge": "5292 SPEL",
+				"desc": "Snurra på hjulen och vinn massiva jackpottar med vår premium slot-samling.",
+				"link": "Gå till slots"
+			},
+			"sports": {
+				"title": "Sport",
+				"badge": "3 SPEL",
+				"desc": "Satsa på dina favoritlag och sportevenemang med konkurrenskraftiga odds.",
+				"link": "Gå till sport"
+			},
+			"crypto": {
+				"title": "Krypto och tjäna",
+				"badge": "60% APR",
+				"desc": "Satsa, handla och tjäna med kryptovaluta till attraktiva räntor.",
+				"link": "Gå till krypto"
+			}
+		},
+		"layout3": {
+			"headerTitle": "Spel i rampljuset",
+			"headerSubtitle": "Upptäck fantastiska spel och utforska nya äventyr i vår utvalda samling",
+			"slider1Title": "Utvalda spel",
+			"slider1Badge": "Personalens val",
+			"slider2Title": "Mer att utforska",
+			"slider2Badge": "Trendar",
+			"featuredGameLabel": "Utvalt spel"
+		},
+		"ctaExploreGames": "Utforska Spel",
+		"ctaJoinAffiliate": "Gå med i Partnerprogram"
+	},
+	"betting": {
+		"live": {
+			"winRate": "Vinstprocent",
+			"biggestWin": "Största vinst",
+			"bigWins50": "Stora vinster (50+)",
+			"recentWins": "Nyligen vinster",
+			"header": {
+				"title": "Live-spelaktivitet",
+				"subtitle": "Spelaktivitet i realtid • {count} spel laddade"
+			},
+			"status": {
+				"live": "LIVE",
+				"paused": "Pausad"
+			},
+			"actions": {
+				"pause": "Pausa",
+				"resume": "Återuppta"
+			},
+			"tabs": {
+				"all": "Alla",
+				"wins": "Vinster",
+				"losses": "Förluster"
+			},
+			"table": {
+				"game": "Spelnamn",
+				"time": "Tid",
+				"provider": "Leverantör",
+				"nickname": "Användarnamn",
+				"bet": "Insats",
+				"multiplier": "Multiplikator",
+				"profit": "Vinst"
+			},
+			"empty": "Inga spelposter hittades"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "Byt teckensnitt",
+		"fontSettings": "Teckensnittsinställningar",
+		"current": "Nuvarande",
+		"browseGoogleFonts": "Bläddra bland Google Fonts",
+		"uploadCustomFont": "Ladda upp eget teckensnitt",
+		"quickUploadFontFile": "Snabbuppladdning av teckensnittsfil",
+		"resetToDefault": "Återställ till standard",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "Sök teckensnitt...",
+			"preview": "Förhandsvisning",
+			"previewText": "Flygande bäckasiner söka hwila på mjuka tufvor.",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ abcdefghijklmnopqrstuvwxyzåäö 1234567890",
+			"applyFont": "Använd teckensnitt",
+			"clearPreview": "Rensa förhandsvisning",
+			"previewWith": "Förhandsgranska text med {font}",
+			"noFontsFound": "Inga teckensnitt hittades som matchar \"{searchTerm}\""
+		},
+		"customUpload": {
+			"title": "Ladda upp eget teckensnitt",
+			"description": "Ladda upp din egen teckensnittsfil för att anpassa webbplatsen",
+			"fontFile": "Teckensnittsfil",
+			"dragDropArea": "Dra och släpp din teckensnittsfil här, eller",
+			"clickToUpload": "klicka för att ladda upp",
+			"supportedFormats": "Stödda format: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Maximal filstorlek: 10 MB",
+			"fontName": "Teckensnittsnamn",
+			"fontNamePlaceholder": "Ange ett namn för ditt teckensnitt",
+			"previewYourFont": "Förhandsgranska ditt teckensnitt",
+			"uploadAndApply": "Ladda upp och använd teckensnitt",
+			"cancel": "Avbryt",
+			"uploading": "Laddar upp...",
+			"errors": {
+				"invalidFileType": "Ladda upp en giltig teckensnittsfil (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Filstorleken överskrider gränsen på 10 MB",
+				"uploadFailed": "Misslyckades med att ladda upp teckensnittsfilen",
+				"enterFontName": "Välj en teckensnittsfil och ange ett namn",
+				"readFileFailed": "Misslyckades med att läsa teckensnittsfilen"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "Teckensnittet \"{fontName}\" har tillämpats!",
+			"fontUploadedSuccess": "Teckensnittet \"{fontName}\" har laddats upp och tillämpats!",
+			"fontResetSuccess": "Teckensnittet har återställts till standard",
+			"invalidFileType": "Ladda upp en giltig teckensnittsfil (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Misslyckades med att läsa teckensnittsfilen"
+		}
+	}
+}

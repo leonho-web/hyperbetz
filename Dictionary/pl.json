@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "Ładowanie...",
+		"save": "Zapisz",
+		"cancel": "Anuluj",
+		"confirm": "Potwierdź",
+		"viewAll": "Zobacz wszystko"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "Przełącz pasek boczny",
+		"searchPlaceholder": "Szukaj gier, dostawców...",
+		"liveChat": "Czat na żywo",
+		"player": "Gracz",
+		"vip": "VIP",
+		"profile": "Profil",
+		"statistics": "Statystyki",
+		"wallet": "Wpłata/Wypłata",
+		"cashier": "Kasjer",
+		"winLoss": "Wygrane/Straty",
+		"affiliate": "Partner",
+		"logout": "Wyloguj",
+		"balance": "Saldo"
+	},
+	"navigation": {
+		"home": "Strona główna",
+		"games": "Gry",
+		"profile": "Profil",
+		"wallet": "Portfel",
+		"settings": "Ustawienia",
+		"promotions": "Promocje",
+		"affiliate": "Partner",
+		"providers": "Dostawcy",
+		"lobby": "Lobby"
+	},
+	"profile": {
+		"language": "Język",
+		"welcome": "Witaj, {name}!",
+		"settingUp": "Konfigurowanie",
+		"profileBtn": "Zobacz profil",
+		"currentBalance": "Aktualne saldo",
+		"availableFunds": "Dostępne środki",
+		"totalDeposits": "Suma wpłat",
+		"totalWithdrawals": "Suma wypłat",
+		"walletAddress": "Adres portfela",
+		"copySuccess": "Adres portfela skopiowany do schowka!",
+		"copyFailed": "Nie udało się skopiować adresu portfela",
+		"notConnected": "Nie połączono",
+		"myProfile": "Mój profil",
+		"logout": "Wyloguj",
+		"pendingRegistration": "Oczekująca rejestracja",
+		"noEmailProvided": "Nie podano adresu e-mail",
+		"balanceOverview": "Przegląd salda",
+		"gettingStarted": "Pierwsze kroki",
+		"verifyEmail": "Zweryfikuj swój e-mail",
+		"completeEmailVerification": "Dokończ weryfikację e-mail",
+		"verifyPhone": "Zweryfikuj swój numer telefonu",
+		"addPhoneVerification": "Dodaj weryfikację telefoniczną",
+		"firstDeposit": "Pierwsza wpłata",
+		"makeFirstDeposit": "Dokonaj pierwszej wpłaty",
+		"placeBetOrTrade": "Postaw zakład / Dokonaj transakcji",
+		"startFirstGame": "Rozpocznij swoją pierwszą grę",
+		"recentActivity": "Ostatnia aktywność",
+		"transactionHistory": "Historia transakcji",
+		"activityGameWinDiceRoll": "Wygrana w grze - Rzut kośćmi",
+		"activityGameLossBlackjack": "Przegrana w grze - Blackjack",
+		"twoHoursAgo": "2 godziny temu",
+		"oneDayAgo": "1 dzień temu",
+		"twoDaysAgo": "2 dni temu",
+		"deposit": "Wpłata",
+		"loggedOutTitle": "Ups! Jesteś wylogowany",
+		"loggedOutSubtitle": "Zaloguj się, aby zobaczyć swój profil",
+		"goHome": "Przejdź do strony głównej",
+		"withdrawal": "Wypłata",
+		"transactions": {
+			"title": "Historia transakcji",
+			"trackDepositsWithdrawals": "Śledź swoje wpłaty i wypłaty",
+			"filters": "Filtry",
+			"refresh": "Odśwież",
+			"advancedFilters": "Filtry zaawansowane",
+			"searchTransactionComingSoon": "Wyszukiwanie transakcji (wkrótce)",
+			"searchPlaceholderDisabled": "Funkcja wyszukiwania zostanie zaimplementowana na poziomie API...",
+			"dateRange": "Zakres dat",
+			"selectDateRange": "Wybierz zakres dat",
+			"today": "Dzisiaj",
+			"last7Days": "Ostatnie 7 dni",
+			"last30Days": "Ostatnie 30 dni",
+			"last90Days": "Ostatnie 90 dni",
+			"thisMonth": "W tym miesiącu",
+			"lastMonth": "W zeszłym miesiącu",
+			"customRange": "Zakres niestandardowy",
+			"fromDate": "Od daty",
+			"toDate": "Do daty",
+			"transactionStatus": "Status transakcji",
+			"allStatuses": "Wszystkie statusy",
+			"success": "Sukces",
+			"pending": "Oczekująca",
+			"rejected": "Odrzucona",
+			"clearAll": "Wyczyść wszystko",
+			"cancel": "Anuluj",
+			"applyFilters": "Zastosuj filtry",
+			"activeFilters": "Aktywne filtry:",
+			"statusLabel": "Status",
+			"dateLabel": "Data",
+			"statsTotalTransactions": "Łącznie {total} transakcji",
+			"pageOf": "Strona {current} z {total}",
+			"live": "Na żywo",
+			"tabs": {
+				"all": "Wszystkie",
+				"deposits": "Wpłaty",
+				"withdrawals": "Wypłaty"
+			},
+			"errorLoadingTransactions": "Błąd ładowania transakcji",
+			"tryAgain": "Spróbuj ponownie",
+			"noTransactionsFound": "Nie znaleziono transakcji",
+			"noTransactionsAvailableSelectedPeriod": "Brak dostępnych transakcji dla wybranego okresu.",
+			"noDepositsFoundSelectedPeriod": "Nie znaleziono wpłat dla wybranego okresu.",
+			"noWithdrawalsFoundSelectedPeriod": "Nie znaleziono wypłat dla wybranego okresu.",
+			"show": "Pokaż",
+			"ofTransactions": "z {count} transakcji",
+			"showingRangeOfTotal": "Wyświetlanie {from}-{to} z {total}",
+			"pageShort": "Strona {current}/{total}"
+		},
+		"betHistory": {
+			"title": "Historia zakładów",
+			"trackBetsResults": "Śledź swoje zakłady i wyniki gier",
+			"filters": "Filtry",
+			"refresh": "Odśwież",
+			"advancedFilters": "Filtry zaawansowane",
+			"dateRange": "Zakres dat",
+			"selectDateRange": "Wybierz zakres dat",
+			"today": "Dzisiaj",
+			"last7Days": "Ostatnie 7 dni",
+			"last30Days": "Ostatnie 30 dni",
+			"last90Days": "Ostatnie 90 dni",
+			"thisMonth": "W tym miesiącu",
+			"lastMonth": "W zeszłym miesiącu",
+			"customRange": "Zakres niestandardowy",
+			"fromDate": "Od daty",
+			"toDate": "Do daty",
+			"provider": "Dostawca",
+			"allProviders": "Wszyscy dostawcy",
+			"status": "Status",
+			"allStatuses": "Wszystkie statusy",
+			"outstanding": "Nierozliczone",
+			"win": "Wygrana",
+			"lose": "Przegrana",
+			"draw": "Remis",
+			"void": "Unieważniony",
+			"bonusWin": "Wygrana z bonusem",
+			"clearAll": "Wyczyść wszystko",
+			"cancel": "Anuluj",
+			"applyFilters": "Zastosuj filtry",
+			"activeFilters": "Aktywne filtry",
+			"statusLabel": "Status",
+			"providerLabel": "Dostawca",
+			"dateLabel": "Data",
+			"totalBets": "Łączna liczba zakładów",
+			"totalProfitLoss": "Łączny zysk/strata",
+			"pageOf": "Strona {current} z {total}",
+			"live": "Na żywo",
+			"errorLoadingBets": "Błąd ładowania historii zakładów",
+			"failedToLoadBetHistory": "Nie udało się załadować historii zakładów. Spróbuj ponownie.",
+			"tryAgain": "Spróbuj ponownie",
+			"noBetsFound": "Nie znaleziono zakładów",
+			"noBetsFoundSelectedPeriod": "Nie znaleziono historii zakładów dla wybranego okresu i filtrów.",
+			"show": "Pokaż",
+			"ofBets": "z {count} zakładów",
+			"showingRangeOfTotal": "Wyświetlanie {from}-{to} z {total}",
+			"totalBet": "Łączna stawka",
+			"totalWin": "Łączna wygrana",
+			"net": "Netto",
+			"tableHeaders": {
+				"date": "Data",
+				"game": "Gra",
+				"provider": "Dostawca",
+				"type": "Typ",
+				"status": "Status",
+				"betAmount": "Kwota zakładu",
+				"winAmount": "Kwota wygranej",
+				"hideAmounts": "Ukryj kwoty",
+				"showAmounts": "Pokaż kwoty",
+				"gameType": "Typ gry",
+				"vendor": "Sprzedawca",
+				"lastUpdate": "Ostatnia aktualizacja",
+				"netResult": "Wynik netto",
+				"betId": "ID zakładu"
+			},
+			"errorLoading": "Błąd ładowania",
+			"noBetsFoundDescription": "Zacznij grać, aby zobaczyć tutaj swoją historię zakładów.",
+			"betHistory": "Historia zakładów",
+			"hideAmounts": "Ukryj kwoty",
+			"showAmounts": "Pokaż kwoty",
+			"date": "Data",
+			"game": "Gra",
+			"betId": "ID zakładu",
+			"amount": "Kwota",
+			"payout": "Wypłata",
+			"player": "Gracz",
+			"gameType": "Typ gry",
+			"vendor": "Sprzedawca",
+			"lastUpdate": "Ostatnia aktualizacja",
+			"netResult": "Wynik netto",
+			"totalWagered": "Łącznie postawiono",
+			"totalWon": "Łącznie wygrano",
+			"netProfit": "Zysk netto",
+			"winRate": "Współczynnik wygranych",
+			"showingResults": "Wyświetlanie {start}-{end} z {total} wyników",
+			"firstPage": "Pierwsza strona",
+			"previousPage": "Poprzednia strona",
+			"nextPage": "Następna strona",
+			"lastPage": "Ostatnia strona"
+		}
+	},
+	"chat": {
+		"title": "Czat na żywo",
+		"placeholder": "Wpisz swoją wiadomość...",
+		"send": "Wyślij",
+		"input": {
+			"replyPlaceholder": "Odpowiedz {username}..."
+		},
+		"reply": {
+			"replyingTo": "Odpowiadanie użytkownikowi {username}",
+			"types": {
+				"win": "Wygrał(a) {amount} {currency}",
+				"gif": "Wiadomość GIF",
+				"image": "Obraz",
+				"default": "Wiadomość"
+			},
+			"preview": {
+				"winIn": "Wygrał(a) {amount} {currency} w {game}",
+				"gifAlt": "Podgląd GIF",
+				"imageAlt": "Podgląd obrazu",
+				"emoji": "Wiadomość z emoji",
+				"rain": "Deszcz: {amount} {currency}",
+				"system": "System: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "Udostępnij swoje zdjęcie 🎰",
+			"description": "Gotowy, aby pokazać je w pokoju czatowym?",
+			"previewLabel": "Podgląd",
+			"statusReady": "Gotowe do udostępnienia",
+			"roomLabel": "🎰 Czat kasynowy",
+			"shareNotice": "Twoje zdjęcie zostanie udostępnione wszystkim graczom w pokoju czatowym",
+			"closeAria": "Zamknij okno dialogowe",
+			"cancelAria": "Anuluj przesyłanie zdjęcia",
+			"sendAria": "Wyślij zdjęcie na czat",
+			"send": "Wyślij na czat"
+		},
+		"picker": {
+			"searchEmojis": "Szukaj emoji...",
+			"searchGifs": "Szukaj GIF-ów...",
+			"tabs": {
+				"emojis": "Emoji",
+				"gifs": "GIF-y"
+			},
+			"loadingEmojis": "Ładowanie emoji...",
+			"loadingGifs": "Ładowanie GIF-ów...",
+			"retry": "Spróbuj ponownie",
+			"recent": "Ostatnie",
+			"noEmojis": "Nie znaleziono emoji",
+			"noGifs": "Nie znaleziono GIF-ów",
+			"tryDifferent": "Spróbuj innego hasła",
+			"gifCategories": {
+				"trending": "Na czasie",
+				"reactions": "Reakcje",
+				"gaming": "Gry",
+				"casino": "Kasyno",
+				"celebration": "Świętowanie",
+				"sports": "Sport"
+			},
+			"searchResults": "Wyniki wyszukiwania",
+			"availableToTag": "Dostępni użytkownicy do oznaczenia 🎯",
+			"clickOrTab": "Kliknij lub naciśnij Tab, aby wybrać",
+			"noUsers": "Nie znaleziono użytkowników",
+			"noUsersMatching": "Brak pasujących użytkowników",
+			"startTyping": "Zacznij pisać, aby wyszukać",
+			"typeAt": "Wpisz",
+			"toSeeSuggestions": "aby zobaczyć sugestie 🎰",
+			"errors": {
+				"emojisLoad": "Nie udało się załadować emoji",
+				"emojisSearch": "Nie udało się wyszukać emoji",
+				"gifsLoad": "Nie udało się załadować GIF-ów"
+			}
+		},
+		"messages": {
+			"emptyTitle": "Jeszcze brak wiadomości...",
+			"emptySubtitle": "Rozpocznij rozmowę i wygrywaj! 🎰",
+			"loadingHistory": "Ładowanie historii czatu...",
+			"loadingHistorySubtitle": "Pobieranie najnowszych wiadomości 📜",
+			"historyError": "Nie udało się załadować historii czatu"
+		},
+		"message": {
+			"you": "Ty",
+			"winTitle": "Wielka wygrana w \"{game}\"! 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "Przesłany obraz",
+			"rainTitle": "Deszcz pieniędzy! 🌧️💰",
+			"recipients": "→ {count} {count, plural, one {odbiorca} other {odbiorców}}",
+			"eachTo": "{amount} {currency} dla każdego z: {list}",
+			"replyCount": "{count} {count, plural, one {odpowiedź} other {odpowiedzi}}",
+			"loadingHistory": "Ładowanie historii czatu..."
+		},
+		"system": {
+			"slashDisabled": "Polecenia slash są tymczasowo wyłączone. Używaj zwykłych wiadomości.",
+			"rateLimit": "Przekroczono limit zapytań. Poczekaj {seconds} sekund przed wysłaniem kolejnej wiadomości.",
+			"cannotTagSelf": "Nie możesz oznaczać siebie w wiadomościach.",
+			"processingImage": "Przetwarzanie obrazu...",
+			"failedUploadPrefix": "Nie udało się przesłać obrazu: {message}",
+			"unknownError": "Nieznany błąd"
+		}
+	},
+	"sidebar": {
+		"quest": "ZADANIE",
+		"spin": "OBRÓT",
+		"deposit": "WPŁAĆ",
+		"withdraw": "WYPŁAĆ",
+		"playOnTelegram": "Graj na Telegramie",
+		"dailyBonus": "Bonus dzienny",
+		"navigation": "Nawigacja",
+		"games": "Gry",
+		"providers": "Dostawcy",
+		"trendingNow": "Na czasie",
+		"allProviders": "Wszyscy dostawcy",
+		"allTopProviders": "Wszyscy najlepsi dostawcy",
+		"hotBadge": "Gorące"
+	},
+	"search": {
+		"title": "Szukaj gier",
+		"subtitle": "Znajdź według nazwy, dostawcy lub kategorii",
+		"placeholder": "Szukaj gier, dostawców, kategorii...",
+		"clear": "Wyczyść",
+		"recent": "Ostatnie:",
+		"popular": "Popularne:",
+		"favoritesTry": "Możesz spróbować — Twoje ulubione",
+		"hotPicks": "Gorące typy",
+		"resultsCount": "Znaleziono {count} {count, plural, one {grę} other {gier}}",
+		"noResults": "Brak wyników",
+		"filterApplied": "Filtrowano według {count} {count, plural, one {dostawcy} other {dostawców}}",
+		"suggestions": {
+			"category": "Kategoria",
+			"provider": "Dostawca"
+		},
+		"sections": {
+			"topProviders": "Najlepsi dostawcy",
+			"selectedProviders": "Wybrani dostawcy",
+			"categories": "Kategorie",
+			"games": "Gry",
+			"providers": "Dostawcy"
+		},
+		"results": {
+			"found": "Znaleziono {games} gier, {categories} kategorii i {providers} dostawców"
+		},
+		"gameTypes": {
+			"blackjack": "Blackjack",
+			"roulette": "Ruletka",
+			"crash": "Crash"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "Sortuj według",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "Filtruj",
+			"optionsTitle": "Opcje filtrowania",
+			"clearAll": "Wyczyść wszystkie filtry",
+			"activeLabel": "Aktywne:"
+		},
+		"searchPlaceholderGeneric": "Szukaj...",
+		"providersDropdown": {
+			"title": "Dostawcy",
+			"selected": "Wybrano {count}",
+			"searchPlaceholder": "Szukaj dostawców...",
+			"empty": "Nie znaleziono dostawcy.",
+			"clear": "Wyczyść filtry dostawców"
+		},
+		"category": {
+			"label": "Kategoria:"
+		},
+		"view": {
+			"toggleAria": "Przełącznik trybu widoku",
+			"gridAria": "Widok siatki",
+			"listAria": "Widok listy"
+		},
+		"loadMore": "Załaduj więcej"
+	},
+	"commonExtra": {
+		"connecting": "Łączenie...",
+		"offline": "Offline",
+		"online": "Online",
+		"clear": "Wyczyść"
+	},
+	"home": {
+		"topProviders": "Najlepsi dostawcy gier"
+	},
+	"lobby": {
+		"yourFavorites": "Twoje ulubione",
+		"featuredCasinoGames": "Polecane gry kasynowe",
+		"hotPicks": "Gorące typy",
+		"slots": "Sloty",
+		"sports": "Sport",
+		"realTimeScoreboard": "Tablica wyników na żywo"
+	},
+	"affiliate": {
+		"title": "Program partnerski",
+		"loginPromptTitle": "Program poleceń",
+		"loginPromptSubtitle": "Zaloguj się, aby zobaczyć swoje statystyki poleceń, bonusy i odebrać nagrody.",
+		"goHome": "Przejdź do strony głównej",
+		"tabs": {
+			"dashboard": "Panel",
+			"rates": "Stawki prowizji",
+			"calculator": "Kalkulator"
+		},
+		"refresh": "Odśwież",
+		"refreshing": "Odświeżanie...",
+		"refreshAllSuccess": "Wszystkie dane zostały pomyślnie odświeżone!",
+		"refreshPartial": "Częściowo odświeżono: zaktualizowano {success} z {total} sekcji",
+		"refreshFailed": "Nie udało się odświeżyć danych. Spróbuj ponownie.",
+		"dashboard": {
+			"title": "Panel partnerski",
+			"subtitle": "Śledź swoje polecenia, zarobki i wyniki prowizji",
+			"performanceOverview": "Przegląd wyników",
+			"referralManagement": "Zarządzanie poleceniami",
+			"termsAndCommission": "Warunki i struktura prowizji",
+			"unclaimedEarnings": "Nieodebrane zarobki",
+			"claim": "Odbierz",
+			"claiming": "Odbieranie...",
+			"totalIncome": "Całkowity dochód",
+			"totalReferrals": "Łączna liczba poleceń",
+			"usersUnit": "użytkowników",
+			"yourReferralLinks": "Twoje linki polecające",
+			"referralLinksSubtitle": "Udostępniaj te linki, aby polecać nowych użytkowników i zarabiać prowizje",
+			"completeReferralLink": "Pełny link polecający",
+			"fullReferralPlaceholder": "Pełny link polecający pojawi się tutaj",
+			"fullReferralHelp": "Bezpośredni link, który użytkownicy mogą kliknąć, aby zarejestrować się za pomocą Twojego kodu polecającego",
+			"referralCodeOnly": "Tylko kod polecający",
+			"yourReferralId": "Twój ID polecającego",
+			"referralIdHelp": "Udostępnij ten kod, aby użytkownicy mogli go wprowadzić ręcznie podczas rejestracji",
+			"copyFullSuccess": "Pełny link polecający skopiowany do schowka!",
+			"copyIdSuccess": "ID polecającego skopiowane do schowka!"
+		},
+		"referrals": {
+			"title": "Moje polecenia",
+			"subtitle": "Śledź i zarządzaj wszystkimi użytkownikami poleconymi za pośrednictwem Twoich linków partnerskich",
+			"totalReferrals": "łączna liczba poleceń",
+			"monitorHelp": "Monitoruj aktywność, wpłaty i wzorce gier swoich poleconych",
+			"sort": {
+				"placeholder": "Sortuj według...",
+				"nicknameAsc": "Pseudonim (A-Z)",
+				"nicknameDesc": "Pseudonim (Z-A)",
+				"lastLogin": "Ostatnie logowanie",
+				"unclaimedAmount": "Nieodebrana kwota"
+			},
+			"table": {
+				"nickname": "Pseudonim",
+				"totalWager": "Łączna stawka",
+				"lastLogin": "Ostatnie logowanie",
+				"registered": "Zarejestrowano",
+				"lastDeposit": "Ostatnia wpłata",
+				"depositDate": "Data wpłaty",
+				"tier": "Poziom"
+			},
+			"empty": {
+				"title": "Nie znaleziono poleconych",
+				"subtitle": "Zacznij polecać użytkowników, aby zobaczyć ich tutaj."
+			},
+			"pagination": {
+				"showing": "Wyświetlanie od {from} do {to} z {total} wyników",
+				"prev": "Poprzednia",
+				"next": "Następna"
+			}
+		},
+		"rates": {
+			"title": "Struktura stawek prowizji",
+			"subtitle": "Procent zarobków według poziomu i kategorii gry",
+			"howItWorks": {
+				"title": "Jak działają poziomy prowizji",
+				"body": "Twój poziom prowizji jest określany przez łączną dzienną kwotę zakładów Twoich poleconych. Wyższe poziomy oferują lepsze stawki prowizji we wszystkich typach gier."
+			},
+			"calculation": {
+				"title": "Jak obliczane są prowizje",
+				"desc": "Prowizje są obliczane co 24 godziny na podstawie łącznych zakładów poleconych graczy. Przykłady:",
+				"exampleTitle": "Poziom {tier}:",
+				"wagerIn": "Zakład {amount} w {gameType}"
+			},
+			"table": {
+				"tierLevel": "Poziom",
+				"wagerRange": "Zakres zakładów",
+				"slots": "Sloty",
+				"liveCasino": "Kasyno na żywo",
+				"sports": "Sport",
+				"tierPrefix": "POZIOM",
+				"commissionLevel": "Poziom prowizji",
+				"dailyWager": "Dzienny wolumen zakładów"
+			},
+			"claim": {
+				"title": "Odbieranie i wypłaty",
+				"points": {
+					"0": "Prowizje są dostępne do wypłaty po ich obliczeniu.",
+					"1": "Nie ma terminu ważności dla nieodebranych prowizji — gromadzą się one aż do momentu ich odebrania.",
+					"2": "Wypłaty podlegają standardowym zasadom platformy, takim jak minimalne limity i czasy przetwarzania."
+				}
+			},
+			"system": {
+				"title": "Czas systemowy i operacje",
+				"dailyTimeframeLabel": "Ramy czasowe dzienne:",
+				"dailyTimeframeValue": "00:00 UTC do 23:59 UTC (codziennie).",
+				"claimDailyLabel": "Odbiór dzienny:",
+				"claimDailyValue": "Dostępne codziennie o 14:00 UTC (Twój czas lokalny: {local}).",
+				"note": "Uwaga: Chociaż współpracujemy z dostawcami z różnych stref czasowych, wszystkie obliczenia są zgodne z czasem UTC, aby zapewnić spójność i uniknąć nieporozumień."
+			},
+			"amendments": {
+				"title": "Zmiany",
+				"body": "Możemy w każdej chwili zaktualizować te warunki. Zmiany wchodzą w życie natychmiast po ich opublikowaniu, a dalsze uczestnictwo oznacza akceptację nowych warunków."
+			},
+			"footer": {
+				"schedule": "Harmonogram prowizji:",
+				"availableDaily": "Dostępne codziennie o",
+				"localTimeLabel": "(Twój czas lokalny: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Kalkulator zarobków",
+			"subtitle": "Oszacuj swoje zarobki z prowizji na podstawie kwot zakładów Twoich poleconych",
+			"interactive": {
+				"title": "Narzędzie interaktywne:",
+				"body": "Wprowadź różne kwoty zakładów, aby zobaczyć potencjalne zarobki na wszystkich poziomach"
+			},
+			"potentialEarnings": "Potencjalne zarobki",
+			"basedOnRate": "Na podstawie {percentage}% stawki prowizji",
+			"tier": "Poziom {level}",
+			"commissionLevel": "Poziom prowizji {level}",
+			"enterWager": "Wprowadź kwotę zakładu (USD)",
+			"wagerPlaceholder": "np. 1000",
+			"calcFor": "Obliczanie zarobków dla zakładu ${amount}",
+			"totalPotential": "Łączne potencjalne zarobki:",
+			"combinedAtTier": "Połączone zarobki ze wszystkich typów gier na poziomie {level}"
+		}
+	},
+	"debug": {
+		"title": "Strona debugowania"
+	},
+	"getLobby": {
+		"enteringLobby": "Wchodzenie do lobby...",
+		"connectingWait": "Proszę czekać, łączymy Cię.",
+		"invalidSession": "Twoja sesja jest nieprawidłowa lub brakuje dostawcy. Spróbuj ponownie.",
+		"failedPrefix": "Nie udało się wejść do lobby: {message}",
+		"launchFailedTitle": "Uruchomienie nieudane",
+		"returnHome": "Wróć do strony głównej"
+	},
+	"play": {
+		"connecting": "Łączenie z serwerem gry...",
+		"invalidSession": "Twoja sesja jest nieprawidłowa lub wygasła. Zaloguj się i spróbuj ponownie.",
+		"launchFailedTitle": "Uruchomienie nieudane",
+		"returnHome": "Wróć do strony głównej"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "OFERTA OGRANICZONA CZASOWO",
+		"headline": "Odbierz 200% bonusu powitalnego!",
+		"subheadline": "Połącz swój portfel kryptowalutowy teraz i otrzymaj do {amount} bonusu przy pierwszej wpłacie!",
+		"featureDepositMatch": "200% dopasowania do wpłaty",
+		"featureZeroFees": "Zero opłat transakcyjnych",
+		"featureInstantWithdrawals": "Natychmiastowe wypłaty",
+		"featureNoKyc": "Bez weryfikacji KYC",
+		"ctaClaim": "ODBIERZ BONUS TERAZ!",
+		"offerExpires": "Oferta wygasa za:",
+		"disclaimer": "Obowiązują warunki. Hazard wiąże się z ryzykiem. Graj odpowiedzialnie. 18+",
+		"closeAria": "Zamknij okno modalne",
+		"bannerAlt": "Baner promocyjny",
+		"ctaOk": "Połącz portfel i zacznij obstawiać",
+		"enterAmount": "Wprowadź kwotę",
+		"balance": "Saldo",
+		"max": "Maks.",
+		"deposit": "Wpłata",
+		"ethereum": "Ethereum"
+	},
+	"modalsSmall": {
+		"close": "Zamknij",
+		"firstDepositBoost": "Bonus do pierwszej wpłaty",
+		"bonus": "Bonus",
+		"min": "min",
+		"sec": "s",
+		"deposit": "Wpłata"
+	},
+	"auth": {
+		"email": {
+			"title": "Logowanie za pomocą e-maila",
+			"description": "Wyślemy Ci 6-cyfrowy kod",
+			"emailLabel": "Adres e-mail",
+			"emailPlaceholder": "nazwa@email.com",
+			"cancel": "Anuluj",
+			"sending": "Wysyłanie",
+			"continue": "Kontynuuj",
+			"enterCodeTitle": "Wprowadź kod",
+			"sentTo": "Wysłano na adres {email}",
+			"changeEmail": "Zmień e-mail",
+			"resendCode": "Wyślij kod ponownie",
+			"resendIn": "Wyślij ponownie za {seconds}s",
+			"verifying": "Weryfikowanie",
+			"successTitle": "Jesteś w środku",
+			"successSubtitle": "Przygotowujemy wszystko...",
+			"modalAria": "Okno modalne weryfikacji e-mail",
+			"errors": {
+				"invalidEmail": "Wprowadź prawidłowy adres e-mail",
+				"sendFailed": "Nie udało się wysłać kodu weryfikacyjnego.",
+				"invalidCode": "Wprowadź 6-cyfrowy kod weryfikacyjny"
+			}
+		},
+		"setNickname": {
+			"title": "Ustaw swój pseudonim",
+			"subtitle": "To jednorazowa konfiguracja i nie można jej zmienić",
+			"logoutAria": "Wyloguj",
+			"inputPlaceholder": "Wybierz swój unikalny pseudonim",
+			"referrerCheckbox": "Mam ID polecającego",
+			"referrerPlaceholder": "Wprowadź ID polecającego",
+			"referrerHelp": "Opcjonalnie. Łączy Twoje konto z polecającym w ramach programów bonusowych.",
+			"status": {
+				"checking": "Sprawdzanie dostępności...",
+				"available": "Pseudonim jest dostępny!",
+				"taken": "Ten pseudonim jest już zajęty."
+			},
+			"register": "Zarejestruj się i graj",
+			"termsTitle": "Regulamin:",
+			"termsBody": "Podpisując ten dokument za pomocą swojego portfela i/lub kontynuując korzystanie z tej aplikacji Web3, akceptujesz warunki użytkowania aplikacji. Wyrażenie zgody na warunki użytkowania nie jest transakcją blockchain i nie wiąże się z żadnymi kosztami.",
+			"errors": {
+				"verifyNicknameFailed": "Nie udało się zweryfikować pseudonimu. Spróbuj ponownie.",
+				"registerFailed": "Rejestracja nieudana: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "Zaloguj się za pomocą e-maila",
+			"connectWalletBtn": "Połącz portfel",
+			"player": "Gracz",
+			"walletConnected": "Portfel połączony",
+			"emailConnected": "E-mail połączony",
+			"disconnect": "Rozłącz",
+			"walletAddress": "Adres portfela",
+			"balance": "Saldo",
+			"loginWithWallet": "Zaloguj się z portfelem"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "Wpłata",
+				"withdraw": "Wypłata",
+				"swap": "Wymiana",
+				"walletInfo": "Portfel"
+			},
+			"mobileDropdown": {
+				"emailWallet": "Portfel e-mail",
+				"wallet": "Portfel",
+				"deposit": "Wpłata",
+				"withdraw": "Wypłata",
+				"swap": "Wymiana"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "Wybierz sieć",
+			"switching": "Przełączanie...",
+			"walletNotConnected": "Portfel nie jest połączony.",
+			"failedToSwitch": "Nie udało się przełączyć sieci. Spróbuj z poziomu swojego portfela.",
+			"altLogo": "Logo sieci"
+		},
+		"tokenList": {
+			"dialogTitle": "Wybierz token",
+			"instantDeposit": "Natychmiastowa wpłata",
+			"yourWalletBalance": "Saldo Twojego portfela",
+			"searchPlaceholder": "Wyszukaj nazwę lub wklej adres",
+			"emptySearch": "Nie znaleziono tokenów pasujących do Twojego wyszukiwania.",
+			"emptyOwned": "Nie znaleziono tokenów z saldem.",
+			"searchResults": "Wyniki wyszukiwania",
+			"yourTokens": "Twoje tokeny",
+			"otherResults": "Inne wyniki"
+		},
+		"tabsSidebar": {
+			"walletInfo": "Portfel",
+			"emailWallet": "Portfel e-mail",
+			"deposit": "Wpłata",
+			"withdraw": "Wypłata",
+			"swap": "Wymiana"
+		},
+		"depositPanel": {
+			"youPay": "Płacisz",
+			"resetForm": "Zresetuj formularz",
+			"enterAmount": "Wprowadź kwotę",
+			"selectToken": "Wybierz token",
+			"max": "Maks.",
+			"balance": "Saldo:",
+			"calculating": "Obliczanie...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Min:",
+			"ratesMayVary": "Kursy mogą się różnić",
+			"emailWalletAddress": "Adres portfela e-mail",
+			"walletAddress": "Adres portfela",
+			"minimumIs": "Minimum to {min}",
+			"errors": {
+				"selectTokenAndAmount": "Wybierz token i wprowadź kwotę",
+				"insufficientBalance": "Niewystarczające saldo dla tej transakcji",
+				"amountTooHighGas": "Kwota jest zbyt wysoka po uwzględnieniu opłat za gaz",
+				"checkForm": "Sprawdź formularz i spróbuj ponownie",
+				"pendingDeposit": "Masz oczekującą wpłatę. Poczekaj na jej zakończenie"
+			},
+			"status": {
+				"processing": "Przetwarzanie...",
+				"awaitingApproval": "Oczekiwanie na zatwierdzenie",
+				"calculatingRate": "Obliczanie kursu...",
+				"insufficientBalance": "Niewystarczające saldo"
+			},
+			"buttons": {
+				"depositUsd": "Wpłać ${amount}"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "Wybierz tokeny",
+			"enterAmount": "Wprowadź kwotę",
+			"gettingQuote": "Pobieranie wyceny...",
+			"confirming": "Potwierdzanie...",
+			"approving": "Zatwierdzanie...",
+			"insufficientBalance": "Niewystarczające saldo do wymiany",
+			"sameToken": "Nie można wymienić tego samego tokena",
+			"approveAndSwap": "Zatwierdź i wymień",
+			"swap": "Wymień",
+			"slippageTolerance": "Tolerancja poślizgu",
+			"custom": "Niestandardowa",
+			"set": "Ustaw",
+			"currentSlippage": "Aktualny poślizg",
+			"swapSuccessful": "Wymiana udana!",
+			"transactionConfirmed": "Twoja transakcja została potwierdzona",
+			"hash": "Hash",
+			"newSwap": "Nowa wymiana",
+			"youPay": "Płacisz",
+			"max": "Maks.",
+			"low": "Niski",
+			"amountPlaceholder": "0",
+			"selectToken": "Wybierz token",
+			"youReceive": "Otrzymujesz",
+			"gettingBestQuote": "Pobieranie najlepszej wyceny...",
+			"gas": "Gaz",
+			"minimumReceived": "Minimum otrzymane",
+			"slippageToleranceLabel": "Tolerancja poślizgu",
+			"gasFee": "Opłata za gaz",
+			"priceWarning": "Ceny są aktualizowane w czasie rzeczywistym i mogą ulec zmianie przed potwierdzeniem transakcji",
+			"emailWalletAddress": "Adres portfela e-mail",
+			"walletAddress": "Adres portfela",
+			"minimumIs": "Minimum to {min}",
+			"errors": {
+				"selectTokenAndAmount": "Wybierz token i wprowadź kwotę",
+				"insufficientBalance": "Niewystarczające saldo dla tej transakcji",
+				"amountTooHighGas": "Kwota jest zbyt wysoka po uwzględnieniu opłat za gaz",
+				"checkForm": "Sprawdź formularz i spróbuj ponownie",
+				"pendingDeposit": "Masz oczekującą wpłatę. Poczekaj na jej zakończenie"
+			},
+			"status": {
+				"processing": "Przetwarzanie...",
+				"awaitingApproval": "Oczekiwanie na zatwierdzenie",
+				"calculatingRate": "Obliczanie kursu...",
+				"insufficientBalance": "Niewystarczające saldo"
+			},
+			"buttons": {
+				"depositUsd": "Wpłać ${amount}"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "Wpłata potwierdzona!",
+			"submittedTitle": "Transakcja przesłana",
+			"confirmedDesc": "Twoje saldo zostało zaktualizowane.",
+			"submittedDesc": "Oczekiwanie na potwierdzenie blockchain. Może to potrwać kilka minut.",
+			"viewOnExplorer": "Zobacz w eksploratorze",
+			"newDepositConfirmed": "Dokonaj kolejnej wpłaty",
+			"newDepositPending": "Rozpocznij nową wpłatę"
+		},
+		"withdrawPanel": {
+			"resetForm": "Zresetuj formularz",
+			"networkNotSupported": "Wypłaty są obsługiwane tylko na Arbitrum, Polygon i BNB",
+			"youWithdraw": "Wypłacasz",
+			"loading": "Ładowanie...",
+			"amount": "Kwota",
+			"max": "Maks.",
+			"balance": "Saldo:",
+			"available": "Dostępne:",
+			"insufficientBalance": "Niewystarczające saldo",
+			"minimumIs": "Minimum to {min}",
+			"minLabel": "Min:",
+			"emailWalletAddress": "Adres portfela e-mail",
+			"walletAddress": "Adres portfela",
+			"errors": {
+				"pendingWithdrawal": "Masz już oczekującą wypłatę",
+				"invalidAddress": "Nieprawidłowy adres",
+				"enterAmount": "Wprowadź kwotę",
+				"networkNotSupported": "Sieć nie jest obsługiwana"
+			},
+			"status": {
+				"processing": "Przetwarzanie...",
+				"insufficientBalance": "Niewystarczające saldo",
+				"pendingWithdrawal": "Masz już oczekującą wypłatę"
+			},
+			"buttons": {
+				"withdraw": "Wypłać {amount} {symbol}",
+				"minimum": "Minimum {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "Wypłata udana!",
+			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z Meme Win! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
+			"withdrawnAmount": "Wypłacona kwota",
+			"shareText": "Udostępnij",
+			"subText": "🚀 DOŁĄCZ DO ZWYCIĘSKIEJ PASSY! 🚀",
+			"generating": "Generowanie...",
+			"screenshot": "Zrób zrzut ekranu",
+			"download": "Pobierz obraz",
+			"close": "Zamknij",
+			"copiedToClipboard": "Link do udostępniania został pomyślnie skopiowany"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "Wypłata potwierdzona!",
+			"submittedTitle": "Transakcja przesłana",
+			"confirmedDesc": "Twoje środki są w drodze.",
+			"submittedDesc": "Oczekiwanie na potwierdzenie blockchain...",
+			"viewOnExplorer": "Zobacz w eksploratorze",
+			"manualApproval": "Ta wypłata wymaga ręcznego zatwierdzenia.",
+			"newWithdrawalConfirmed": "Dokonaj kolejnej wypłaty",
+			"newWithdrawalPending": "Rozpocznij nową wypłatę"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "Otrzymasz"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "Ulepsz do Pro",
+		"account": "Konto",
+		"billing": "Rozliczenia",
+		"notifications": "Powiadomienia",
+		"logout": "Wyloguj"
+	},
+	"games": {
+		"pageTitle": "Wszystkie gry",
+		"playNow": "Graj teraz",
+		"byProvider": "Od {name}",
+		"count": "{count} {count, plural, one {gra} other {gier}}",
+		"noResults": "Nie znaleziono gier spełniających Twoje kryteria.",
+		"errorLoading": "Nie można załadować gier. Spróbuj ponownie później.",
+		"slots": "Sloty",
+		"sports": "Sport",
+		"liveCasino": "Kasyno na żywo",
+		"explore": "Odkrywaj",
+		"exploreSubtitle": "Odkryj niesamowite wrażenia z gry",
+		"poker": "Poker",
+		"lottery": "Loteria",
+		"futures": "Kontrakty terminowe",
+		"vr": "VR",
+		"swap": "Wymiana",
+		"slotsDescription": "Zakręć bębnami i wygrywaj ogromne jackpoty",
+		"liveCasinoDescription": "Doświadcz akcji kasynowej w czasie rzeczywistym z krupierami na żywo",
+		"sportsDescription": "Obstawiaj swoje ulubione drużyny i wydarzenia sportowe",
+		"pokerDescription": "Sprawdź swoje umiejętności w klasycznych grach pokerowych",
+		"lotteryDescription": "Spróbuj szczęścia w loterii i grach z natychmiastową wygraną",
+		"futuresDescription": "Handluj i przewiduj ruchy rynkowe",
+		"vrDescription": "Zanurz się w grach w wirtualnej rzeczywistości",
+		"swapDescription": "Wymieniaj tokeny i kryptowaluty bezproblemowo",
+		"categories": {
+			"slot": {
+				"title": "Gry slotowe"
+			},
+			"liveCasino": {
+				"title": "Gry kasynowe na żywo"
+			},
+			"sports": {
+				"title": "Gry z zakładami sportowymi"
+			},
+			"rng": {
+				"title": "Gry RNG"
+			},
+			"other": {
+				"title": "Gry {category}"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "Wszyscy dostawcy gier",
+		"searchPlaceholder": "Szukaj dostawcy...",
+		"empty": "Nie znaleziono dostawców pasujących do Twojego wyszukiwania.",
+		"logoAlt": "Logo {name}",
+		"filteredBy": "Filtrowano według kategorii:",
+		"clearFilter": "Wyczyść filtr",
+		"categories": {
+			"slot": {
+				"title": "Dostawcy gier slotowych"
+			},
+			"liveCasino": {
+				"title": "Dostawcy kasyna na żywo"
+			},
+			"sports": {
+				"title": "Dostawcy zakładów sportowych"
+			},
+			"rng": {
+				"title": "Dostawcy gier RNG"
+			},
+			"other": {
+				"title": "Dostawcy gier {category}"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "Dołącz do akcji",
+			"subtitle": "Zarejestruj się teraz i odbierz ekskluzywny bonus powitalny!",
+			"cta": "Zarejestruj się teraz"
+		},
+		"welcome": {
+			"title1": "Bonus powitalny",
+			"title2": "Do 590%",
+			"subtitle": "+ 225 darmowych spinów",
+			"cta": "Wpłać i odbierz"
+		},
+		"jackpot": {
+			"title1": "Mega Jackpot",
+			"title2": "1 000 000 $",
+			"subtitle": "Graj teraz i wygrywaj!",
+			"cta": "Graj teraz"
+		},
+		"cards": {
+			"casino": {
+				"title": "Kasyno",
+				"badge": "590+ GIER",
+				"desc": "Ciesz się oryginalnymi grami MemeWin i innymi grami kasynowymi od najlepszych dostawców.",
+				"link": "Przejdź do kasyna"
+			},
+			"slots": {
+				"title": "Sloty",
+				"badge": "5292 GRY",
+				"desc": "Zakręć bębnami i trafiaj ogromne jackpoty w naszej kolekcji slotów premium.",
+				"link": "Przejdź do slotów"
+			},
+			"sports": {
+				"title": "Sport",
+				"badge": "3 GRY",
+				"desc": "Obstawiaj swoje ulubione drużyny i wydarzenia sportowe po konkurencyjnych kursach.",
+				"link": "Przejdź do sportu"
+			},
+			"crypto": {
+				"title": "Krypto i zarabianie",
+				"badge": "60% APR",
+				"desc": "Stakuj, handluj i zarabiaj na kryptowalutach po atrakcyjnych stopach.",
+				"link": "Przejdź do krypto"
+			}
+		},
+		"layout3": {
+			"headerTitle": "W centrum uwagi",
+			"headerSubtitle": "Odkryj niesamowite gry i eksploruj nowe przygody w naszej starannie dobranej kolekcji",
+			"slider1Title": "Polecane gry",
+			"slider1Badge": "Wybór redakcji",
+			"slider2Title": "Więcej do odkrycia",
+			"slider2Badge": "Na czasie",
+			"featuredGameLabel": "Polecana gra"
+		},
+		"ctaExploreGames": "Odkryj Gry",
+		"ctaJoinAffiliate": "Dołącz do Programu Partnerskiego"
+	},
+	"betting": {
+		"live": {
+			"winRate": "Współczynnik wygranych",
+			"biggestWin": "Największa wygrana",
+			"bigWins50": "Duże wygrane (50+)",
+			"recentWins": "Ostatnie wygrane",
+			"header": {
+				"title": "Aktywność zakładów na żywo",
+				"subtitle": "Aktywność zakładów w czasie rzeczywistym • Załadowano {count} gier"
+			},
+			"status": {
+				"live": "NA ŻYWO",
+				"paused": "Wstrzymano"
+			},
+			"actions": {
+				"pause": "Wstrzymaj",
+				"resume": "Wznów"
+			},
+			"tabs": {
+				"all": "Wszystkie",
+				"wins": "Wygrane",
+				"losses": "Przegrane"
+			},
+			"table": {
+				"game": "Nazwa gry",
+				"time": "Czas",
+				"provider": "Dostawca",
+				"nickname": "Pseudonim",
+				"bet": "Zakład",
+				"multiplier": "Mnożnik",
+				"profit": "Zysk"
+			},
+			"empty": "Nie znaleziono żadnych rekordów zakładów"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "Zmień czcionkę",
+		"fontSettings": "Ustawienia czcionki",
+		"current": "Bieżąca",
+		"browseGoogleFonts": "Przeglądaj czcionki Google",
+		"uploadCustomFont": "Prześlij własną czcionkę",
+		"quickUploadFontFile": "Szybkie przesyłanie pliku czcionki",
+		"resetToDefault": "Przywróć domyślną",
+		"googleFonts": {
+			"title": "Czcionki Google",
+			"searchFonts": "Szukaj czcionek...",
+			"preview": "Podgląd",
+			"previewText": "Zażółć gęślą jaźń.",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "Zastosuj czcionkę",
+			"clearPreview": "Wyczyść podgląd",
+			"previewWith": "Podgląd tekstu z {font}",
+			"noFontsFound": "Nie znaleziono czcionek pasujących do \"{searchTerm}\""
+		},
+		"customUpload": {
+			"title": "Prześlij własną czcionkę",
+			"description": "Prześlij własny plik czcionki, aby dostosować stronę",
+			"fontFile": "Plik czcionki",
+			"dragDropArea": "Przeciągnij i upuść plik czcionki tutaj, lub",
+			"clickToUpload": "kliknij, aby przesłać",
+			"supportedFormats": "Obsługiwane formaty: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Maksymalny rozmiar pliku: 10MB",
+			"fontName": "Nazwa czcionki",
+			"fontNamePlaceholder": "Wprowadź nazwę dla swojej czcionki",
+			"previewYourFont": "Podgląd Twojej czcionki",
+			"uploadAndApply": "Prześlij i zastosuj czcionkę",
+			"cancel": "Anuluj",
+			"uploading": "Przesyłanie...",
+			"errors": {
+				"invalidFileType": "Prześlij prawidłowy plik czcionki (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Rozmiar pliku przekracza limit 10MB",
+				"uploadFailed": "Nie udało się przesłać pliku czcionki",
+				"enterFontName": "Wybierz plik czcionki i podaj nazwę",
+				"readFileFailed": "Nie udało się odczytać pliku czcionki"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "Czcionka \"{fontName}\" została pomyślnie zastosowana!",
+			"fontUploadedSuccess": "Czcionka \"{fontName}\" została pomyślnie przesłana i zastosowana!",
+			"fontResetSuccess": "Czcionka została przywrócona do domyślnej",
+			"invalidFileType": "Prześlij prawidłowy plik czcionki (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Nie udało się odczytać pliku czcionki"
+		}
+	}
+}

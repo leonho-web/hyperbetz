@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "Laden...",
+		"save": "Opslaan",
+		"cancel": "Annuleren",
+		"confirm": "Bevestigen",
+		"viewAll": "Alles bekijken"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "Zijbalk wisselen",
+		"searchPlaceholder": "Zoek spellen, providers...",
+		"liveChat": "Live Chat",
+		"player": "Speler",
+		"vip": "VIP",
+		"profile": "Profiel",
+		"statistics": "Statistieken",
+		"wallet": "Storten/Opnemen",
+		"cashier": "Kassa",
+		"winLoss": "Winst/Verlies",
+		"affiliate": "Partner",
+		"logout": "Uitloggen",
+		"balance": "Saldo"
+	},
+	"navigation": {
+		"home": "Home",
+		"games": "Spellen",
+		"profile": "Profiel",
+		"wallet": "Portemonnee",
+		"settings": "Instellingen",
+		"promotions": "Promoties",
+		"affiliate": "Partner",
+		"providers": "Providers",
+		"lobby": "Lobby"
+	},
+	"profile": {
+		"language": "Taal",
+		"welcome": "Welkom, {name}!",
+		"settingUp": "Bezig met instellen",
+		"profileBtn": "Bekijk Profiel",
+		"currentBalance": "Huidig Saldo",
+		"availableFunds": "Beschikbaar geld",
+		"totalDeposits": "Totaal Stortingen",
+		"totalWithdrawals": "Totaal Opnames",
+		"walletAddress": "Wallet Adres",
+		"copySuccess": "Wallet adres gekopieerd naar klembord!",
+		"copyFailed": "Kopiëren van wallet adres mislukt",
+		"notConnected": "Niet verbonden",
+		"myProfile": "Mijn Profiel",
+		"logout": "Uitloggen",
+		"pendingRegistration": "Registratie in behandeling",
+		"noEmailProvided": "Geen e-mailadres opgegeven",
+		"balanceOverview": "Saldo Overzicht",
+		"gettingStarted": "Aan de slag",
+		"verifyEmail": "Verifieer je e-mail",
+		"completeEmailVerification": "Voltooi e-mailverificatie",
+		"verifyPhone": "Verifieer je telefoonnummer",
+		"addPhoneVerification": "Voeg telefoonverificatie toe",
+		"firstDeposit": "Eerste Storting",
+		"makeFirstDeposit": "Maak je eerste storting",
+		"placeBetOrTrade": "Plaats een weddenschap / Maak een transactie",
+		"startFirstGame": "Start je eerste spel",
+		"recentActivity": "Recente Activiteit",
+		"transactionHistory": "Transactiegeschiedenis",
+		"activityGameWinDiceRoll": "Spelwinst - Dobbelsteenworp",
+		"activityGameLossBlackjack": "Spelverlies - Blackjack",
+		"twoHoursAgo": "2 uur geleden",
+		"oneDayAgo": "1 dag geleden",
+		"twoDaysAgo": "2 dagen geleden",
+		"deposit": "Storting",
+		"loggedOutTitle": "Oeps! Je bent uitgelogd",
+		"loggedOutSubtitle": "Log in om je profiel te bekijken",
+		"goHome": "Ga naar Home",
+		"withdrawal": "Opname",
+		"transactions": {
+			"title": "Transactiegeschiedenis",
+			"trackDepositsWithdrawals": "Volg je stortingen en opnames",
+			"filters": "Filters",
+			"refresh": "Vernieuwen",
+			"advancedFilters": "Geavanceerde Filters",
+			"searchTransactionComingSoon": "Transactie zoeken (Binnenkort beschikbaar)",
+			"searchPlaceholderDisabled": "Zoekfunctionaliteit wordt op API-niveau geïmplementeerd...",
+			"dateRange": "Datumbereik",
+			"selectDateRange": "Selecteer datumbereik",
+			"today": "Vandaag",
+			"last7Days": "Laatste 7 Dagen",
+			"last30Days": "Laatste 30 Dagen",
+			"last90Days": "Laatste 90 Dagen",
+			"thisMonth": "Deze Maand",
+			"lastMonth": "Vorige Maand",
+			"customRange": "Aangepast Bereik",
+			"fromDate": "Vanaf Datum",
+			"toDate": "Tot Datum",
+			"transactionStatus": "Transactiestatus",
+			"allStatuses": "Alle Statussen",
+			"success": "Geslaagd",
+			"pending": "In behandeling",
+			"rejected": "Afgewezen",
+			"clearAll": "Alles Wissen",
+			"cancel": "Annuleren",
+			"applyFilters": "Filters Toepassen",
+			"activeFilters": "Actieve Filters:",
+			"statusLabel": "Status",
+			"dateLabel": "Datum",
+			"statsTotalTransactions": "{total} transacties in totaal",
+			"pageOf": "Pagina {current} van {total}",
+			"live": "Live",
+			"tabs": {
+				"all": "Alles",
+				"deposits": "Stortingen",
+				"withdrawals": "Opnames"
+			},
+			"errorLoadingTransactions": "Fout bij het laden van transacties",
+			"tryAgain": "Probeer opnieuw",
+			"noTransactionsFound": "Geen transacties gevonden",
+			"noTransactionsAvailableSelectedPeriod": "Geen transacties beschikbaar voor de geselecteerde periode.",
+			"noDepositsFoundSelectedPeriod": "Geen stortingen gevonden voor de geselecteerde periode.",
+			"noWithdrawalsFoundSelectedPeriod": "Geen opnames gevonden voor de geselecteerde periode.",
+			"show": "Toon",
+			"ofTransactions": "van {count} transacties",
+			"showingRangeOfTotal": "Toont {from}-{to} van {total}",
+			"pageShort": "Pagina {current}/{total}"
+		},
+		"betHistory": {
+			"title": "Wedgeschiedenis",
+			"trackBetsResults": "Volg je spelweddenschappen en resultaten",
+			"filters": "Filters",
+			"refresh": "Vernieuwen",
+			"advancedFilters": "Geavanceerde Filters",
+			"dateRange": "Datumbereik",
+			"selectDateRange": "Selecteer datumbereik",
+			"today": "Vandaag",
+			"last7Days": "Laatste 7 Dagen",
+			"last30Days": "Laatste 30 Dagen",
+			"last90Days": "Laatste 90 Dagen",
+			"thisMonth": "Deze Maand",
+			"lastMonth": "Vorige Maand",
+			"customRange": "Aangepast Bereik",
+			"fromDate": "Vanaf Datum",
+			"toDate": "Tot Datum",
+			"provider": "Provider",
+			"allProviders": "Alle Providers",
+			"status": "Status",
+			"allStatuses": "Alle Statussen",
+			"outstanding": "Openstaand",
+			"win": "Winst",
+			"lose": "Verlies",
+			"draw": "Gelijkspel",
+			"void": "Ongeldig",
+			"bonusWin": "Bonuswinst",
+			"clearAll": "Alles Wissen",
+			"cancel": "Annuleren",
+			"applyFilters": "Filters Toepassen",
+			"activeFilters": "Actieve Filters",
+			"statusLabel": "Status",
+			"providerLabel": "Provider",
+			"dateLabel": "Datum",
+			"totalBets": "Totaal Weddenschappen",
+			"totalProfitLoss": "Totaal Winst/Verlies",
+			"pageOf": "Pagina {current} van {total}",
+			"live": "Live",
+			"errorLoadingBets": "Fout bij het laden van wedgeschiedenis",
+			"failedToLoadBetHistory": "Laden van wedgeschiedenis mislukt. Probeer het opnieuw.",
+			"tryAgain": "Probeer opnieuw",
+			"noBetsFound": "Geen weddenschappen gevonden",
+			"noBetsFoundSelectedPeriod": "Geen wedgeschiedenis gevonden voor de geselecteerde periode en filters.",
+			"show": "Toon",
+			"ofBets": "van {count} weddenschappen",
+			"showingRangeOfTotal": "Toont {from}-{to} van {total}",
+			"totalBet": "Totale Inzet",
+			"totalWin": "Totale Winst",
+			"net": "Netto",
+			"tableHeaders": {
+				"date": "Datum",
+				"game": "Spel",
+				"provider": "Provider",
+				"type": "Type",
+				"status": "Status",
+				"betAmount": "Inzetbedrag",
+				"winAmount": "Winstbedrag",
+				"hideAmounts": "Bedragen Verbergen",
+				"showAmounts": "Bedragen Tonen",
+				"gameType": "Speltype",
+				"vendor": "Leverancier",
+				"lastUpdate": "Laatste Update",
+				"netResult": "Netto Resultaat",
+				"betId": "Weddenschap ID"
+			},
+			"errorLoading": "Fout bij laden",
+			"noBetsFoundDescription": "Begin met spelen om hier je wedgeschiedenis te zien.",
+			"betHistory": "Wedgeschiedenis",
+			"hideAmounts": "Bedragen verbergen",
+			"showAmounts": "Bedragen tonen",
+			"date": "Datum",
+			"game": "Spel",
+			"betId": "Weddenschap ID",
+			"amount": "Bedrag",
+			"payout": "Uitbetaling",
+			"player": "Speler",
+			"gameType": "Speltype",
+			"vendor": "Leverancier",
+			"lastUpdate": "Laatste update",
+			"netResult": "Netto resultaat",
+			"totalWagered": "Totaal ingezet",
+			"totalWon": "Totaal gewonnen",
+			"netProfit": "Nettowinst",
+			"winRate": "Winstpercentage",
+			"showingResults": "Toont {start}-{end} van {total} resultaten",
+			"firstPage": "Eerste Pagina",
+			"previousPage": "Vorige Pagina",
+			"nextPage": "Volgende Pagina",
+			"lastPage": "Laatste Pagina"
+		}
+	},
+	"chat": {
+		"title": "Live Chat",
+		"placeholder": "Typ je bericht...",
+		"send": "Verstuur",
+		"input": {
+			"replyPlaceholder": "Antwoord aan {username}..."
+		},
+		"reply": {
+			"replyingTo": "Antwoord aan {username}",
+			"types": {
+				"win": "Heeft {amount} {currency} gewonnen",
+				"gif": "GIF-bericht",
+				"image": "Afbeelding",
+				"default": "Bericht"
+			},
+			"preview": {
+				"winIn": "Heeft {amount} {currency} gewonnen in {game}",
+				"gifAlt": "GIF-voorbeeld",
+				"imageAlt": "Afbeeldingsvoorbeeld",
+				"emoji": "Emoji-bericht",
+				"rain": "Regen: {amount} {currency}",
+				"system": "Systeem: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "Deel je afbeelding 🎰",
+			"description": "Klaar om de chatroom te laten zien?",
+			"previewLabel": "Voorbeeld",
+			"statusReady": "Klaar om te delen",
+			"roomLabel": "🎰 Casino Chat",
+			"shareNotice": "Je afbeelding wordt gedeeld met alle spelers in de chatroom",
+			"closeAria": "Sluit dialoogvenster",
+			"cancelAria": "Annuleer afbeelding uploaden",
+			"sendAria": "Verstuur afbeelding naar chat",
+			"send": "Verstuur naar Chat"
+		},
+		"picker": {
+			"searchEmojis": "Zoek emoji's...",
+			"searchGifs": "Zoek GIF's...",
+			"tabs": {
+				"emojis": "Emoji's",
+				"gifs": "GIF's"
+			},
+			"loadingEmojis": "Emoji's laden...",
+			"loadingGifs": "GIF's laden...",
+			"retry": "Opnieuw proberen",
+			"recent": "Recent",
+			"noEmojis": "Geen emoji's gevonden",
+			"noGifs": "Geen GIF's gevonden",
+			"tryDifferent": "Probeer een andere zoekterm",
+			"gifCategories": {
+				"trending": "Trending",
+				"reactions": "Reacties",
+				"gaming": "Gaming",
+				"casino": "Casino",
+				"celebration": "Viering",
+				"sports": "Sport"
+			},
+			"searchResults": "Zoekresultaten",
+			"availableToTag": "Beschikbare gebruikers om te taggen 🎯",
+			"clickOrTab": "Klik of Tab om te selecteren",
+			"noUsers": "Geen gebruikers gevonden",
+			"noUsersMatching": "Geen overeenkomende gebruikers",
+			"startTyping": "Begin met typen om te zoeken",
+			"typeAt": "Typ",
+			"toSeeSuggestions": "om suggesties te zien 🎰",
+			"errors": {
+				"emojisLoad": "Laden van emoji's mislukt",
+				"emojisSearch": "Zoeken van emoji's mislukt",
+				"gifsLoad": "Laden van GIF's mislukt"
+			}
+		},
+		"messages": {
+			"emptyTitle": "Nog geen berichten...",
+			"emptySubtitle": "Start het gesprek en win groots! 🎰",
+			"loadingHistory": "Chat-geschiedenis laden...",
+			"loadingHistorySubtitle": "Recente berichten ophalen 📜",
+			"historyError": "Kan chat-geschiedenis niet laden"
+		},
+		"message": {
+			"you": "Jij",
+			"winTitle": "Grote winst in \"{game}\"! 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "Geüploade afbeelding",
+			"rainTitle": "Geldregen! 🌧️💰",
+			"recipients": "→ {count} {count, plural, one {ontvanger} other {ontvangers}}",
+			"eachTo": "{amount} {currency} elk aan: {list}",
+			"replyCount": "{count} {count, plural, one {antwoord} other {antwoorden}}",
+			"loadingHistory": "Chat-geschiedenis laden..."
+		},
+		"system": {
+			"slashDisabled": "Slash-commando's zijn tijdelijk uitgeschakeld. Gebruik alstublieft gewone berichten.",
+			"rateLimit": "Snelheidslimiet overschreden. Wacht {seconds} seconden voordat je een nieuw bericht verzendt.",
+			"cannotTagSelf": "Je kunt jezelf niet taggen in berichten.",
+			"processingImage": "Afbeelding verwerken...",
+			"failedUploadPrefix": "Uploaden van afbeelding mislukt: {message}",
+			"unknownError": "Onbekende fout"
+		}
+	},
+	"sidebar": {
+		"quest": "QUEST",
+		"spin": "SPIN",
+		"deposit": "STORTEN",
+		"withdraw": "OPNEMEN",
+		"playOnTelegram": "Speel op Telegram",
+		"dailyBonus": "Dagelijkse Bonus",
+		"navigation": "Navigatie",
+		"games": "Spellen",
+		"providers": "Providers",
+		"trendingNow": "Nu Trending",
+		"allProviders": "Alle Providers",
+		"allTopProviders": "Alle Top Providers",
+		"hotBadge": "Hot"
+	},
+	"search": {
+		"title": "Zoek spellen",
+		"subtitle": "Vind op naam, provider of categorie",
+		"placeholder": "Zoek spellen, providers, categorieën...",
+		"clear": "Wissen",
+		"recent": "Recent:",
+		"popular": "Populair:",
+		"favoritesTry": "Je kunt proberen — Jouw favorieten",
+		"hotPicks": "Populaire keuzes",
+		"resultsCount": "{count} {count, plural, one {spel} other {spellen}} gevonden",
+		"noResults": "Geen resultaten",
+		"filterApplied": "Gefilterd op {count} {count, plural, one {provider} other {providers}}",
+		"suggestions": {
+			"category": "Categorie",
+			"provider": "Provider"
+		},
+		"sections": {
+			"topProviders": "Top Providers",
+			"selectedProviders": "Geselecteerde Providers",
+			"categories": "Categorieën",
+			"games": "Spellen",
+			"providers": "Providers"
+		},
+		"results": {
+			"found": "{games} spellen, {categories} categorieën en {providers} providers gevonden"
+		},
+		"gameTypes": {
+			"blackjack": "Blackjack",
+			"roulette": "Roulette",
+			"crash": "Crash"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "Sorteer op",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "Filter",
+			"optionsTitle": "Filteropties",
+			"clearAll": "Alle Filters Wissen",
+			"activeLabel": "Actief:"
+		},
+		"searchPlaceholderGeneric": "Zoeken...",
+		"providersDropdown": {
+			"title": "Providers",
+			"selected": "{count} geselecteerd",
+			"searchPlaceholder": "Zoek providers...",
+			"empty": "Geen provider gevonden.",
+			"clear": "Providerfilters Wissen"
+		},
+		"category": {
+			"label": "Categorie:"
+		},
+		"view": {
+			"toggleAria": "Weergavemodus wisselen",
+			"gridAria": "Rasterweergave",
+			"listAria": "Lijstweergave"
+		},
+		"loadMore": "Meer Laden"
+	},
+	"commonExtra": {
+		"connecting": "Verbinden...",
+		"offline": "Offline",
+		"online": "Online",
+		"clear": "Wissen"
+	},
+	"home": {
+		"topProviders": "Top Spelproviders"
+	},
+	"lobby": {
+		"yourFavorites": "Jouw Favorieten",
+		"featuredCasinoGames": "Uitgelichte Casinospellen",
+		"hotPicks": "Populaire Keuzes",
+		"slots": "Gokkasten",
+		"sports": "Sport",
+		"realTimeScoreboard": "Real-Time Scorebord"
+	},
+	"affiliate": {
+		"title": "Partnerprogramma",
+		"loginPromptTitle": "Verwijzingsprogramma",
+		"loginPromptSubtitle": "Log in om je verwijzingsstatistieken, bonussen te bekijken en beloningen te claimen.",
+		"goHome": "Ga naar Home",
+		"tabs": {
+			"dashboard": "Dashboard",
+			"rates": "Commissietarieven",
+			"calculator": "Calculator"
+		},
+		"refresh": "Vernieuwen",
+		"refreshing": "Vernieuwen...",
+		"refreshAllSuccess": "Alle gegevens succesvol vernieuwd!",
+		"refreshPartial": "Gedeeltelijk vernieuwd: {success}/{total} secties bijgewerkt",
+		"refreshFailed": "Gegevens vernieuwen mislukt. Probeer het opnieuw.",
+		"dashboard": {
+			"title": "Partner Dashboard",
+			"subtitle": "Volg je verwijzingen, inkomsten en commissieprestaties",
+			"performanceOverview": "Prestatieoverzicht",
+			"referralManagement": "Verwijzingsbeheer",
+			"termsAndCommission": "Voorwaarden & Commissiestructuur",
+			"unclaimedEarnings": "Niet-geclaimde Inkomsten",
+			"claim": "Claimen",
+			"claiming": "Bezig met claimen...",
+			"totalIncome": "Totaal Inkomen",
+			"totalReferrals": "Totaal Verwijzingen",
+			"usersUnit": "gebruikers",
+			"yourReferralLinks": "Jouw Verwijzingslinks",
+			"referralLinksSubtitle": "Deel deze links om nieuwe gebruikers te verwijzen en commissies te verdienen",
+			"completeReferralLink": "Volledige Verwijzingslink",
+			"fullReferralPlaceholder": "Volledige verwijzingslink verschijnt hier",
+			"fullReferralHelp": "Directe link die gebruikers kunnen aanklikken om zich te registreren met jouw verwijzingscode",
+			"referralCodeOnly": "Alleen Verwijzingscode",
+			"yourReferralId": "Jouw verwijzings-ID",
+			"referralIdHelp": "Deel deze code zodat gebruikers deze handmatig kunnen invoeren bij registratie",
+			"copyFullSuccess": "Volledige verwijzingslink gekopieerd naar klembord!",
+			"copyIdSuccess": "Verwijzings-ID gekopieerd naar klembord!"
+		},
+		"referrals": {
+			"title": "Mijn Verwijzingen",
+			"subtitle": "Volg en beheer alle gebruikers die via jouw partnerlinks zijn doorverwezen",
+			"totalReferrals": "totaal verwijzingen",
+			"monitorHelp": "Monitor de activiteit, stortingen en spelpatronen van je verwijzingen",
+			"sort": {
+				"placeholder": "Sorteer op...",
+				"nicknameAsc": "Bijnaam (A-Z)",
+				"nicknameDesc": "Bijnaam (Z-A)",
+				"lastLogin": "Laatste Login",
+				"unclaimedAmount": "Niet-geclaimd Bedrag"
+			},
+			"table": {
+				"nickname": "Bijnaam",
+				"totalWager": "Totale Inzet",
+				"lastLogin": "Laatste Login",
+				"registered": "Geregistreerd",
+				"lastDeposit": "Laatste Storting",
+				"depositDate": "Stortingsdatum",
+				"tier": "Niveau"
+			},
+			"empty": {
+				"title": "Geen verwijzingen gevonden",
+				"subtitle": "Begin met het verwijzen van gebruikers om ze hier te zien."
+			},
+			"pagination": {
+				"showing": "Toont {from} tot {to} van {total} resultaten",
+				"prev": "Vorige",
+				"next": "Volgende"
+			}
+		},
+		"rates": {
+			"title": "Commissietariefstructuur",
+			"subtitle": "Verdienstenpercentages per niveau en spelcategorie",
+			"howItWorks": {
+				"title": "Hoe Commissieniveaus Werken",
+				"body": "Je commissieniveau wordt bepaald door het totale dagelijkse inzetbedrag van je verwijzingen. Hogere niveaus bieden betere commissietarieven voor alle speltypen."
+			},
+			"calculation": {
+				"title": "Hoe Commissies Worden Berekend",
+				"desc": "Commissies worden elke 24 uur berekend op basis van de totale inzetten van doorverwezen spelers. Voorbeelden:",
+				"exampleTitle": "Niveau {tier}:",
+				"wagerIn": "Inzet {amount} in {gameType}"
+			},
+			"table": {
+				"tierLevel": "Niveau",
+				"wagerRange": "Inzetbereik",
+				"slots": "Gokkasten",
+				"liveCasino": "Live Casino",
+				"sports": "Sport",
+				"tierPrefix": "NIVEAU",
+				"commissionLevel": "Commissieniveau",
+				"dailyWager": "Dagelijks inzetvolume"
+			},
+			"claim": {
+				"title": "Claimen en Opnemen",
+				"points": {
+					"0": "Commissies zijn beschikbaar voor opname zodra ze zijn berekend.",
+					"1": "Er is geen vervaldatum voor niet-geclaimde commissies - ze stapelen zich op totdat ze worden geclaimd.",
+					"2": "Opnames volgen de standaardregels van het platform, zoals minimumlimieten en verwerkingstijden."
+				}
+			},
+			"system": {
+				"title": "Systeemtijd en Operaties",
+				"dailyTimeframeLabel": "Dagelijks Tijdsbestek:",
+				"dailyTimeframeValue": "00:00 UTC tot 23:59 UTC (elke dag).",
+				"claimDailyLabel": "Dagelijks Claimen:",
+				"claimDailyValue": "Dagelijks beschikbaar om 14:00 UTC (Jouw Lokale Tijd: {local}).",
+				"note": "Opmerking: Hoewel we werken met providers uit verschillende tijdzones, volgen alle berekeningen UTC om consistentie te garanderen en verwarring te voorkomen."
+			},
+			"amendments": {
+				"title": "Wijzigingen",
+				"body": "We kunnen deze voorwaarden op elk moment bijwerken. Wijzigingen worden onmiddellijk van kracht na publicatie, en voortdurende deelname betekent dat je de nieuwe voorwaarden accepteert."
+			},
+			"footer": {
+				"schedule": "Commissieschema:",
+				"availableDaily": "Dagelijks beschikbaar om",
+				"localTimeLabel": "(Jouw Lokale Tijd: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Inkomstencalculator",
+			"subtitle": "Schat je commissie-inkomsten op basis van de inzetbedragen van je verwijzingen",
+			"interactive": {
+				"title": "Interactieve Tool:",
+				"body": "Voer verschillende inzetbedragen in om potentiële inkomsten over alle niveaus te zien"
+			},
+			"potentialEarnings": "Potentiële Inkomsten",
+			"basedOnRate": "Gebaseerd op {percentage}% commissietarief",
+			"tier": "Niveau {level}",
+			"commissionLevel": "Commissieniveau {level}",
+			"enterWager": "Voer Inzetbedrag in (USD)",
+			"wagerPlaceholder": "bijv., 1000",
+			"calcFor": "Berekening van inkomsten voor ${amount} inzet",
+			"totalPotential": "Totaal Potentiële Inkomsten:",
+			"combinedAtTier": "Gecombineerde inkomsten van alle speltypen op Niveau {level}"
+		}
+	},
+	"debug": {
+		"title": "Foutopsporingspagina"
+	},
+	"getLobby": {
+		"enteringLobby": "Lobby betreden...",
+		"connectingWait": "Even geduld terwijl we je verbinden.",
+		"invalidSession": "Je sessie is ongeldig of de provider ontbreekt. Probeer het opnieuw.",
+		"failedPrefix": "Lobby betreden mislukt: {message}",
+		"launchFailedTitle": "Starten Mislukt",
+		"returnHome": "Terug naar Home"
+	},
+	"play": {
+		"connecting": "Verbinden met gameserver...",
+		"invalidSession": "Je sessie is ongeldig of verlopen. Log opnieuw in en probeer het nogmaals.",
+		"launchFailedTitle": "Starten Mislukt",
+		"returnHome": "Terug naar Home"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "TIJDELIJKE AANBIEDING",
+		"headline": "Ontvang 200% Welkomstbonus!",
+		"subheadline": "Verbind nu je crypto wallet en ontvang tot {amount} bonus op je eerste storting!",
+		"featureDepositMatch": "200% Stortingsmatch",
+		"featureZeroFees": "Geen Transactiekosten",
+		"featureInstantWithdrawals": "Directe Opnames",
+		"featureNoKyc": "Geen KYC Vereist",
+		"ctaClaim": "CLAIM BONUS NU!",
+		"offerExpires": "Aanbieding vervalt over:",
+		"disclaimer": "Algemene voorwaarden zijn van toepassing. Gokken brengt risico's met zich mee. Speel verantwoord. 18+",
+		"closeAria": "Sluit venster",
+		"bannerAlt": "Promotiebanner",
+		"ctaOk": "Verbind Wallet & Begin met Wedden",
+		"enterAmount": "Voer Bedrag in",
+		"balance": "Saldo",
+		"max": "Max",
+		"deposit": "Storten",
+		"ethereum": "Ethereum"
+	},
+	"modalsSmall": {
+		"close": "Sluiten",
+		"firstDepositBoost": "1e Stortingsbonus Boost",
+		"bonus": "Bonus",
+		"min": "Min",
+		"sec": "Sec",
+		"deposit": "Storten"
+	},
+	"auth": {
+		"email": {
+			"title": "E-mail Login",
+			"description": "We sturen je een 6-cijferige code",
+			"emailLabel": "E-mailadres",
+			"emailPlaceholder": "naam@email.com",
+			"cancel": "Annuleren",
+			"sending": "Verzenden",
+			"continue": "Doorgaan",
+			"enterCodeTitle": "Voer Code in",
+			"sentTo": "Verzonden naar {email}",
+			"changeEmail": "Wijzig e-mail",
+			"resendCode": "Code opnieuw verzenden",
+			"resendIn": "Opnieuw verzenden over {seconds}s",
+			"verifying": "Verifiëren",
+			"successTitle": "Je bent binnen",
+			"successSubtitle": "Bezig met instellen...",
+			"modalAria": "E-mail Verificatie Venster",
+			"errors": {
+				"invalidEmail": "Voer een geldig e-mailadres in",
+				"sendFailed": "Verificatiecode verzenden mislukt.",
+				"invalidCode": "Voer een 6-cijferige verificatiecode in"
+			}
+		},
+		"setNickname": {
+			"title": "Stel je Bijnaam in",
+			"subtitle": "Dit is een eenmalige instelling en kan niet worden gewijzigd",
+			"logoutAria": "Uitloggen",
+			"inputPlaceholder": "Kies je unieke bijnaam",
+			"referrerCheckbox": "Ik heb een verwijzings-ID",
+			"referrerPlaceholder": "Voer verwijzings-ID in",
+			"referrerHelp": "Optioneel. Dit koppelt je account aan de verwijzer voor bonusprogramma's.",
+			"status": {
+				"checking": "Beschikbaarheid controleren...",
+				"available": "Bijnaam is beschikbaar!",
+				"taken": "Deze bijnaam is al in gebruik."
+			},
+			"register": "Registreer en Speel",
+			"termsTitle": "Algemene Voorwaarden:",
+			"termsBody": "Door dit document te ondertekenen met je Wallet en/of door te gaan met het gebruik van deze Web3-applicatie, accepteer je de gebruiksvoorwaarden van de applicatie. Het ondertekenen van je toestemming voor de Gebruiksvoorwaarden is geen blockchain-transactie en brengt geen kosten met zich mee.",
+			"errors": {
+				"verifyNicknameFailed": "Kon bijnaam niet verifiëren. Probeer het opnieuw.",
+				"registerFailed": "Registratie mislukt: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "Inloggen met E-mail",
+			"connectWalletBtn": "Verbind Wallet",
+			"player": "Speler",
+			"walletConnected": "Wallet Verbonden",
+			"emailConnected": "E-mail Verbonden",
+			"disconnect": "Verbinding verbreken",
+			"walletAddress": "Wallet Adres",
+			"balance": "Saldo",
+			"loginWithWallet": "Inloggen met Wallet"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "Storten",
+				"withdraw": "Opnemen",
+				"swap": "Wisselen",
+				"walletInfo": "Wallet"
+			},
+			"mobileDropdown": {
+				"emailWallet": "E-mail Wallet",
+				"wallet": "Wallet",
+				"deposit": "Storten",
+				"withdraw": "Opnemen",
+				"swap": "Wisselen"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "Selecteer Netwerk",
+			"switching": "Wisselen...",
+			"walletNotConnected": "Wallet niet verbonden.",
+			"failedToSwitch": "Netwerk wisselen mislukt. Probeer het vanuit je wallet.",
+			"altLogo": "Netwerklogo"
+		},
+		"tokenList": {
+			"dialogTitle": "Selecteer een Token",
+			"instantDeposit": "Directe Storting",
+			"yourWalletBalance": "Je Wallet Saldo",
+			"searchPlaceholder": "Zoek naam of plak adres",
+			"emptySearch": "Geen tokens gevonden die overeenkomen met je zoekopdracht.",
+			"emptyOwned": "Geen tokens met saldo gevonden.",
+			"searchResults": "Zoekresultaten",
+			"yourTokens": "Jouw Tokens",
+			"otherResults": "Andere Resultaten"
+		},
+		"tabsSidebar": {
+			"walletInfo": "Wallet",
+			"emailWallet": "E-mail Wallet",
+			"deposit": "Storten",
+			"withdraw": "Opnemen",
+			"swap": "Wisselen"
+		},
+		"depositPanel": {
+			"youPay": "Je Betaalt",
+			"resetForm": "Formulier Resetten",
+			"enterAmount": "Voer Bedrag in",
+			"selectToken": "Selecteer token",
+			"max": "Max",
+			"balance": "Saldo:",
+			"calculating": "Berekenen...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Min:",
+			"ratesMayVary": "Tarieven kunnen variëren",
+			"emailWalletAddress": "E-mail Wallet Adres",
+			"walletAddress": "Wallet Adres",
+			"minimumIs": "Minimum is {min}",
+			"errors": {
+				"selectTokenAndAmount": "Selecteer een token en voer een bedrag in",
+				"insufficientBalance": "Onvoldoende saldo voor deze transactie",
+				"amountTooHighGas": "Bedrag is te hoog rekening houdend met gaskosten",
+				"checkForm": "Controleer het formulier en probeer het opnieuw",
+				"pendingDeposit": "Je hebt een openstaande storting. Wacht tot deze is voltooid"
+			},
+			"status": {
+				"processing": "Verwerken...",
+				"awaitingApproval": "Wachten op Goedkeuring",
+				"calculatingRate": "Tarief Berekenen...",
+				"insufficientBalance": "Onvoldoende Saldo"
+			},
+			"buttons": {
+				"depositUsd": "Stort ${amount}"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "Selecteer tokens",
+			"enterAmount": "Voer bedrag in",
+			"gettingQuote": "Offerte ophalen...",
+			"confirming": "Bevestigen...",
+			"approving": "Goedkeuren...",
+			"insufficientBalance": "Onvoldoende saldo voor de Wissel",
+			"sameToken": "Kan niet dezelfde token wisselen",
+			"approveAndSwap": "Goedkeuren & Wisselen",
+			"swap": "Wisselen",
+			"slippageTolerance": "Slippage Tolerantie",
+			"custom": "Aangepast",
+			"set": "Instellen",
+			"currentSlippage": "Huidige slippage",
+			"swapSuccessful": "Wissel Geslaagd!",
+			"transactionConfirmed": "Je transactie is bevestigd",
+			"hash": "Hash",
+			"newSwap": "Nieuwe Wissel",
+			"youPay": "Je betaalt",
+			"max": "Max",
+			"low": "Laag",
+			"amountPlaceholder": "0",
+			"selectToken": "Selecteer Token",
+			"youReceive": "Je ontvangt",
+			"gettingBestQuote": "Beste offerte ophalen...",
+			"gas": "Gas",
+			"minimumReceived": "Minimum ontvangen",
+			"slippageToleranceLabel": "Slippage tolerantie",
+			"gasFee": "Gaskosten",
+			"priceWarning": "Prijzen worden in real-time bijgewerkt en kunnen veranderen voordat je transactie wordt bevestigd",
+			"emailWalletAddress": "E-mail Wallet Adres",
+			"walletAddress": "Wallet Adres",
+			"minimumIs": "Minimum is {min}",
+			"errors": {
+				"selectTokenAndAmount": "Selecteer een token en voer een bedrag in",
+				"insufficientBalance": "Onvoldoende saldo voor deze transactie",
+				"amountTooHighGas": "Bedrag is te hoog rekening houdend met gaskosten",
+				"checkForm": "Controleer het formulier en probeer het opnieuw",
+				"pendingDeposit": "Je hebt een openstaande storting. Wacht tot deze is voltooid"
+			},
+			"status": {
+				"processing": "Verwerken...",
+				"awaitingApproval": "Wachten op Goedkeuring",
+				"calculatingRate": "Tarief Berekenen...",
+				"insufficientBalance": "Onvoldoende Saldo"
+			},
+			"buttons": {
+				"depositUsd": "Stort ${amount}"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "Storting Bevestigd!",
+			"submittedTitle": "Transactie Verzonden",
+			"confirmedDesc": "Je saldo is bijgewerkt.",
+			"submittedDesc": "Wachten op blockchain bevestiging. Dit kan enkele minuten duren.",
+			"viewOnExplorer": "Bekijk op Explorer",
+			"newDepositConfirmed": "Doe nog een storting",
+			"newDepositPending": "Start een nieuwe storting"
+		},
+		"withdrawPanel": {
+			"resetForm": "Formulier Resetten",
+			"networkNotSupported": "Opnames worden alleen ondersteund op Arbitrum, Polygon en BNB",
+			"youWithdraw": "Je Neemt op",
+			"loading": "Laden...",
+			"amount": "Bedrag",
+			"max": "Max",
+			"balance": "Saldo:",
+			"available": "Beschikbaar:",
+			"insufficientBalance": "Onvoldoende saldo",
+			"minimumIs": "Minimum is {min}",
+			"minLabel": "Min:",
+			"emailWalletAddress": "E-mail Wallet Adres",
+			"walletAddress": "Wallet Adres",
+			"errors": {
+				"pendingWithdrawal": "Je hebt al een openstaande opname",
+				"invalidAddress": "Ongeldig Adres",
+				"enterAmount": "Voer Bedrag in",
+				"networkNotSupported": "Netwerk Niet Ondersteund"
+			},
+			"status": {
+				"processing": "Verwerken...",
+				"insufficientBalance": "Onvoldoende Saldo",
+				"pendingWithdrawal": "Al een Openstaande Opname"
+			},
+			"buttons": {
+				"withdraw": "Neem {amount} {symbol} op",
+				"minimum": "Minimum {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "Opname Geslaagd!",
+			"successMessage": "🎉 Zojuist {withdrawAmount} {tokenSymbol} opgenomen van Meme Win! 🚀 Sluit je aan bij de winnende reeks op {shareUrl}",
+			"withdrawnAmount": "Opgenomen Bedrag",
+			"shareText": "Delen",
+			"subText": "🚀 SLUIT JE AAN BIJ DE WINNENDE REEKS! 🚀",
+			"generating": "Genereren...",
+			"screenshot": "Maak Schermafbeelding",
+			"download": "Download Afbeelding",
+			"close": "Sluiten",
+			"copiedToClipboard": "Deellink succesvol gekopieerd"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "Opname Bevestigd!",
+			"submittedTitle": "Transactie Verzonden",
+			"confirmedDesc": "Je geld is onderweg.",
+			"submittedDesc": "Wachten op blockchain bevestiging...",
+			"viewOnExplorer": "Bekijk op Explorer",
+			"manualApproval": "Deze opname vereist handmatige goedkeuring.",
+			"newWithdrawalConfirmed": "Doe nog een opname",
+			"newWithdrawalPending": "Start een Nieuwe Opname"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "Je Zult Ontvangen"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "Upgrade naar Pro",
+		"account": "Account",
+		"billing": "Facturering",
+		"notifications": "Notificaties",
+		"logout": "Uitloggen"
+	},
+	"games": {
+		"pageTitle": "Alle Spellen",
+		"playNow": "Speel Nu",
+		"byProvider": "Door {name}",
+		"count": "{count, plural, one {Spel} other {Spellen}}",
+		"noResults": "Geen spellen gevonden die aan je criteria voldoen.",
+		"errorLoading": "Kon spellen niet laden. Probeer het later opnieuw.",
+		"slots": "Gokkasten",
+		"sports": "Sport",
+		"liveCasino": "Live Casino",
+		"explore": "Verkennen",
+		"exploreSubtitle": "Ontdek geweldige spelervaringen",
+		"poker": "Poker",
+		"lottery": "Loterij",
+		"futures": "Futures",
+		"vr": "VR",
+		"swap": "Wisselen",
+		"slotsDescription": "Draai aan de rollen en win enorme jackpots",
+		"liveCasinoDescription": "Ervaar real-time casino-actie met live dealers",
+		"sportsDescription": "Wed op je favoriete teams en sportevenementen",
+		"pokerDescription": "Test je vaardigheden in klassieke pokerspellen",
+		"lotteryDescription": "Beproef je geluk met loterij- en direct-win-spellen",
+		"futuresDescription": "Handel en voorspel marktbewegingen",
+		"vrDescription": "Dompel jezelf onder in virtual reality gaming",
+		"swapDescription": "Wissel tokens en cryptocurrencies naadloos uit",
+		"categories": {
+			"slot": {
+				"title": "Gokkast Spellen"
+			},
+			"liveCasino": {
+				"title": "Live Casino Spellen"
+			},
+			"sports": {
+				"title": "Sportweddenschappen Spellen"
+			},
+			"rng": {
+				"title": "RNG Spellen"
+			},
+			"other": {
+				"title": "{category} Spellen"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "Alle Spelproviders",
+		"searchPlaceholder": "Zoek naar een provider...",
+		"empty": "Geen providers gevonden die overeenkomen met je zoekopdracht.",
+		"logoAlt": "{name} logo",
+		"filteredBy": "Gefilterd op categorie:",
+		"clearFilter": "Filter wissen",
+		"categories": {
+			"slot": {
+				"title": "Gokkast Providers"
+			},
+			"liveCasino": {
+				"title": "Live Casino Providers"
+			},
+			"sports": {
+				"title": "Sportweddenschappen Providers"
+			},
+			"rng": {
+				"title": "RNG Spelproviders"
+			},
+			"other": {
+				"title": "{category} Spelproviders"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "Doe mee aan de Actie",
+			"subtitle": "Meld je nu aan en ontvang een exclusieve welkomstbonus!",
+			"cta": "Registreer Nu"
+		},
+		"welcome": {
+			"title1": "Welkomstbonus",
+			"title2": "Tot 590%",
+			"subtitle": "+ 225 Gratis Spins",
+			"cta": "Stort & Ontvang"
+		},
+		"jackpot": {
+			"title1": "Mega Jackpot",
+			"title2": "$1.000.000",
+			"subtitle": "Speel Nu & Win Groots",
+			"cta": "Speel Nu"
+		},
+		"cards": {
+			"casino": {
+				"title": "Casino",
+				"badge": "590+ SPELLEN",
+				"desc": "Geniet van MemeWin Originals en andere casinospellen van top providers.",
+				"link": "Ga naar Casino"
+			},
+			"slots": {
+				"title": "Gokkasten",
+				"badge": "5292 SPELLEN",
+				"desc": "Draai aan de rollen en win enorme jackpots met onze premium gokkastencollectie.",
+				"link": "Ga naar Gokkasten"
+			},
+			"sports": {
+				"title": "Sport",
+				"badge": "3 SPELLEN",
+				"desc": "Wed op je favoriete teams en sportevenementen met competitieve odds.",
+				"link": "Ga naar Sport"
+			},
+			"crypto": {
+				"title": "Crypto & Verdien",
+				"badge": "60% APR",
+				"desc": "Stake, handel en verdien met cryptocurrency tegen aantrekkelijke tarieven.",
+				"link": "Ga naar Crypto"
+			}
+		},
+		"layout3": {
+			"headerTitle": "Spel in de Spotlight",
+			"headerSubtitle": "Ontdek geweldige spellen en verken nieuwe avonturen in onze samengestelde collectie",
+			"slider1Title": "Uitgelichte Spellen",
+			"slider1Badge": "Keuzes van het personeel",
+			"slider2Title": "Meer te Ontdekken",
+			"slider2Badge": "Trending",
+			"featuredGameLabel": "Uitgelicht Spel"
+		},
+		"ctaExploreGames": "Verken Spellen",
+		"ctaJoinAffiliate": "Word Partner"
+	},
+	"betting": {
+		"live": {
+			"winRate": "Winstpercentage",
+			"biggestWin": "Grootste Winst",
+			"bigWins50": "Grote Winsten (50+)",
+			"recentWins": "Recente Winsten",
+			"header": {
+				"title": "Live Weddenschapsactiviteit",
+				"subtitle": "Real-time weddenschapsactiviteit • {count} spellen geladen"
+			},
+			"status": {
+				"live": "LIVE",
+				"paused": "Gepauzeerd"
+			},
+			"actions": {
+				"pause": "Pauzeren",
+				"resume": "Hervatten"
+			},
+			"tabs": {
+				"all": "Alles",
+				"wins": "Winsten",
+				"losses": "Verliezen"
+			},
+			"table": {
+				"game": "Spelnaam",
+				"time": "Tijd",
+				"provider": "Provider",
+				"nickname": "Bijnaam",
+				"bet": "Inzet",
+				"multiplier": "Vermenigvuldiger",
+				"profit": "Winst"
+			},
+			"empty": "Geen weddenschapsrecords gevonden"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "Verander Lettertype",
+		"fontSettings": "Lettertype Instellingen",
+		"current": "Huidig",
+		"browseGoogleFonts": "Blader door Google Fonts",
+		"uploadCustomFont": "Upload Aangepast Lettertype",
+		"quickUploadFontFile": "Snel Lettertypebestand Uploaden",
+		"resetToDefault": "Herstel naar Standaard",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "Zoek lettertypen...",
+			"preview": "Voorbeeld",
+			"previewText": "De snelle bruine vos springt over de luie hond",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "Lettertype Toepassen",
+			"clearPreview": "Voorbeeld Wissen",
+			"previewWith": "Voorbeeldtekst met {font}",
+			"noFontsFound": "Geen lettertypen gevonden die overeenkomen met \"{searchTerm}\""
+		},
+		"customUpload": {
+			"title": "Upload Aangepast Lettertype",
+			"description": "Upload je eigen lettertypebestand om de website aan te passen",
+			"fontFile": "Lettertypebestand",
+			"dragDropArea": "Sleep je lettertypebestand hierheen, of",
+			"clickToUpload": "klik om te uploaden",
+			"supportedFormats": "Ondersteunde formaten: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Maximale bestandsgrootte: 10MB",
+			"fontName": "Naam van Lettertype",
+			"fontNamePlaceholder": "Voer een naam in voor je lettertype",
+			"previewYourFont": "Voorbeeld van Jouw Lettertype",
+			"uploadAndApply": "Upload & Pas Lettertype Toe",
+			"cancel": "Annuleren",
+			"uploading": "Uploaden...",
+			"errors": {
+				"invalidFileType": "Upload een geldig lettertypebestand (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Bestandsgrootte overschrijdt de limiet van 10MB",
+				"uploadFailed": "Uploaden van lettertypebestand mislukt",
+				"enterFontName": "Selecteer een lettertypebestand en geef een naam op",
+				"readFileFailed": "Lezen van lettertypebestand mislukt"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "Lettertype \"{fontName}\" succesvol toegepast!",
+			"fontUploadedSuccess": "Lettertype \"{fontName}\" succesvol geüpload en toegepast!",
+			"fontResetSuccess": "Lettertype hersteld naar standaard",
+			"invalidFileType": "Upload een geldig lettertypebestand (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Lezen van lettertypebestand mislukt"
+		}
+	}
+}

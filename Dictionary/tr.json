@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "Yükleniyor...",
+		"save": "Kaydet",
+		"cancel": "İptal",
+		"confirm": "Onayla",
+		"viewAll": "Tümünü Gör"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "Kenar Çubuğunu Aç/Kapat",
+		"searchPlaceholder": "Oyun, sağlayıcı ara...",
+		"liveChat": "Canlı Sohbet",
+		"player": "Oyuncu",
+		"vip": "VIP",
+		"profile": "Profil",
+		"statistics": "İstatistikler",
+		"wallet": "Yatırma/Çekme",
+		"cashier": "Kasiyer",
+		"winLoss": "Kazanç/Kayıp",
+		"affiliate": "Ortaklık",
+		"logout": "Çıkış Yap",
+		"balance": "Bakiye"
+	},
+	"navigation": {
+		"home": "Ana Sayfa",
+		"games": "Oyunlar",
+		"profile": "Profil",
+		"wallet": "Cüzdan",
+		"settings": "Ayarlar",
+		"promotions": "Promosyonlar",
+		"affiliate": "Ortaklık",
+		"providers": "Sağlayıcılar",
+		"lobby": "Lobi"
+	},
+	"profile": {
+		"language": "Dil",
+		"welcome": "Hoş geldin, {name}!",
+		"settingUp": "Kuruluyor",
+		"profileBtn": "Profili Görüntüle",
+		"currentBalance": "Mevcut Bakiye",
+		"availableFunds": "Kullanılabilir Bakiye",
+		"totalDeposits": "Toplam Yatırılan",
+		"totalWithdrawals": "Toplam Çekilen",
+		"walletAddress": "Cüzdan Adresi",
+		"copySuccess": "Cüzdan adresi panoya kopyalandı!",
+		"copyFailed": "Cüzdan adresi kopyalanamadı",
+		"notConnected": "Bağlı değil",
+		"myProfile": "Profilim",
+		"logout": "Çıkış Yap",
+		"pendingRegistration": "Kayıt Bekleniyor",
+		"noEmailProvided": "E-posta belirtilmemiş",
+		"balanceOverview": "Bakiye Özeti",
+		"gettingStarted": "Başlarken",
+		"verifyEmail": "E-postanı doğrula",
+		"completeEmailVerification": "E-posta doğrulamasını tamamla",
+		"verifyPhone": "Telefon numaranı doğrula",
+		"addPhoneVerification": "Telefon doğrulaması ekle",
+		"firstDeposit": "İlk Yatırım",
+		"makeFirstDeposit": "İlk yatırımını yap",
+		"placeBetOrTrade": "Bahis Yap / İşlem Yap",
+		"startFirstGame": "İlk oyununu oyna",
+		"recentActivity": "Son Etkinlikler",
+		"transactionHistory": "İşlem Geçmişi",
+		"activityGameWinDiceRoll": "Oyun Kazancı - Zar Atma",
+		"activityGameLossBlackjack": "Oyun Kaybı - Blackjack",
+		"twoHoursAgo": "2 saat önce",
+		"oneDayAgo": "1 gün önce",
+		"twoDaysAgo": "2 gün önce",
+		"deposit": "Yatırım",
+		"loggedOutTitle": "Oops! Çıkış yaptın",
+		"loggedOutSubtitle": "Profilini görüntülemek için lütfen giriş yap",
+		"goHome": "Ana Sayfaya Git",
+		"withdrawal": "Çekim",
+		"transactions": {
+			"title": "İşlem Geçmişi",
+			"trackDepositsWithdrawals": "Yatırımlarını ve çekimlerini takip et",
+			"filters": "Filtreler",
+			"refresh": "Yenile",
+			"advancedFilters": "Gelişmiş Filtreler",
+			"searchTransactionComingSoon": "İşlem Ara (Yakında)",
+			"searchPlaceholderDisabled": "Arama işlevi API seviyesinde uygulanacaktır...",
+			"dateRange": "Tarih Aralığı",
+			"selectDateRange": "Tarih aralığı seç",
+			"today": "Bugün",
+			"last7Days": "Son 7 Gün",
+			"last30Days": "Son 30 Gün",
+			"last90Days": "Son 90 Gün",
+			"thisMonth": "Bu Ay",
+			"lastMonth": "Geçen Ay",
+			"customRange": "Özel Aralık",
+			"fromDate": "Başlangıç Tarihi",
+			"toDate": "Bitiş Tarihi",
+			"transactionStatus": "İşlem Durumu",
+			"allStatuses": "Tüm Durumlar",
+			"success": "Başarılı",
+			"pending": "Beklemede",
+			"rejected": "Reddedildi",
+			"clearAll": "Tümünü Temizle",
+			"cancel": "İptal",
+			"applyFilters": "Filtreleri Uygula",
+			"activeFilters": "Aktif Filtreler:",
+			"statusLabel": "Durum",
+			"dateLabel": "Tarih",
+			"statsTotalTransactions": "Toplam {total} işlem",
+			"pageOf": "Sayfa {current} / {total}",
+			"live": "Canlı",
+			"tabs": {
+				"all": "Tümü",
+				"deposits": "Yatırımlar",
+				"withdrawals": "Çekimler"
+			},
+			"errorLoadingTransactions": "İşlemler Yüklenirken Hata Oluştu",
+			"tryAgain": "Tekrar Dene",
+			"noTransactionsFound": "İşlem Bulunamadı",
+			"noTransactionsAvailableSelectedPeriod": "Seçilen dönem için işlem bulunamadı.",
+			"noDepositsFoundSelectedPeriod": "Seçilen dönem için yatırım bulunamadı.",
+			"noWithdrawalsFoundSelectedPeriod": "Seçilen dönem için çekim bulunamadı.",
+			"show": "Göster",
+			"ofTransactions": "/ {count} işlem",
+			"showingRangeOfTotal": "{total} sonuçtan {from}-{to} arası gösteriliyor",
+			"pageShort": "Sayfa {current}/{total}"
+		},
+		"betHistory": {
+			"title": "Bahis Geçmişi",
+			"trackBetsResults": "Oyun bahislerini ve sonuçlarını takip et",
+			"filters": "Filtreler",
+			"refresh": "Yenile",
+			"advancedFilters": "Gelişmiş Filtreler",
+			"dateRange": "Tarih Aralığı",
+			"selectDateRange": "Tarih aralığı seç",
+			"today": "Bugün",
+			"last7Days": "Son 7 Gün",
+			"last30Days": "Son 30 Gün",
+			"last90Days": "Son 90 Gün",
+			"thisMonth": "Bu Ay",
+			"lastMonth": "Geçen Ay",
+			"customRange": "Özel Aralık",
+			"fromDate": "Başlangıç Tarihi",
+			"toDate": "Bitiş Tarihi",
+			"provider": "Sağlayıcı",
+			"allProviders": "Tüm Sağlayıcılar",
+			"status": "Durum",
+			"allStatuses": "Tüm Durumlar",
+			"outstanding": "Açık",
+			"win": "Kazandı",
+			"lose": "Kaybetti",
+			"draw": "Berabere",
+			"void": "İptal",
+			"bonusWin": "Bonus Kazancı",
+			"clearAll": "Tümünü Temizle",
+			"cancel": "İptal",
+			"applyFilters": "Filtreleri Uygula",
+			"activeFilters": "Aktif Filtreler",
+			"statusLabel": "Durum",
+			"providerLabel": "Sağlayıcı",
+			"dateLabel": "Tarih",
+			"totalBets": "Toplam Bahis",
+			"totalProfitLoss": "Toplam Kar/Zarar",
+			"pageOf": "Sayfa {current} / {total}",
+			"live": "Canlı",
+			"errorLoadingBets": "Bahis Geçmişi Yüklenirken Hata Oluştu",
+			"failedToLoadBetHistory": "Bahis geçmişi yüklenemedi. Lütfen tekrar deneyin.",
+			"tryAgain": "Tekrar Dene",
+			"noBetsFound": "Bahis Bulunamadı",
+			"noBetsFoundSelectedPeriod": "Seçilen dönem ve filtrelere uygun bahis geçmişi bulunamadı.",
+			"show": "Göster",
+			"ofBets": "/ {count} bahis",
+			"showingRangeOfTotal": "{total} sonuçtan {from}-{to} arası gösteriliyor",
+			"totalBet": "Toplam Bahis",
+			"totalWin": "Toplam Kazanç",
+			"net": "Net",
+			"tableHeaders": {
+				"date": "Tarih",
+				"game": "Oyun",
+				"provider": "Sağlayıcı",
+				"type": "Tür",
+				"status": "Durum",
+				"betAmount": "Bahis Miktarı",
+				"winAmount": "Kazanç Miktarı",
+				"hideAmounts": "Miktarları Gizle",
+				"showAmounts": "Miktarları Göster",
+				"gameType": "Oyun Türü",
+				"vendor": "Sağlayıcı",
+				"lastUpdate": "Son Güncelleme",
+				"netResult": "Net Sonuç",
+				"betId": "Bahis ID"
+			},
+			"errorLoading": "Yükleme Hatası",
+			"noBetsFoundDescription": "Bahis geçmişinizi burada görmek için oyun oynamaya başlayın.",
+			"betHistory": "Bahis Geçmişi",
+			"hideAmounts": "Miktarları Gizle",
+			"showAmounts": "Miktarları Göster",
+			"date": "Tarih",
+			"game": "Oyun",
+			"betId": "Bahis ID",
+			"amount": "Miktar",
+			"payout": "Ödeme",
+			"player": "Oyuncu",
+			"gameType": "Oyun Türü",
+			"vendor": "Sağlayıcı",
+			"lastUpdate": "Son Güncelleme",
+			"netResult": "Net Sonuç",
+			"totalWagered": "Toplam Bahis",
+			"totalWon": "Toplam Kazanılan",
+			"netProfit": "Net Kar",
+			"winRate": "Kazanma Oranı",
+			"showingResults": "{total} sonuçtan {start}-{end} arası gösteriliyor",
+			"firstPage": "İlk Sayfa",
+			"previousPage": "Önceki Sayfa",
+			"nextPage": "Sonraki Sayfa",
+			"lastPage": "Son Sayfa"
+		}
+	},
+	"chat": {
+		"title": "Canlı Sohbet",
+		"placeholder": "Mesajınızı yazın...",
+		"send": "Gönder",
+		"input": {
+			"replyPlaceholder": "{username} kullanıcısına yanıt ver..."
+		},
+		"reply": {
+			"replyingTo": "{username} kullanıcısına yanıt veriliyor",
+			"types": {
+				"win": "{amount} {currency} kazandı",
+				"gif": "GIF mesajı",
+				"image": "Resim",
+				"default": "Mesaj"
+			},
+			"preview": {
+				"winIn": "{game} oyununda {amount} {currency} kazandı",
+				"gifAlt": "GIF önizlemesi",
+				"imageAlt": "Resim önizlemesi",
+				"emoji": "Emoji mesajı",
+				"rain": "Yağmur: {amount} {currency}",
+				"system": "Sistem: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "Resmini Paylaş 🎰",
+			"description": "Sohbet odasında göstermeye hazır mısın?",
+			"previewLabel": "Önizleme",
+			"statusReady": "Paylaşmaya Hazır",
+			"roomLabel": "🎰 Casino Sohbeti",
+			"shareNotice": "Resminiz sohbet odasındaki tüm oyuncularla paylaşılacaktır",
+			"closeAria": "Diyaloğu kapat",
+			"cancelAria": "Resim yüklemeyi iptal et",
+			"sendAria": "Resmi sohbete gönder",
+			"send": "Sohbete Gönder"
+		},
+		"picker": {
+			"searchEmojis": "Emoji ara...",
+			"searchGifs": "GIF ara...",
+			"tabs": {
+				"emojis": "Emojiler",
+				"gifs": "GIF'ler"
+			},
+			"loadingEmojis": "Emojiler yükleniyor...",
+			"loadingGifs": "GIF'ler yükleniyor...",
+			"retry": "Tekrar Dene",
+			"recent": "Son Kullanılanlar",
+			"noEmojis": "Emoji bulunamadı",
+			"noGifs": "GIF bulunamadı",
+			"tryDifferent": "Farklı bir arama terimi deneyin",
+			"gifCategories": {
+				"trending": "Trendler",
+				"reactions": "Tepkiler",
+				"gaming": "Oyun",
+				"casino": "Casino",
+				"celebration": "Kutlama",
+				"sports": "Spor"
+			},
+			"searchResults": "Arama Sonuçları",
+			"availableToTag": "Etiketlenebilecek kullanıcılar 🎯",
+			"clickOrTab": "Seçmek için tıkla veya Tab tuşuna bas",
+			"noUsers": "Kullanıcı bulunamadı",
+			"noUsersMatching": "Eşleşen kullanıcı bulunamadı",
+			"startTyping": "Aramak için yazmaya başla",
+			"typeAt": "Yaz",
+			"toSeeSuggestions": "önerileri görmek için 🎰",
+			"errors": {
+				"emojisLoad": "Emojiler yüklenemedi",
+				"emojisSearch": "Emojiler aranamadı",
+				"gifsLoad": "GIF'ler yüklenemedi"
+			}
+		},
+		"messages": {
+			"emptyTitle": "Henüz mesaj yok...",
+			"emptySubtitle": "Sohbeti başlat ve büyük kazan! 🎰",
+			"loadingHistory": "Sohbet geçmişi yükleniyor...",
+			"loadingHistorySubtitle": "Son mesajlar getiriliyor 📜",
+			"historyError": "Sohbet geçmişi yüklenemedi"
+		},
+		"message": {
+			"you": "Sen",
+			"winTitle": "\"{game}\" oyununda büyük kazanç! 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "Yüklenen resim",
+			"rainTitle": "Para Yağmuru! 🌧️💰",
+			"recipients": "→ {count} alıcı",
+			"eachTo": "Her birine {amount} {currency}: {list}",
+			"replyCount": "{count} yanıt",
+			"loadingHistory": "Sohbet geçmişi yükleniyor..."
+		},
+		"system": {
+			"slashDisabled": "Slash komutları geçici olarak devre dışı. Lütfen normal mesajları kullanın.",
+			"rateLimit": "Mesaj gönderme limiti aşıldı. Lütfen bir sonraki mesaj için {seconds} saniye bekleyin.",
+			"cannotTagSelf": "Mesajlarda kendini etiketleyemezsin.",
+			"processingImage": "Resim işleniyor...",
+			"failedUploadPrefix": "Resim yüklenemedi: {message}",
+			"unknownError": "Bilinmeyen bir hata oluştu"
+		}
+	},
+	"sidebar": {
+		"quest": "GÖREV",
+		"spin": "ÇEVİR",
+		"deposit": "YATIR",
+		"withdraw": "ÇEK",
+		"playOnTelegram": "Telegram'da Oyna",
+		"dailyBonus": "Günlük Bonus",
+		"navigation": "Navigasyon",
+		"games": "Oyunlar",
+		"providers": "Sağlayıcılar",
+		"trendingNow": "Şu An Popüler",
+		"allProviders": "Tüm Sağlayıcılar",
+		"allTopProviders": "Tüm Popüler Sağlayıcılar",
+		"hotBadge": "Popüler"
+	},
+	"search": {
+		"title": "Oyun ara",
+		"subtitle": "İsim, sağlayıcı veya kategoriye göre bul",
+		"placeholder": "Oyun, sağlayıcı, kategori ara...",
+		"clear": "Temizle",
+		"recent": "Son Aramalar:",
+		"popular": "Popüler:",
+		"favoritesTry": "Deneyebilirsin — Favorilerin",
+		"hotPicks": "Popüler Seçimler",
+		"resultsCount": "{count} oyun bulundu",
+		"noResults": "Sonuç bulunamadı",
+		"filterApplied": "{count} sağlayıcıya göre filtrelendi",
+		"suggestions": {
+			"category": "Kategori",
+			"provider": "Sağlayıcı"
+		},
+		"sections": {
+			"topProviders": "Popüler Sağlayıcılar",
+			"selectedProviders": "Seçilen Sağlayıcılar",
+			"categories": "Kategoriler",
+			"games": "Oyunlar",
+			"providers": "Sağlayıcılar"
+		},
+		"results": {
+			"found": "{games} oyun, {categories} kategori ve {providers} sağlayıcı bulundu"
+		},
+		"gameTypes": {
+			"blackjack": "Blackjack",
+			"roulette": "Rulet",
+			"crash": "Crash"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "Sırala",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "Filtrele",
+			"optionsTitle": "Filtre Seçenekleri",
+			"clearAll": "Tüm Filtreleri Temizle",
+			"activeLabel": "Aktif:"
+		},
+		"searchPlaceholderGeneric": "Ara...",
+		"providersDropdown": {
+			"title": "Sağlayıcılar",
+			"selected": "{count} seçili",
+			"searchPlaceholder": "Sağlayıcı ara...",
+			"empty": "Sağlayıcı bulunamadı.",
+			"clear": "Sağlayıcı Filtrelerini Temizle"
+		},
+		"category": {
+			"label": "Kategori:"
+		},
+		"view": {
+			"toggleAria": "Görünüm modu değiştirici",
+			"gridAria": "Izgara görünümü",
+			"listAria": "Liste görünümü"
+		},
+		"loadMore": "Daha Fazla Yükle"
+	},
+	"commonExtra": {
+		"connecting": "Bağlanılıyor...",
+		"offline": "Çevrimdışı",
+		"online": "Çevrimiçi",
+		"clear": "Temizle"
+	},
+	"home": {
+		"topProviders": "Popüler Oyun Sağlayıcıları"
+	},
+	"lobby": {
+		"yourFavorites": "Favorilerin",
+		"featuredCasinoGames": "Öne Çıkan Casino Oyunları",
+		"hotPicks": "Popüler Seçimler",
+		"slots": "Slotlar",
+		"sports": "Spor",
+		"realTimeScoreboard": "Canlı Skor Tablosu"
+	},
+	"affiliate": {
+		"title": "Ortaklık Programı",
+		"loginPromptTitle": "Referans Programı",
+		"loginPromptSubtitle": "Referans istatistiklerini, bonusları görmek ve ödülleri talep etmek için giriş yap.",
+		"goHome": "Ana Sayfaya Git",
+		"tabs": {
+			"dashboard": "Panel",
+			"rates": "Komisyon Oranları",
+			"calculator": "Hesap Makinesi"
+		},
+		"refresh": "Yenile",
+		"refreshing": "Yenileniyor...",
+		"refreshAllSuccess": "Tüm veriler başarıyla yenilendi!",
+		"refreshPartial": "Kısmen yenilendi: {success}/{total} bölüm güncellendi",
+		"refreshFailed": "Veriler yenilenemedi. Lütfen tekrar deneyin.",
+		"dashboard": {
+			"title": "Ortaklık Paneli",
+			"subtitle": "Referanslarını, kazançlarını ve komisyon performansını takip et",
+			"performanceOverview": "Performans Özeti",
+			"referralManagement": "Referans Yönetimi",
+			"termsAndCommission": "Şartlar ve Komisyon Yapısı",
+			"unclaimedEarnings": "Talep Edilmemiş Kazançlar",
+			"claim": "Talep Et",
+			"claiming": "Talep ediliyor...",
+			"totalIncome": "Toplam Gelir",
+			"totalReferrals": "Toplam Referans",
+			"usersUnit": "kullanıcı",
+			"yourReferralLinks": "Referans Linklerin",
+			"referralLinksSubtitle": "Yeni kullanıcıları yönlendirmek ve komisyon kazanmak için bu linkleri paylaş",
+			"completeReferralLink": "Tam Referans Linki",
+			"fullReferralPlaceholder": "Tam referans linki burada görünecek",
+			"fullReferralHelp": "Kullanıcıların referans kodunla kayıt olmak için tıklayabileceği doğrudan link",
+			"referralCodeOnly": "Sadece Referans Kodu",
+			"yourReferralId": "Referans ID'n",
+			"referralIdHelp": "Kullanıcıların kayıt sırasında manuel olarak girmesi için bu kodu paylaş",
+			"copyFullSuccess": "Tam referans linki panoya kopyalandı!",
+			"copyIdSuccess": "Referans ID'si panoya kopyalandı!"
+		},
+		"referrals": {
+			"title": "Referanslarım",
+			"subtitle": "Ortaklık linklerin aracılığıyla yönlendirilen tüm kullanıcıları takip et ve yönet",
+			"totalReferrals": "toplam referans",
+			"monitorHelp": "Referanslarının aktivitesini, yatırımlarını ve oyun alışkanlıklarını izle",
+			"sort": {
+				"placeholder": "Sırala...",
+				"nicknameAsc": "Kullanıcı Adı (A-Z)",
+				"nicknameDesc": "Kullanıcı Adı (Z-A)",
+				"lastLogin": "Son Giriş",
+				"unclaimedAmount": "Talep Edilmemiş Miktar"
+			},
+			"table": {
+				"nickname": "Kullanıcı Adı",
+				"totalWager": "Toplam Bahis",
+				"lastLogin": "Son Giriş",
+				"registered": "Kayıt Tarihi",
+				"lastDeposit": "Son Yatırım",
+				"depositDate": "Yatırım Tarihi",
+				"tier": "Seviye"
+			},
+			"empty": {
+				"title": "Referans bulunamadı",
+				"subtitle": "Kullanıcıları yönlendirmeye başla ve onları burada gör."
+			},
+			"pagination": {
+				"showing": "{total} sonuçtan {from} ile {to} arası gösteriliyor",
+				"prev": "Önceki",
+				"next": "Sonraki"
+			}
+		},
+		"rates": {
+			"title": "Komisyon Oran Yapısı",
+			"subtitle": "Seviye ve oyun kategorisine göre kazanç yüzdeleri",
+			"howItWorks": {
+				"title": "Komisyon Seviyeleri Nasıl Çalışır",
+				"body": "Komisyon seviyen, referanslarının toplam günlük bahis miktarına göre belirlenir. Daha yüksek seviyeler, tüm oyun türlerinde daha iyi komisyon oranları sunar."
+			},
+			"calculation": {
+				"title": "Komisyonlar Nasıl Hesaplanır",
+				"desc": "Komisyonlar, yönlendirilen oyuncuların toplam bahislerine göre her 24 saatte bir hesaplanır. Örnekler:",
+				"exampleTitle": "Seviye {tier}:",
+				"wagerIn": "{gameType} oyununda {amount} bahis"
+			},
+			"table": {
+				"tierLevel": "Seviye",
+				"wagerRange": "Bahis Aralığı",
+				"slots": "Slotlar",
+				"liveCasino": "Canlı Casino",
+				"sports": "Spor",
+				"tierPrefix": "SEVİYE",
+				"commissionLevel": "Komisyon Seviyesi",
+				"dailyWager": "Günlük bahis hacmi"
+			},
+			"claim": {
+				"title": "Talep Etme ve Çekme",
+				"points": {
+					"0": "Komisyonlar, hesaplandıktan sonra çekilebilir.",
+					"1": "Talep edilmemiş komisyonların son kullanma tarihi yoktur; talep edilene kadar birikirler.",
+					"2": "Çekimler, minimum limitler ve işlem süreleri gibi platformun standart kurallarına tabidir."
+				}
+			},
+			"system": {
+				"title": "Sistem Saati ve İşlemler",
+				"dailyTimeframeLabel": "Günlük Zaman Dilimi:",
+				"dailyTimeframeValue": "Her gün 00:00 UTC - 23:59 UTC.",
+				"claimDailyLabel": "Günlük Talep:",
+				"claimDailyValue": "Her gün 14:00 UTC'de kullanılabilir (Yerel Saatiniz: {local}).",
+				"note": "Not: Farklı zaman dilimlerindeki sağlayıcılarla çalışsak da, tutarlılığı sağlamak ve karışıklığı önlemek için tüm hesaplamalar UTC'ye göre yapılır."
+			},
+			"amendments": {
+				"title": "Değişiklikler",
+				"body": "Bu şartları herhangi bir zamanda güncelleyebiliriz. Değişiklikler yayınlandığı anda yürürlüğe girer ve programa devam etmeniz yeni şartları kabul ettiğiniz anlamına gelir."
+			},
+			"footer": {
+				"schedule": "Komisyon Takvimi:",
+				"availableDaily": "Her gün",
+				"localTimeLabel": "'de kullanılabilir (Yerel Saatiniz: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Kazanç Hesaplayıcı",
+			"subtitle": "Referanslarının bahis miktarlarına göre komisyon kazancını tahmin et",
+			"interactive": {
+				"title": "İnteraktif Araç:",
+				"body": "Farklı bahis miktarları girerek tüm seviyelerdeki potansiyel kazançları gör"
+			},
+			"potentialEarnings": "Potansiyel Kazançlar",
+			"basedOnRate": "{percentage}% komisyon oranına göre",
+			"tier": "Seviye {level}",
+			"commissionLevel": "Komisyon Seviyesi {level}",
+			"enterWager": "Bahis Miktarını Gir (USD)",
+			"wagerPlaceholder": "ör. 1000",
+			"calcFor": "${amount} bahis için kazanç hesaplanıyor",
+			"totalPotential": "Toplam Potansiyel Kazanç:",
+			"combinedAtTier": "Seviye {level}'deki tüm oyun türlerinden birleşik kazançlar"
+		}
+	},
+	"debug": {
+		"title": "Hata Ayıklama Sayfası"
+	},
+	"getLobby": {
+		"enteringLobby": "Lobiye Giriliyor...",
+		"connectingWait": "Lütfen bekleyin, sizi bağlıyoruz.",
+		"invalidSession": "Oturumunuz geçersiz veya sağlayıcı eksik. Lütfen tekrar deneyin.",
+		"failedPrefix": "Lobiye girilemedi: {message}",
+		"launchFailedTitle": "Başlatma Başarısız",
+		"returnHome": "Ana Sayfaya Dön"
+	},
+	"play": {
+		"connecting": "Oyun sunucusuna bağlanılıyor...",
+		"invalidSession": "Oturumunuz geçersiz veya süresi dolmuş. Lütfen tekrar giriş yapın.",
+		"launchFailedTitle": "Başlatma Başarısız",
+		"returnHome": "Ana Sayfaya Dön"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "SINIRLI SÜRELİ TEKLİF",
+		"headline": "%200 Hoş Geldin Bonusu Al!",
+		"subheadline": "Kripto cüzdanını şimdi bağla ve ilk yatırımında {amount} tutarına kadar bonus kazan!",
+		"featureDepositMatch": "%200 Yatırım Bonusu",
+		"featureZeroFees": "Sıfır İşlem Ücreti",
+		"featureInstantWithdrawals": "Anında Çekim",
+		"featureNoKyc": "KYC Gerekmez",
+		"ctaClaim": "BONUSU ŞİMDİ AL!",
+		"offerExpires": "Teklifin bitmesine kalan süre:",
+		"disclaimer": "Şartlar ve Koşullar geçerlidir. Kumar risk içerir. Sorumlu bir şekilde oynayın. 18+",
+		"closeAria": "Modalı kapat",
+		"bannerAlt": "Promosyon Afişi",
+		"ctaOk": "Cüzdanı Bağla ve Bahis Yapmaya Başla",
+		"enterAmount": "Miktarı Gir",
+		"balance": "Bakiye",
+		"max": "Maks",
+		"deposit": "Yatır",
+		"ethereum": "Ethereum"
+	},
+	"modalsSmall": {
+		"close": "Kapat",
+		"firstDepositBoost": "İlk Yatırım Bonusu Takviyesi",
+		"bonus": "Bonus",
+		"min": "Dk",
+		"sec": "Sn",
+		"deposit": "Yatır"
+	},
+	"auth": {
+		"email": {
+			"title": "E-posta ile Giriş",
+			"description": "Size 6 haneli bir kod göndereceğiz",
+			"emailLabel": "E-posta Adresi",
+			"emailPlaceholder": "isim@eposta.com",
+			"cancel": "İptal",
+			"sending": "Gönderiliyor",
+			"continue": "Devam Et",
+			"enterCodeTitle": "Kodu Gir",
+			"sentTo": "{email} adresine gönderildi",
+			"changeEmail": "E-postayı değiştir",
+			"resendCode": "Kodu tekrar gönder",
+			"resendIn": "{seconds}s içinde tekrar gönder",
+			"verifying": "Doğrulanıyor",
+			"successTitle": "Giriş yaptın",
+			"successSubtitle": "Her şey hazırlanıyor...",
+			"modalAria": "E-posta Doğrulama Modalı",
+			"errors": {
+				"invalidEmail": "Lütfen geçerli bir e-posta adresi girin",
+				"sendFailed": "Doğrulama kodu gönderilemedi.",
+				"invalidCode": "Lütfen 6 haneli bir doğrulama kodu girin"
+			}
+		},
+		"setNickname": {
+			"title": "Kullanıcı Adını Belirle",
+			"subtitle": "Bu tek seferlik bir işlemdir ve değiştirilemez",
+			"logoutAria": "Çıkış Yap",
+			"inputPlaceholder": "Benzersiz kullanıcı adını seç",
+			"referrerCheckbox": "Bir referans kodum var",
+			"referrerPlaceholder": "Referans kodunu gir",
+			"referrerHelp": "İsteğe bağlı. Bu, hesabını bonus programları için yönlendiren kişiye bağlar.",
+			"status": {
+				"checking": "Kullanılabilirlik kontrol ediliyor...",
+				"available": "Kullanıcı adı kullanılabilir!",
+				"taken": "Bu kullanıcı adı zaten alınmış."
+			},
+			"register": "Kayıt Ol ve Oyna",
+			"termsTitle": "Şartlar ve Koşullar:",
+			"termsBody": "Bu belgeyi Cüzdanınızla imzalayarak ve/veya bu Web3 Uygulamasını kullanmaya devam ederek, uygulamanın kullanım koşullarını kabul etmiş olursunuz. Kullanım Koşullarını onaylamanız bir blokzincir işlemi değildir ve herhangi bir maliyeti yoktur.",
+			"errors": {
+				"verifyNicknameFailed": "Kullanıcı adı doğrulanamadı. Lütfen tekrar deneyin.",
+				"registerFailed": "Kayıt başarısız: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "E-posta ile Giriş Yap",
+			"connectWalletBtn": "Cüzdanı Bağla",
+			"player": "Oyuncu",
+			"walletConnected": "Cüzdan Bağlandı",
+			"emailConnected": "E-posta Bağlandı",
+			"disconnect": "Bağlantıyı Kes",
+			"walletAddress": "Cüzdan Adresi",
+			"balance": "Bakiye",
+			"loginWithWallet": "Cüzdan ile Giriş Yap"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "Yatır",
+				"withdraw": "Çek",
+				"swap": "Takas",
+				"walletInfo": "Cüzdan"
+			},
+			"mobileDropdown": {
+				"emailWallet": "E-posta Cüzdanı",
+				"wallet": "Cüzdan",
+				"deposit": "Yatır",
+				"withdraw": "Çek",
+				"swap": "Takas"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "Ağ Seç",
+			"switching": "Değiştiriliyor...",
+			"walletNotConnected": "Cüzdan bağlı değil.",
+			"failedToSwitch": "Ağ değiştirilemedi. Lütfen cüzdanınızdan deneyin.",
+			"altLogo": "Ağ logosu"
+		},
+		"tokenList": {
+			"dialogTitle": "Bir Token Seç",
+			"instantDeposit": "Anında Yatırım",
+			"yourWalletBalance": "Cüzdan Bakiyen",
+			"searchPlaceholder": "İsim ara veya adresi yapıştır",
+			"emptySearch": "Aramanızla eşleşen token bulunamadı.",
+			"emptyOwned": "Bakiyesi olan token bulunamadı.",
+			"searchResults": "Arama Sonuçları",
+			"yourTokens": "Tokenların",
+			"otherResults": "Diğer Sonuçlar"
+		},
+		"tabsSidebar": {
+			"walletInfo": "Cüzdan",
+			"emailWallet": "E-posta Cüzdanı",
+			"deposit": "Yatır",
+			"withdraw": "Çek",
+			"swap": "Takas"
+		},
+		"depositPanel": {
+			"youPay": "Ödediğin",
+			"resetForm": "Formu Sıfırla",
+			"enterAmount": "Miktarı Gir",
+			"selectToken": "Token seç",
+			"max": "Maks",
+			"balance": "Bakiye:",
+			"calculating": "Hesaplanıyor...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Min:",
+			"ratesMayVary": "Kurlar değişiklik gösterebilir",
+			"emailWalletAddress": "E-posta Cüzdan Adresi",
+			"walletAddress": "Cüzdan Adresi",
+			"minimumIs": "Minimum {min}",
+			"errors": {
+				"selectTokenAndAmount": "Lütfen bir token seçin ve miktar girin",
+				"insufficientBalance": "Bu işlem için bakiye yetersiz",
+				"amountTooHighGas": "Gas ücretleri hesaba katıldığında miktar çok yüksek",
+				"checkForm": "Lütfen formu kontrol edip tekrar deneyin",
+				"pendingDeposit": "Bekleyen bir yatırımınız var. Lütfen tamamlanmasını bekleyin"
+			},
+			"status": {
+				"processing": "İşleniyor...",
+				"awaitingApproval": "Onay Bekleniyor",
+				"calculatingRate": "Kur Hesaplanıyor...",
+				"insufficientBalance": "Yetersiz Bakiye"
+			},
+			"buttons": {
+				"depositUsd": "${amount} Yatır"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "Tokenları seç",
+			"enterAmount": "Miktarı gir",
+			"gettingQuote": "Fiyat alınıyor...",
+			"confirming": "Onaylanıyor...",
+			"approving": "Onaylanıyor...",
+			"insufficientBalance": "Takas için bakiye yetersiz",
+			"sameToken": "Aynı token takas edilemez",
+			"approveAndSwap": "Onayla ve Takas Et",
+			"swap": "Takas Et",
+			"slippageTolerance": "Slippage Toleransı",
+			"custom": "Özel",
+			"set": "Ayarla",
+			"currentSlippage": "Mevcut slippage",
+			"swapSuccessful": "Takas Başarılı!",
+			"transactionConfirmed": "İşleminiz onaylandı",
+			"hash": "Hash",
+			"newSwap": "Yeni Takas",
+			"youPay": "Ödediğin",
+			"max": "Maks",
+			"low": "Düşük",
+			"amountPlaceholder": "0",
+			"selectToken": "Token Seç",
+			"youReceive": "Alacağın",
+			"gettingBestQuote": "En iyi fiyat alınıyor...",
+			"gas": "Gas",
+			"minimumReceived": "Minimum alınacak",
+			"slippageToleranceLabel": "Slippage toleransı",
+			"gasFee": "Gas ücreti",
+			"priceWarning": "Fiyatlar anlık olarak güncellenir ve işleminiz onaylanmadan önce değişebilir",
+			"emailWalletAddress": "E-posta Cüzdan Adresi",
+			"walletAddress": "Cüzdan Adresi",
+			"minimumIs": "Minimum {min}",
+			"errors": {
+				"selectTokenAndAmount": "Lütfen bir token seçin ve miktar girin",
+				"insufficientBalance": "Bu işlem için bakiye yetersiz",
+				"amountTooHighGas": "Gas ücretleri hesaba katıldığında miktar çok yüksek",
+				"checkForm": "Lütfen formu kontrol edip tekrar deneyin",
+				"pendingDeposit": "Bekleyen bir yatırımınız var. Lütfen tamamlanmasını bekleyin"
+			},
+			"status": {
+				"processing": "İşleniyor...",
+				"awaitingApproval": "Onay Bekleniyor",
+				"calculatingRate": "Kur Hesaplanıyor...",
+				"insufficientBalance": "Yetersiz Bakiye"
+			},
+			"buttons": {
+				"depositUsd": "${amount} Yatır"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "Yatırım Onaylandı!",
+			"submittedTitle": "İşlem Gönderildi",
+			"confirmedDesc": "Bakiyeniz güncellendi.",
+			"submittedDesc": "Blokzincir onayı bekleniyor. Bu birkaç dakika sürebilir.",
+			"viewOnExplorer": "Explorer'da Görüntüle",
+			"newDepositConfirmed": "Başka Bir Yatırım Yap",
+			"newDepositPending": "Yeni bir yatırım başlat"
+		},
+		"withdrawPanel": {
+			"resetForm": "Formu Sıfırla",
+			"networkNotSupported": "Çekimler sadece Arbitrum, Polygon ve BNB ağlarında desteklenmektedir",
+			"youWithdraw": "Çektiğin",
+			"loading": "Yükleniyor...",
+			"amount": "Miktar",
+			"max": "Maks",
+			"balance": "Bakiye:",
+			"available": "Kullanılabilir:",
+			"insufficientBalance": "Yetersiz bakiye",
+			"minimumIs": "Minimum {min}",
+			"minLabel": "Min:",
+			"emailWalletAddress": "E-posta Cüzdan Adresi",
+			"walletAddress": "Cüzdan Adresi",
+			"errors": {
+				"pendingWithdrawal": "Zaten bekleyen bir çekim işleminiz var",
+				"invalidAddress": "Geçersiz Adres",
+				"enterAmount": "Miktar Girin",
+				"networkNotSupported": "Ağ Desteklenmiyor"
+			},
+			"status": {
+				"processing": "İşleniyor...",
+				"insufficientBalance": "Yetersiz Bakiye",
+				"pendingWithdrawal": "Zaten Bekleyen Çekim Var"
+			},
+			"buttons": {
+				"withdraw": "{amount} {symbol} Çek",
+				"minimum": "Minimum {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "Çekim Başarılı!",
+			"successMessage": "🎉 Meme Win'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
+			"withdrawnAmount": "Çekilen Miktar",
+			"shareText": "Paylaş",
+			"subText": "🚀 KAZANMA SERİSİNE KATIL! 🚀",
+			"generating": "Oluşturuluyor...",
+			"screenshot": "Ekran Görüntüsü Al",
+			"download": "Resmi İndir",
+			"close": "Kapat",
+			"copiedToClipboard": "Paylaşım linki başarıyla kopyalandı"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "Çekim Onaylandı!",
+			"submittedTitle": "İşlem Gönderildi",
+			"confirmedDesc": "Paranız yolda.",
+			"submittedDesc": "Blokzincir onayı bekleniyor...",
+			"viewOnExplorer": "Explorer'da Görüntüle",
+			"manualApproval": "Bu çekim manuel onay gerektirir.",
+			"newWithdrawalConfirmed": "Başka Bir Çekim Yap",
+			"newWithdrawalPending": "Yeni Bir Çekim Başlat"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "Alacağın Tutar"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "Pro'ya Yükselt",
+		"account": "Hesap",
+		"billing": "Faturalandırma",
+		"notifications": "Bildirimler",
+		"logout": "Çıkış Yap"
+	},
+	"games": {
+		"pageTitle": "Tüm Oyunlar",
+		"playNow": "Şimdi Oyna",
+		"byProvider": "Sağlayıcı: {name}",
+		"count": "{count} Oyun",
+		"noResults": "Kriterlerinize uygun oyun bulunamadı.",
+		"errorLoading": "Oyunlar yüklenemedi. Lütfen daha sonra tekrar deneyin.",
+		"slots": "Slotlar",
+		"sports": "Spor",
+		"liveCasino": "Canlı Casino",
+		"explore": "Keşfet",
+		"exploreSubtitle": "Harika oyun deneyimlerini keşfedin",
+		"poker": "Poker",
+		"lottery": "Loto",
+		"futures": "Vadeli İşlemler",
+		"vr": "VR",
+		"swap": "Takas",
+		"slotsDescription": "Makaraları çevir ve devasa jackpotlar kazan",
+		"liveCasinoDescription": "Canlı krupiyelerle gerçek zamanlı casino heyecanını yaşa",
+		"sportsDescription": "Favori takımlarına ve spor etkinliklerine bahis yap",
+		"pokerDescription": "Klasik poker oyunlarında yeteneklerini sına",
+		"lotteryDescription": "Loto ve anında kazandıran oyunlarla şansını dene",
+		"futuresDescription": "Piyasa hareketlerini tahmin et ve işlem yap",
+		"vrDescription": "Sanal gerçeklik oyunlarına dal",
+		"swapDescription": "Token ve kripto paraları sorunsuzca takas et",
+		"categories": {
+			"slot": {
+				"title": "Slot Oyunları"
+			},
+			"liveCasino": {
+				"title": "Canlı Casino Oyunları"
+			},
+			"sports": {
+				"title": "Spor Bahisleri Oyunları"
+			},
+			"rng": {
+				"title": "RNG Oyunları"
+			},
+			"other": {
+				"title": "{category} Oyunları"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "Tüm Oyun Sağlayıcıları",
+		"searchPlaceholder": "Bir sağlayıcı ara...",
+		"empty": "Aramanızla eşleşen sağlayıcı bulunamadı.",
+		"logoAlt": "{name} logosu",
+		"filteredBy": "Kategoriye göre filtrelendi:",
+		"clearFilter": "Filtreyi temizle",
+		"categories": {
+			"slot": {
+				"title": "Slot Oyunu Sağlayıcıları"
+			},
+			"liveCasino": {
+				"title": "Canlı Casino Sağlayıcıları"
+			},
+			"sports": {
+				"title": "Spor Bahisleri Sağlayıcıları"
+			},
+			"rng": {
+				"title": "RNG Oyunu Sağlayıcıları"
+			},
+			"other": {
+				"title": "{category} Oyunu Sağlayıcıları"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "Aksiyona Katıl",
+			"subtitle": "Şimdi kaydol ve özel bir hoş geldin bonusu al!",
+			"cta": "Şimdi Kaydol"
+		},
+		"welcome": {
+			"title1": "Hoş Geldin Bonusu",
+			"title2": "%590'a Varan",
+			"subtitle": "+ 225 Ücretsiz Çevirme",
+			"cta": "Yatır ve Kazan"
+		},
+		"jackpot": {
+			"title1": "Mega Jackpot",
+			"title2": "1.000.000 $",
+			"subtitle": "Şimdi Oyna ve Büyük Kazan",
+			"cta": "Şimdi Oyna"
+		},
+		"cards": {
+			"casino": {
+				"title": "Casino",
+				"badge": "590+ OYUN",
+				"desc": "MemeWin Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
+				"link": "Casinoya Git"
+			},
+			"slots": {
+				"title": "Slotlar",
+				"badge": "5292 OYUN",
+				"desc": "Premium slot koleksiyonumuzla makaraları çevirin ve devasa jackpotları vurun.",
+				"link": "Slotlara Git"
+			},
+			"sports": {
+				"title": "Spor",
+				"badge": "3 OYUN",
+				"desc": "Favori takımlarınıza ve spor etkinliklerinize rekabetçi oranlarla bahis yapın.",
+				"link": "Spora Git"
+			},
+			"crypto": {
+				"title": "Kripto ve Kazan",
+				"badge": "%60 APR",
+				"desc": "Cazip oranlarla kripto para birimiyle stake yapın, ticaret yapın ve kazanın.",
+				"link": "Kriptoya Git"
+			}
+		},
+		"layout3": {
+			"headerTitle": "Öne Çıkan Oyun",
+			"headerSubtitle": "Özenle seçilmiş koleksiyonumuzda harika oyunlar keşfedin ve yeni maceralara atılın",
+			"slider1Title": "Öne Çıkan Oyunlar",
+			"slider1Badge": "Ekip Seçimleri",
+			"slider2Title": "Daha Fazlasını Keşfet",
+			"slider2Badge": "Trendler",
+			"featuredGameLabel": "Öne Çıkan Oyun"
+		},
+		"ctaExploreGames": "Oyunları Keşfet",
+		"ctaJoinAffiliate": "Ortaklık Programına Katıl"
+	},
+	"betting": {
+		"live": {
+			"winRate": "Kazanma Oranı",
+			"biggestWin": "En Büyük Kazanç",
+			"bigWins50": "Büyük Kazançlar (50+)",
+			"recentWins": "Son Kazançlar",
+			"header": {
+				"title": "Canlı Bahis Aktivitesi",
+				"subtitle": "Gerçek zamanlı bahis aktivitesi • {count} oyun yüklendi"
+			},
+			"status": {
+				"live": "CANLI",
+				"paused": "Duraklatıldı"
+			},
+			"actions": {
+				"pause": "Duraklat",
+				"resume": "Devam Et"
+			},
+			"tabs": {
+				"all": "Tümü",
+				"wins": "Kazançlar",
+				"losses": "Kayıplar"
+			},
+			"table": {
+				"game": "Oyun Adı",
+				"time": "Zaman",
+				"provider": "Sağlayıcı",
+				"nickname": "Kullanıcı Adı",
+				"bet": "Bahis",
+				"multiplier": "Çarpan",
+				"profit": "Kar"
+			},
+			"empty": "Bahis kaydı bulunamadı"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "Yazı Tipini Değiştir",
+		"fontSettings": "Yazı Tipi Ayarları",
+		"current": "Mevcut",
+		"browseGoogleFonts": "Google Fonts'a Göz At",
+		"uploadCustomFont": "Özel Yazı Tipi Yükle",
+		"quickUploadFontFile": "Hızlı Yazı Tipi Dosyası Yükle",
+		"resetToDefault": "Varsayılana Sıfırla",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "Yazı tipi ara...",
+			"preview": "Önizleme",
+			"previewText": "Pijamalı hasta, yağız şoföre çabucak güvendi.",
+			"alphabetPreview": "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ abcçdefgğhıijklmnoöprsştuüvyz 1234567890",
+			"applyFont": "Yazı Tipini Uygula",
+			"clearPreview": "Önizlemeyi Temizle",
+			"previewWith": "{font} ile metin önizlemesi",
+			"noFontsFound": "\"{searchTerm}\" ile eşleşen yazı tipi bulunamadı"
+		},
+		"customUpload": {
+			"title": "Özel Yazı Tipi Yükle",
+			"description": "Web sitesini özelleştirmek için kendi yazı tipi dosyanızı yükleyin",
+			"fontFile": "Yazı Tipi Dosyası",
+			"dragDropArea": "Yazı tipi dosyanızı buraya sürükleyip bırakın veya",
+			"clickToUpload": "yüklemek için tıklayın",
+			"supportedFormats": "Desteklenen formatlar: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Maksimum dosya boyutu: 10MB",
+			"fontName": "Yazı Tipi Adı",
+			"fontNamePlaceholder": "Yazı tipiniz için bir ad girin",
+			"previewYourFont": "Yazı Tipinizi Önizleyin",
+			"uploadAndApply": "Yükle ve Uygula",
+			"cancel": "İptal",
+			"uploading": "Yükleniyor...",
+			"errors": {
+				"invalidFileType": "Lütfen geçerli bir yazı tipi dosyası yükleyin (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Dosya boyutu 10MB limitini aşıyor",
+				"uploadFailed": "Yazı tipi dosyası yüklenemedi",
+				"enterFontName": "Lütfen bir yazı tipi dosyası seçin ve bir ad belirtin",
+				"readFileFailed": "Yazı tipi dosyası okunamadı"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "\"{fontName}\" yazı tipi başarıyla uygulandı!",
+			"fontUploadedSuccess": "\"{fontName}\" yazı tipi başarıyla yüklendi ve uygulandı!",
+			"fontResetSuccess": "Yazı tipi varsayılana sıfırlandı",
+			"invalidFileType": "Lütfen geçerli bir yazı tipi dosyası yükleyin (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Yazı tipi dosyası okunamadı"
+		}
+	}
+}

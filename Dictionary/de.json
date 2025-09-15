@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "Wird geladen...",
+		"save": "Speichern",
+		"cancel": "Abbrechen",
+		"confirm": "Bestätigen",
+		"viewAll": "Alle ansehen"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "Seitenleiste umschalten",
+		"searchPlaceholder": "Spiele, Anbieter suchen...",
+		"liveChat": "Live-Chat",
+		"player": "Spieler",
+		"vip": "VIP",
+		"profile": "Profil",
+		"statistics": "Statistiken",
+		"wallet": "Ein-/Auszahlen",
+		"cashier": "Kasse",
+		"winLoss": "Gewinn/Verlust",
+		"affiliate": "Partnerprogramm",
+		"logout": "Abmelden",
+		"balance": "Guthaben"
+	},
+	"navigation": {
+		"home": "Startseite",
+		"games": "Spiele",
+		"profile": "Profil",
+		"wallet": "Wallet",
+		"settings": "Einstellungen",
+		"promotions": "Aktionen",
+		"affiliate": "Partnerprogramm",
+		"providers": "Anbieter",
+		"lobby": "Lobby"
+	},
+	"profile": {
+		"language": "Sprache",
+		"welcome": "Willkommen, {name}!",
+		"settingUp": "Wird eingerichtet",
+		"profileBtn": "Profil ansehen",
+		"currentBalance": "Aktuelles Guthaben",
+		"availableFunds": "Verfügbare Mittel",
+		"totalDeposits": "Gesamteinzahlungen",
+		"totalWithdrawals": "Gesamtauszahlungen",
+		"walletAddress": "Wallet-Adresse",
+		"copySuccess": "Wallet-Adresse in die Zwischenablage kopiert!",
+		"copyFailed": "Kopieren der Wallet-Adresse fehlgeschlagen",
+		"notConnected": "Nicht verbunden",
+		"myProfile": "Mein Profil",
+		"logout": "Abmelden",
+		"pendingRegistration": "Registrierung ausstehend",
+		"noEmailProvided": "Keine E-Mail-Adresse angegeben",
+		"balanceOverview": "Guthabenübersicht",
+		"gettingStarted": "Erste Schritte",
+		"verifyEmail": "Bestätige deine E-Mail",
+		"completeEmailVerification": "E-Mail-Bestätigung abschließen",
+		"verifyPhone": "Bestätige deine Telefonnummer",
+		"addPhoneVerification": "Telefonbestätigung hinzufügen",
+		"firstDeposit": "Erste Einzahlung",
+		"makeFirstDeposit": "Tätige deine erste Einzahlung",
+		"placeBetOrTrade": "Wette platzieren / Handel tätigen",
+		"startFirstGame": "Starte dein erstes Spiel",
+		"recentActivity": "Letzte Aktivitäten",
+		"transactionHistory": "Transaktionsverlauf",
+		"activityGameWinDiceRoll": "Spielgewinn - Würfelwurf",
+		"activityGameLossBlackjack": "Spielverlust - Blackjack",
+		"twoHoursAgo": "Vor 2 Stunden",
+		"oneDayAgo": "Vor 1 Tag",
+		"twoDaysAgo": "Vor 2 Tagen",
+		"deposit": "Einzahlung",
+		"loggedOutTitle": "Oops! Du bist abgemeldet",
+		"loggedOutSubtitle": "Bitte melde dich an, um dein Profil anzuzeigen",
+		"goHome": "Zur Startseite",
+		"withdrawal": "Auszahlung",
+		"transactions": {
+			"title": "Transaktionsverlauf",
+			"trackDepositsWithdrawals": "Verfolge deine Ein- und Auszahlungen",
+			"filters": "Filter",
+			"refresh": "Aktualisieren",
+			"advancedFilters": "Erweiterte Filter",
+			"searchTransactionComingSoon": "Transaktion suchen (in Kürze verfügbar)",
+			"searchPlaceholderDisabled": "Suchfunktion wird auf API-Ebene implementiert...",
+			"dateRange": "Datumsbereich",
+			"selectDateRange": "Datumsbereich auswählen",
+			"today": "Heute",
+			"last7Days": "Letzte 7 Tage",
+			"last30Days": "Letzte 30 Tage",
+			"last90Days": "Letzte 90 Tage",
+			"thisMonth": "Dieser Monat",
+			"lastMonth": "Letzter Monat",
+			"customRange": "Benutzerdefinierter Bereich",
+			"fromDate": "Von Datum",
+			"toDate": "Bis Datum",
+			"transactionStatus": "Transaktionsstatus",
+			"allStatuses": "Alle Status",
+			"success": "Erfolgreich",
+			"pending": "Ausstehend",
+			"rejected": "Abgelehnt",
+			"clearAll": "Alle löschen",
+			"cancel": "Abbrechen",
+			"applyFilters": "Filter anwenden",
+			"activeFilters": "Aktive Filter:",
+			"statusLabel": "Status",
+			"dateLabel": "Datum",
+			"statsTotalTransactions": "{total} Transaktionen insgesamt",
+			"pageOf": "Seite {current} von {total}",
+			"live": "Live",
+			"tabs": {
+				"all": "Alle",
+				"deposits": "Einzahlungen",
+				"withdrawals": "Auszahlungen"
+			},
+			"errorLoadingTransactions": "Fehler beim Laden der Transaktionen",
+			"tryAgain": "Erneut versuchen",
+			"noTransactionsFound": "Keine Transaktionen gefunden",
+			"noTransactionsAvailableSelectedPeriod": "Für den ausgewählten Zeitraum sind keine Transaktionen verfügbar.",
+			"noDepositsFoundSelectedPeriod": "Für den ausgewählten Zeitraum wurden keine Einzahlungen gefunden.",
+			"noWithdrawalsFoundSelectedPeriod": "Für den ausgewählten Zeitraum wurden keine Auszahlungen gefunden.",
+			"show": "Anzeigen",
+			"ofTransactions": "von {count} Transaktionen",
+			"showingRangeOfTotal": "Zeige {from}-{to} von {total}",
+			"pageShort": "Seite {current}/{total}"
+		},
+		"betHistory": {
+			"title": "Wettverlauf",
+			"trackBetsResults": "Verfolge deine Spielwetten und Ergebnisse",
+			"filters": "Filter",
+			"refresh": "Aktualisieren",
+			"advancedFilters": "Erweiterte Filter",
+			"dateRange": "Datumsbereich",
+			"selectDateRange": "Datumsbereich auswählen",
+			"today": "Heute",
+			"last7Days": "Letzte 7 Tage",
+			"last30Days": "Letzte 30 Tage",
+			"last90Days": "Letzte 90 Tage",
+			"thisMonth": "Dieser Monat",
+			"lastMonth": "Letzter Monat",
+			"customRange": "Benutzerdefinierter Bereich",
+			"fromDate": "Von Datum",
+			"toDate": "Bis Datum",
+			"provider": "Anbieter",
+			"allProviders": "Alle Anbieter",
+			"status": "Status",
+			"allStatuses": "Alle Status",
+			"outstanding": "Ausstehend",
+			"win": "Gewinn",
+			"lose": "Verlust",
+			"draw": "Unentschieden",
+			"void": "Ungültig",
+			"bonusWin": "Bonusgewinn",
+			"clearAll": "Alle löschen",
+			"cancel": "Abbrechen",
+			"applyFilters": "Filter anwenden",
+			"activeFilters": "Aktive Filter",
+			"statusLabel": "Status",
+			"providerLabel": "Anbieter",
+			"dateLabel": "Datum",
+			"totalBets": "Gesamte Wetten",
+			"totalProfitLoss": "Gesamtgewinn/-verlust",
+			"pageOf": "Seite {current} von {total}",
+			"live": "Live",
+			"errorLoadingBets": "Fehler beim Laden des Wettverlaufs",
+			"failedToLoadBetHistory": "Laden des Wettverlaufs fehlgeschlagen. Bitte versuche es erneut.",
+			"tryAgain": "Erneut versuchen",
+			"noBetsFound": "Keine Wetten gefunden",
+			"noBetsFoundSelectedPeriod": "Für den ausgewählten Zeitraum und die Filter wurde kein Wettverlauf gefunden.",
+			"show": "Anzeigen",
+			"ofBets": "von {count} Wetten",
+			"showingRangeOfTotal": "Zeige {from}-{to} von {total}",
+			"totalBet": "Gesamteinsatz",
+			"totalWin": "Gesamtgewinn",
+			"net": "Netto",
+			"tableHeaders": {
+				"date": "Datum",
+				"game": "Spiel",
+				"provider": "Anbieter",
+				"type": "Typ",
+				"status": "Status",
+				"betAmount": "Wettbetrag",
+				"winAmount": "Gewinnbetrag",
+				"hideAmounts": "Beträge ausblenden",
+				"showAmounts": "Beträge anzeigen",
+				"gameType": "Spieltyp",
+				"vendor": "Hersteller",
+				"lastUpdate": "Letzte Aktualisierung",
+				"netResult": "Nettoergebnis",
+				"betId": "Wett-ID"
+			},
+			"errorLoading": "Fehler beim Laden",
+			"noBetsFoundDescription": "Beginne zu spielen, um deinen Wettverlauf hier zu sehen.",
+			"betHistory": "Wettverlauf",
+			"hideAmounts": "Beträge ausblenden",
+			"showAmounts": "Beträge anzeigen",
+			"date": "Datum",
+			"game": "Spiel",
+			"betId": "Wett-ID",
+			"amount": "Betrag",
+			"payout": "Auszahlung",
+			"player": "Spieler",
+			"gameType": "Spieltyp",
+			"vendor": "Hersteller",
+			"lastUpdate": "Letzte Aktualisierung",
+			"netResult": "Nettoergebnis",
+			"totalWagered": "Insgesamt gewettet",
+			"totalWon": "Insgesamt gewonnen",
+			"netProfit": "Nettogewinn",
+			"winRate": "Gewinnrate",
+			"showingResults": "Zeige {start}-{end} von {total} Ergebnissen",
+			"firstPage": "Erste Seite",
+			"previousPage": "Vorherige Seite",
+			"nextPage": "Nächste Seite",
+			"lastPage": "Letzte Seite"
+		}
+	},
+	"chat": {
+		"title": "Live-Chat",
+		"placeholder": "Schreibe deine Nachricht...",
+		"send": "Senden",
+		"input": {
+			"replyPlaceholder": "Antworte {username}..."
+		},
+		"reply": {
+			"replyingTo": "Antwort an {username}",
+			"types": {
+				"win": "{amount} {currency} gewonnen",
+				"gif": "GIF-Nachricht",
+				"image": "Bild",
+				"default": "Nachricht"
+			},
+			"preview": {
+				"winIn": "{amount} {currency} in {game} gewonnen",
+				"gifAlt": "GIF-Vorschau",
+				"imageAlt": "Bildvorschau",
+				"emoji": "Emoji-Nachricht",
+				"rain": "Regen: {amount} {currency}",
+				"system": "System: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "Teile dein Bild 🎰",
+			"description": "Bereit, es im Chatraum zu zeigen?",
+			"previewLabel": "Vorschau",
+			"statusReady": "Bereit zum Teilen",
+			"roomLabel": "🎰 Casino-Chat",
+			"shareNotice": "Dein Bild wird mit allen Spielern im Chatraum geteilt",
+			"closeAria": "Dialog schließen",
+			"cancelAria": "Bildupload abbrechen",
+			"sendAria": "Bild an den Chat senden",
+			"send": "An den Chat senden"
+		},
+		"picker": {
+			"searchEmojis": "Emojis suchen...",
+			"searchGifs": "GIFs suchen...",
+			"tabs": {
+				"emojis": "Emojis",
+				"gifs": "GIFs"
+			},
+			"loadingEmojis": "Emojis werden geladen...",
+			"loadingGifs": "GIFs werden geladen...",
+			"retry": "Erneut versuchen",
+			"recent": "Kürzlich",
+			"noEmojis": "Keine Emojis gefunden",
+			"noGifs": "Keine GIFs gefunden",
+			"tryDifferent": "Versuche einen anderen Suchbegriff",
+			"gifCategories": {
+				"trending": "Trending",
+				"reactions": "Reaktionen",
+				"gaming": "Gaming",
+				"casino": "Casino",
+				"celebration": "Feier",
+				"sports": "Sport"
+			},
+			"searchResults": "Suchergebnisse",
+			"availableToTag": "Verfügbare Benutzer zum Markieren 🎯",
+			"clickOrTab": "Klicken oder Tab zum Auswählen",
+			"noUsers": "Keine Benutzer gefunden",
+			"noUsersMatching": "Keine passenden Benutzer",
+			"startTyping": "Beginne zu tippen, um zu suchen",
+			"typeAt": "Tippe",
+			"toSeeSuggestions": "um Vorschläge zu sehen 🎰",
+			"errors": {
+				"emojisLoad": "Laden der Emojis fehlgeschlagen",
+				"emojisSearch": "Suche nach Emojis fehlgeschlagen",
+				"gifsLoad": "Laden der GIFs fehlgeschlagen"
+			}
+		},
+		"messages": {
+			"emptyTitle": "Noch keine Nachrichten...",
+			"emptySubtitle": "Beginne das Gespräch und gewinne groß! 🎰",
+			"loadingHistory": "Chat-Verlauf wird geladen...",
+			"loadingHistorySubtitle": "Neueste Nachrichten abrufen 📜",
+			"historyError": "Fehler beim Laden der Chat-Verlauf"
+		},
+		"message": {
+			"you": "Du",
+			"winTitle": "Großer Gewinn in \"{game}\"! 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "Hochgeladenes Bild",
+			"rainTitle": "Geldregen! 🌧️💰",
+			"recipients": "→ {count} {count, plural, one {Empfänger} other {Empfänger}}",
+			"eachTo": "Jeweils {amount} {currency} an: {list}",
+			"replyCount": "{count} {count, plural, one {Antwort} other {Antworten}}",
+			"loadingHistory": "Chat-Verlauf wird geladen..."
+		},
+		"system": {
+			"slashDisabled": "Slash-Befehle sind vorübergehend deaktiviert. Bitte verwende normale Nachrichten.",
+			"rateLimit": "Ratenlimit überschritten. Bitte warte {seconds} Sekunden, bevor du eine weitere Nachricht sendest.",
+			"cannotTagSelf": "Du kannst dich nicht selbst in Nachrichten markieren.",
+			"processingImage": "Bild wird verarbeitet...",
+			"failedUploadPrefix": "Hochladen des Bildes fehlgeschlagen: {message}",
+			"unknownError": "Unbekannter Fehler"
+		}
+	},
+	"sidebar": {
+		"quest": "QUEST",
+		"spin": "SPIN",
+		"deposit": "EINZAHLEN",
+		"withdraw": "AUSZAHLEN",
+		"playOnTelegram": "Auf Telegram spielen",
+		"dailyBonus": "Täglicher Bonus",
+		"navigation": "Navigation",
+		"games": "Spiele",
+		"providers": "Anbieter",
+		"trendingNow": "Jetzt im Trend",
+		"allProviders": "Alle Anbieter",
+		"allTopProviders": "Alle Top-Anbieter",
+		"hotBadge": "Heiß"
+	},
+	"search": {
+		"title": "Spiele suchen",
+		"subtitle": "Nach Name, Anbieter oder Kategorie suchen",
+		"placeholder": "Spiele, Anbieter, Kategorien suchen...",
+		"clear": "Löschen",
+		"recent": "Kürzlich:",
+		"popular": "Beliebt:",
+		"favoritesTry": "Du könntest versuchen — Deine Favoriten",
+		"hotPicks": "Heiße Tipps",
+		"resultsCount": "{count} {count, plural, one {Spiel} other {Spiele}} gefunden",
+		"noResults": "Keine Ergebnisse",
+		"filterApplied": "Gefiltert nach {count} {count, plural, one {Anbieter} other {Anbietern}}",
+		"suggestions": {
+			"category": "Kategorie",
+			"provider": "Anbieter"
+		},
+		"sections": {
+			"topProviders": "Top-Anbieter",
+			"selectedProviders": "Ausgewählte Anbieter",
+			"categories": "Kategorien",
+			"games": "Spiele",
+			"providers": "Anbieter"
+		},
+		"results": {
+			"found": "{games} Spiele, {categories} Kategorien und {providers} Anbieter gefunden"
+		},
+		"gameTypes": {
+			"blackjack": "Blackjack",
+			"roulette": "Roulette",
+			"crash": "Crash"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "Sortieren nach",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "Filter",
+			"optionsTitle": "Filteroptionen",
+			"clearAll": "Alle Filter löschen",
+			"activeLabel": "Aktiv:"
+		},
+		"searchPlaceholderGeneric": "Suchen...",
+		"providersDropdown": {
+			"title": "Anbieter",
+			"selected": "{count} ausgewählt",
+			"searchPlaceholder": "Anbieter suchen...",
+			"empty": "Kein Anbieter gefunden.",
+			"clear": "Anbieterfilter löschen"
+		},
+		"category": {
+			"label": "Kategorie:"
+		},
+		"view": {
+			"toggleAria": "Ansichtsmodus umschalten",
+			"gridAria": "Rasteransicht",
+			"listAria": "Listenansicht"
+		},
+		"loadMore": "Mehr laden"
+	},
+	"commonExtra": {
+		"connecting": "Verbinde...",
+		"offline": "Offline",
+		"online": "Online",
+		"clear": "Löschen"
+	},
+	"home": {
+		"topProviders": "Top-Spieleanbieter"
+	},
+	"lobby": {
+		"yourFavorites": "Deine Favoriten",
+		"featuredCasinoGames": "Empfohlene Casinospiele",
+		"hotPicks": "Heiße Tipps",
+		"slots": "Spielautomaten",
+		"sports": "Sport",
+		"realTimeScoreboard": "Echtzeit-Anzeigetafel"
+	},
+	"affiliate": {
+		"title": "Partnerprogramm",
+		"loginPromptTitle": "Empfehlungsprogramm",
+		"loginPromptSubtitle": "Melde dich an, um deine Empfehlungsstatistiken, Boni und Belohnungen einzusehen.",
+		"goHome": "Zur Startseite",
+		"tabs": {
+			"dashboard": "Dashboard",
+			"rates": "Provisionssätze",
+			"calculator": "Rechner"
+		},
+		"refresh": "Aktualisieren",
+		"refreshing": "Wird aktualisiert...",
+		"refreshAllSuccess": "Alle Daten erfolgreich aktualisiert!",
+		"refreshPartial": "Teilweise aktualisiert: {success}/{total} Abschnitte aktualisiert",
+		"refreshFailed": "Aktualisierung der Daten fehlgeschlagen. Bitte versuche es erneut.",
+		"dashboard": {
+			"title": "Partner-Dashboard",
+			"subtitle": "Verfolge deine Empfehlungen, Einnahmen und Provisionsleistungen",
+			"performanceOverview": "Leistungsübersicht",
+			"referralManagement": "Empfehlungsmanagement",
+			"termsAndCommission": "Bedingungen & Provisionsstruktur",
+			"unclaimedEarnings": "Nicht beanspruchte Einnahmen",
+			"claim": "Beanspruchen",
+			"claiming": "Wird beansprucht...",
+			"totalIncome": "Gesamteinkommen",
+			"totalReferrals": "Gesamte Empfehlungen",
+			"usersUnit": "Benutzer",
+			"yourReferralLinks": "Deine Empfehlungslinks",
+			"referralLinksSubtitle": "Teile diese Links, um neue Benutzer zu werben und Provisionen zu verdienen",
+			"completeReferralLink": "Vollständiger Empfehlungslink",
+			"fullReferralPlaceholder": "Vollständiger Empfehlungslink wird hier angezeigt",
+			"fullReferralHelp": "Direkter Link, auf den Benutzer klicken können, um sich mit deinem Empfehlungscode zu registrieren",
+			"referralCodeOnly": "Nur Empfehlungscode",
+			"yourReferralId": "Deine Empfehlungs-ID",
+			"referralIdHelp": "Teile diesen Code, damit Benutzer ihn bei der Registrierung manuell eingeben können",
+			"copyFullSuccess": "Vollständiger Empfehlungslink in die Zwischenablage kopiert!",
+			"copyIdSuccess": "Empfehlungs-ID in die Zwischenablage kopiert!"
+		},
+		"referrals": {
+			"title": "Meine Empfehlungen",
+			"subtitle": "Verfolge und verwalte alle Benutzer, die über deine Partnerlinks geworben wurden",
+			"totalReferrals": "Empfehlungen insgesamt",
+			"monitorHelp": "Überwache die Aktivitäten, Einzahlungen und Spielmuster deiner Empfehlungen",
+			"sort": {
+				"placeholder": "Sortieren nach...",
+				"nicknameAsc": "Spitzname (A-Z)",
+				"nicknameDesc": "Spitzname (Z-A)",
+				"lastLogin": "Letzter Login",
+				"unclaimedAmount": "Nicht beanspruchter Betrag"
+			},
+			"table": {
+				"nickname": "Spitzname",
+				"totalWager": "Gesamteinsatz",
+				"lastLogin": "Letzter Login",
+				"registered": "Registriert",
+				"lastDeposit": "Letzte Einzahlung",
+				"depositDate": "Einzahlungsdatum",
+				"tier": "Stufe"
+			},
+			"empty": {
+				"title": "Keine Empfehlungen gefunden",
+				"subtitle": "Beginne, Benutzer zu werben, um sie hier zu sehen."
+			},
+			"pagination": {
+				"showing": "Zeige {from} bis {to} von {total} Ergebnissen",
+				"prev": "Zurück",
+				"next": "Weiter"
+			}
+		},
+		"rates": {
+			"title": "Provisionssatzstruktur",
+			"subtitle": "Gewinnprozentsätze nach Stufenlevel und Spielkategorie",
+			"howItWorks": {
+				"title": "Wie Provisionsstufen funktionieren",
+				"body": "Deine Provisionsstufe wird durch den täglichen Gesamteinsatz deiner Empfehlungen bestimmt. Höhere Stufen bieten bessere Provisionssätze für alle Spieltypen."
+			},
+			"calculation": {
+				"title": "Wie Provisionen berechnet werden",
+				"desc": "Provisionen werden alle 24 Stunden basierend auf den Gesamteinsätzen der geworbenen Spieler berechnet. Beispiele:",
+				"exampleTitle": "Stufe {tier}:",
+				"wagerIn": "Einsatz von {amount} in {gameType}"
+			},
+			"table": {
+				"tierLevel": "Stufenlevel",
+				"wagerRange": "Einsatzbereich",
+				"slots": "Spielautomaten",
+				"liveCasino": "Live-Casino",
+				"sports": "Sport",
+				"tierPrefix": "STUFE",
+				"commissionLevel": "Provisionslevel",
+				"dailyWager": "Tägliches Einsatzvolumen"
+			},
+			"claim": {
+				"title": "Beanspruchen und Abheben",
+				"points": {
+					"0": "Provisionen sind zur Abhebung verfügbar, sobald sie berechnet wurden.",
+					"1": "Es gibt kein Verfallsdatum für nicht beanspruchte Provisionen – sie sammeln sich an, bis sie beansprucht werden.",
+					"2": "Abhebungen folgen den Standardregeln der Plattform, wie z.B. Mindestlimits und Bearbeitungszeiten."
+				}
+			},
+			"system": {
+				"title": "Systemzeit und Betriebsabläufe",
+				"dailyTimeframeLabel": "Täglicher Zeitrahmen:",
+				"dailyTimeframeValue": "00:00 UTC bis 23:59 UTC (jeden Tag).",
+				"claimDailyLabel": "Täglich beanspruchen:",
+				"claimDailyValue": "Täglich um 14:00 UTC verfügbar (Deine lokale Zeit: {local}).",
+				"note": "Hinweis: Obwohl wir mit Anbietern aus verschiedenen Zeitzonen arbeiten, folgen alle Berechnungen der UTC-Zeit, um Konsistenz zu gewährleisten und Verwirrung zu vermeiden."
+			},
+			"amendments": {
+				"title": "Änderungen",
+				"body": "Wir können diese Bedingungen jederzeit aktualisieren. Änderungen treten sofort nach Veröffentlichung in Kraft, und die fortgesetzte Teilnahme bedeutet, dass du die neuen Bedingungen akzeptierst."
+			},
+			"footer": {
+				"schedule": "Provisionszeitplan:",
+				"availableDaily": "Täglich verfügbar um",
+				"localTimeLabel": "(Deine lokale Zeit: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Einnahmenrechner",
+			"subtitle": "Schätze deine Provisionseinnahmen basierend auf den Wetteinsätzen deiner Empfehlungen",
+			"interactive": {
+				"title": "Interaktives Tool:",
+				"body": "Gib verschiedene Wetteinsätze ein, um potenzielle Einnahmen auf allen Stufen zu sehen"
+			},
+			"potentialEarnings": "Potenzielle Einnahmen",
+			"basedOnRate": "Basierend auf einem Provisionssatz von {percentage}%",
+			"tier": "Stufe {level}",
+			"commissionLevel": "Provisionslevel {level}",
+			"enterWager": "Wetteinsatz eingeben (USD)",
+			"wagerPlaceholder": "z.B. 1000",
+			"calcFor": "Berechne Einnahmen für ${amount} Wetteinsatz",
+			"totalPotential": "Gesamte potenzielle Einnahmen:",
+			"combinedAtTier": "Kombinierte Einnahmen aus allen Spieltypen auf Stufe {level}"
+		}
+	},
+	"debug": {
+		"title": "Debug-Seite"
+	},
+	"getLobby": {
+		"enteringLobby": "Lobby wird betreten...",
+		"connectingWait": "Bitte warte, während wir dich verbinden.",
+		"invalidSession": "Deine Sitzung ist ungültig oder der Anbieter fehlt. Bitte versuche es erneut.",
+		"failedPrefix": "Betreten der Lobby fehlgeschlagen: {message}",
+		"launchFailedTitle": "Start fehlgeschlagen",
+		"returnHome": "Zur Startseite"
+	},
+	"play": {
+		"connecting": "Verbindung zum Spieleserver wird hergestellt...",
+		"invalidSession": "Deine Sitzung ist ungültig oder abgelaufen. Bitte melde dich erneut an und versuche es noch einmal.",
+		"launchFailedTitle": "Start fehlgeschlagen",
+		"returnHome": "Zur Startseite"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "ZEITLICH BEGRENZTES ANGEBOT",
+		"headline": "Erhalte einen 200% Willkommensbonus!",
+		"subheadline": "Verbinde jetzt deine Krypto-Wallet und erhalte bis zu {amount} Bonus auf deine erste Einzahlung!",
+		"featureDepositMatch": "200% Einzahlungsbonus",
+		"featureZeroFees": "Keine Transaktionsgebühren",
+		"featureInstantWithdrawals": "Sofortige Auszahlungen",
+		"featureNoKyc": "Kein KYC erforderlich",
+		"ctaClaim": "BONUS JETZT BEANSPRUCHEN!",
+		"offerExpires": "Angebot endet in:",
+		"disclaimer": "AGB gelten. Glücksspiel birgt Risiken. Spiele verantwortungsbewusst. 18+",
+		"closeAria": "Modal schließen",
+		"bannerAlt": "Werbebanner",
+		"ctaOk": "Wallet verbinden & Wetten beginnen",
+		"enterAmount": "Betrag eingeben",
+		"balance": "Guthaben",
+		"max": "Max",
+		"deposit": "Einzahlen",
+		"ethereum": "Ethereum"
+	},
+	"modalsSmall": {
+		"close": "Schließen",
+		"firstDepositBoost": "Bonus-Boost für die 1. Einzahlung",
+		"bonus": "Bonus",
+		"min": "Min",
+		"sec": "Sek",
+		"deposit": "Einzahlen"
+	},
+	"auth": {
+		"email": {
+			"title": "E-Mail-Login",
+			"description": "Wir senden dir einen 6-stelligen Code",
+			"emailLabel": "E-Mail-Adresse",
+			"emailPlaceholder": "name@email.com",
+			"cancel": "Abbrechen",
+			"sending": "Senden",
+			"continue": "Weiter",
+			"enterCodeTitle": "Code eingeben",
+			"sentTo": "Gesendet an {email}",
+			"changeEmail": "E-Mail ändern",
+			"resendCode": "Code erneut senden",
+			"resendIn": "Erneut senden in {seconds}s",
+			"verifying": "Wird überprüft",
+			"successTitle": "Du bist drin",
+			"successSubtitle": "Richte alles ein...",
+			"modalAria": "E-Mail-Bestätigungs-Modal",
+			"errors": {
+				"invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein",
+				"sendFailed": "Senden des Bestätigungscodes fehlgeschlagen.",
+				"invalidCode": "Bitte gib einen 6-stelligen Bestätigungscode ein"
+			}
+		},
+		"setNickname": {
+			"title": "Lege deinen Spitznamen fest",
+			"subtitle": "Dies ist eine einmalige Einrichtung und kann nicht geändert werden",
+			"logoutAria": "Abmelden",
+			"inputPlaceholder": "Wähle deinen einzigartigen Spitznamen",
+			"referrerCheckbox": "Ich habe eine Empfehlungs-ID",
+			"referrerPlaceholder": "Empfehlungs-ID eingeben",
+			"referrerHelp": "Optional. Dies verknüpft dein Konto mit dem Empfehlungsgeber für Bonusprogramme.",
+			"status": {
+				"checking": "Verfügbarkeit wird geprüft...",
+				"available": "Spitzname ist verfügbar!",
+				"taken": "Dieser Spitzname ist bereits vergeben."
+			},
+			"register": "Registrieren und Spielen",
+			"termsTitle": "Allgemeine Geschäftsbedingungen:",
+			"termsBody": "Durch das Unterschreiben dieses Dokuments mit deiner Wallet und/oder die weitere Nutzung dieser Web3-Anwendung akzeptierst du die Nutzungsbedingungen der Anwendung. Die Unterzeichnung deiner Zustimmung zu den Nutzungsbedingungen ist keine Blockchain-Transaktion und verursacht keine Kosten.",
+			"errors": {
+				"verifyNicknameFailed": "Spitzname konnte nicht überprüft werden. Bitte versuche es erneut.",
+				"registerFailed": "Registrierung fehlgeschlagen: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "Mit E-Mail anmelden",
+			"connectWalletBtn": "Wallet verbinden",
+			"player": "Spieler",
+			"walletConnected": "Wallet verbunden",
+			"emailConnected": "E-Mail verbunden",
+			"disconnect": "Trennen",
+			"walletAddress": "Wallet-Adresse",
+			"balance": "Guthaben",
+			"loginWithWallet": "Mit Wallet anmelden"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "Einzahlen",
+				"withdraw": "Auszahlen",
+				"swap": "Tauschen",
+				"walletInfo": "Wallet"
+			},
+			"mobileDropdown": {
+				"emailWallet": "E-Mail-Wallet",
+				"wallet": "Wallet",
+				"deposit": "Einzahlen",
+				"withdraw": "Auszahlen",
+				"swap": "Tauschen"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "Netzwerk auswählen",
+			"switching": "Wird gewechselt...",
+			"walletNotConnected": "Wallet nicht verbunden.",
+			"failedToSwitch": "Netzwerkwechsel fehlgeschlagen. Bitte versuche es über deine Wallet.",
+			"altLogo": "Netzwerk-Logo"
+		},
+		"tokenList": {
+			"dialogTitle": "Einen Token auswählen",
+			"instantDeposit": "Soforteinzahlung",
+			"yourWalletBalance": "Dein Wallet-Guthaben",
+			"searchPlaceholder": "Namen suchen oder Adresse einfügen",
+			"emptySearch": "Keine Tokens gefunden, die deiner Suche entsprechen.",
+			"emptyOwned": "Keine Tokens mit Guthaben gefunden.",
+			"searchResults": "Suchergebnisse",
+			"yourTokens": "Deine Tokens",
+			"otherResults": "Andere Ergebnisse"
+		},
+		"tabsSidebar": {
+			"walletInfo": "Wallet",
+			"emailWallet": "E-Mail-Wallet",
+			"deposit": "Einzahlen",
+			"withdraw": "Auszahlen",
+			"swap": "Tauschen"
+		},
+		"depositPanel": {
+			"youPay": "Du zahlst",
+			"resetForm": "Formular zurücksetzen",
+			"enterAmount": "Betrag eingeben",
+			"selectToken": "Token auswählen",
+			"max": "Max",
+			"balance": "Guthaben:",
+			"calculating": "Wird berechnet...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Min:",
+			"ratesMayVary": "Kurse können variieren",
+			"emailWalletAddress": "E-Mail-Wallet-Adresse",
+			"walletAddress": "Wallet-Adresse",
+			"minimumIs": "Minimum ist {min}",
+			"errors": {
+				"selectTokenAndAmount": "Bitte wähle einen Token und gib einen Betrag ein",
+				"insufficientBalance": "Unzureichendes Guthaben für diese Transaktion",
+				"amountTooHighGas": "Betrag ist unter Berücksichtigung der Gasgebühren zu hoch",
+				"checkForm": "Bitte überprüfe das Formular und versuche es erneut",
+				"pendingDeposit": "Du hast eine ausstehende Einzahlung. Bitte warte, bis sie abgeschlossen ist"
+			},
+			"status": {
+				"processing": "Wird verarbeitet...",
+				"awaitingApproval": "Warte auf Genehmigung",
+				"calculatingRate": "Kurs wird berechnet...",
+				"insufficientBalance": "Unzureichendes Guthaben"
+			},
+			"buttons": {
+				"depositUsd": "${amount} einzahlen"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "Tokens auswählen",
+			"enterAmount": "Betrag eingeben",
+			"gettingQuote": "Angebot wird eingeholt...",
+			"confirming": "Wird bestätigt...",
+			"approving": "Wird genehmigt...",
+			"insufficientBalance": "Unzureichendes Guthaben für den Tausch",
+			"sameToken": "Kann nicht denselben Token tauschen",
+			"approveAndSwap": "Genehmigen & Tauschen",
+			"swap": "Tauschen",
+			"slippageTolerance": "Slippage-Toleranz",
+			"custom": "Benutzerdefiniert",
+			"set": "Setzen",
+			"currentSlippage": "Aktuelle Slippage",
+			"swapSuccessful": "Tausch erfolgreich!",
+			"transactionConfirmed": "Deine Transaktion wurde bestätigt",
+			"hash": "Hash",
+			"newSwap": "Neuer Tausch",
+			"youPay": "Du zahlst",
+			"max": "Max",
+			"low": "Niedrig",
+			"amountPlaceholder": "0",
+			"selectToken": "Token auswählen",
+			"youReceive": "Du erhältst",
+			"gettingBestQuote": "Bestes Angebot wird eingeholt...",
+			"gas": "Gas",
+			"minimumReceived": "Mindestens erhalten",
+			"slippageToleranceLabel": "Slippage-Toleranz",
+			"gasFee": "Gas-Gebühr",
+			"priceWarning": "Preise werden in Echtzeit aktualisiert und können sich ändern, bevor deine Transaktion bestätigt wird",
+			"emailWalletAddress": "E-Mail-Wallet-Adresse",
+			"walletAddress": "Wallet-Adresse",
+			"minimumIs": "Minimum ist {min}",
+			"errors": {
+				"selectTokenAndAmount": "Bitte wähle einen Token und gib einen Betrag ein",
+				"insufficientBalance": "Unzureichendes Guthaben für diese Transaktion",
+				"amountTooHighGas": "Betrag ist unter Berücksichtigung der Gasgebühren zu hoch",
+				"checkForm": "Bitte überprüfe das Formular und versuche es erneut",
+				"pendingDeposit": "Du hast eine ausstehende Einzahlung. Bitte warte, bis sie abgeschlossen ist"
+			},
+			"status": {
+				"processing": "Wird verarbeitet...",
+				"awaitingApproval": "Warte auf Genehmigung",
+				"calculatingRate": "Kurs wird berechnet...",
+				"insufficientBalance": "Unzureichendes Guthaben"
+			},
+			"buttons": {
+				"depositUsd": "${amount} einzahlen"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "Einzahlung bestätigt!",
+			"submittedTitle": "Transaktion übermittelt",
+			"confirmedDesc": "Dein Guthaben wurde aktualisiert.",
+			"submittedDesc": "Warte auf Blockchain-Bestätigung. Dies kann einige Minuten dauern.",
+			"viewOnExplorer": "Im Explorer ansehen",
+			"newDepositConfirmed": "Weitere Einzahlung tätigen",
+			"newDepositPending": "Eine neue Einzahlung starten"
+		},
+		"withdrawPanel": {
+			"resetForm": "Formular zurücksetzen",
+			"networkNotSupported": "Auszahlungen werden nur auf Arbitrum, Polygon und BNB unterstützt",
+			"youWithdraw": "Du hebst ab",
+			"loading": "Wird geladen...",
+			"amount": "Betrag",
+			"max": "Max",
+			"balance": "Guthaben:",
+			"available": "Verfügbar:",
+			"insufficientBalance": "Unzureichendes Guthaben",
+			"minimumIs": "Minimum ist {min}",
+			"minLabel": "Min:",
+			"emailWalletAddress": "E-Mail-Wallet-Adresse",
+			"walletAddress": "Wallet-Adresse",
+			"errors": {
+				"pendingWithdrawal": "Du hast bereits eine ausstehende Auszahlung",
+				"invalidAddress": "Ungültige Adresse",
+				"enterAmount": "Betrag eingeben",
+				"networkNotSupported": "Netzwerk nicht unterstützt"
+			},
+			"status": {
+				"processing": "Wird verarbeitet...",
+				"insufficientBalance": "Unzureichendes Guthaben",
+				"pendingWithdrawal": "Bereits eine ausstehende Auszahlung"
+			},
+			"buttons": {
+				"withdraw": "{amount} {symbol} auszahlen",
+				"minimum": "Minimum {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "Auszahlung erfolgreich!",
+			"successMessage": "🎉 Habe gerade {withdrawAmount} {tokenSymbol} von Meme Win abgehoben! 🚀 Mach mit bei der Siegesserie auf {shareUrl}",
+			"withdrawnAmount": "Abgehobener Betrag",
+			"shareText": "Teilen",
+			"subText": "🚀 MACH MIT BEI DER SIEGESSTRÄHNE! 🚀",
+			"generating": "Wird generiert...",
+			"screenshot": "Screenshot machen",
+			"download": "Bild herunterladen",
+			"close": "Schließen",
+			"copiedToClipboard": "Link zum Teilen erfolgreich kopiert"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "Auszahlung bestätigt!",
+			"submittedTitle": "Transaktion übermittelt",
+			"confirmedDesc": "Dein Geld ist unterwegs.",
+			"submittedDesc": "Warte auf Blockchain-Bestätigung...",
+			"viewOnExplorer": "Im Explorer ansehen",
+			"manualApproval": "Diese Auszahlung erfordert eine manuelle Genehmigung.",
+			"newWithdrawalConfirmed": "Weitere Auszahlung tätigen",
+			"newWithdrawalPending": "Eine neue Auszahlung starten"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "Du wirst erhalten"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "Auf Pro upgraden",
+		"account": "Konto",
+		"billing": "Abrechnung",
+		"notifications": "Benachrichtigungen",
+		"logout": "Abmelden"
+	},
+	"games": {
+		"pageTitle": "Alle Spiele",
+		"playNow": "Jetzt spielen",
+		"byProvider": "Von {name}",
+		"count": "{count, plural, one {Spiel} other {Spiele}}",
+		"noResults": "Keine Spiele gefunden, die deinen Kriterien entsprechen.",
+		"errorLoading": "Spiele konnten nicht geladen werden. Bitte versuche es später erneut.",
+		"slots": "Spielautomaten",
+		"sports": "Sport",
+		"liveCasino": "Live-Casino",
+		"explore": "Entdecken",
+		"exploreSubtitle": "Entdecke erstaunliche Spielerlebnisse",
+		"poker": "Poker",
+		"lottery": "Lotterie",
+		"futures": "Futures",
+		"vr": "VR",
+		"swap": "Tauschen",
+		"slotsDescription": "Drehe die Walzen und gewinne riesige Jackpots",
+		"liveCasinoDescription": "Erlebe Echtzeit-Casino-Action mit Live-Dealern",
+		"sportsDescription": "Wette auf deine Lieblingsteams und Sportereignisse",
+		"pokerDescription": "Teste deine Fähigkeiten in klassischen Pokerspielen",
+		"lotteryDescription": "Versuche dein Glück bei Lotterie- und Sofortgewinnspielen",
+		"futuresDescription": "Handle und prognostiziere Marktbewegungen",
+		"vrDescription": "Tauche ein in Virtual-Reality-Gaming",
+		"swapDescription": "Tausche Tokens und Kryptowährungen nahtlos",
+		"categories": {
+			"slot": {
+				"title": "Spielautomaten"
+			},
+			"liveCasino": {
+				"title": "Live-Casino-Spiele"
+			},
+			"sports": {
+				"title": "Sportwettenspiele"
+			},
+			"rng": {
+				"title": "RNG-Spiele"
+			},
+			"other": {
+				"title": "{category}-Spiele"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "Alle Spieleanbieter",
+		"searchPlaceholder": "Suche nach einem Anbieter...",
+		"empty": "Keine Anbieter gefunden, die deiner Suche entsprechen.",
+		"logoAlt": "{name}-Logo",
+		"filteredBy": "Gefiltert nach Kategorie:",
+		"clearFilter": "Filter löschen",
+		"categories": {
+			"slot": {
+				"title": "Anbieter von Spielautomaten"
+			},
+			"liveCasino": {
+				"title": "Anbieter von Live-Casinos"
+			},
+			"sports": {
+				"title": "Anbieter von Sportwetten"
+			},
+			"rng": {
+				"title": "Anbieter von RNG-Spielen"
+			},
+			"other": {
+				"title": "Anbieter von {category}-Spielen"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "Mach mit",
+			"subtitle": "Melde dich jetzt an und erhalte einen exklusiven Willkommensbonus!",
+			"cta": "Jetzt registrieren"
+		},
+		"welcome": {
+			"title1": "Willkommensbonus",
+			"title2": "Bis zu 590%",
+			"subtitle": "+ 225 Freispiele",
+			"cta": "Einzahlen & Erhalten"
+		},
+		"jackpot": {
+			"title1": "Mega-Jackpot",
+			"title2": "1.000.000 $",
+			"subtitle": "Jetzt spielen & groß gewinnen",
+			"cta": "Jetzt spielen"
+		},
+		"cards": {
+			"casino": {
+				"title": "Casino",
+				"badge": "590+ SPIELE",
+				"desc": "Genieße MemeWin Originals und andere Casinospiele von Top-Anbietern.",
+				"link": "Zum Casino"
+			},
+			"slots": {
+				"title": "Spielautomaten",
+				"badge": "5292 SPIELE",
+				"desc": "Drehe die Walzen und knacke riesige Jackpots mit unserer Premium-Spielautomaten-Sammlung.",
+				"link": "Zu den Spielautomaten"
+			},
+			"sports": {
+				"title": "Sport",
+				"badge": "3 SPIELE",
+				"desc": "Wette auf deine Lieblingsteams und Sportereignisse mit wettbewerbsfähigen Quoten.",
+				"link": "Zum Sport"
+			},
+			"crypto": {
+				"title": "Krypto & Verdienen",
+				"badge": "60% APR",
+				"desc": "Setze, handle und verdiene mit Kryptowährungen zu attraktiven Raten.",
+				"link": "Zu Krypto"
+			}
+		},
+		"layout3": {
+			"headerTitle": "Spiel im Rampenlicht",
+			"headerSubtitle": "Entdecke erstaunliche Spiele und neue Abenteuer in unserer kuratierten Sammlung",
+			"slider1Title": "Empfohlene Spiele",
+			"slider1Badge": "Auswahl der Mitarbeiter",
+			"slider2Title": "Mehr zu entdecken",
+			"slider2Badge": "Trending",
+			"featuredGameLabel": "Empfohlenes Spiel"
+		},
+		"ctaExploreGames": "Spiele entdecken",
+		"ctaJoinAffiliate": "Dem Partnerprogramm beitreten"
+	},
+	"betting": {
+		"live": {
+			"winRate": "Gewinnrate",
+			"biggestWin": "Größter Gewinn",
+			"bigWins50": "Große Gewinne (50+)",
+			"recentWins": "Kürzliche Gewinne",
+			"header": {
+				"title": "Live-Wettaktivität",
+				"subtitle": "Echtzeit-Wettaktivität • {count} Spiele geladen"
+			},
+			"status": {
+				"live": "LIVE",
+				"paused": "Pausiert"
+			},
+			"actions": {
+				"pause": "Pausieren",
+				"resume": "Fortsetzen"
+			},
+			"tabs": {
+				"all": "Alle",
+				"wins": "Gewinne",
+				"losses": "Verluste"
+			},
+			"table": {
+				"game": "Spielname",
+				"time": "Zeit",
+				"provider": "Anbieter",
+				"nickname": "Spitzname",
+				"bet": "Wette",
+				"multiplier": "Multiplikator",
+				"profit": "Gewinn"
+			},
+			"empty": "Keine Wetteinträge gefunden"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "Schriftart ändern",
+		"fontSettings": "Schriftarteinstellungen",
+		"current": "Aktuell",
+		"browseGoogleFonts": "Google Fonts durchsuchen",
+		"uploadCustomFont": "Eigene Schriftart hochladen",
+		"quickUploadFontFile": "Schriftartdatei schnell hochladen",
+		"resetToDefault": "Auf Standard zurücksetzen",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "Schriftarten suchen...",
+			"preview": "Vorschau",
+			"previewText": "Der schnelle braune Fuchs springt über den faulen Hund",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "Schriftart anwenden",
+			"clearPreview": "Vorschau löschen",
+			"previewWith": "Vorschautext mit {font}",
+			"noFontsFound": "Keine Schriftarten gefunden, die mit \"{searchTerm}\" übereinstimmen"
+		},
+		"customUpload": {
+			"title": "Eigene Schriftart hochladen",
+			"description": "Lade deine eigene Schriftartdatei hoch, um die Website anzupassen",
+			"fontFile": "Schriftartdatei",
+			"dragDropArea": "Ziehe deine Schriftartdatei hierher oder",
+			"clickToUpload": "klicke zum Hochladen",
+			"supportedFormats": "Unterstützte Formate: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Maximale Dateigröße: 10MB",
+			"fontName": "Schriftartname",
+			"fontNamePlaceholder": "Gib einen Namen für deine Schriftart ein",
+			"previewYourFont": "Vorschau deiner Schriftart",
+			"uploadAndApply": "Hochladen & Anwenden",
+			"cancel": "Abbrechen",
+			"uploading": "Wird hochgeladen...",
+			"errors": {
+				"invalidFileType": "Bitte lade eine gültige Schriftartdatei hoch (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Dateigröße überschreitet das 10MB-Limit",
+				"uploadFailed": "Hochladen der Schriftartdatei fehlgeschlagen",
+				"enterFontName": "Bitte wähle eine Schriftartdatei aus und gib einen Namen an",
+				"readFileFailed": "Lesen der Schriftartdatei fehlgeschlagen"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "Schriftart \"{fontName}\" erfolgreich angewendet!",
+			"fontUploadedSuccess": "Schriftart \"{fontName}\" erfolgreich hochgeladen und angewendet!",
+			"fontResetSuccess": "Schriftart auf Standard zurückgesetzt",
+			"invalidFileType": "Bitte lade eine gültige Schriftartdatei hoch (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Lesen der Schriftartdatei fehlgeschlagen"
+		}
+	}
+}

@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "Memuatkan...",
+		"save": "Simpan",
+		"cancel": "Batal",
+		"confirm": "Sahkan",
+		"viewAll": "Lihat Semua"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "Togol Bar Sisi",
+		"searchPlaceholder": "Cari permainan, penyedia...",
+		"liveChat": "Chat Langsung",
+		"player": "Pemain",
+		"vip": "VIP",
+		"profile": "Profil",
+		"statistics": "Statistik",
+		"wallet": "Deposit/Pengeluaran",
+		"cashier": "Juruwang",
+		"winLoss": "Menang/Kalah",
+		"affiliate": "Afiliasi",
+		"logout": "Log Keluar",
+		"balance": "Baki"
+	},
+	"navigation": {
+		"home": "Laman Utama",
+		"games": "Permainan",
+		"profile": "Profil",
+		"wallet": "Dompet",
+		"settings": "Tetapan",
+		"promotions": "Promosi",
+		"affiliate": "Afiliasi",
+		"providers": "Penyedia",
+		"lobby": "Lobi"
+	},
+	"profile": {
+		"language": "Bahasa",
+		"welcome": "Selamat datang, {name}!",
+		"settingUp": "Menyediakan",
+		"profileBtn": "Lihat Profil",
+		"currentBalance": "Baki Semasa",
+		"availableFunds": "Dana Tersedia",
+		"totalDeposits": "Jumlah Deposit",
+		"totalWithdrawals": "Jumlah Pengeluaran",
+		"walletAddress": "Alamat Dompet",
+		"copySuccess": "Alamat dompet disalin ke papan keratan!",
+		"copyFailed": "Gagal menyalin alamat dompet",
+		"notConnected": "Tidak bersambung",
+		"myProfile": "Profil Saya",
+		"logout": "Log Keluar",
+		"pendingRegistration": "Pendaftaran Belum Selesai",
+		"noEmailProvided": "Tiada e-mel diberikan",
+		"balanceOverview": "Gambaran Baki",
+		"gettingStarted": "Bermula",
+		"verifyEmail": "Sahkan e-mel anda",
+		"completeEmailVerification": "Lengkapkan pengesahan e-mel",
+		"verifyPhone": "Sahkan nombor telefon anda",
+		"addPhoneVerification": "Tambah pengesahan telefon",
+		"firstDeposit": "Deposit Pertama",
+		"makeFirstDeposit": "Buat deposit pertama anda",
+		"placeBetOrTrade": "Letak Pertaruhan / Buat Dagangan",
+		"startFirstGame": "Mulakan permainan pertama anda",
+		"recentActivity": "Aktiviti Terkini",
+		"transactionHistory": "Sejarah Transaksi",
+		"activityGameWinDiceRoll": "Kemenangan Permainan - Balingan Dadu",
+		"activityGameLossBlackjack": "Kekalahan Permainan - Blackjack",
+		"twoHoursAgo": "2 jam yang lalu",
+		"oneDayAgo": "1 hari yang lalu",
+		"twoDaysAgo": "2 hari yang lalu",
+		"deposit": "Deposit",
+		"loggedOutTitle": "Alamak! Anda telah log keluar",
+		"loggedOutSubtitle": "Sila log masuk untuk melihat profil anda",
+		"goHome": "Kembali ke Laman Utama",
+		"withdrawal": "Pengeluaran",
+		"transactions": {
+			"title": "Sejarah Transaksi",
+			"trackDepositsWithdrawals": "Jejaki deposit dan pengeluaran anda",
+			"filters": "Penapis",
+			"refresh": "Segarkan",
+			"advancedFilters": "Penapis Lanjutan",
+			"searchTransactionComingSoon": "Cari Transaksi (Akan Datang)",
+			"searchPlaceholderDisabled": "Fungsi carian akan dilaksanakan di peringkat API...",
+			"dateRange": "Julat Tarikh",
+			"selectDateRange": "Pilih julat tarikh",
+			"today": "Hari ini",
+			"last7Days": "7 Hari Terakhir",
+			"last30Days": "30 Hari Terakhir",
+			"last90Days": "90 Hari Terakhir",
+			"thisMonth": "Bulan Ini",
+			"lastMonth": "Bulan Lepas",
+			"customRange": "Julat Tersuai",
+			"fromDate": "Dari Tarikh",
+			"toDate": "Hingga Tarikh",
+			"transactionStatus": "Status Transaksi",
+			"allStatuses": "Semua Status",
+			"success": "Berjaya",
+			"pending": "Menunggu",
+			"rejected": "Ditolak",
+			"clearAll": "Kosongkan Semua",
+			"cancel": "Batal",
+			"applyFilters": "Gunakan Penapis",
+			"activeFilters": "Penapis Aktif:",
+			"statusLabel": "Status",
+			"dateLabel": "Tarikh",
+			"statsTotalTransactions": "{total} jumlah transaksi",
+			"pageOf": "Halaman {current} dari {total}",
+			"live": "Langsung",
+			"tabs": {
+				"all": "Semua",
+				"deposits": "Deposit",
+				"withdrawals": "Pengeluaran"
+			},
+			"errorLoadingTransactions": "Ralat Memuatkan Transaksi",
+			"tryAgain": "Cuba Lagi",
+			"noTransactionsFound": "Tiada Transaksi Ditemui",
+			"noTransactionsAvailableSelectedPeriod": "Tiada transaksi tersedia untuk tempoh yang dipilih.",
+			"noDepositsFoundSelectedPeriod": "Tiada deposit ditemui untuk tempoh yang dipilih.",
+			"noWithdrawalsFoundSelectedPeriod": "Tiada pengeluaran ditemui untuk tempoh yang dipilih.",
+			"show": "Tunjuk",
+			"ofTransactions": "daripada {count} transaksi",
+			"showingRangeOfTotal": "Menunjukkan {from}-{to} daripada {total}",
+			"pageShort": "Halaman {current}/{total}"
+		},
+		"betHistory": {
+			"title": "Sejarah Pertaruhan",
+			"trackBetsResults": "Jejaki pertaruhan dan keputusan permainan anda",
+			"filters": "Penapis",
+			"refresh": "Segarkan",
+			"advancedFilters": "Penapis Lanjutan",
+			"dateRange": "Julat Tarikh",
+			"selectDateRange": "Pilih julat tarikh",
+			"today": "Hari ini",
+			"last7Days": "7 Hari Terakhir",
+			"last30Days": "30 Hari Terakhir",
+			"last90Days": "90 Hari Terakhir",
+			"thisMonth": "Bulan Ini",
+			"lastMonth": "Bulan Lepas",
+			"customRange": "Julat Tersuai",
+			"fromDate": "Dari Tarikh",
+			"toDate": "Hingga Tarikh",
+			"provider": "Penyedia",
+			"allProviders": "Semua Penyedia",
+			"status": "Status",
+			"allStatuses": "Semua Status",
+			"outstanding": "Belum Selesai",
+			"win": "Menang",
+			"lose": "Kalah",
+			"draw": "Seri",
+			"void": "Batal",
+			"bonusWin": "Kemenangan Bonus",
+			"clearAll": "Kosongkan Semua",
+			"cancel": "Batal",
+			"applyFilters": "Gunakan Penapis",
+			"activeFilters": "Penapis Aktif",
+			"statusLabel": "Status",
+			"providerLabel": "Penyedia",
+			"dateLabel": "Tarikh",
+			"totalBets": "Jumlah Pertaruhan",
+			"totalProfitLoss": "Jumlah Untung/Rugi",
+			"pageOf": "Halaman {current} dari {total}",
+			"live": "Langsung",
+			"errorLoadingBets": "Ralat Memuatkan Sejarah Pertaruhan",
+			"failedToLoadBetHistory": "Gagal memuatkan sejarah pertaruhan. Sila cuba lagi.",
+			"tryAgain": "Cuba Lagi",
+			"noBetsFound": "Tiada Pertaruhan Ditemui",
+			"noBetsFoundSelectedPeriod": "Tiada sejarah pertaruhan ditemui untuk tempoh dan penapis yang dipilih.",
+			"show": "Tunjuk",
+			"ofBets": "daripada {count} pertaruhan",
+			"showingRangeOfTotal": "Menunjukkan {from}-{to} daripada {total}",
+			"totalBet": "Jumlah Pertaruhan",
+			"totalWin": "Jumlah Kemenangan",
+			"net": "Bersih",
+			"tableHeaders": {
+				"date": "Tarikh",
+				"game": "Permainan",
+				"provider": "Penyedia",
+				"type": "Jenis",
+				"status": "Status",
+				"betAmount": "Jumlah Pertaruhan",
+				"winAmount": "Jumlah Kemenangan",
+				"hideAmounts": "Sembunyikan Jumlah",
+				"showAmounts": "Tunjukkan Jumlah",
+				"gameType": "Jenis Permainan",
+				"vendor": "Vendor",
+				"lastUpdate": "Kemas Kini Terakhir",
+				"netResult": "Keputusan Bersih",
+				"betId": "ID Pertaruhan"
+			},
+			"errorLoading": "Ralat Memuatkan",
+			"noBetsFoundDescription": "Mula bermain untuk melihat sejarah pertaruhan anda di sini.",
+			"betHistory": "Sejarah Pertaruhan",
+			"hideAmounts": "Sembunyikan Jumlah",
+			"showAmounts": "Tunjukkan Jumlah",
+			"date": "Tarikh",
+			"game": "Permainan",
+			"betId": "ID Pertaruhan",
+			"amount": "Jumlah",
+			"payout": "Bayaran",
+			"player": "Pemain",
+			"gameType": "Jenis Permainan",
+			"vendor": "Vendor",
+			"lastUpdate": "Kemas Kini Terakhir",
+			"netResult": "Keputusan Bersih",
+			"totalWagered": "Jumlah Dipertaruhkan",
+			"totalWon": "Jumlah Dimenangi",
+			"netProfit": "Keuntungan Bersih",
+			"winRate": "Kadar Kemenangan",
+			"showingResults": "Menunjukkan {start}-{end} daripada {total} keputusan",
+			"firstPage": "Halaman Pertama",
+			"previousPage": "Halaman Sebelumnya",
+			"nextPage": "Halaman Seterusnya",
+			"lastPage": "Halaman Terakhir"
+		}
+	},
+	"chat": {
+		"title": "Chat Langsung",
+		"placeholder": "Taip mesej anda...",
+		"send": "Hantar",
+		"input": {
+			"replyPlaceholder": "Balas kepada {username}..."
+		},
+		"reply": {
+			"replyingTo": "Membalas kepada {username}",
+			"types": {
+				"win": "Menang {amount} {currency}",
+				"gif": "Mesej GIF",
+				"image": "Imej",
+				"default": "Mesej"
+			},
+			"preview": {
+				"winIn": "Menang {amount} {currency} dalam {game}",
+				"gifAlt": "Pratonton GIF",
+				"imageAlt": "Pratonton Imej",
+				"emoji": "Mesej emoji",
+				"rain": "Hujan: {amount} {currency}",
+				"system": "Sistem: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "Kongsi Imej Anda 🎰",
+			"description": "Bersedia untuk tunjukkan kepada bilik chat?",
+			"previewLabel": "Pratonton",
+			"statusReady": "Sedia untuk Dikongsi",
+			"roomLabel": "🎰 Chat Kasino",
+			"shareNotice": "Imej anda akan dikongsi dengan semua pemain di dalam bilik chat",
+			"closeAria": "Tutup dialog",
+			"cancelAria": "Batal muat naik imej",
+			"sendAria": "Hantar imej ke chat",
+			"send": "Hantar ke Chat"
+		},
+		"picker": {
+			"searchEmojis": "Cari emoji...",
+			"searchGifs": "Cari GIF...",
+			"tabs": {
+				"emojis": "Emoji",
+				"gifs": "GIF"
+			},
+			"loadingEmojis": "Memuatkan emoji...",
+			"loadingGifs": "Memuatkan GIF...",
+			"retry": "Cuba Semula",
+			"recent": "Terkini",
+			"noEmojis": "Tiada emoji ditemui",
+			"noGifs": "Tiada GIF ditemui",
+			"tryDifferent": "Cuba istilah carian yang berbeza",
+			"gifCategories": {
+				"trending": "Trending",
+				"reactions": "Reaksi",
+				"gaming": "Permainan",
+				"casino": "Kasino",
+				"celebration": "Sambutan",
+				"sports": "Sukan"
+			},
+			"searchResults": "Hasil Carian",
+			"availableToTag": "Pengguna tersedia untuk ditag 🎯",
+			"clickOrTab": "Klik atau Tab untuk memilih",
+			"noUsers": "Tiada pengguna ditemui",
+			"noUsersMatching": "Tiada pengguna yang sepadan",
+			"startTyping": "Mula menaip untuk mencari",
+			"typeAt": "Taip",
+			"toSeeSuggestions": "untuk melihat cadangan 🎰",
+			"errors": {
+				"emojisLoad": "Gagal memuatkan emoji",
+				"emojisSearch": "Gagal mencari emoji",
+				"gifsLoad": "Gagal memuatkan GIF"
+			}
+		},
+		"messages": {
+			"emptyTitle": "Belum ada mesej...",
+			"emptySubtitle": "Mulakan perbualan dan menang besar! 🎰",
+			"loadingHistory": "Memuatkan sejarah sembang...",
+			"loadingHistorySubtitle": "Mengambil mesej terkini 📜",
+			"historyError": "Gagal memuatkan sejarah sembang"
+		},
+		"message": {
+			"you": "Anda",
+			"winTitle": "Kemenangan besar dalam \"{game}\"! 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "Imej yang dimuat naik",
+			"rainTitle": "Hujan Wang! 🌧️💰",
+			"recipients": "→ {count} {count, plural, one {penerima} other {penerima}}",
+			"eachTo": "{amount} {currency} setiap seorang kepada: {list}",
+			"replyCount": "{count} {count, plural, one {balasan} other {balasan}}",
+			"loadingHistory": "Memuatkan sejarah sembang..."
+		},
+		"system": {
+			"slashDisabled": "Perintah slash dilumpuhkan sementara. Sila gunakan mesej biasa.",
+			"rateLimit": "Had kadar dicapai. Sila tunggu {seconds} saat sebelum menghantar mesej lain.",
+			"cannotTagSelf": "Anda tidak boleh menanda diri sendiri dalam mesej.",
+			"processingImage": "Memproses imej...",
+			"failedUploadPrefix": "Gagal memuat naik imej: {message}",
+			"unknownError": "Ralat tidak diketahui"
+		}
+	},
+	"sidebar": {
+		"quest": "MISI",
+		"spin": "PUTAR",
+		"deposit": "DEPOSIT",
+		"withdraw": "PENGELUARAN",
+		"playOnTelegram": "Main di Telegram",
+		"dailyBonus": "Bonus Harian",
+		"navigation": "Navigasi",
+		"games": "Permainan",
+		"providers": "Penyedia",
+		"trendingNow": "Trending Sekarang",
+		"allProviders": "Semua Penyedia",
+		"allTopProviders": "Semua Penyedia Teratas",
+		"hotBadge": "Popular"
+	},
+	"search": {
+		"title": "Cari permainan",
+		"subtitle": "Cari mengikut nama, penyedia, atau kategori",
+		"placeholder": "Cari permainan, penyedia, kategori...",
+		"clear": "Kosongkan",
+		"recent": "Terkini:",
+		"popular": "Popular:",
+		"favoritesTry": "Anda boleh cuba — Kegemaran anda",
+		"hotPicks": "Pilihan popular",
+		"resultsCount": "Menemui {count} {count, plural, one {permainan} other {permainan}}",
+		"noResults": "Tiada hasil",
+		"filterApplied": "Ditapis oleh {count} {count, plural, one {penyedia} other {penyedia}}",
+		"suggestions": {
+			"category": "Kategori",
+			"provider": "Penyedia"
+		},
+		"sections": {
+			"topProviders": "Penyedia Teratas",
+			"selectedProviders": "Penyedia Terpilih",
+			"categories": "Kategori",
+			"games": "Permainan",
+			"providers": "Penyedia"
+		},
+		"results": {
+			"found": "Menemui {games} permainan, {categories} kategori, dan {providers} penyedia"
+		},
+		"gameTypes": {
+			"blackjack": "Blackjack",
+			"roulette": "Rolet",
+			"crash": "Crash"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "Susun mengikut",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "Tapis",
+			"optionsTitle": "Pilihan Penapis",
+			"clearAll": "Kosongkan Semua Penapis",
+			"activeLabel": "Aktif:"
+		},
+		"searchPlaceholderGeneric": "Cari...",
+		"providersDropdown": {
+			"title": "Penyedia",
+			"selected": "{count} dipilih",
+			"searchPlaceholder": "Cari penyedia...",
+			"empty": "Tiada penyedia ditemui.",
+			"clear": "Kosongkan Penapis Penyedia"
+		},
+		"category": {
+			"label": "Kategori:"
+		},
+		"view": {
+			"toggleAria": "Togol mod paparan",
+			"gridAria": "Paparan grid",
+			"listAria": "Paparan senarai"
+		},
+		"loadMore": "Muat Lagi"
+	},
+	"commonExtra": {
+		"connecting": "Menyambung...",
+		"offline": "Luar Talian",
+		"online": "Dalam Talian",
+		"clear": "Kosongkan"
+	},
+	"home": {
+		"topProviders": "Penyedia Permainan Teratas"
+	},
+	"lobby": {
+		"yourFavorites": "Kegemaran Anda",
+		"featuredCasinoGames": "Permainan Kasino Pilihan",
+		"hotPicks": "Pilihan Popular",
+		"slots": "Slot",
+		"sports": "Sukan",
+		"realTimeScoreboard": "Papan Skor Masa Nyata"
+	},
+	"affiliate": {
+		"title": "Program Afiliasi",
+		"loginPromptTitle": "Program Rujukan",
+		"loginPromptSubtitle": "Log masuk untuk melihat statistik rujukan, bonus dan menuntut ganjaran anda.",
+		"goHome": "Kembali ke Laman Utama",
+		"tabs": {
+			"dashboard": "Papan Pemuka",
+			"rates": "Kadar Komisen",
+			"calculator": "Kalkulator"
+		},
+		"refresh": "Segarkan",
+		"refreshing": "Menyegarkan...",
+		"refreshAllSuccess": "Semua data berjaya disegarkan!",
+		"refreshPartial": "Disegarkan sebahagian: {success}/{total} bahagian dikemas kini",
+		"refreshFailed": "Gagal menyegarkan data. Sila cuba lagi.",
+		"dashboard": {
+			"title": "Papan Pemuka Afiliasi",
+			"subtitle": "Jejaki rujukan, pendapatan dan prestasi komisen anda",
+			"performanceOverview": "Gambaran Prestasi",
+			"referralManagement": "Pengurusan Rujukan",
+			"termsAndCommission": "Terma & Struktur Komisen",
+			"unclaimedEarnings": "Pendapatan Belum Dituntut",
+			"claim": "Tuntut",
+			"claiming": "Menuntut...",
+			"totalIncome": "Jumlah Pendapatan",
+			"totalReferrals": "Jumlah Rujukan",
+			"usersUnit": "pengguna",
+			"yourReferralLinks": "Pautan Rujukan Anda",
+			"referralLinksSubtitle": "Kongsi pautan ini untuk merujuk pengguna baru dan mendapat komisen",
+			"completeReferralLink": "Pautan Rujukan Lengkap",
+			"fullReferralPlaceholder": "Pautan rujukan penuh akan muncul di sini",
+			"fullReferralHelp": "Pautan terus yang boleh diklik oleh pengguna untuk mendaftar dengan kod rujukan anda",
+			"referralCodeOnly": "Kod Rujukan Sahaja",
+			"yourReferralId": "ID rujukan anda",
+			"referralIdHelp": "Kongsi kod ini untuk pengguna masukkan secara manual semasa pendaftaran",
+			"copyFullSuccess": "Pautan rujukan penuh disalin ke papan keratan!",
+			"copyIdSuccess": "ID rujukan disalin ke papan keratan!"
+		},
+		"referrals": {
+			"title": "Rujukan Saya",
+			"subtitle": "Jejaki dan uruskan semua pengguna yang dirujuk melalui pautan afiliasi anda",
+			"totalReferrals": "jumlah rujukan",
+			"monitorHelp": "Pantau aktiviti, deposit dan corak permainan rujukan anda",
+			"sort": {
+				"placeholder": "Susun mengikut...",
+				"nicknameAsc": "Nama Samaran (A-Z)",
+				"nicknameDesc": "Nama Samaran (Z-A)",
+				"lastLogin": "Log Masuk Terakhir",
+				"unclaimedAmount": "Jumlah Belum Dituntut"
+			},
+			"table": {
+				"nickname": "Nama Samaran",
+				"totalWager": "Jumlah Pertaruhan",
+				"lastLogin": "Log Masuk Terakhir",
+				"registered": "Berdaftar",
+				"lastDeposit": "Deposit Terakhir",
+				"depositDate": "Tarikh Deposit",
+				"tier": "Peringkat"
+			},
+			"empty": {
+				"title": "Tiada rujukan ditemui",
+				"subtitle": "Mula merujuk pengguna untuk melihat mereka di sini."
+			},
+			"pagination": {
+				"showing": "Menunjukkan {from} hingga {to} daripada {total} keputusan",
+				"prev": "Sebelumnya",
+				"next": "Seterusnya"
+			}
+		},
+		"rates": {
+			"title": "Struktur Kadar Komisen",
+			"subtitle": "Peratusan pendapatan mengikut peringkat dan kategori permainan",
+			"howItWorks": {
+				"title": "Bagaimana Peringkat Komisen Berfungsi",
+				"body": "Peringkat komisen anda ditentukan oleh jumlah pertaruhan harian rujukan anda. Peringkat yang lebih tinggi menawarkan kadar komisen yang lebih baik untuk semua jenis permainan."
+			},
+			"calculation": {
+				"title": "Bagaimana Komisen Dikira",
+				"desc": "Komisen dikira setiap 24 jam berdasarkan jumlah pertaruhan pemain yang dirujuk. Contoh:",
+				"exampleTitle": "Peringkat {tier}:",
+				"wagerIn": "Pertaruhan {amount} dalam {gameType}"
+			},
+			"table": {
+				"tierLevel": "Peringkat",
+				"wagerRange": "Julat Pertaruhan",
+				"slots": "Slot",
+				"liveCasino": "Kasino Langsung",
+				"sports": "Sukan",
+				"tierPrefix": "PERINGKAT",
+				"commissionLevel": "Tahap Komisen",
+				"dailyWager": "Jumlah pertaruhan harian"
+			},
+			"claim": {
+				"title": "Menuntut dan Pengeluaran",
+				"points": {
+					"0": "Komisen tersedia untuk pengeluaran sebaik sahaja dikira.",
+					"1": "Tiada tarikh luput untuk komisen yang belum dituntut—ia akan terkumpul sehingga dituntut.",
+					"2": "Pengeluaran mengikut peraturan standard platform, seperti had minimum dan masa pemprosesan."
+				}
+			},
+			"system": {
+				"title": "Waktu dan Operasi Sistem",
+				"dailyTimeframeLabel": "Rangka Masa Harian:",
+				"dailyTimeframeValue": "00:00 UTC hingga 23:59 UTC (setiap hari).",
+				"claimDailyLabel": "Tuntutan Harian:",
+				"claimDailyValue": "Tersedia setiap hari pada 14:00 UTC (Waktu Tempatan Anda: {local}).",
+				"note": "Nota: Walaupun kami bekerja dengan penyedia dari zon waktu yang berbeza, semua pengiraan mengikut UTC untuk memastikan konsistensi dan mengelakkan kekeliruan."
+			},
+			"amendments": {
+				"title": "Pindaan",
+				"body": "Kami boleh mengemas kini terma ini pada bila-bila masa. Perubahan berkuat kuasa serta-merta selepas disiarkan, dan penyertaan berterusan bermakna anda menerima terma baru."
+			},
+			"footer": {
+				"schedule": "Jadual Komisen:",
+				"availableDaily": "Tersedia setiap hari pada",
+				"localTimeLabel": "(Waktu Tempatan Anda: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Kalkulator Pendapatan",
+			"subtitle": "Anggarkan pendapatan komisen anda berdasarkan jumlah pertaruhan rujukan anda",
+			"interactive": {
+				"title": "Alat Interaktif:",
+				"body": "Masukkan jumlah pertaruhan yang berbeza untuk melihat potensi pendapatan di semua peringkat"
+			},
+			"potentialEarnings": "Potensi Pendapatan",
+			"basedOnRate": "Berdasarkan kadar komisen {percentage}%",
+			"tier": "Peringkat {level}",
+			"commissionLevel": "Tahap Komisen {level}",
+			"enterWager": "Masukkan Jumlah Pertaruhan (USD)",
+			"wagerPlaceholder": "contohnya, 1000",
+			"calcFor": "Mengira pendapatan untuk pertaruhan ${amount}",
+			"totalPotential": "Jumlah Potensi Pendapatan:",
+			"combinedAtTier": "Pendapatan gabungan dari semua jenis permainan di Peringkat {level}"
+		}
+	},
+	"debug": {
+		"title": "Halaman Penyahpepijatan"
+	},
+	"getLobby": {
+		"enteringLobby": "Memasuki Lobi...",
+		"connectingWait": "Sila tunggu sementara kami menyambungkan anda.",
+		"invalidSession": "Sesi anda tidak sah atau penyedia tiada. Sila cuba lagi.",
+		"failedPrefix": "Gagal memasuki lobi: {message}",
+		"launchFailedTitle": "Pelancaran Gagal",
+		"returnHome": "Kembali ke Laman Utama"
+	},
+	"play": {
+		"connecting": "Menyambung ke pelayan permainan...",
+		"invalidSession": "Sesi anda tidak sah atau telah tamat tempoh. Sila log masuk dan cuba lagi.",
+		"launchFailedTitle": "Pelancaran Gagal",
+		"returnHome": "Kembali ke Laman Utama"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "TAWARAN MASA TERHAD",
+		"headline": "Dapatkan Bonus Selamat Datang 200%!",
+		"subheadline": "Sambungkan dompet kripto anda sekarang dan terima bonus sehingga {amount} pada deposit pertama anda!",
+		"featureDepositMatch": "Padanan Deposit 200%",
+		"featureZeroFees": "Sifar Yuran Transaksi",
+		"featureInstantWithdrawals": "Pengeluaran Segera",
+		"featureNoKyc": "Tiada KYC Diperlukan",
+		"ctaClaim": "TUNTUT BONUS SEKARANG!",
+		"offerExpires": "Tawaran tamat dalam:",
+		"disclaimer": "T&S Terpakai. Perjudian melibatkan risiko. Bermain dengan bertanggungjawab. 18+",
+		"closeAria": "Tutup modal",
+		"bannerAlt": "Banner Promosi",
+		"ctaOk": "Sambungkan Dompet & Mula Bertaruh",
+		"enterAmount": "Masukkan Jumlah",
+		"balance": "Baki",
+		"max": "Maks",
+		"deposit": "Deposit",
+		"ethereum": "Ethereum"
+	},
+	"modalsSmall": {
+		"close": "Tutup",
+		"firstDepositBoost": "Bonus Tambahan Deposit Pertama",
+		"bonus": "Bonus",
+		"min": "Min",
+		"sec": "Saat",
+		"deposit": "Deposit"
+	},
+	"auth": {
+		"email": {
+			"title": "Log Masuk E-mel",
+			"description": "Kami akan menghantar kod 6 digit kepada anda",
+			"emailLabel": "Alamat E-mel",
+			"emailPlaceholder": "nama@emel.com",
+			"cancel": "Batal",
+			"sending": "Menghantar",
+			"continue": "Teruskan",
+			"enterCodeTitle": "Masukkan Kod",
+			"sentTo": "Dihantar ke {email}",
+			"changeEmail": "Tukar e-mel",
+			"resendCode": "Hantar semula kod",
+			"resendIn": "Hantar semula dalam {seconds}s",
+			"verifying": "Mengesahkan",
+			"successTitle": "Anda berjaya masuk",
+			"successSubtitle": "Menyediakan...",
+			"modalAria": "Modal Pengesahan E-mel",
+			"errors": {
+				"invalidEmail": "Sila masukkan alamat e-mel yang sah",
+				"sendFailed": "Gagal menghantar kod pengesahan.",
+				"invalidCode": "Sila masukkan kod pengesahan 6 digit"
+			}
+		},
+		"setNickname": {
+			"title": "Tetapkan Nama Samaran Anda",
+			"subtitle": "Ini adalah persediaan sekali sahaja dan tidak boleh diubah",
+			"logoutAria": "Log Keluar",
+			"inputPlaceholder": "Pilih nama samaran unik anda",
+			"referrerCheckbox": "Saya ada ID perujuk",
+			"referrerPlaceholder": "Masukkan ID perujuk",
+			"referrerHelp": "Pilihan. Ini menghubungkan akaun anda kepada perujuk untuk program bonus.",
+			"status": {
+				"checking": "Menyemak ketersediaan...",
+				"available": "Nama samaran tersedia!",
+				"taken": "Nama samaran ini telah digunakan."
+			},
+			"register": "Daftar dan Main",
+			"termsTitle": "Terma & Syarat:",
+			"termsBody": "Dengan menandatangani dokumen ini dengan Dompet anda dan/atau terus menggunakan Aplikasi Web3 ini, anda menerima terma penggunaan aplikasi. Menandatangani persetujuan anda kepada Terma Penggunaan bukanlah transaksi blockchain dan tidak menanggung sebarang kos.",
+			"errors": {
+				"verifyNicknameFailed": "Tidak dapat mengesahkan nama samaran. Sila cuba lagi.",
+				"registerFailed": "Pendaftaran gagal: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "Log Masuk dengan E-mel",
+			"connectWalletBtn": "Sambungkan Dompet",
+			"player": "Pemain",
+			"walletConnected": "Dompet Disambungkan",
+			"emailConnected": "E-mel Disambungkan",
+			"disconnect": "Putuskan sambungan",
+			"walletAddress": "Alamat Dompet",
+			"balance": "Baki",
+			"loginWithWallet": "Log masuk dengan Dompet"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "Deposit",
+				"withdraw": "Pengeluaran",
+				"swap": "Tukar",
+				"walletInfo": "Dompet"
+			},
+			"mobileDropdown": {
+				"emailWallet": "Dompet E-mel",
+				"wallet": "Dompet",
+				"deposit": "Deposit",
+				"withdraw": "Pengeluaran",
+				"swap": "Tukar"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "Pilih Rangkaian",
+			"switching": "Menukar...",
+			"walletNotConnected": "Dompet tidak disambungkan.",
+			"failedToSwitch": "Gagal menukar rangkaian. Sila cuba dari dompet anda.",
+			"altLogo": "Logo rangkaian"
+		},
+		"tokenList": {
+			"dialogTitle": "Pilih Token",
+			"instantDeposit": "Deposit Segera",
+			"yourWalletBalance": "Baki Dompet Anda",
+			"searchPlaceholder": "Cari nama atau tampal alamat",
+			"emptySearch": "Tiada token yang sepadan dengan carian anda ditemui.",
+			"emptyOwned": "Tiada token dengan baki ditemui.",
+			"searchResults": "Hasil Carian",
+			"yourTokens": "Token Anda",
+			"otherResults": "Hasil Lain"
+		},
+		"tabsSidebar": {
+			"walletInfo": "Dompet",
+			"emailWallet": "Dompet E-mel",
+			"deposit": "Deposit",
+			"withdraw": "Pengeluaran",
+			"swap": "Tukar"
+		},
+		"depositPanel": {
+			"youPay": "Anda Bayar",
+			"resetForm": "Set Semula Borang",
+			"enterAmount": "Masukkan Jumlah",
+			"selectToken": "Pilih token",
+			"max": "Maks",
+			"balance": "Baki:",
+			"calculating": "Mengira...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Min:",
+			"ratesMayVary": "Kadar mungkin berbeza",
+			"emailWalletAddress": "Alamat Dompet E-mel",
+			"walletAddress": "Alamat Dompet",
+			"minimumIs": "Minimum ialah {min}",
+			"errors": {
+				"selectTokenAndAmount": "Sila pilih token dan masukkan jumlah",
+				"insufficientBalance": "Baki tidak mencukupi untuk transaksi ini",
+				"amountTooHighGas": "Jumlah terlalu tinggi apabila mengambil kira yuran gas",
+				"checkForm": "Sila semak borang dan cuba lagi",
+				"pendingDeposit": "Anda mempunyai deposit yang sedang menunggu. Sila tunggu ia selesai"
+			},
+			"status": {
+				"processing": "Memproses...",
+				"awaitingApproval": "Menunggu Kelulusan",
+				"calculatingRate": "Mengira Kadar...",
+				"insufficientBalance": "Baki Tidak Mencukupi"
+			},
+			"buttons": {
+				"depositUsd": "Deposit ${amount}"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "Pilih token",
+			"enterAmount": "Masukkan jumlah",
+			"gettingQuote": "Mendapatkan sebut harga...",
+			"confirming": "Mengesahkan...",
+			"approving": "Meluluskan...",
+			"insufficientBalance": "Baki tidak mencukupi untuk Pertukaran",
+			"sameToken": "Tidak boleh menukar token yang sama",
+			"approveAndSwap": "Luluskan & Tukar",
+			"swap": "Tukar",
+			"slippageTolerance": "Toleransi Gelinciran",
+			"custom": "Tersuai",
+			"set": "Tetapkan",
+			"currentSlippage": "Gelinciran semasa",
+			"swapSuccessful": "Pertukaran Berjaya!",
+			"transactionConfirmed": "Transaksi anda telah disahkan",
+			"hash": "Hash",
+			"newSwap": "Pertukaran Baru",
+			"youPay": "Anda bayar",
+			"max": "Maks",
+			"low": "Rendah",
+			"amountPlaceholder": "0",
+			"selectToken": "Pilih Token",
+			"youReceive": "Anda terima",
+			"gettingBestQuote": "Mendapatkan sebut harga terbaik...",
+			"gas": "Gas",
+			"minimumReceived": "Minimum diterima",
+			"slippageToleranceLabel": "Toleransi gelinciran",
+			"gasFee": "Yuran gas",
+			"priceWarning": "Harga dikemas kini dalam masa nyata dan mungkin berubah sebelum transaksi anda disahkan",
+			"emailWalletAddress": "Alamat Dompet E-mel",
+			"walletAddress": "Alamat Dompet",
+			"minimumIs": "Minimum ialah {min}",
+			"errors": {
+				"selectTokenAndAmount": "Sila pilih token dan masukkan jumlah",
+				"insufficientBalance": "Baki tidak mencukupi untuk transaksi ini",
+				"amountTooHighGas": "Jumlah terlalu tinggi apabila mengambil kira yuran gas",
+				"checkForm": "Sila semak borang dan cuba lagi",
+				"pendingDeposit": "Anda mempunyai deposit yang sedang menunggu. Sila tunggu ia selesai"
+			},
+			"status": {
+				"processing": "Memproses...",
+				"awaitingApproval": "Menunggu Kelulusan",
+				"calculatingRate": "Mengira Kadar...",
+				"insufficientBalance": "Baki Tidak Mencukupi"
+			},
+			"buttons": {
+				"depositUsd": "Deposit ${amount}"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "Deposit Disahkan!",
+			"submittedTitle": "Transaksi Dihantar",
+			"confirmedDesc": "Baki anda telah dikemas kini.",
+			"submittedDesc": "Menunggu pengesahan blockchain. Ini mungkin mengambil masa beberapa minit.",
+			"viewOnExplorer": "Lihat di Explorer",
+			"newDepositConfirmed": "Buat Deposit Lain",
+			"newDepositPending": "Mulakan deposit baru"
+		},
+		"withdrawPanel": {
+			"resetForm": "Set Semula Borang",
+			"networkNotSupported": "Pengeluaran hanya disokong di Arbitrum, Polygon, dan BNB",
+			"youWithdraw": "Anda Keluarkan",
+			"loading": "Memuatkan...",
+			"amount": "Jumlah",
+			"max": "Maks",
+			"balance": "Baki:",
+			"available": "Tersedia:",
+			"insufficientBalance": "Baki tidak mencukupi",
+			"minimumIs": "Minimum ialah {min}",
+			"minLabel": "Min:",
+			"emailWalletAddress": "Alamat Dompet E-mel",
+			"walletAddress": "Alamat Dompet",
+			"errors": {
+				"pendingWithdrawal": "Anda sudah mempunyai pengeluaran yang sedang menunggu",
+				"invalidAddress": "Alamat Tidak Sah",
+				"enterAmount": "Masukkan Jumlah",
+				"networkNotSupported": "Rangkaian Tidak Disokong"
+			},
+			"status": {
+				"processing": "Memproses...",
+				"insufficientBalance": "Baki Tidak Mencukupi",
+				"pendingWithdrawal": "Sudah Mempunyai Pengeluaran Menunggu"
+			},
+			"buttons": {
+				"withdraw": "Keluarkan {amount} {symbol}",
+				"minimum": "Minimum {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "Pengeluaran Berjaya!",
+			"successMessage": "🎉 Baru sahaja mengeluarkan {withdrawAmount} {tokenSymbol} dari Meme Win! 🚀 Sertai rentetan kemenangan di {shareUrl}",
+			"withdrawnAmount": "Jumlah Dikeluarkan",
+			"shareText": "Kongsi",
+			"subText": "🚀 SERTAI RENTETAN KEMENANGAN! 🚀",
+			"generating": "Menjana...",
+			"screenshot": "Ambil Tangkapan Skrin",
+			"download": "Muat Turun Imej",
+			"close": "Tutup",
+			"copiedToClipboard": "Pautan Kongsi berjaya disalin"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "Pengeluaran Disahkan!",
+			"submittedTitle": "Transaksi Dihantar",
+			"confirmedDesc": "Dana anda sedang dalam perjalanan.",
+			"submittedDesc": "Menunggu pengesahan blockchain...",
+			"viewOnExplorer": "Lihat di Explorer",
+			"manualApproval": "Pengeluaran ini memerlukan kelulusan manual.",
+			"newWithdrawalConfirmed": "Buat Pengeluaran Lain",
+			"newWithdrawalPending": "Mulakan Pengeluaran Baru"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "Anda Akan Terima"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "Naik Taraf ke Pro",
+		"account": "Akaun",
+		"billing": "Pengebilan",
+		"notifications": "Pemberitahuan",
+		"logout": "Log Keluar"
+	},
+	"games": {
+		"pageTitle": "Semua Permainan",
+		"playNow": "Main Sekarang",
+		"byProvider": "Oleh {name}",
+		"count": "{count} {count, plural, one {Permainan} other {Permainan}}",
+		"noResults": "Tiada permainan yang sepadan dengan kriteria anda ditemui.",
+		"errorLoading": "Tidak dapat memuatkan permainan. Sila cuba lagi nanti.",
+		"slots": "Slot",
+		"sports": "Sukan",
+		"liveCasino": "Kasino Langsung",
+		"explore": "Teroka",
+		"exploreSubtitle": "Temui pengalaman permainan yang menakjubkan",
+		"poker": "Poker",
+		"lottery": "Loteri",
+		"futures": "Niaga Hadapan",
+		"vr": "VR",
+		"swap": "Tukar",
+		"slotsDescription": "Putar gelendong dan menangi jackpot besar",
+		"liveCasinoDescription": "Alami aksi kasino masa nyata dengan pengedar langsung",
+		"sportsDescription": "Bertaruh pada pasukan dan acara sukan kegemaran anda",
+		"pokerDescription": "Uji kemahiran anda dalam permainan poker klasik",
+		"lotteryDescription": "Cuba nasib anda dengan loteri dan permainan menang segera",
+		"futuresDescription": "Berdagang dan ramalkan pergerakan pasaran",
+		"vrDescription": "Hayati diri anda dalam permainan realiti maya",
+		"swapDescription": "Tukar token dan mata wang kripto dengan lancar",
+		"categories": {
+			"slot": {
+				"title": "Permainan Slot"
+			},
+			"liveCasino": {
+				"title": "Permainan Kasino Langsung"
+			},
+			"sports": {
+				"title": "Permainan Pertaruhan Sukan"
+			},
+			"rng": {
+				"title": "Permainan RNG"
+			},
+			"other": {
+				"title": "Permainan {category}"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "Semua Penyedia Permainan",
+		"searchPlaceholder": "Cari penyedia...",
+		"empty": "Tiada penyedia yang sepadan dengan carian anda ditemui.",
+		"logoAlt": "Logo {name}",
+		"filteredBy": "Ditapis mengikut kategori:",
+		"clearFilter": "Kosongkan penapis",
+		"categories": {
+			"slot": {
+				"title": "Penyedia Permainan Slot"
+			},
+			"liveCasino": {
+				"title": "Penyedia Kasino Langsung"
+			},
+			"sports": {
+				"title": "Penyedia Pertaruhan Sukan"
+			},
+			"rng": {
+				"title": "Penyedia Permainan RNG"
+			},
+			"other": {
+				"title": "Penyedia Permainan {category}"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "Sertai Aksi",
+			"subtitle": "Daftar sekarang dan dapatkan bonus selamat datang eksklusif!",
+			"cta": "Daftar Sekarang"
+		},
+		"welcome": {
+			"title1": "Bonus Selamat Datang",
+			"title2": "Sehingga 590%",
+			"subtitle": "+ 225 Putaran Percuma",
+			"cta": "Deposit & Dapatkan"
+		},
+		"jackpot": {
+			"title1": "Jackpot Mega",
+			"title2": "$1,000,000",
+			"subtitle": "Main Sekarang & Menang Besar",
+			"cta": "Main Sekarang"
+		},
+		"cards": {
+			"casino": {
+				"title": "Kasino",
+				"badge": "590+ PERMAINAN",
+				"desc": "Nikmati MemeWin Originals dan permainan kasino lain dari penyedia teratas.",
+				"link": "Pergi ke Kasino"
+			},
+			"slots": {
+				"title": "Slot",
+				"badge": "5292 PERMAINAN",
+				"desc": "Putar gelendong dan menangi jackpot besar dengan koleksi slot premium kami.",
+				"link": "Pergi ke Slot"
+			},
+			"sports": {
+				"title": "Sukan",
+				"badge": "3 PERMAINAN",
+				"desc": "Bertaruh pada pasukan dan acara sukan kegemaran anda dengan odds yang kompetitif.",
+				"link": "Pergi ke Sukan"
+			},
+			"crypto": {
+				"title": "Kripto & Jana",
+				"badge": "60% APR",
+				"desc": "Staking, berdagang, dan jana pendapatan dengan mata wang kripto pada kadar yang menarik.",
+				"link": "Pergi ke Kripto"
+			}
+		},
+		"layout3": {
+			"headerTitle": "Tumpuan Permainan",
+			"headerSubtitle": "Temui permainan yang menakjubkan dan terokai pengembaraan baru dalam koleksi kami yang dipilih susun",
+			"slider1Title": "Permainan Pilihan",
+			"slider1Badge": "Pilihan Staf",
+			"slider2Title": "Lebih Banyak untuk Diterokai",
+			"slider2Badge": "Trending",
+			"featuredGameLabel": "Permainan Pilihan"
+		},
+		"ctaExploreGames": "Terokai Permainan",
+		"ctaJoinAffiliate": "Sertai Program Ahli Gabungan"
+	},
+	"betting": {
+		"live": {
+			"winRate": "Kadar Kemenangan",
+			"biggestWin": "Kemenangan Terbesar",
+			"bigWins50": "Kemenangan Besar (50+)",
+			"recentWins": "Kemenangan Terkini",
+			"header": {
+				"title": "Aktiviti Pertaruhan Langsung",
+				"subtitle": "Aktiviti pertaruhan masa nyata • {count} permainan dimuatkan"
+			},
+			"status": {
+				"live": "LANGSUNG",
+				"paused": "Dijeda"
+			},
+			"actions": {
+				"pause": "Jeda",
+				"resume": "Sambung"
+			},
+			"tabs": {
+				"all": "Semua",
+				"wins": "Kemenangan",
+				"losses": "Kekalahan"
+			},
+			"table": {
+				"game": "Nama Permainan",
+				"time": "Masa",
+				"provider": "Penyedia",
+				"nickname": "Nama Samaran",
+				"bet": "Pertaruhan",
+				"multiplier": "Pengganda",
+				"profit": "Keuntungan"
+			},
+			"empty": "Tiada rekod pertaruhan ditemui"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "Tukar Fon",
+		"fontSettings": "Tetapan Fon",
+		"current": "Semasa",
+		"browseGoogleFonts": "Layari Google Fonts",
+		"uploadCustomFont": "Muat Naik Fon Tersuai",
+		"quickUploadFontFile": "Muat Naik Fail Fon Pantas",
+		"resetToDefault": "Tetapkan Semula ke Lalai",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "Cari fon...",
+			"preview": "Pratonton",
+			"previewText": "Harimau tangkas itu melompat ke atas anjing pemalas.",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "Gunakan Fon",
+			"clearPreview": "Kosongkan Pratonton",
+			"previewWith": "Pratonton teks dengan {font}",
+			"noFontsFound": "Tiada fon yang sepadan dengan \"{searchTerm}\" ditemui"
+		},
+		"customUpload": {
+			"title": "Muat Naik Fon Tersuai",
+			"description": "Muat naik fail fon anda sendiri untuk menyesuaikan laman web",
+			"fontFile": "Fail Fon",
+			"dragDropArea": "Seret dan lepas fail fon anda di sini, atau",
+			"clickToUpload": "klik untuk memuat naik",
+			"supportedFormats": "Format yang disokong: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Saiz fail maksimum: 10MB",
+			"fontName": "Nama Fon",
+			"fontNamePlaceholder": "Masukkan nama untuk fon anda",
+			"previewYourFont": "Pratonton Fon Anda",
+			"uploadAndApply": "Muat Naik & Guna Fon",
+			"cancel": "Batal",
+			"uploading": "Memuat naik...",
+			"errors": {
+				"invalidFileType": "Sila muat naik fail fon yang sah (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Saiz fail melebihi had 10MB",
+				"uploadFailed": "Gagal memuat naik fail fon",
+				"enterFontName": "Sila pilih fail fon dan berikan nama",
+				"readFileFailed": "Gagal membaca fail fon"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "Fon \"{fontName}\" berjaya digunakan!",
+			"fontUploadedSuccess": "Fon \"{fontName}\" berjaya dimuat naik dan digunakan!",
+			"fontResetSuccess": "Fon ditetapkan semula ke lalai",
+			"invalidFileType": "Sila muat naik fail fon yang sah (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Gagal membaca fail fon"
+		}
+	}
+}

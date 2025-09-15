@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "Loading...",
+		"save": "Save",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"viewAll": "View All"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "Toggle Sidebar",
+		"searchPlaceholder": "Search games, providers...",
+		"liveChat": "Live Chat",
+		"player": "Player",
+		"vip": "VIP",
+		"profile": "Profile",
+		"statistics": "Statistics",
+		"wallet": "Deposit/Withdraw",
+		"cashier": "Cashier",
+		"winLoss": "Win/Loss",
+		"affiliate": "Affiliate",
+		"logout": "Log out",
+		"balance": "Balance"
+	},
+	"navigation": {
+		"home": "Home",
+		"games": "Games",
+		"profile": "Profile",
+		"wallet": "Wallet",
+		"settings": "Settings",
+		"promotions": "Promotions",
+		"affiliate": "Affiliate",
+		"providers": "Providers",
+		"lobby": "Lobby"
+	},
+	"profile": {
+		"language": "Language",
+		"welcome": "Welcome, {name}!",
+		"settingUp": "Setting up",
+		"profileBtn": "View Profile",
+		"currentBalance": "Current Balance",
+		"availableFunds": "Available funds",
+		"totalDeposits": "Total Deposits",
+		"totalWithdrawals": "Total Withdrawals",
+		"walletAddress": "Wallet Address",
+		"copySuccess": "Wallet address copied to clipboard!",
+		"copyFailed": "Failed to copy wallet address",
+		"notConnected": "Not connected",
+		"myProfile": "My Profile",
+		"logout": "Logout",
+		"pendingRegistration": "Pending Registration",
+		"noEmailProvided": "No email provided",
+		"balanceOverview": "Balance Overview",
+		"gettingStarted": "Getting Started",
+		"verifyEmail": "Verify your email",
+		"completeEmailVerification": "Complete email verification",
+		"verifyPhone": "Verify your phone number",
+		"addPhoneVerification": "Add phone verification",
+		"firstDeposit": "First Deposit",
+		"makeFirstDeposit": "Make your first deposit",
+		"placeBetOrTrade": "Place Bet / Make Trade",
+		"startFirstGame": "Start your first game",
+		"recentActivity": "Recent Activity",
+		"transactionHistory": "Transaction History",
+		"activityGameWinDiceRoll": "Game Win - Dice Roll",
+		"activityGameLossBlackjack": "Game Loss - Blackjack",
+		"twoHoursAgo": "2 hours ago",
+		"oneDayAgo": "1 day ago",
+		"twoDaysAgo": "2 days ago",
+		"deposit": "Deposit",
+		"loggedOutTitle": "Oops! You are Logged Out",
+		"loggedOutSubtitle": "Please log in to view your profile",
+		"goHome": "Go to Home",
+		"withdrawal": "Withdrawal",
+		"transactions": {
+			"title": "Transaction History",
+			"trackDepositsWithdrawals": "Track your deposits and withdrawals",
+			"filters": "Filters",
+			"refresh": "Refresh",
+			"advancedFilters": "Advanced Filters",
+			"searchTransactionComingSoon": "Search Transaction (Coming Soon)",
+			"searchPlaceholderDisabled": "Search functionality will be implemented at API level...",
+			"dateRange": "Date Range",
+			"selectDateRange": "Select date range",
+			"today": "Today",
+			"last7Days": "Last 7 Days",
+			"last30Days": "Last 30 Days",
+			"last90Days": "Last 90 Days",
+			"thisMonth": "This Month",
+			"lastMonth": "Last Month",
+			"customRange": "Custom Range",
+			"fromDate": "From Date",
+			"toDate": "To Date",
+			"transactionStatus": "Transaction Status",
+			"allStatuses": "All Statuses",
+			"success": "Success",
+			"pending": "Pending",
+			"rejected": "Rejected",
+			"clearAll": "Clear All",
+			"cancel": "Cancel",
+			"applyFilters": "Apply Filters",
+			"activeFilters": "Active Filters:",
+			"statusLabel": "Status",
+			"dateLabel": "Date",
+			"statsTotalTransactions": "{total} total transactions",
+			"pageOf": "Page {current} of {total}",
+			"live": "Live",
+			"tabs": {
+				"all": "All",
+				"deposits": "Deposits",
+				"withdrawals": "Withdrawals"
+			},
+			"errorLoadingTransactions": "Error Loading Transactions",
+			"tryAgain": "Try Again",
+			"noTransactionsFound": "No Transactions Found",
+			"noTransactionsAvailableSelectedPeriod": "No transactions available for the selected period.",
+			"noDepositsFoundSelectedPeriod": "No deposits found for the selected period.",
+			"noWithdrawalsFoundSelectedPeriod": "No withdrawals found for the selected period.",
+			"show": "Show",
+			"ofTransactions": "of {count} transactions",
+			"showingRangeOfTotal": "Showing {from}-{to} of {total}",
+			"pageShort": "Page {current}/{total}"
+		},
+		"betHistory": {
+			"title": "Bet History",
+			"trackBetsResults": "Track your game bets and results",
+			"filters": "Filters",
+			"refresh": "Refresh",
+			"advancedFilters": "Advanced Filters",
+			"dateRange": "Date Range",
+			"selectDateRange": "Select date range",
+			"today": "Today",
+			"last7Days": "Last 7 Days",
+			"last30Days": "Last 30 Days",
+			"last90Days": "Last 90 Days",
+			"thisMonth": "This Month",
+			"lastMonth": "Last Month",
+			"customRange": "Custom Range",
+			"fromDate": "From Date",
+			"toDate": "To Date",
+			"provider": "Provider",
+			"allProviders": "All Providers",
+			"status": "Status",
+			"allStatuses": "All Statuses",
+			"outstanding": "Outstanding",
+			"win": "Win",
+			"lose": "Lose",
+			"draw": "Draw",
+			"void": "Void",
+			"bonusWin": "Bonus Win",
+			"clearAll": "Clear All",
+			"cancel": "Cancel",
+			"applyFilters": "Apply Filters",
+			"activeFilters": "Active Filters",
+			"statusLabel": "Status",
+			"providerLabel": "Provider",
+			"dateLabel": "Date",
+			"totalBets": "Total Bets",
+			"totalProfitLoss": "Total Profit/Loss",
+			"pageOf": "Page {current} of {total}",
+			"live": "Live",
+			"errorLoadingBets": "Error Loading Bet History",
+			"failedToLoadBetHistory": "Failed to load bet history. Please try again.",
+			"tryAgain": "Try Again",
+			"noBetsFound": "No Bets Found",
+			"noBetsFoundSelectedPeriod": "No betting history found for the selected period and filters.",
+			"show": "Show",
+			"ofBets": "of {count} bets",
+			"showingRangeOfTotal": "Showing {from}-{to} of {total}",
+			"totalBet": "Total Bet",
+			"totalWin": "Total Win",
+			"net": "Net",
+			"tableHeaders": {
+				"date": "Date",
+				"game": "Game",
+				"provider": "Provider",
+				"type": "Type",
+				"status": "Status",
+				"betAmount": "Bet Amount",
+				"winAmount": "Win Amount",
+				"hideAmounts": "Hide Amounts",
+				"showAmounts": "Show Amounts",
+				"gameType": "Game Type",
+				"vendor": "Vendor",
+				"lastUpdate": "Last Update",
+				"netResult": "Net Result",
+				"betId": "Bet ID"
+			},
+			"errorLoading": "Error Loading",
+			"noBetsFoundDescription": "Start playing games to see your betting history here.",
+			"betHistory": "Bet History",
+			"hideAmounts": "Hide Amounts",
+			"showAmounts": "Show Amounts",
+			"date": "Date",
+			"game": "Game",
+			"betId": "Bet ID",
+			"amount": "Amount",
+			"payout": "Payout",
+			"player": "Player",
+			"gameType": "Game Type",
+			"vendor": "Vendor",
+			"lastUpdate": "Last Update",
+			"netResult": "Net Result",
+			"totalWagered": "Total Wagered",
+			"totalWon": "Total Won",
+			"netProfit": "Net Profit",
+			"winRate": "Win Rate",
+			"showingResults": "Showing {start}-{end} of {total} results",
+			"firstPage": "First Page",
+			"previousPage": "Previous Page",
+			"nextPage": "Next Page",
+			"lastPage": "Last Page"
+		}
+	},
+	"chat": {
+		"title": "Live Chat",
+		"placeholder": "Type your message...",
+		"send": "Send",
+		"input": {
+			"replyPlaceholder": "Reply to {username}..."
+		},
+		"reply": {
+			"replyingTo": "Replying to {username}",
+			"types": {
+				"win": "Won {amount} {currency}",
+				"gif": "GIF message",
+				"image": "Image",
+				"default": "Message"
+			},
+			"preview": {
+				"winIn": "Won {amount} {currency} in {game}",
+				"gifAlt": "GIF preview",
+				"imageAlt": "Image preview",
+				"emoji": "Emoji message",
+				"rain": "Rain: {amount} {currency}",
+				"system": "System: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "Share Your Image 🎰",
+			"description": "Ready to show the chat room?",
+			"previewLabel": "Preview",
+			"statusReady": "Ready to Share",
+			"roomLabel": "🎰 Casino Chat",
+			"shareNotice": "Your image will be shared with all players in the chat room",
+			"closeAria": "Close dialog",
+			"cancelAria": "Cancel image upload",
+			"sendAria": "Send image to chat",
+			"send": "Send to Chat"
+		},
+		"picker": {
+			"searchEmojis": "Search emojis...",
+			"searchGifs": "Search GIFs...",
+			"tabs": {
+				"emojis": "Emojis",
+				"gifs": "GIFs"
+			},
+			"loadingEmojis": "Loading emojis...",
+			"loadingGifs": "Loading GIFs...",
+			"retry": "Retry",
+			"recent": "Recent",
+			"noEmojis": "No emojis found",
+			"noGifs": "No GIFs found",
+			"tryDifferent": "Try a different search term",
+			"gifCategories": {
+				"trending": "Trending",
+				"reactions": "Reactions",
+				"gaming": "Gaming",
+				"casino": "Casino",
+				"celebration": "Celebration",
+				"sports": "Sports"
+			},
+			"searchResults": "Search Results",
+			"availableToTag": "Available users to tag 🎯",
+			"clickOrTab": "Click or Tab to select",
+			"noUsers": "No users found",
+			"noUsersMatching": "No users matching",
+			"startTyping": "Start typing to search",
+			"typeAt": "Type",
+			"toSeeSuggestions": "to see suggestions 🎰",
+			"errors": {
+				"emojisLoad": "Failed to load emojis",
+				"emojisSearch": "Failed to search emojis",
+				"gifsLoad": "Failed to load GIFs"
+			}
+		},
+		"messages": {
+			"emptyTitle": "No messages yet...",
+			"emptySubtitle": "Start the conversation and win big! 🎰",
+			"loadingHistory": "Loading chat history...",
+			"loadingHistorySubtitle": "Fetching recent messages 📜",
+			"historyError": "Failed to load chat history"
+		},
+		"message": {
+			"you": "You",
+			"winTitle": "Big Win in \"{game}\"! 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "Uploaded image",
+			"rainTitle": "Money Rain! 🌧️💰",
+			"recipients": "→ {count} {count, plural, one {recipient} other {recipients}}",
+			"eachTo": "{amount} {currency} each to: {list}",
+			"replyCount": "{count} {count, plural, one {reply} other {replies}}",
+			"loadingHistory": "Loading chat history..."
+		},
+		"system": {
+			"slashDisabled": "Slash commands are temporarily disabled. Please use regular messages.",
+			"rateLimit": "Rate limit exceeded. Please wait {seconds} seconds before sending another message.",
+			"cannotTagSelf": "You cannot tag yourself in messages.",
+			"processingImage": "Processing image...",
+			"failedUploadPrefix": "Failed to upload image: {message}",
+			"unknownError": "Unknown error"
+		}
+	},
+	"sidebar": {
+		"quest": "QUEST",
+		"spin": "SPIN",
+		"deposit": "DEPOSIT",
+		"withdraw": "WITHDRAW",
+		"playOnTelegram": "Play on Telegram",
+		"dailyBonus": "Daily Bonus",
+		"navigation": "Navigation",
+		"games": "Games",
+		"providers": "Providers",
+		"trendingNow": "Trending Now",
+		"allProviders": "All Providers",
+		"allTopProviders": "All Top Providers",
+		"hotBadge": "Hot"
+	},
+	"search": {
+		"title": "Search games",
+		"subtitle": "Find by name, provider, or category",
+		"placeholder": "Search games, providers, categories...",
+		"clear": "Clear",
+		"recent": "Recent:",
+		"popular": "Popular:",
+		"favoritesTry": "You can try — Your favorites",
+		"hotPicks": "Hot picks",
+		"resultsCount": "Found {count} {count, plural, one {game} other {games}}",
+		"noResults": "No results",
+		"filterApplied": "Filtered by {count} {count, plural, one {provider} other {providers}}",
+		"suggestions": {
+			"category": "Category",
+			"provider": "Provider"
+		},
+		"sections": {
+			"topProviders": "Top Providers",
+			"selectedProviders": "Selected Providers",
+			"categories": "Categories",
+			"games": "Games",
+			"providers": "Providers"
+		},
+		"results": {
+			"found": "Found {games} games, {categories} categories, and {providers} providers"
+		},
+		"gameTypes": {
+			"blackjack": "Blackjack",
+			"roulette": "Roulette",
+			"crash": "Crash"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "Sort by",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "Filter",
+			"optionsTitle": "Filter Options",
+			"clearAll": "Clear All Filters",
+			"activeLabel": "Active:"
+		},
+		"searchPlaceholderGeneric": "Search...",
+		"providersDropdown": {
+			"title": "Providers",
+			"selected": "{count} selected",
+			"searchPlaceholder": "Search providers...",
+			"empty": "No provider found.",
+			"clear": "Clear Provider Filters"
+		},
+		"category": {
+			"label": "Category:"
+		},
+		"view": {
+			"toggleAria": "View mode toggle",
+			"gridAria": "Grid view",
+			"listAria": "List view"
+		},
+		"loadMore": "Load More"
+	},
+	"commonExtra": {
+		"connecting": "Connecting...",
+		"offline": "Offline",
+		"online": "Online",
+		"clear": "Clear"
+	},
+	"home": {
+		"topProviders": "Top Game Providers"
+	},
+	"lobby": {
+		"yourFavorites": "Your Favorites",
+		"featuredCasinoGames": "Featured Casino Games",
+		"hotPicks": "Hot Picks",
+		"slots": "Slots",
+		"sports": "Sports",
+		"realTimeScoreboard": "Real-Time Scoreboard"
+	},
+	"affiliate": {
+		"title": "Affiliate Program",
+		"loginPromptTitle": "Referral Program",
+		"loginPromptSubtitle": "Log in to view your referral stats, bonuses and claim rewards.",
+		"goHome": "Go to Home",
+		"tabs": {
+			"dashboard": "Dashboard",
+			"rates": "Commission Rates",
+			"calculator": "Calculator"
+		},
+		"refresh": "Refresh",
+		"refreshing": "Refreshing...",
+		"refreshAllSuccess": "All data refreshed successfully!",
+		"refreshPartial": "Partially refreshed: {success}/{total} sections updated",
+		"refreshFailed": "Failed to refresh data. Please try again.",
+		"dashboard": {
+			"title": "Affiliate Dashboard",
+			"subtitle": "Track your referrals, earnings, and commission performance",
+			"performanceOverview": "Performance Overview",
+			"referralManagement": "Referral Management",
+			"termsAndCommission": "Terms & Commission Structure",
+			"unclaimedEarnings": "Unclaimed Earnings",
+			"claim": "Claim",
+			"claiming": "Claiming...",
+			"totalIncome": "Total Income",
+			"totalReferrals": "Total Referrals",
+			"usersUnit": "users",
+			"yourReferralLinks": "Your Referral Links",
+			"referralLinksSubtitle": "Share these links to refer new users and earn commissions",
+			"completeReferralLink": "Complete Referral Link",
+			"fullReferralPlaceholder": "Full referral link will appear here",
+			"fullReferralHelp": "Direct link that users can click to register with your referral code",
+			"referralCodeOnly": "Referral Code Only",
+			"yourReferralId": "Your referral ID",
+			"referralIdHelp": "Share this code for users to enter manually during registration",
+			"copyFullSuccess": "Full referral link copied to clipboard!",
+			"copyIdSuccess": "Referral ID copied to clipboard!"
+		},
+		"referrals": {
+			"title": "My Referrals",
+			"subtitle": "Track and manage all users referred through your affiliate links",
+			"totalReferrals": "total referrals",
+			"monitorHelp": "Monitor your referrals' activity, deposits, and gaming patterns",
+			"sort": {
+				"placeholder": "Sort by...",
+				"nicknameAsc": "Nickname (A-Z)",
+				"nicknameDesc": "Nickname (Z-A)",
+				"lastLogin": "Last Login",
+				"unclaimedAmount": "Unclaimed Amount"
+			},
+			"table": {
+				"nickname": "Nickname",
+				"totalWager": "Total Wager",
+				"lastLogin": "Last Login",
+				"registered": "Registered",
+				"lastDeposit": "Last Deposit",
+				"depositDate": "Deposit Date",
+				"tier": "Tier"
+			},
+			"empty": {
+				"title": "No referrals found",
+				"subtitle": "Start referring users to see them here."
+			},
+			"pagination": {
+				"showing": "Showing {from} to {to} of {total} results",
+				"prev": "Previous",
+				"next": "Next"
+			}
+		},
+		"rates": {
+			"title": "Commission Rate Structure",
+			"subtitle": "Earnings percentages by tier level and game category",
+			"howItWorks": {
+				"title": "How Commission Tiers Work",
+				"body": "Your commission tier is determined by your referrals' total daily wager amount. Higher tiers offer better commission rates across all game types."
+			},
+			"calculation": {
+				"title": "How Commissions Are Calculated",
+				"desc": "Commissions are calculated every 24 hours based on referred players' total wagers. Examples:",
+				"exampleTitle": "Tier {tier}:",
+				"wagerIn": "Wager {amount} in {gameType}"
+			},
+			"table": {
+				"tierLevel": "Tier Level",
+				"wagerRange": "Wager Range",
+				"slots": "Slots",
+				"liveCasino": "Live Casino",
+				"sports": "Sports",
+				"tierPrefix": "TIER",
+				"commissionLevel": "Commission Level",
+				"dailyWager": "Daily wager volume"
+			},
+			"claim": {
+				"title": "Claiming and Withdrawing",
+				"points": {
+					"0": "Commissions are available for withdrawal once calculated.",
+					"1": "There is no expiration for unclaimed commissions—they accumulate until claimed.",
+					"2": "Withdrawals follow the platform's standard rules, such as minimum limits and processing times."
+				}
+			},
+			"system": {
+				"title": "System Time and Operations",
+				"dailyTimeframeLabel": "Daily Timeframe:",
+				"dailyTimeframeValue": "00:00 UTC to 23:59 UTC (every day).",
+				"claimDailyLabel": "Claim Daily:",
+				"claimDailyValue": "Available daily at 14:00 UTC (Your Local Time: {local}).",
+				"note": "Note: While we work with providers from different time zones, all calculations follow UTC to ensure consistency and avoid confusion."
+			},
+			"amendments": {
+				"title": "Amendments",
+				"body": "We may update these terms at any time. Changes take effect immediately upon posting, and continued participation means you accept the new terms."
+			},
+			"footer": {
+				"schedule": "Commission Schedule:",
+				"availableDaily": "Available daily at",
+				"localTimeLabel": "(Your Local Time: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Earnings Calculator",
+			"subtitle": "Estimate your commission earnings based on your referrals' wager amounts",
+			"interactive": {
+				"title": "Interactive Tool:",
+				"body": "Enter different wager amounts to see potential earnings across all tiers"
+			},
+			"potentialEarnings": "Potential Earnings",
+			"basedOnRate": "Based on {percentage}% commission rate",
+			"tier": "Tier {level}",
+			"commissionLevel": "Commission Level {level}",
+			"enterWager": "Enter Wager Amount (USD)",
+			"wagerPlaceholder": "e.g., 1000",
+			"calcFor": "Calculating earnings for ${amount} wager",
+			"totalPotential": "Total Potential Earnings:",
+			"combinedAtTier": "Combined earnings from all game types at Tier {level}"
+		}
+	},
+	"debug": {
+		"title": "Debugging Page"
+	},
+	"getLobby": {
+		"enteringLobby": "Entering Lobby...",
+		"connectingWait": "Please wait while we connect you.",
+		"invalidSession": "Your session is invalid or the provider is missing. Please try again.",
+		"failedPrefix": "Failed to enter lobby: {message}",
+		"launchFailedTitle": "Launch Failed",
+		"returnHome": "Return to Home"
+	},
+	"play": {
+		"connecting": "Connecting to game server...",
+		"invalidSession": "Your session is invalid or has expired. Please log in and try again.",
+		"launchFailedTitle": "Launch Failed",
+		"returnHome": "Return to Home"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "LIMITED TIME OFFER",
+		"headline": "Get 200% Welcome Bonus!",
+		"subheadline": "Connect your crypto wallet now and receive up to {amount} bonus on your first deposit!",
+		"featureDepositMatch": "200% Deposit Match",
+		"featureZeroFees": "Zero Transaction Fees",
+		"featureInstantWithdrawals": "Instant Withdrawals",
+		"featureNoKyc": "No KYC Required",
+		"ctaClaim": "CLAIM BONUS NOW!",
+		"offerExpires": "Offer expires in:",
+		"disclaimer": "T&C Apply. Gambling involves risk. Play responsibly. 18+",
+		"closeAria": "Close modal",
+		"bannerAlt": "Promotional Banner",
+		"ctaOk": "Connect Wallet & Start Betting",
+		"enterAmount": "Enter Amount",
+		"balance": "Balance",
+		"max": "Max",
+		"deposit": "Deposit",
+		"ethereum": "Ethereum"
+	},
+	"modalsSmall": {
+		"close": "Close",
+		"firstDepositBoost": "1st Deposit Bonus Boost",
+		"bonus": "Bonus",
+		"min": "Min",
+		"sec": "Sec",
+		"deposit": "Deposit"
+	},
+	"auth": {
+		"email": {
+			"title": "Email Login",
+			"description": "We'll send you a 6-digit code",
+			"emailLabel": "Email Address",
+			"emailPlaceholder": "name@email.com",
+			"cancel": "Cancel",
+			"sending": "Sending",
+			"continue": "Continue",
+			"enterCodeTitle": "Enter Code",
+			"sentTo": "Sent to {email}",
+			"changeEmail": "Change email",
+			"resendCode": "Resend code",
+			"resendIn": "Resend in {seconds}s",
+			"verifying": "Verifying",
+			"successTitle": "You're in",
+			"successSubtitle": "Setting things up…",
+			"modalAria": "Email Verification Modal",
+			"errors": {
+				"invalidEmail": "Please enter a valid email address",
+				"sendFailed": "Failed to send verification code.",
+				"invalidCode": "Please enter a 6-digit verification code"
+			}
+		},
+		"setNickname": {
+			"title": "Set Your Nickname",
+			"subtitle": "This is a one-time setup and cannot be changed",
+			"logoutAria": "Log Out",
+			"inputPlaceholder": "Choose your unique nickname",
+			"referrerCheckbox": "I have a referrer ID",
+			"referrerPlaceholder": "Enter referrer ID",
+			"referrerHelp": "Optional. This links your account to the referrer for bonus programs.",
+			"status": {
+				"checking": "Checking availability...",
+				"available": "Nickname is available!",
+				"taken": "This nickname is already taken."
+			},
+			"register": "Register and Play",
+			"termsTitle": "Terms & Conditions:",
+			"termsBody": "By signing this document with your Wallet and/or continuing to use this Web3 Application, you accept the application's terms of use. Signing your consent to the Terms of Use is not a blockchain transaction and incurs no cost.",
+			"errors": {
+				"verifyNicknameFailed": "Could not verify nickname. Please try again.",
+				"registerFailed": "Registration failed: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "Login With Email",
+			"connectWalletBtn": "Connect Wallet",
+			"loginWithWallet": "Login With Wallet",
+			"player": "Player",
+			"walletConnected": "Wallet Connected",
+			"emailConnected": "Email Connected",
+			"disconnect": "Disconnect",
+			"walletAddress": "Wallet Address",
+			"balance": "Balance"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "Deposit",
+				"withdraw": "Withdraw",
+				"swap": "Swap",
+				"walletInfo": "Wallet"
+			},
+			"mobileDropdown": {
+				"emailWallet": "Email Wallet",
+				"wallet": "Wallet",
+				"deposit": "Deposit",
+				"withdraw": "Withdraw",
+				"swap": "Swap"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "Select Network",
+			"switching": "Switching...",
+			"walletNotConnected": "Wallet not connected.",
+			"failedToSwitch": "Failed to switch network. Please try from your wallet.",
+			"altLogo": "Network logo"
+		},
+		"tokenList": {
+			"dialogTitle": "Select a Token",
+			"instantDeposit": "Instant Deposit",
+			"yourWalletBalance": "Your Wallet Balance",
+			"searchPlaceholder": "Search name or paste address",
+			"emptySearch": "No tokens found matching your search.",
+			"emptyOwned": "No tokens with balance found.",
+			"searchResults": "Search Results",
+			"yourTokens": "Your Tokens",
+			"otherResults": "Other Results"
+		},
+		"tabsSidebar": {
+			"walletInfo": "Wallet",
+			"emailWallet": "Email Wallet",
+			"deposit": "Deposit",
+			"withdraw": "Withdraw",
+			"swap": "Swap"
+		},
+		"depositPanel": {
+			"youPay": "You Pay",
+			"resetForm": "Reset Form",
+			"enterAmount": "Enter Amount",
+			"selectToken": "Select token",
+			"max": "Max",
+			"balance": "Balance:",
+			"calculating": "Calculating...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Min:",
+			"ratesMayVary": "Rates may vary",
+			"emailWalletAddress": "Email Wallet Address",
+			"walletAddress": "Wallet Address",
+			"minimumIs": "Minimum is {min}",
+			"errors": {
+				"selectTokenAndAmount": "Please select a token and enter an amount",
+				"insufficientBalance": "Insufficient balance for this transaction",
+				"amountTooHighGas": "Amount is too high when accounting for gas fees",
+				"checkForm": "Please check the form and try again",
+				"pendingDeposit": "You have a pending deposit. Please wait for it to complete"
+			},
+			"status": {
+				"processing": "Processing...",
+				"awaitingApproval": "Awaiting Approval",
+				"calculatingRate": "Calculating Rate...",
+				"insufficientBalance": "Insufficient Balance"
+			},
+			"buttons": {
+				"depositUsd": "Deposit ${amount}"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "Select tokens",
+			"enterAmount": "Enter amount",
+			"gettingQuote": "Getting quote...",
+			"confirming": "Confirming...",
+			"approving": "Approving...",
+			"insufficientBalance": "Insufficient balance for the Swap",
+			"sameToken": "Cannot swap the same token",
+			"approveAndSwap": "Approve & Swap",
+			"swap": "Swap",
+			"slippageTolerance": "Slippage Tolerance",
+			"custom": "Custom",
+			"set": "Set",
+			"currentSlippage": "Current slippage",
+			"swapSuccessful": "Swap Successful!",
+			"transactionConfirmed": "Your transaction has been confirmed",
+			"hash": "Hash",
+			"newSwap": "New Swap",
+			"youPay": "You pay",
+			"max": "Max",
+			"low": "Low",
+			"amountPlaceholder": "0",
+			"selectToken": "Select Token",
+			"youReceive": "You receive",
+			"gettingBestQuote": "Getting best quote...",
+			"gas": "Gas",
+			"minimumReceived": "Minimum received",
+			"slippageToleranceLabel": "Slippage tolerance",
+			"gasFee": "Gas fee",
+			"priceWarning": "Prices are updated in real-time and may change before your transaction is confirmed",
+			"emailWalletAddress": "Email Wallet Address",
+			"walletAddress": "Wallet Address",
+			"minimumIs": "Minimum is {min}",
+			"errors": {
+				"selectTokenAndAmount": "Please select a token and enter an amount",
+				"insufficientBalance": "Insufficient balance for this transaction",
+				"amountTooHighGas": "Amount is too high when accounting for gas fees",
+				"checkForm": "Please check the form and try again",
+				"pendingDeposit": "You have a pending deposit. Please wait for it to complete"
+			},
+			"status": {
+				"processing": "Processing...",
+				"awaitingApproval": "Awaiting Approval",
+				"calculatingRate": "Calculating Rate...",
+				"insufficientBalance": "Insufficient Balance"
+			},
+			"buttons": {
+				"depositUsd": "Deposit ${amount}"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "Deposit Confirmed!",
+			"submittedTitle": "Transaction Submitted",
+			"confirmedDesc": "Your balance has been updated.",
+			"submittedDesc": "Waiting for blockchain confirmation. This can take a few minutes.",
+			"viewOnExplorer": "View on Explorer",
+			"newDepositConfirmed": "Make Another Deposit",
+			"newDepositPending": "Start a new deposit"
+		},
+		"withdrawPanel": {
+			"resetForm": "Reset Form",
+			"networkNotSupported": "Withdrawals are only supported on Arbitrum, Polygon, and BNB",
+			"youWithdraw": "You Withdraw",
+			"loading": "Loading...",
+			"amount": "Amount",
+			"max": "Max",
+			"balance": "Balance:",
+			"available": "Available:",
+			"insufficientBalance": "Insufficient balance",
+			"minimumIs": "Minimum is {min}",
+			"minLabel": "Min:",
+			"emailWalletAddress": "Email Wallet Address",
+			"walletAddress": "Wallet Address",
+			"errors": {
+				"pendingWithdrawal": "You already have a pending withdrawal",
+				"invalidAddress": "Invalid Address",
+				"enterAmount": "Enter Amount",
+				"networkNotSupported": "Network Not Supported"
+			},
+			"status": {
+				"processing": "Processing...",
+				"insufficientBalance": "Insufficient Balance",
+				"pendingWithdrawal": "Already Have Pending Withdrawal"
+			},
+			"buttons": {
+				"withdraw": "Withdraw {amount} {symbol}",
+				"minimum": "Minimum {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "Withdrawal Successful!",
+			"successMessage": "🎉 Just withdrew {withdrawAmount} {tokenSymbol} from Meme Win! 🚀 Join the winning streak at {shareUrl}",
+			"withdrawnAmount": "Withdrawn Amount",
+			"shareText": "Share",
+			"subText": "🚀 JOIN THE WINNING STREAK! 🚀",
+			"generating": "Generating...",
+			"screenshot": "Take Screenshot",
+			"download": "Download Image",
+			"close": "Close",
+			"copiedToClipboard": "Share Link Copied successfully"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "Withdrawal Confirmed!",
+			"submittedTitle": "Transaction Submitted",
+			"confirmedDesc": "Your funds are on the way.",
+			"submittedDesc": "Waiting for blockchain confirmation...",
+			"viewOnExplorer": "View on Explorer",
+			"manualApproval": "This withdrawal requires manual approval.",
+			"newWithdrawalConfirmed": "Make Another Withdrawal",
+			"newWithdrawalPending": "Start a New Withdrawal"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "You Will Receive"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "Upgrade to Pro",
+		"account": "Account",
+		"billing": "Billing",
+		"notifications": "Notifications",
+		"logout": "Log out"
+	},
+	"games": {
+		"pageTitle": "All Games",
+		"playNow": "Play Now",
+		"byProvider": "By {name}",
+		"count": "{count, plural, one {Game} other {Games}}",
+		"noResults": "No games found matching your criteria.",
+		"errorLoading": "Could not load games. Please try again later.",
+		"slots": "Slots",
+		"sports": "Sports",
+		"liveCasino": "Live Casino",
+		"explore": "Explore",
+		"exploreSubtitle": "Discover amazing gaming experiences",
+		"poker": "Poker",
+		"lottery": "Lottery",
+		"futures": "Futures",
+		"vr": "VR",
+		"swap": "Swap",
+		"slotsDescription": "Spin the reels and win massive jackpots",
+		"liveCasinoDescription": "Experience real-time casino action with live dealers",
+		"sportsDescription": "Bet on your favorite teams and sporting events",
+		"pokerDescription": "Test your skills in classic poker games",
+		"lotteryDescription": "Try your luck with lottery and instant win games",
+		"futuresDescription": "Trade and predict market movements",
+		"vrDescription": "Immerse yourself in virtual reality gaming",
+		"swapDescription": "Exchange tokens and cryptocurrencies seamlessly",
+		"categories": {
+			"slot": {
+				"title": "Slot Games"
+			},
+			"liveCasino": {
+				"title": "Live Casino Games"
+			},
+			"sports": {
+				"title": "Sports Betting Games"
+			},
+			"rng": {
+				"title": "RNG Games"
+			},
+			"other": {
+				"title": "{category} Games"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "All Game Providers",
+		"searchPlaceholder": "Search for a provider...",
+		"empty": "No providers found matching your search.",
+		"logoAlt": "{name} logo",
+		"filteredBy": "Filtered by category:",
+		"clearFilter": "Clear filter",
+		"categories": {
+			"slot": {
+				"title": "Slot Game Providers"
+			},
+			"liveCasino": {
+				"title": "Live Casino Providers"
+			},
+			"sports": {
+				"title": "Sports Betting Providers"
+			},
+			"rng": {
+				"title": "RNG Game Providers"
+			},
+			"other": {
+				"title": "{category} Game Providers"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "Join the Action",
+			"subtitle": "Sign up now and get an exclusive welcome bonus!",
+			"cta": "Register Now"
+		},
+		"welcome": {
+			"title1": "Welcome Bonus",
+			"title2": "Up to 590%",
+			"subtitle": "+ 225 Free Spins",
+			"cta": "Deposit & Get"
+		},
+		"jackpot": {
+			"title1": "Mega Jackpot",
+			"title2": "$1,000,000",
+			"subtitle": "Play Now & Win Big",
+			"cta": "Play Now"
+		},
+		"cards": {
+			"casino": {
+				"title": "Casino",
+				"badge": "590+ GAMES",
+				"desc": "Enjoy MemeWin Originals and other casino games from top providers.",
+				"link": "Go to Casino"
+			},
+			"slots": {
+				"title": "Slots",
+				"badge": "5292 GAMES",
+				"desc": "Spin the reels and hit massive jackpots with our premium slot collection.",
+				"link": "Go to Slots"
+			},
+			"sports": {
+				"title": "Sports",
+				"badge": "3 GAMES",
+				"desc": "Bet on your favorite teams and sports events with competitive odds.",
+				"link": "Go to Sports"
+			},
+			"crypto": {
+				"title": "Crypto & Earn",
+				"badge": "60% APR",
+				"desc": "Stake, trade, and earn with cryptocurrency at attractive rates.",
+				"link": "Go to Crypto"
+			}
+		},
+		"layout3": {
+			"headerTitle": "Game Spotlight",
+			"headerSubtitle": "Discover amazing games and explore new adventures in our curated collection",
+			"slider1Title": "Featured Games",
+			"slider1Badge": "Staff Picks",
+			"slider2Title": "More to Explore",
+			"slider2Badge": "Trending",
+			"featuredGameLabel": "Featured Game"
+		},
+		"ctaExploreGames": "Explore Games",
+		"ctaJoinAffiliate": "Join Affiliate"
+	},
+	"betting": {
+		"live": {
+			"winRate": "Win Rate",
+			"biggestWin": "Biggest Win",
+			"bigWins50": "Big Wins (50+)",
+			"recentWins": "Recent Wins",
+			"header": {
+				"title": "Live Betting Activity",
+				"subtitle": "Real-time betting activity • {count} games loaded"
+			},
+			"status": {
+				"live": "LIVE",
+				"paused": "Paused"
+			},
+			"actions": {
+				"pause": "Pause",
+				"resume": "Resume"
+			},
+			"tabs": {
+				"all": "All",
+				"wins": "Wins",
+				"losses": "Losses"
+			},
+			"table": {
+				"game": "Game Name",
+				"time": "Time",
+				"provider": "Provider",
+				"nickname": "Nickname",
+				"bet": "Bet",
+				"multiplier": "Multiplier",
+				"profit": "Profit"
+			},
+			"empty": "No betting records found"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "Change Font",
+		"fontSettings": "Font Settings",
+		"current": "Current",
+		"browseGoogleFonts": "Browse Google Fonts",
+		"uploadCustomFont": "Upload Custom Font",
+		"quickUploadFontFile": "Quick Upload Font File",
+		"resetToDefault": "Reset to Default",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "Search fonts...",
+			"preview": "Preview",
+			"previewText": "The quick brown fox jumps over the lazy dog",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "Apply Font",
+			"clearPreview": "Clear Preview",
+			"previewWith": "Preview text with {font}",
+			"noFontsFound": "No fonts found matching \"{searchTerm}\""
+		},
+		"customUpload": {
+			"title": "Upload Custom Font",
+			"description": "Upload your own font file to customize the website",
+			"fontFile": "Font File",
+			"dragDropArea": "Drag and drop your font file here, or",
+			"clickToUpload": "click to upload",
+			"supportedFormats": "Supported formats: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Maximum file size: 10MB",
+			"fontName": "Font Name",
+			"fontNamePlaceholder": "Enter a name for your font",
+			"previewYourFont": "Preview Your Font",
+			"uploadAndApply": "Upload & Apply Font",
+			"cancel": "Cancel",
+			"uploading": "Uploading...",
+			"errors": {
+				"invalidFileType": "Please upload a valid font file (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "File size exceeds 10MB limit",
+				"uploadFailed": "Failed to upload font file",
+				"enterFontName": "Please select a font file and provide a name",
+				"readFileFailed": "Failed to read font file"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "Font \"{fontName}\" applied successfully!",
+			"fontUploadedSuccess": "Font \"{fontName}\" uploaded and applied successfully!",
+			"fontResetSuccess": "Font reset to default",
+			"invalidFileType": "Please upload a valid font file (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Failed to read font file"
+		}
+	}
+}

@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "로딩 중...",
+		"save": "저장",
+		"cancel": "취소",
+		"confirm": "확인",
+		"viewAll": "모두 보기"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "사이드바 전환",
+		"searchPlaceholder": "게임, 제공업체 검색...",
+		"liveChat": "라이브 채팅",
+		"player": "플레이어",
+		"vip": "VIP",
+		"profile": "프로필",
+		"statistics": "통계",
+		"wallet": "입금/출금",
+		"cashier": "출납원",
+		"winLoss": "승/패",
+		"affiliate": "제휴",
+		"logout": "로그아웃",
+		"balance": "잔액"
+	},
+	"navigation": {
+		"home": "홈",
+		"games": "게임",
+		"profile": "프로필",
+		"wallet": "지갑",
+		"settings": "설정",
+		"promotions": "프로모션",
+		"affiliate": "제휴",
+		"providers": "제공업체",
+		"lobby": "로비"
+	},
+	"profile": {
+		"language": "언어",
+		"welcome": "환영합니다, {name}님!",
+		"settingUp": "설정 중",
+		"profileBtn": "프로필 보기",
+		"currentBalance": "현재 잔액",
+		"availableFunds": "사용 가능 자금",
+		"totalDeposits": "총 입금액",
+		"totalWithdrawals": "총 출금액",
+		"walletAddress": "지갑 주소",
+		"copySuccess": "지갑 주소가 클립보드에 복사되었습니다!",
+		"copyFailed": "지갑 주소 복사에 실패했습니다",
+		"notConnected": "연결되지 않음",
+		"myProfile": "내 프로필",
+		"logout": "로그아웃",
+		"pendingRegistration": "등록 대기 중",
+		"noEmailProvided": "이메일이 제공되지 않았습니다",
+		"balanceOverview": "잔액 개요",
+		"gettingStarted": "시작하기",
+		"verifyEmail": "이메일 인증",
+		"completeEmailVerification": "이메일 인증을 완료하세요",
+		"verifyPhone": "휴대폰 번호 인증",
+		"addPhoneVerification": "휴대폰 인증 추가",
+		"firstDeposit": "첫 입금",
+		"makeFirstDeposit": "첫 입금을 하세요",
+		"placeBetOrTrade": "베팅하기 / 거래하기",
+		"startFirstGame": "첫 게임 시작하기",
+		"recentActivity": "최근 활동",
+		"transactionHistory": "거래 내역",
+		"activityGameWinDiceRoll": "게임 승리 - 주사위 굴리기",
+		"activityGameLossBlackjack": "게임 패배 - 블랙잭",
+		"twoHoursAgo": "2시간 전",
+		"oneDayAgo": "1일 전",
+		"twoDaysAgo": "2일 전",
+		"deposit": "입금",
+		"loggedOutTitle": "앗! 로그아웃되었습니다",
+		"loggedOutSubtitle": "프로필을 보려면 로그인하세요",
+		"goHome": "홈으로 가기",
+		"withdrawal": "출금",
+		"transactions": {
+			"title": "거래 내역",
+			"trackDepositsWithdrawals": "입출금 내역 추적",
+			"filters": "필터",
+			"refresh": "새로고침",
+			"advancedFilters": "고급 필터",
+			"searchTransactionComingSoon": "거래 검색 (출시 예정)",
+			"searchPlaceholderDisabled": "검색 기능은 API 레벨에서 구현될 예정입니다...",
+			"dateRange": "기간 설정",
+			"selectDateRange": "기간 선택",
+			"today": "오늘",
+			"last7Days": "최근 7일",
+			"last30Days": "최근 30일",
+			"last90Days": "최근 90일",
+			"thisMonth": "이번 달",
+			"lastMonth": "지난 달",
+			"customRange": "사용자 설정",
+			"fromDate": "시작일",
+			"toDate": "종료일",
+			"transactionStatus": "거래 상태",
+			"allStatuses": "모든 상태",
+			"success": "성공",
+			"pending": "대기 중",
+			"rejected": "거절됨",
+			"clearAll": "모두 지우기",
+			"cancel": "취소",
+			"applyFilters": "필터 적용",
+			"activeFilters": "활성 필터:",
+			"statusLabel": "상태",
+			"dateLabel": "날짜",
+			"statsTotalTransactions": "총 {total}건의 거래",
+			"pageOf": "{total}페이지 중 {current}페이지",
+			"live": "라이브",
+			"tabs": {
+				"all": "전체",
+				"deposits": "입금",
+				"withdrawals": "출금"
+			},
+			"errorLoadingTransactions": "거래 내역을 불러오는 중 오류 발생",
+			"tryAgain": "다시 시도",
+			"noTransactionsFound": "거래 내역을 찾을 수 없습니다",
+			"noTransactionsAvailableSelectedPeriod": "선택한 기간에 거래 내역이 없습니다.",
+			"noDepositsFoundSelectedPeriod": "선택한 기간에 입금 내역이 없습니다.",
+			"noWithdrawalsFoundSelectedPeriod": "선택한 기간에 출금 내역이 없습니다.",
+			"show": "보기",
+			"ofTransactions": "/ 총 {count}건",
+			"showingRangeOfTotal": "총 {total}건 중 {from}-{to}건 표시",
+			"pageShort": "{current}/{total} 페이지"
+		},
+		"betHistory": {
+			"title": "베팅 내역",
+			"trackBetsResults": "게임 베팅 및 결과 추적",
+			"filters": "필터",
+			"refresh": "새로고침",
+			"advancedFilters": "고급 필터",
+			"dateRange": "기간 설정",
+			"selectDateRange": "기간 선택",
+			"today": "오늘",
+			"last7Days": "최근 7일",
+			"last30Days": "최근 30일",
+			"last90Days": "최근 90일",
+			"thisMonth": "이번 달",
+			"lastMonth": "지난 달",
+			"customRange": "사용자 설정",
+			"fromDate": "시작일",
+			"toDate": "종료일",
+			"provider": "제공업체",
+			"allProviders": "모든 제공업체",
+			"status": "상태",
+			"allStatuses": "모든 상태",
+			"outstanding": "미정산",
+			"win": "승리",
+			"lose": "패배",
+			"draw": "무승부",
+			"void": "무효",
+			"bonusWin": "보너스 승리",
+			"clearAll": "모두 지우기",
+			"cancel": "취소",
+			"applyFilters": "필터 적용",
+			"activeFilters": "활성 필터",
+			"statusLabel": "상태",
+			"providerLabel": "제공업체",
+			"dateLabel": "날짜",
+			"totalBets": "총 베팅 수",
+			"totalProfitLoss": "총 손익",
+			"pageOf": "{total}페이지 중 {current}페이지",
+			"live": "라이브",
+			"errorLoadingBets": "베팅 내역을 불러오는 중 오류 발생",
+			"failedToLoadBetHistory": "베팅 내역을 불러오지 못했습니다. 다시 시도해 주세요.",
+			"tryAgain": "다시 시도",
+			"noBetsFound": "베팅 내역을 찾을 수 없습니다",
+			"noBetsFoundSelectedPeriod": "선택한 기간 및 필터에 대한 베팅 내역이 없습니다.",
+			"show": "보기",
+			"ofBets": "/ 총 {count}건",
+			"showingRangeOfTotal": "총 {total}건 중 {from}-{to}건 표시",
+			"totalBet": "총 베팅액",
+			"totalWin": "총 당첨금",
+			"net": "순이익",
+			"tableHeaders": {
+				"date": "날짜",
+				"game": "게임",
+				"provider": "제공업체",
+				"type": "유형",
+				"status": "상태",
+				"betAmount": "베팅액",
+				"winAmount": "당첨금",
+				"hideAmounts": "금액 숨기기",
+				"showAmounts": "금액 표시",
+				"gameType": "게임 유형",
+				"vendor": "개발사",
+				"lastUpdate": "최종 업데이트",
+				"netResult": "순 결과",
+				"betId": "베팅 ID"
+			},
+			"errorLoading": "로딩 중 오류 발생",
+			"noBetsFoundDescription": "게임을 시작하여 베팅 내역을 여기에 표시하세요.",
+			"betHistory": "베팅 내역",
+			"hideAmounts": "금액 숨기기",
+			"showAmounts": "금액 표시",
+			"date": "날짜",
+			"game": "게임",
+			"betId": "베팅 ID",
+			"amount": "금액",
+			"payout": "지급금",
+			"player": "플레이어",
+			"gameType": "게임 유형",
+			"vendor": "개발사",
+			"lastUpdate": "최종 업데이트",
+			"netResult": "순 결과",
+			"totalWagered": "총 베팅액",
+			"totalWon": "총 당첨금",
+			"netProfit": "순이익",
+			"winRate": "승률",
+			"showingResults": "총 {total}개 결과 중 {start}-{end}개 표시",
+			"firstPage": "첫 페이지",
+			"previousPage": "이전 페이지",
+			"nextPage": "다음 페이지",
+			"lastPage": "마지막 페이지"
+		}
+	},
+	"chat": {
+		"title": "라이브 채팅",
+		"placeholder": "메시지를 입력하세요...",
+		"send": "전송",
+		"input": {
+			"replyPlaceholder": "{username}님에게 답장..."
+		},
+		"reply": {
+			"replyingTo": "{username}님에게 답장 중",
+			"types": {
+				"win": "{amount} {currency} 당첨",
+				"gif": "GIF 메시지",
+				"image": "이미지",
+				"default": "메시지"
+			},
+			"preview": {
+				"winIn": "{game}에서 {amount} {currency} 당첨",
+				"gifAlt": "GIF 미리보기",
+				"imageAlt": "이미지 미리보기",
+				"emoji": "이모티콘 메시지",
+				"rain": "레인: {amount} {currency}",
+				"system": "시스템: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "이미지 공유하기 🎰",
+			"description": "채팅방에 보여줄 준비가 되셨나요?",
+			"previewLabel": "미리보기",
+			"statusReady": "공유 준비 완료",
+			"roomLabel": "🎰 카지노 채팅",
+			"shareNotice": "이미지는 채팅방의 모든 플레이어와 공유됩니다",
+			"closeAria": "대화상자 닫기",
+			"cancelAria": "이미지 업로드 취소",
+			"sendAria": "채팅에 이미지 보내기",
+			"send": "채팅에 보내기"
+		},
+		"picker": {
+			"searchEmojis": "이모티콘 검색...",
+			"searchGifs": "GIF 검색...",
+			"tabs": {
+				"emojis": "이모티콘",
+				"gifs": "GIF"
+			},
+			"loadingEmojis": "이모티콘 로딩 중...",
+			"loadingGifs": "GIF 로딩 중...",
+			"retry": "재시도",
+			"recent": "최근 사용",
+			"noEmojis": "이모티콘을 찾을 수 없습니다",
+			"noGifs": "GIF를 찾을 수 없습니다",
+			"tryDifferent": "다른 검색어를 시도해 보세요",
+			"gifCategories": {
+				"trending": "인기",
+				"reactions": "리액션",
+				"gaming": "게임",
+				"casino": "카지노",
+				"celebration": "축하",
+				"sports": "스포츠"
+			},
+			"searchResults": "검색 결과",
+			"availableToTag": "태그할 수 있는 사용자 🎯",
+			"clickOrTab": "클릭 또는 탭하여 선택",
+			"noUsers": "사용자를 찾을 수 없습니다",
+			"noUsersMatching": "일치하는 사용자가 없습니다",
+			"startTyping": "검색을 위해 입력을 시작하세요",
+			"typeAt": "입력",
+			"toSeeSuggestions": "하여 추천 보기 🎰",
+			"errors": {
+				"emojisLoad": "이모티콘 로딩 실패",
+				"emojisSearch": "이모티콘 검색 실패",
+				"gifsLoad": "GIF 로딩 실패"
+			}
+		},
+		"messages": {
+			"emptyTitle": "아직 메시지가 없습니다...",
+			"emptySubtitle": "대화를 시작하고 큰 승리를 거두세요! 🎰",
+			"loadingHistory": "채팅 기록 로딩 중...",
+			"loadingHistorySubtitle": "최근 메시지 가져오는 중 📜",
+			"historyError": "채팅 기록 로딩 실패"
+		},
+		"message": {
+			"you": "나",
+			"winTitle": "\"{game}\"에서 큰 승리! 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "업로드된 이미지",
+			"rainTitle": "머니 레인! 🌧️💰",
+			"recipients": "→ {count}명의 수신자",
+			"eachTo": "각각에게 {amount} {currency}: {list}",
+			"replyCount": "답글 {count}개",
+			"loadingHistory": "채팅 기록 로딩 중..."
+		},
+		"system": {
+			"slashDisabled": "슬래시 명령어는 일시적으로 비활성화되었습니다. 일반 메시지를 사용해주세요.",
+			"rateLimit": "요청 한도를 초과했습니다. 다음 메시지를 보내기 전 {seconds}초 동안 기다려주세요.",
+			"cannotTagSelf": "메시지에서 자신을 태그할 수 없습니다.",
+			"processingImage": "이미지 처리 중...",
+			"failedUploadPrefix": "이미지 업로드 실패: {message}",
+			"unknownError": "알 수 없는 오류"
+		}
+	},
+	"sidebar": {
+		"quest": "퀘스트",
+		"spin": "스핀",
+		"deposit": "입금",
+		"withdraw": "출금",
+		"playOnTelegram": "텔레그램에서 플레이",
+		"dailyBonus": "일일 보너스",
+		"navigation": "탐색",
+		"games": "게임",
+		"providers": "제공업체",
+		"trendingNow": "현재 인기",
+		"allProviders": "모든 제공업체",
+		"allTopProviders": "모든 상위 제공업체",
+		"hotBadge": "인기"
+	},
+	"search": {
+		"title": "게임 검색",
+		"subtitle": "이름, 제공업체, 또는 카테고리로 찾기",
+		"placeholder": "게임, 제공업체, 카테고리 검색...",
+		"clear": "지우기",
+		"recent": "최근:",
+		"popular": "인기:",
+		"favoritesTry": "시도해 보세요 — 즐겨찾기",
+		"hotPicks": "인기 추천",
+		"resultsCount": "{count}개의 게임을 찾았습니다",
+		"noResults": "결과 없음",
+		"filterApplied": "{count}개의 제공업체로 필터링됨",
+		"suggestions": {
+			"category": "카테고리",
+			"provider": "제공업체"
+		},
+		"sections": {
+			"topProviders": "상위 제공업체",
+			"selectedProviders": "선택된 제공업체",
+			"categories": "카테고리",
+			"games": "게임",
+			"providers": "제공업체"
+		},
+		"results": {
+			"found": "{games}개의 게임, {categories}개의 카테고리, {providers}개의 제공업체를 찾았습니다"
+		},
+		"gameTypes": {
+			"blackjack": "블랙잭",
+			"roulette": "룰렛",
+			"crash": "크래시"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "정렬 기준",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "필터",
+			"optionsTitle": "필터 옵션",
+			"clearAll": "모든 필터 지우기",
+			"activeLabel": "활성:"
+		},
+		"searchPlaceholderGeneric": "검색...",
+		"providersDropdown": {
+			"title": "제공업체",
+			"selected": "{count}개 선택됨",
+			"searchPlaceholder": "제공업체 검색...",
+			"empty": "제공업체를 찾을 수 없습니다.",
+			"clear": "제공업체 필터 지우기"
+		},
+		"category": {
+			"label": "카테고리:"
+		},
+		"view": {
+			"toggleAria": "보기 모드 전환",
+			"gridAria": "그리드 보기",
+			"listAria": "리스트 보기"
+		},
+		"loadMore": "더 보기"
+	},
+	"commonExtra": {
+		"connecting": "연결 중...",
+		"offline": "오프라인",
+		"online": "온라인",
+		"clear": "지우기"
+	},
+	"home": {
+		"topProviders": "상위 게임 제공업체"
+	},
+	"lobby": {
+		"yourFavorites": "즐겨찾기",
+		"featuredCasinoGames": "추천 카지노 게임",
+		"hotPicks": "인기 추천",
+		"slots": "슬롯",
+		"sports": "스포츠",
+		"realTimeScoreboard": "실시간 스코어보드"
+	},
+	"affiliate": {
+		"title": "제휴 프로그램",
+		"loginPromptTitle": "추천 프로그램",
+		"loginPromptSubtitle": "로그인하여 추천 통계, 보너스를 확인하고 보상을 요청하세요.",
+		"goHome": "홈으로 가기",
+		"tabs": {
+			"dashboard": "대시보드",
+			"rates": "커미션 요율",
+			"calculator": "계산기"
+		},
+		"refresh": "새로고침",
+		"refreshing": "새로고침 중...",
+		"refreshAllSuccess": "모든 데이터가 성공적으로 새로고침되었습니다!",
+		"refreshPartial": "부분적으로 새로고침됨: {success}/{total} 섹션 업데이트됨",
+		"refreshFailed": "데이터 새로고침에 실패했습니다. 다시 시도해 주세요.",
+		"dashboard": {
+			"title": "제휴 대시보드",
+			"subtitle": "추천, 수익, 커미션 성과 추적",
+			"performanceOverview": "성과 개요",
+			"referralManagement": "추천 관리",
+			"termsAndCommission": "약관 및 커미션 구조",
+			"unclaimedEarnings": "미청구 수익",
+			"claim": "청구",
+			"claiming": "청구 중...",
+			"totalIncome": "총 수입",
+			"totalReferrals": "총 추천 수",
+			"usersUnit": "명",
+			"yourReferralLinks": "내 추천 링크",
+			"referralLinksSubtitle": "이 링크를 공유하여 새로운 사용자를 추천하고 커미션을 받으세요",
+			"completeReferralLink": "전체 추천 링크",
+			"fullReferralPlaceholder": "전체 추천 링크가 여기에 표시됩니다",
+			"fullReferralHelp": "사용자가 추천 코드로 등록하기 위해 클릭할 수 있는 직접 링크",
+			"referralCodeOnly": "추천 코드만",
+			"yourReferralId": "내 추천 ID",
+			"referralIdHelp": "이 코드를 공유하여 사용자가 등록 시 수동으로 입력할 수 있도록 하세요",
+			"copyFullSuccess": "전체 추천 링크가 클립보드에 복사되었습니다!",
+			"copyIdSuccess": "추천 ID가 클립보드에 복사되었습니다!"
+		},
+		"referrals": {
+			"title": "내 추천",
+			"subtitle": "제휴 링크를 통해 추천된 모든 사용자를 추적하고 관리하세요",
+			"totalReferrals": "총 추천 수",
+			"monitorHelp": "추천인의 활동, 입금, 게임 패턴을 모니터링하세요",
+			"sort": {
+				"placeholder": "정렬 기준...",
+				"nicknameAsc": "닉네임 (가-하)",
+				"nicknameDesc": "닉네임 (하-가)",
+				"lastLogin": "마지막 로그인",
+				"unclaimedAmount": "미청구 금액"
+			},
+			"table": {
+				"nickname": "닉네임",
+				"totalWager": "총 베팅액",
+				"lastLogin": "마지막 로그인",
+				"registered": "등록일",
+				"lastDeposit": "마지막 입금",
+				"depositDate": "입금일",
+				"tier": "등급"
+			},
+			"empty": {
+				"title": "추천 내역을 찾을 수 없습니다",
+				"subtitle": "사용자를 추천하여 여기에 표시되도록 하세요."
+			},
+			"pagination": {
+				"showing": "총 {total}개 결과 중 {from}부터 {to}까지 표시",
+				"prev": "이전",
+				"next": "다음"
+			}
+		},
+		"rates": {
+			"title": "커미션 요율 구조",
+			"subtitle": "등급 레벨 및 게임 카테고리별 수익 비율",
+			"howItWorks": {
+				"title": "커미션 등급 작동 방식",
+				"body": "커미션 등급은 추천인의 일일 총 베팅액에 따라 결정됩니다. 등급이 높을수록 모든 게임 유형에서 더 나은 커미션 요율을 제공합니다."
+			},
+			"calculation": {
+				"title": "커미션 계산 방식",
+				"desc": "커미션은 추천된 플레이어의 총 베팅액을 기준으로 24시간마다 계산됩니다. 예:",
+				"exampleTitle": "등급 {tier}:",
+				"wagerIn": "{gameType}에 {amount} 베팅"
+			},
+			"table": {
+				"tierLevel": "등급 레벨",
+				"wagerRange": "베팅 범위",
+				"slots": "슬롯",
+				"liveCasino": "라이브 카지노",
+				"sports": "스포츠",
+				"tierPrefix": "등급",
+				"commissionLevel": "커미션 레벨",
+				"dailyWager": "일일 베팅량"
+			},
+			"claim": {
+				"title": "청구 및 출금",
+				"points": {
+					"0": "커미션은 계산이 완료되면 출금할 수 있습니다.",
+					"1": "미청구 커미션에는 만료일이 없으며, 청구될 때까지 누적됩니다.",
+					"2": "출금은 최소 한도 및 처리 시간과 같은 플랫폼의 표준 규칙을 따릅니다."
+				}
+			},
+			"system": {
+				"title": "시스템 시간 및 운영",
+				"dailyTimeframeLabel": "일일 시간대:",
+				"dailyTimeframeValue": "매일 00:00 UTC부터 23:59 UTC까지.",
+				"claimDailyLabel": "일일 청구:",
+				"claimDailyValue": "매일 14:00 UTC에 가능 (현지 시간: {local}).",
+				"note": "참고: 저희는 다양한 시간대의 제공업체와 협력하지만, 모든 계산은 일관성을 보장하고 혼동을 피하기 위해 UTC를 따릅니다."
+			},
+			"amendments": {
+				"title": "개정",
+				"body": "당사는 언제든지 이 약관을 업데이트할 수 있습니다. 변경 사항은 게시 즉시 효력이 발생하며, 계속 참여하는 것은 새로운 약관에 동의하는 것을 의미합니다."
+			},
+			"footer": {
+				"schedule": "커미션 일정:",
+				"availableDaily": "매일",
+				"localTimeLabel": "에 가능 (현지 시간: {time})"
+			}
+		},
+		"calculator": {
+			"title": "수익 계산기",
+			"subtitle": "추천인의 베팅액을 기준으로 커미션 수익을 추정하세요",
+			"interactive": {
+				"title": "인터랙티브 도구:",
+				"body": "다양한 베팅액을 입력하여 모든 등급에서의 잠재적 수익을 확인하세요"
+			},
+			"potentialEarnings": "잠재적 수익",
+			"basedOnRate": "{percentage}% 커미션 요율 기준",
+			"tier": "등급 {level}",
+			"commissionLevel": "커미션 레벨 {level}",
+			"enterWager": "베팅액 입력 (USD)",
+			"wagerPlaceholder": "예: 1000",
+			"calcFor": "${amount} 베팅에 대한 수익 계산 중",
+			"totalPotential": "총 잠재 수익:",
+			"combinedAtTier": "등급 {level}에서 모든 게임 유형의 합산 수익"
+		}
+	},
+	"debug": {
+		"title": "디버깅 페이지"
+	},
+	"getLobby": {
+		"enteringLobby": "로비 입장 중...",
+		"connectingWait": "연결 중입니다. 잠시만 기다려 주세요.",
+		"invalidSession": "세션이 유효하지 않거나 제공업체가 없습니다. 다시 시도해 주세요.",
+		"failedPrefix": "로비 입장에 실패했습니다: {message}",
+		"launchFailedTitle": "실행 실패",
+		"returnHome": "홈으로 돌아가기"
+	},
+	"play": {
+		"connecting": "게임 서버에 연결 중...",
+		"invalidSession": "세션이 유효하지 않거나 만료되었습니다. 다시 로그인하여 시도해 주세요.",
+		"launchFailedTitle": "실행 실패",
+		"returnHome": "홈으로 돌아가기"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "기간 한정 혜택",
+		"headline": "200% 환영 보너스를 받으세요!",
+		"subheadline": "지금 암호화폐 지갑을 연결하고 첫 입금 시 최대 {amount}의 보너스를 받으세요!",
+		"featureDepositMatch": "200% 입금 매치",
+		"featureZeroFees": "거래 수수료 없음",
+		"featureInstantWithdrawals": "즉시 출금",
+		"featureNoKyc": "KYC 필요 없음",
+		"ctaClaim": "지금 보너스 신청하기!",
+		"offerExpires": "혜택 종료까지:",
+		"disclaimer": "이용 약관이 적용됩니다. 도박에는 위험이 따릅니다. 책임감 있게 플레이하세요. 18세 이상.",
+		"closeAria": "모달 닫기",
+		"bannerAlt": "프로모션 배너",
+		"ctaOk": "지갑 연결하고 베팅 시작하기",
+		"enterAmount": "금액 입력",
+		"balance": "잔액",
+		"max": "최대",
+		"deposit": "입금",
+		"ethereum": "이더리움"
+	},
+	"modalsSmall": {
+		"close": "닫기",
+		"firstDepositBoost": "첫 입금 보너스 부스트",
+		"bonus": "보너스",
+		"min": "분",
+		"sec": "초",
+		"deposit": "입금"
+	},
+	"auth": {
+		"email": {
+			"title": "이메일 로그인",
+			"description": "6자리 코드를 보내드립니다",
+			"emailLabel": "이메일 주소",
+			"emailPlaceholder": "name@email.com",
+			"cancel": "취소",
+			"sending": "전송 중",
+			"continue": "계속하기",
+			"enterCodeTitle": "코드 입력",
+			"sentTo": "{email}로 전송됨",
+			"changeEmail": "이메일 변경",
+			"resendCode": "코드 재전송",
+			"resendIn": "{seconds}초 후 재전송",
+			"verifying": "인증 중",
+			"successTitle": "로그인되었습니다",
+			"successSubtitle": "설정 중입니다...",
+			"modalAria": "이메일 인증 모달",
+			"errors": {
+				"invalidEmail": "유효한 이메일 주소를 입력하세요",
+				"sendFailed": "인증 코드 전송에 실패했습니다.",
+				"invalidCode": "6자리 인증 코드를 입력하세요"
+			}
+		},
+		"setNickname": {
+			"title": "닉네임 설정",
+			"subtitle": "이 설정은 한 번만 가능하며 변경할 수 없습니다",
+			"logoutAria": "로그아웃",
+			"inputPlaceholder": "고유한 닉네임을 선택하세요",
+			"referrerCheckbox": "추천인 ID가 있습니다",
+			"referrerPlaceholder": "추천인 ID 입력",
+			"referrerHelp": "선택 사항. 보너스 프로그램을 위해 계정을 추천인과 연결합니다.",
+			"status": {
+				"checking": "사용 가능 여부 확인 중...",
+				"available": "닉네임을 사용할 수 있습니다!",
+				"taken": "이 닉네임은 이미 사용 중입니다."
+			},
+			"register": "등록하고 플레이하기",
+			"termsTitle": "이용 약관:",
+			"termsBody": "지갑으로 이 문서에 서명하거나 이 Web3 애플리케이션을 계속 사용함으로써 귀하는 애플리케이션의 이용 약관에 동의하게 됩니다. 이용 약관에 대한 동의 서명은 블록체인 거래가 아니며 비용이 발생하지 않습니다.",
+			"errors": {
+				"verifyNicknameFailed": "닉네임을 확인할 수 없습니다. 다시 시도해 주세요.",
+				"registerFailed": "등록 실패: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "이메일로 로그인",
+			"connectWalletBtn": "지갑 연결",
+			"player": "플레이어",
+			"walletConnected": "지갑 연결됨",
+			"emailConnected": "이메일 연결됨",
+			"disconnect": "연결 해제",
+			"walletAddress": "지갑 주소",
+			"balance": "잔액",
+			"loginWithWallet": "지갑으로 로그인"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "입금",
+				"withdraw": "출금",
+				"swap": "스왑",
+				"walletInfo": "지갑"
+			},
+			"mobileDropdown": {
+				"emailWallet": "이메일 지갑",
+				"wallet": "지갑",
+				"deposit": "입금",
+				"withdraw": "출금",
+				"swap": "스왑"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "네트워크 선택",
+			"switching": "전환 중...",
+			"walletNotConnected": "지갑이 연결되지 않았습니다.",
+			"failedToSwitch": "네트워크 전환에 실패했습니다. 지갑에서 시도해 주세요.",
+			"altLogo": "네트워크 로고"
+		},
+		"tokenList": {
+			"dialogTitle": "토큰 선택",
+			"instantDeposit": "즉시 입금",
+			"yourWalletBalance": "내 지갑 잔액",
+			"searchPlaceholder": "이름 검색 또는 주소 붙여넣기",
+			"emptySearch": "검색과 일치하는 토큰을 찾을 수 없습니다.",
+			"emptyOwned": "잔액이 있는 토큰을 찾을 수 없습니다.",
+			"searchResults": "검색 결과",
+			"yourTokens": "내 토큰",
+			"otherResults": "기타 결과"
+		},
+		"tabsSidebar": {
+			"walletInfo": "지갑",
+			"emailWallet": "이메일 지갑",
+			"deposit": "입금",
+			"withdraw": "출금",
+			"swap": "스왑"
+		},
+		"depositPanel": {
+			"youPay": "지불",
+			"resetForm": "양식 초기화",
+			"enterAmount": "금액 입력",
+			"selectToken": "토큰 선택",
+			"max": "최대",
+			"balance": "잔액:",
+			"calculating": "계산 중...",
+			"approxUsd": "약 ${amount} USD",
+			"minPrefix": "최소:",
+			"ratesMayVary": "환율은 변동될 수 있습니다",
+			"emailWalletAddress": "이메일 지갑 주소",
+			"walletAddress": "지갑 주소",
+			"minimumIs": "최소 금액은 {min}입니다",
+			"errors": {
+				"selectTokenAndAmount": "토큰을 선택하고 금액을 입력하세요",
+				"insufficientBalance": "이 거래에 대한 잔액이 부족합니다",
+				"amountTooHighGas": "가스비를 고려하면 금액이 너무 높습니다",
+				"checkForm": "양식을 확인하고 다시 시도하세요",
+				"pendingDeposit": "대기 중인 입금이 있습니다. 완료될 때까지 기다려 주세요"
+			},
+			"status": {
+				"processing": "처리 중...",
+				"awaitingApproval": "승인 대기 중",
+				"calculatingRate": "환율 계산 중...",
+				"insufficientBalance": "잔액 부족"
+			},
+			"buttons": {
+				"depositUsd": "${amount} 입금"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "토큰 선택",
+			"enterAmount": "금액 입력",
+			"gettingQuote": "시세 확인 중...",
+			"confirming": "확인 중...",
+			"approving": "승인 중...",
+			"insufficientBalance": "스왑을 위한 잔액이 부족합니다",
+			"sameToken": "동일한 토큰을 스왑할 수 없습니다",
+			"approveAndSwap": "승인 및 스왑",
+			"swap": "스왑",
+			"slippageTolerance": "슬리피지 허용 오차",
+			"custom": "사용자 설정",
+			"set": "설정",
+			"currentSlippage": "현재 슬리피지",
+			"swapSuccessful": "스왑 성공!",
+			"transactionConfirmed": "거래가 확인되었습니다",
+			"hash": "해시",
+			"newSwap": "새로운 스왑",
+			"youPay": "지불",
+			"max": "최대",
+			"low": "낮음",
+			"amountPlaceholder": "0",
+			"selectToken": "토큰 선택",
+			"youReceive": "수령",
+			"gettingBestQuote": "최적의 시세 확인 중...",
+			"gas": "가스비",
+			"minimumReceived": "최소 수령액",
+			"slippageToleranceLabel": "슬리피지 허용 오차",
+			"gasFee": "가스비",
+			"priceWarning": "가격은 실시간으로 업데이트되며 거래가 확인되기 전에 변경될 수 있습니다",
+			"emailWalletAddress": "이메일 지갑 주소",
+			"walletAddress": "지갑 주소",
+			"minimumIs": "최소 금액은 {min}입니다",
+			"errors": {
+				"selectTokenAndAmount": "토큰을 선택하고 금액을 입력하세요",
+				"insufficientBalance": "이 거래에 대한 잔액이 부족합니다",
+				"amountTooHighGas": "가스비를 고려하면 금액이 너무 높습니다",
+				"checkForm": "양식을 확인하고 다시 시도하세요",
+				"pendingDeposit": "대기 중인 입금이 있습니다. 완료될 때까지 기다려 주세요"
+			},
+			"status": {
+				"processing": "처리 중...",
+				"awaitingApproval": "승인 대기 중",
+				"calculatingRate": "환율 계산 중...",
+				"insufficientBalance": "잔액 부족"
+			},
+			"buttons": {
+				"depositUsd": "${amount} 입금"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "입금이 확인되었습니다!",
+			"submittedTitle": "거래가 제출되었습니다",
+			"confirmedDesc": "잔액이 업데이트되었습니다.",
+			"submittedDesc": "블록체인 확인을 기다리는 중입니다. 몇 분 정도 걸릴 수 있습니다.",
+			"viewOnExplorer": "탐색기에서 보기",
+			"newDepositConfirmed": "다른 입금하기",
+			"newDepositPending": "새로운 입금 시작하기"
+		},
+		"withdrawPanel": {
+			"resetForm": "양식 초기화",
+			"networkNotSupported": "출금은 Arbitrum, Polygon, BNB에서만 지원됩니다",
+			"youWithdraw": "출금",
+			"loading": "로딩 중...",
+			"amount": "금액",
+			"max": "최대",
+			"balance": "잔액:",
+			"available": "사용 가능:",
+			"insufficientBalance": "잔액 부족",
+			"minimumIs": "최소 금액은 {min}입니다",
+			"minLabel": "최소:",
+			"emailWalletAddress": "이메일 지갑 주소",
+			"walletAddress": "지갑 주소",
+			"errors": {
+				"pendingWithdrawal": "이미 대기 중인 출금이 있습니다",
+				"invalidAddress": "유효하지 않은 주소",
+				"enterAmount": "금액 입력",
+				"networkNotSupported": "지원되지 않는 네트워크"
+			},
+			"status": {
+				"processing": "처리 중...",
+				"insufficientBalance": "잔액 부족",
+				"pendingWithdrawal": "이미 대기 중인 출금 있음"
+			},
+			"buttons": {
+				"withdraw": "{amount} {symbol} 출금",
+				"minimum": "최소 {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "출금 성공!",
+			"successMessage": "🎉 Meme Win에서 방금 {withdrawAmount} {tokenSymbol}을(를) 출금했습니다! 🚀 {shareUrl}에서 승리의 행진에 동참하세요",
+			"withdrawnAmount": "출금된 금액",
+			"shareText": "공유하기",
+			"subText": "🚀 승리의 행진에 동참하세요! 🚀",
+			"generating": "생성 중...",
+			"screenshot": "스크린샷 찍기",
+			"download": "이미지 다운로드",
+			"close": "닫기",
+			"copiedToClipboard": "공유 링크가 성공적으로 복사되었습니다"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "출금이 확인되었습니다!",
+			"submittedTitle": "거래가 제출되었습니다",
+			"confirmedDesc": "자금이 이동 중입니다.",
+			"submittedDesc": "블록체인 확인을 기다리는 중입니다...",
+			"viewOnExplorer": "탐색기에서 보기",
+			"manualApproval": "이 출금은 수동 승인이 필요합니다.",
+			"newWithdrawalConfirmed": "다른 출금하기",
+			"newWithdrawalPending": "새로운 출금 시작하기"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "받을 금액"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "프로로 업그레이드",
+		"account": "계정",
+		"billing": "청구",
+		"notifications": "알림",
+		"logout": "로그아웃"
+	},
+	"games": {
+		"pageTitle": "모든 게임",
+		"playNow": "지금 플레이",
+		"byProvider": "{name} 제공",
+		"count": "{count}개의 게임",
+		"noResults": "조건에 맞는 게임을 찾을 수 없습니다.",
+		"errorLoading": "게임을 불러올 수 없습니다. 나중에 다시 시도해 주세요.",
+		"slots": "슬롯",
+		"sports": "스포츠",
+		"liveCasino": "라이브 카지노",
+		"explore": "탐색",
+		"exploreSubtitle": "놀라운 게임 경험을 발견하세요",
+		"poker": "포커",
+		"lottery": "복권",
+		"futures": "선물",
+		"vr": "VR",
+		"swap": "스왑",
+		"slotsDescription": "릴을 돌려 엄청난 잭팟을 터뜨리세요",
+		"liveCasinoDescription": "라이브 딜러와 함께 실시간 카지노 액션을 경험하세요",
+		"sportsDescription": "좋아하는 팀과 스포츠 이벤트에 베팅하세요",
+		"pokerDescription": "클래식 포커 게임에서 실력을 시험해 보세요",
+		"lotteryDescription": "복권과 즉석 당첨 게임으로 운을 시험해 보세요",
+		"futuresDescription": "시장 움직임을 거래하고 예측하세요",
+		"vrDescription": "가상 현실 게임에 몰입하세요",
+		"swapDescription": "토큰과 암호화폐를 원활하게 교환하세요",
+		"categories": {
+			"slot": {
+				"title": "슬롯 게임"
+			},
+			"liveCasino": {
+				"title": "라이브 카지노 게임"
+			},
+			"sports": {
+				"title": "스포츠 베팅 게임"
+			},
+			"rng": {
+				"title": "RNG 게임"
+			},
+			"other": {
+				"title": "{category} 게임"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "모든 게임 제공업체",
+		"searchPlaceholder": "제공업체 검색...",
+		"empty": "검색과 일치하는 제공업체를 찾을 수 없습니다.",
+		"logoAlt": "{name} 로고",
+		"filteredBy": "카테고리별 필터링:",
+		"clearFilter": "필터 지우기",
+		"categories": {
+			"slot": {
+				"title": "슬롯 게임 제공업체"
+			},
+			"liveCasino": {
+				"title": "라이브 카지노 제공업체"
+			},
+			"sports": {
+				"title": "스포츠 베팅 제공업체"
+			},
+			"rng": {
+				"title": "RNG 게임 제공업체"
+			},
+			"other": {
+				"title": "{category} 게임 제공업체"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "액션에 참여하세요",
+			"subtitle": "지금 가입하고 독점 환영 보너스를 받으세요!",
+			"cta": "지금 가입하기"
+		},
+		"welcome": {
+			"title1": "환영 보너스",
+			"title2": "최대 590%",
+			"subtitle": "+ 225 무료 스핀",
+			"cta": "입금하고 받기"
+		},
+		"jackpot": {
+			"title1": "메가 잭팟",
+			"title2": "$1,000,000",
+			"subtitle": "지금 플레이하고 크게 이기세요",
+			"cta": "지금 플레이"
+		},
+		"cards": {
+			"casino": {
+				"title": "카지노",
+				"badge": "590+ 게임",
+				"desc": "MemeWin 오리지널 및 상위 제공업체의 다른 카지노 게임을 즐기세요.",
+				"link": "카지노로 가기"
+			},
+			"slots": {
+				"title": "슬롯",
+				"badge": "5292 게임",
+				"desc": "프리미엄 슬롯 컬렉션으로 릴을 돌려 엄청난 잭팟을 터뜨리세요.",
+				"link": "슬롯으로 가기"
+			},
+			"sports": {
+				"title": "스포츠",
+				"badge": "3 게임",
+				"desc": "경쟁력 있는 배당률로 좋아하는 팀과 스포츠 이벤트에 베팅하세요.",
+				"link": "스포츠로 가기"
+			},
+			"crypto": {
+				"title": "암호화폐 & 수익",
+				"badge": "60% APR",
+				"desc": "매력적인 이율로 암호화폐를 스테이킹, 거래, 수익 창출하세요.",
+				"link": "암호화폐로 가기"
+			}
+		},
+		"layout3": {
+			"headerTitle": "게임 스포트라이트",
+			"headerSubtitle": "엄선된 컬렉션에서 놀라운 게임을 발견하고 새로운 모험을 탐험하세요",
+			"slider1Title": "추천 게임",
+			"slider1Badge": "스태프 추천",
+			"slider2Title": "더 탐험하기",
+			"slider2Badge": "인기",
+			"featuredGameLabel": "추천 게임"
+		},
+		"ctaExploreGames": "게임 탐색",
+		"ctaJoinAffiliate": "제휴 프로그램 가입"
+	},
+	"betting": {
+		"live": {
+			"winRate": "승률",
+			"biggestWin": "최고 당첨금",
+			"bigWins50": "고액 당첨 (50+)",
+			"recentWins": "최근 당첨",
+			"header": {
+				"title": "라이브 베팅 활동",
+				"subtitle": "실시간 베팅 활동 • {count}개 게임 로드됨"
+			},
+			"status": {
+				"live": "라이브",
+				"paused": "일시 중지됨"
+			},
+			"actions": {
+				"pause": "일시 중지",
+				"resume": "재개"
+			},
+			"tabs": {
+				"all": "전체",
+				"wins": "승리",
+				"losses": "패배"
+			},
+			"table": {
+				"game": "게임 이름",
+				"time": "시간",
+				"provider": "제공업체",
+				"nickname": "닉네임",
+				"bet": "베팅",
+				"multiplier": "배율",
+				"profit": "수익"
+			},
+			"empty": "베팅 기록을 찾을 수 없습니다"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "글꼴 변경",
+		"fontSettings": "글꼴 설정",
+		"current": "현재",
+		"browseGoogleFonts": "Google Fonts 찾아보기",
+		"uploadCustomFont": "사용자 정의 글꼴 업로드",
+		"quickUploadFontFile": "글꼴 파일 빠른 업로드",
+		"resetToDefault": "기본값으로 재설정",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "글꼴 검색...",
+			"preview": "미리보기",
+			"previewText": "다람쥐 헌 쳇바퀴에 타고파",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "글꼴 적용",
+			"clearPreview": "미리보기 지우기",
+			"previewWith": "{font}로 텍스트 미리보기",
+			"noFontsFound": "\"{searchTerm}\"와(과) 일치하는 글꼴을 찾을 수 없습니다"
+		},
+		"customUpload": {
+			"title": "사용자 정의 글꼴 업로드",
+			"description": "자신만의 글꼴 파일을 업로드하여 웹사이트를 맞춤 설정하세요",
+			"fontFile": "글꼴 파일",
+			"dragDropArea": "여기에 글꼴 파일을 드래그 앤 드롭하거나,",
+			"clickToUpload": "클릭하여 업로드",
+			"supportedFormats": "지원 형식: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "최대 파일 크기: 10MB",
+			"fontName": "글꼴 이름",
+			"fontNamePlaceholder": "글꼴 이름을 입력하세요",
+			"previewYourFont": "글꼴 미리보기",
+			"uploadAndApply": "업로드 및 적용",
+			"cancel": "취소",
+			"uploading": "업로드 중...",
+			"errors": {
+				"invalidFileType": "유효한 글꼴 파일을 업로드하세요 (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "파일 크기가 10MB 제한을 초과합니다",
+				"uploadFailed": "글꼴 파일 업로드 실패",
+				"enterFontName": "글꼴 파일을 선택하고 이름을 입력하세요",
+				"readFileFailed": "글꼴 파일 읽기 실패"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "\"{fontName}\" 글꼴이 성공적으로 적용되었습니다!",
+			"fontUploadedSuccess": "\"{fontName}\" 글꼴이 성공적으로 업로드 및 적용되었습니다!",
+			"fontResetSuccess": "글꼴이 기본값으로 재설정되었습니다",
+			"invalidFileType": "유효한 글꼴 파일을 업로드하세요 (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "글꼴 파일 읽기 실패"
+		}
+	}
+}

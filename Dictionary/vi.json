@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "Đang tải...",
+		"save": "Lưu",
+		"cancel": "Hủy",
+		"confirm": "Xác nhận",
+		"viewAll": "Xem tất cả"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "Chuyển đổi thanh bên",
+		"searchPlaceholder": "Tìm kiếm trò chơi, nhà cung cấp...",
+		"liveChat": "Trò chuyện trực tiếp",
+		"player": "Người chơi",
+		"vip": "VIP",
+		"profile": "Hồ sơ",
+		"statistics": "Thống kê",
+		"wallet": "Nạp/Rút tiền",
+		"cashier": "Thu ngân",
+		"winLoss": "Thắng/Thua",
+		"affiliate": "Tiếp thị liên kết",
+		"logout": "Đăng xuất",
+		"balance": "Số dư"
+	},
+	"navigation": {
+		"home": "Trang chủ",
+		"games": "Trò chơi",
+		"profile": "Hồ sơ",
+		"wallet": "Ví",
+		"settings": "Cài đặt",
+		"promotions": "Khuyến mãi",
+		"affiliate": "Tiếp thị liên kết",
+		"providers": "Nhà cung cấp",
+		"lobby": "Sảnh"
+	},
+	"profile": {
+		"language": "Ngôn ngữ",
+		"welcome": "Chào mừng, {name}!",
+		"settingUp": "Đang thiết lập",
+		"profileBtn": "Xem hồ sơ",
+		"currentBalance": "Số dư hiện tại",
+		"availableFunds": "Số tiền khả dụng",
+		"totalDeposits": "Tổng số tiền nạp",
+		"totalWithdrawals": "Tổng số tiền rút",
+		"walletAddress": "Địa chỉ ví",
+		"copySuccess": "Đã sao chép địa chỉ ví vào bộ nhớ tạm!",
+		"copyFailed": "Sao chép địa chỉ ví thất bại",
+		"notConnected": "Chưa kết nối",
+		"myProfile": "Hồ sơ của tôi",
+		"logout": "Đăng xuất",
+		"pendingRegistration": "Đang chờ đăng ký",
+		"noEmailProvided": "Chưa cung cấp email",
+		"balanceOverview": "Tổng quan số dư",
+		"gettingStarted": "Bắt đầu",
+		"verifyEmail": "Xác minh email của bạn",
+		"completeEmailVerification": "Hoàn tất xác minh email",
+		"verifyPhone": "Xác minh số điện thoại của bạn",
+		"addPhoneVerification": "Thêm xác minh qua điện thoại",
+		"firstDeposit": "Lần nạp đầu tiên",
+		"makeFirstDeposit": "Thực hiện lần nạp đầu tiên của bạn",
+		"placeBetOrTrade": "Đặt cược / Giao dịch",
+		"startFirstGame": "Bắt đầu trò chơi đầu tiên của bạn",
+		"recentActivity": "Hoạt động gần đây",
+		"transactionHistory": "Lịch sử giao dịch",
+		"activityGameWinDiceRoll": "Thắng trò chơi - Gieo xúc xắc",
+		"activityGameLossBlackjack": "Thua trò chơi - Blackjack",
+		"twoHoursAgo": "2 giờ trước",
+		"oneDayAgo": "1 ngày trước",
+		"twoDaysAgo": "2 ngày trước",
+		"deposit": "Nạp tiền",
+		"loggedOutTitle": "Rất tiếc! Bạn đã đăng xuất",
+		"loggedOutSubtitle": "Vui lòng đăng nhập để xem hồ sơ của bạn",
+		"goHome": "Về trang chủ",
+		"withdrawal": "Rút tiền",
+		"transactions": {
+			"title": "Lịch sử giao dịch",
+			"trackDepositsWithdrawals": "Theo dõi các khoản nạp và rút tiền của bạn",
+			"filters": "Bộ lọc",
+			"refresh": "Làm mới",
+			"advancedFilters": "Bộ lọc nâng cao",
+			"searchTransactionComingSoon": "Tìm kiếm giao dịch (Sắp ra mắt)",
+			"searchPlaceholderDisabled": "Chức năng tìm kiếm sẽ được triển khai ở cấp API...",
+			"dateRange": "Phạm vi ngày",
+			"selectDateRange": "Chọn phạm vi ngày",
+			"today": "Hôm nay",
+			"last7Days": "7 ngày qua",
+			"last30Days": "30 ngày qua",
+			"last90Days": "90 ngày qua",
+			"thisMonth": "Tháng này",
+			"lastMonth": "Tháng trước",
+			"customRange": "Phạm vi tùy chỉnh",
+			"fromDate": "Từ ngày",
+			"toDate": "Đến ngày",
+			"transactionStatus": "Trạng thái giao dịch",
+			"allStatuses": "Tất cả trạng thái",
+			"success": "Thành công",
+			"pending": "Đang chờ xử lý",
+			"rejected": "Bị từ chối",
+			"clearAll": "Xóa tất cả",
+			"cancel": "Hủy",
+			"applyFilters": "Áp dụng bộ lọc",
+			"activeFilters": "Bộ lọc đang hoạt động:",
+			"statusLabel": "Trạng thái",
+			"dateLabel": "Ngày",
+			"statsTotalTransactions": "Tổng cộng {total} giao dịch",
+			"pageOf": "Trang {current} của {total}",
+			"live": "Trực tiếp",
+			"tabs": {
+				"all": "Tất cả",
+				"deposits": "Nạp tiền",
+				"withdrawals": "Rút tiền"
+			},
+			"errorLoadingTransactions": "Lỗi khi tải giao dịch",
+			"tryAgain": "Thử lại",
+			"noTransactionsFound": "Không tìm thấy giao dịch nào",
+			"noTransactionsAvailableSelectedPeriod": "Không có giao dịch nào trong khoảng thời gian đã chọn.",
+			"noDepositsFoundSelectedPeriod": "Không tìm thấy khoản nạp nào trong khoảng thời gian đã chọn.",
+			"noWithdrawalsFoundSelectedPeriod": "Không tìm thấy khoản rút nào trong khoảng thời gian đã chọn.",
+			"show": "Hiển thị",
+			"ofTransactions": "trên {count} giao dịch",
+			"showingRangeOfTotal": "Đang hiển thị {from}-{to} trên {total}",
+			"pageShort": "Trang {current}/{total}"
+		},
+		"betHistory": {
+			"title": "Lịch sử cược",
+			"trackBetsResults": "Theo dõi các cược và kết quả trò chơi của bạn",
+			"filters": "Bộ lọc",
+			"refresh": "Làm mới",
+			"advancedFilters": "Bộ lọc nâng cao",
+			"dateRange": "Phạm vi ngày",
+			"selectDateRange": "Chọn phạm vi ngày",
+			"today": "Hôm nay",
+			"last7Days": "7 ngày qua",
+			"last30Days": "30 ngày qua",
+			"last90Days": "90 ngày qua",
+			"thisMonth": "Tháng này",
+			"lastMonth": "Tháng trước",
+			"customRange": "Phạm vi tùy chỉnh",
+			"fromDate": "Từ ngày",
+			"toDate": "Đến ngày",
+			"provider": "Nhà cung cấp",
+			"allProviders": "Tất cả nhà cung cấp",
+			"status": "Trạng thái",
+			"allStatuses": "Tất cả trạng thái",
+			"outstanding": "Chưa giải quyết",
+			"win": "Thắng",
+			"lose": "Thua",
+			"draw": "Hòa",
+			"void": "Vô hiệu",
+			"bonusWin": "Thắng bonus",
+			"clearAll": "Xóa tất cả",
+			"cancel": "Hủy",
+			"applyFilters": "Áp dụng bộ lọc",
+			"activeFilters": "Bộ lọc đang hoạt động",
+			"statusLabel": "Trạng thái",
+			"providerLabel": "Nhà cung cấp",
+			"dateLabel": "Ngày",
+			"totalBets": "Tổng số cược",
+			"totalProfitLoss": "Tổng lời/lỗ",
+			"pageOf": "Trang {current} của {total}",
+			"live": "Trực tiếp",
+			"errorLoadingBets": "Lỗi khi tải lịch sử cược",
+			"failedToLoadBetHistory": "Không thể tải lịch sử cược. Vui lòng thử lại.",
+			"tryAgain": "Thử lại",
+			"noBetsFound": "Không tìm thấy cược nào",
+			"noBetsFoundSelectedPeriod": "Không tìm thấy lịch sử cược cho khoảng thời gian và bộ lọc đã chọn.",
+			"show": "Hiển thị",
+			"ofBets": "trên {count} cược",
+			"showingRangeOfTotal": "Đang hiển thị {from}-{to} trên {total}",
+			"totalBet": "Tổng cược",
+			"totalWin": "Tổng thắng",
+			"net": "Ròng",
+			"tableHeaders": {
+				"date": "Ngày",
+				"game": "Trò chơi",
+				"provider": "Nhà cung cấp",
+				"type": "Loại",
+				"status": "Trạng thái",
+				"betAmount": "Số tiền cược",
+				"winAmount": "Số tiền thắng",
+				"hideAmounts": "Ẩn số tiền",
+				"showAmounts": "Hiển thị số tiền",
+				"gameType": "Loại trò chơi",
+				"vendor": "Nhà phát hành",
+				"lastUpdate": "Cập nhật lần cuối",
+				"netResult": "Kết quả ròng",
+				"betId": "Mã cược"
+			},
+			"errorLoading": "Lỗi khi tải",
+			"noBetsFoundDescription": "Bắt đầu chơi để xem lịch sử cược của bạn tại đây.",
+			"betHistory": "Lịch sử cược",
+			"hideAmounts": "Ẩn số tiền",
+			"showAmounts": "Hiển thị số tiền",
+			"date": "Ngày",
+			"game": "Trò chơi",
+			"betId": "Mã cược",
+			"amount": "Số tiền",
+			"payout": "Thanh toán",
+			"player": "Người chơi",
+			"gameType": "Loại trò chơi",
+			"vendor": "Nhà phát hành",
+			"lastUpdate": "Cập nhật lần cuối",
+			"netResult": "Kết quả ròng",
+			"totalWagered": "Tổng đã cược",
+			"totalWon": "Tổng đã thắng",
+			"netProfit": "Lợi nhuận ròng",
+			"winRate": "Tỷ lệ thắng",
+			"showingResults": "Đang hiển thị {start}-{end} trên {total} kết quả",
+			"firstPage": "Trang đầu",
+			"previousPage": "Trang trước",
+			"nextPage": "Trang sau",
+			"lastPage": "Trang cuối"
+		}
+	},
+	"chat": {
+		"title": "Trò chuyện trực tiếp",
+		"placeholder": "Nhập tin nhắn của bạn...",
+		"send": "Gửi",
+		"input": {
+			"replyPlaceholder": "Trả lời {username}..."
+		},
+		"reply": {
+			"replyingTo": "Đang trả lời {username}",
+			"types": {
+				"win": "Đã thắng {amount} {currency}",
+				"gif": "Tin nhắn GIF",
+				"image": "Hình ảnh",
+				"default": "Tin nhắn"
+			},
+			"preview": {
+				"winIn": "Đã thắng {amount} {currency} trong {game}",
+				"gifAlt": "Xem trước GIF",
+				"imageAlt": "Xem trước hình ảnh",
+				"emoji": "Tin nhắn biểu tượng cảm xúc",
+				"rain": "Mưa tiền: {amount} {currency}",
+				"system": "Hệ thống: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "Chia sẻ hình ảnh của bạn 🎰",
+			"description": "Sẵn sàng khoe với phòng chat chưa?",
+			"previewLabel": "Xem trước",
+			"statusReady": "Sẵn sàng chia sẻ",
+			"roomLabel": "🎰 Chat Casino",
+			"shareNotice": "Hình ảnh của bạn sẽ được chia sẻ với tất cả người chơi trong phòng chat",
+			"closeAria": "Đóng hộp thoại",
+			"cancelAria": "Hủy tải lên hình ảnh",
+			"sendAria": "Gửi hình ảnh vào chat",
+			"send": "Gửi vào Chat"
+		},
+		"picker": {
+			"searchEmojis": "Tìm kiếm biểu tượng cảm xúc...",
+			"searchGifs": "Tìm kiếm ảnh GIF...",
+			"tabs": {
+				"emojis": "Biểu tượng cảm xúc",
+				"gifs": "Ảnh GIF"
+			},
+			"loadingEmojis": "Đang tải biểu tượng cảm xúc...",
+			"loadingGifs": "Đang tải ảnh GIF...",
+			"retry": "Thử lại",
+			"recent": "Gần đây",
+			"noEmojis": "Không tìm thấy biểu tượng cảm xúc nào",
+			"noGifs": "Không tìm thấy ảnh GIF nào",
+			"tryDifferent": "Thử một từ khóa tìm kiếm khác",
+			"gifCategories": {
+				"trending": "Thịnh hành",
+				"reactions": "Phản ứng",
+				"gaming": "Trò chơi",
+				"casino": "Casino",
+				"celebration": "Chúc mừng",
+				"sports": "Thể thao"
+			},
+			"searchResults": "Kết quả tìm kiếm",
+			"availableToTag": "Người dùng có sẵn để gắn thẻ 🎯",
+			"clickOrTab": "Nhấp hoặc dùng phím Tab để chọn",
+			"noUsers": "Không tìm thấy người dùng nào",
+			"noUsersMatching": "Không có người dùng nào khớp",
+			"startTyping": "Bắt đầu gõ để tìm kiếm",
+			"typeAt": "Gõ",
+			"toSeeSuggestions": "để xem các gợi ý 🎰",
+			"errors": {
+				"emojisLoad": "Tải biểu tượng cảm xúc thất bại",
+				"emojisSearch": "Tìm kiếm biểu tượng cảm xúc thất bại",
+				"gifsLoad": "Tải ảnh GIF thất bại"
+			}
+		},
+		"messages": {
+			"emptyTitle": "Chưa có tin nhắn nào...",
+			"emptySubtitle": "Hãy bắt đầu cuộc trò chuyện và thắng lớn! 🎰",
+			"loadingHistory": "Đang tải lịch sử trò chuyện...",
+			"loadingHistorySubtitle": "Đang lấy tin nhắn gần đây 📜",
+			"historyError": "Không thể tải lịch sử trò chuyện"
+		},
+		"message": {
+			"you": "Bạn",
+			"winTitle": "Thắng lớn trong \"{game}\"! 🎰",
+			"gifAlt": "Ảnh GIF",
+			"imageAlt": "Hình ảnh đã tải lên",
+			"rainTitle": "Mưa tiền! 🌧️💰",
+			"recipients": "→ {count} người nhận",
+			"eachTo": "Mỗi người {amount} {currency} cho: {list}",
+			"replyCount": "{count} trả lời",
+			"loadingHistory": "Đang tải lịch sử trò chuyện..."
+		},
+		"system": {
+			"slashDisabled": "Lệnh slash tạm thời bị vô hiệu hóa. Vui lòng sử dụng tin nhắn thông thường.",
+			"rateLimit": "Đã vượt quá giới hạn tốc độ. Vui lòng đợi {seconds} giây trước khi gửi tin nhắn khác.",
+			"cannotTagSelf": "Bạn không thể tự gắn thẻ mình trong tin nhắn.",
+			"processingImage": "Đang xử lý hình ảnh...",
+			"failedUploadPrefix": "Tải lên hình ảnh thất bại: {message}",
+			"unknownError": "Lỗi không xác định"
+		}
+	},
+	"sidebar": {
+		"quest": "NHIỆM VỤ",
+		"spin": "QUAY",
+		"deposit": "NẠP TIỀN",
+		"withdraw": "RÚT TIỀN",
+		"playOnTelegram": "Chơi trên Telegram",
+		"dailyBonus": "Thưởng hàng ngày",
+		"navigation": "Điều hướng",
+		"games": "Trò chơi",
+		"providers": "Nhà cung cấp",
+		"trendingNow": "Đang thịnh hành",
+		"allProviders": "Tất cả nhà cung cấp",
+		"allTopProviders": "Tất cả nhà cung cấp hàng đầu",
+		"hotBadge": "Hot"
+	},
+	"search": {
+		"title": "Tìm kiếm trò chơi",
+		"subtitle": "Tìm theo tên, nhà cung cấp hoặc danh mục",
+		"placeholder": "Tìm kiếm trò chơi, nhà cung cấp, danh mục...",
+		"clear": "Xóa",
+		"recent": "Gần đây:",
+		"popular": "Phổ biến:",
+		"favoritesTry": "Bạn có thể thử — Các mục yêu thích của bạn",
+		"hotPicks": "Lựa chọn hot",
+		"resultsCount": "Tìm thấy {count} trò chơi",
+		"noResults": "Không có kết quả",
+		"filterApplied": "Đã lọc theo {count} nhà cung cấp",
+		"suggestions": {
+			"category": "Danh mục",
+			"provider": "Nhà cung cấp"
+		},
+		"sections": {
+			"topProviders": "Nhà cung cấp hàng đầu",
+			"selectedProviders": "Nhà cung cấp đã chọn",
+			"categories": "Danh mục",
+			"games": "Trò chơi",
+			"providers": "Nhà cung cấp"
+		},
+		"results": {
+			"found": "Tìm thấy {games} trò chơi, {categories} danh mục và {providers} nhà cung cấp"
+		},
+		"gameTypes": {
+			"blackjack": "Blackjack",
+			"roulette": "Roulette",
+			"crash": "Crash"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "Sắp xếp theo",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "Bộ lọc",
+			"optionsTitle": "Tùy chọn bộ lọc",
+			"clearAll": "Xóa tất cả bộ lọc",
+			"activeLabel": "Đang hoạt động:"
+		},
+		"searchPlaceholderGeneric": "Tìm kiếm...",
+		"providersDropdown": {
+			"title": "Nhà cung cấp",
+			"selected": "Đã chọn {count}",
+			"searchPlaceholder": "Tìm kiếm nhà cung cấp...",
+			"empty": "Không tìm thấy nhà cung cấp nào.",
+			"clear": "Xóa bộ lọc nhà cung cấp"
+		},
+		"category": {
+			"label": "Danh mục:"
+		},
+		"view": {
+			"toggleAria": "Chuyển đổi chế độ xem",
+			"gridAria": "Chế độ xem lưới",
+			"listAria": "Chế độ xem danh sách"
+		},
+		"loadMore": "Tải thêm"
+	},
+	"commonExtra": {
+		"connecting": "Đang kết nối...",
+		"offline": "Ngoại tuyến",
+		"online": "Trực tuyến",
+		"clear": "Xóa"
+	},
+	"home": {
+		"topProviders": "Nhà cung cấp trò chơi hàng đầu"
+	},
+	"lobby": {
+		"yourFavorites": "Mục yêu thích của bạn",
+		"featuredCasinoGames": "Trò chơi casino nổi bật",
+		"hotPicks": "Lựa chọn hot",
+		"slots": "Slots",
+		"sports": "Thể thao",
+		"realTimeScoreboard": "Bảng điểm thời gian thực"
+	},
+	"affiliate": {
+		"title": "Chương trình liên kết",
+		"loginPromptTitle": "Chương trình giới thiệu",
+		"loginPromptSubtitle": "Đăng nhập để xem thống kê giới thiệu, bonus và nhận thưởng.",
+		"goHome": "Về trang chủ",
+		"tabs": {
+			"dashboard": "Bảng điều khiển",
+			"rates": "Tỷ lệ hoa hồng",
+			"calculator": "Công cụ tính toán"
+		},
+		"refresh": "Làm mới",
+		"refreshing": "Đang làm mới...",
+		"refreshAllSuccess": "Tất cả dữ liệu đã được làm mới thành công!",
+		"refreshPartial": "Làm mới một phần: đã cập nhật {success}/{total} mục",
+		"refreshFailed": "Không thể làm mới dữ liệu. Vui lòng thử lại.",
+		"dashboard": {
+			"title": "Bảng điều khiển liên kết",
+			"subtitle": "Theo dõi lượt giới thiệu, thu nhập và hiệu suất hoa hồng của bạn",
+			"performanceOverview": "Tổng quan hiệu suất",
+			"referralManagement": "Quản lý giới thiệu",
+			"termsAndCommission": "Điều khoản & Cơ cấu hoa hồng",
+			"unclaimedEarnings": "Thu nhập chưa nhận",
+			"claim": "Nhận",
+			"claiming": "Đang nhận...",
+			"totalIncome": "Tổng thu nhập",
+			"totalReferrals": "Tổng số lượt giới thiệu",
+			"usersUnit": "người dùng",
+			"yourReferralLinks": "Liên kết giới thiệu của bạn",
+			"referralLinksSubtitle": "Chia sẻ các liên kết này để giới thiệu người dùng mới và kiếm hoa hồng",
+			"completeReferralLink": "Liên kết giới thiệu đầy đủ",
+			"fullReferralPlaceholder": "Liên kết giới thiệu đầy đủ sẽ xuất hiện ở đây",
+			"fullReferralHelp": "Liên kết trực tiếp mà người dùng có thể nhấp để đăng ký bằng mã giới thiệu của bạn",
+			"referralCodeOnly": "Chỉ mã giới thiệu",
+			"yourReferralId": "Mã giới thiệu của bạn",
+			"referralIdHelp": "Chia sẻ mã này để người dùng nhập thủ công trong quá trình đăng ký",
+			"copyFullSuccess": "Đã sao chép liên kết giới thiệu đầy đủ vào bộ nhớ tạm!",
+			"copyIdSuccess": "Đã sao chép mã giới thiệu vào bộ nhớ tạm!"
+		},
+		"referrals": {
+			"title": "Lượt giới thiệu của tôi",
+			"subtitle": "Theo dõi và quản lý tất cả người dùng được giới thiệu qua liên kết liên kết của bạn",
+			"totalReferrals": "tổng số lượt giới thiệu",
+			"monitorHelp": "Giám sát hoạt động, tiền nạp và mô hình chơi game của những người bạn giới thiệu",
+			"sort": {
+				"placeholder": "Sắp xếp theo...",
+				"nicknameAsc": "Biệt hiệu (A-Z)",
+				"nicknameDesc": "Biệt hiệu (Z-A)",
+				"lastLogin": "Đăng nhập lần cuối",
+				"unclaimedAmount": "Số tiền chưa nhận"
+			},
+			"table": {
+				"nickname": "Biệt hiệu",
+				"totalWager": "Tổng cược",
+				"lastLogin": "Đăng nhập lần cuối",
+				"registered": "Đã đăng ký",
+				"lastDeposit": "Lần nạp cuối",
+				"depositDate": "Ngày nạp",
+				"tier": "Cấp"
+			},
+			"empty": {
+				"title": "Không tìm thấy lượt giới thiệu nào",
+				"subtitle": "Bắt đầu giới thiệu người dùng để thấy họ ở đây."
+			},
+			"pagination": {
+				"showing": "Đang hiển thị từ {from} đến {to} trên {total} kết quả",
+				"prev": "Trước",
+				"next": "Sau"
+			}
+		},
+		"rates": {
+			"title": "Cơ cấu tỷ lệ hoa hồng",
+			"subtitle": "Phần trăm thu nhập theo cấp độ và danh mục trò chơi",
+			"howItWorks": {
+				"title": "Cách hoạt động của các cấp hoa hồng",
+				"body": "Cấp hoa hồng của bạn được xác định bởi tổng số tiền cược hàng ngày của những người bạn giới thiệu. Các cấp cao hơn cung cấp tỷ lệ hoa hồng tốt hơn cho tất cả các loại trò chơi."
+			},
+			"calculation": {
+				"title": "Cách tính hoa hồng",
+				"desc": "Hoa hồng được tính mỗi 24 giờ dựa trên tổng số tiền cược của người chơi được giới thiệu. Ví dụ:",
+				"exampleTitle": "Cấp {tier}:",
+				"wagerIn": "Cược {amount} trong {gameType}"
+			},
+			"table": {
+				"tierLevel": "Cấp độ",
+				"wagerRange": "Phạm vi cược",
+				"slots": "Slots",
+				"liveCasino": "Casino trực tiếp",
+				"sports": "Thể thao",
+				"tierPrefix": "CẤP",
+				"commissionLevel": "Mức hoa hồng",
+				"dailyWager": "Khối lượng cược hàng ngày"
+			},
+			"claim": {
+				"title": "Nhận và Rút tiền",
+				"points": {
+					"0": "Hoa hồng có thể được rút sau khi được tính toán.",
+					"1": "Không có ngày hết hạn cho hoa hồng chưa nhận—chúng sẽ tích lũy cho đến khi được nhận.",
+					"2": "Việc rút tiền tuân theo các quy tắc tiêu chuẩn của nền tảng, chẳng hạn như giới hạn tối thiểu và thời gian xử lý."
+				}
+			},
+			"system": {
+				"title": "Thời gian và Hoạt động của hệ thống",
+				"dailyTimeframeLabel": "Khung thời gian hàng ngày:",
+				"dailyTimeframeValue": "00:00 UTC đến 23:59 UTC (hàng ngày).",
+				"claimDailyLabel": "Nhận hàng ngày:",
+				"claimDailyValue": "Có sẵn hàng ngày lúc 14:00 UTC (Giờ địa phương của bạn: {local}).",
+				"note": "Lưu ý: Mặc dù chúng tôi làm việc với các nhà cung cấp từ các múi giờ khác nhau, tất cả các tính toán đều tuân theo giờ UTC để đảm bảo tính nhất quán và tránh nhầm lẫn."
+			},
+			"amendments": {
+				"title": "Sửa đổi",
+				"body": "Chúng tôi có thể cập nhật các điều khoản này bất cứ lúc nào. Các thay đổi có hiệu lực ngay sau khi được đăng, và việc tiếp tục tham gia có nghĩa là bạn chấp nhận các điều khoản mới."
+			},
+			"footer": {
+				"schedule": "Lịch trình hoa hồng:",
+				"availableDaily": "Có sẵn hàng ngày lúc",
+				"localTimeLabel": "(Giờ địa phương của bạn: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Công cụ tính thu nhập",
+			"subtitle": "Ước tính thu nhập hoa hồng của bạn dựa trên số tiền cược của những người bạn giới thiệu",
+			"interactive": {
+				"title": "Công cụ tương tác:",
+				"body": "Nhập các số tiền cược khác nhau để xem thu nhập tiềm năng ở tất cả các cấp"
+			},
+			"potentialEarnings": "Thu nhập tiềm năng",
+			"basedOnRate": "Dựa trên tỷ lệ hoa hồng {percentage}%",
+			"tier": "Cấp {level}",
+			"commissionLevel": "Mức hoa hồng {level}",
+			"enterWager": "Nhập số tiền cược (USD)",
+			"wagerPlaceholder": "ví dụ: 1000",
+			"calcFor": "Đang tính thu nhập cho cược ${amount}",
+			"totalPotential": "Tổng thu nhập tiềm năng:",
+			"combinedAtTier": "Thu nhập kết hợp từ tất cả các loại trò chơi ở Cấp {level}"
+		}
+	},
+	"debug": {
+		"title": "Trang gỡ lỗi"
+	},
+	"getLobby": {
+		"enteringLobby": "Đang vào sảnh...",
+		"connectingWait": "Vui lòng đợi trong khi chúng tôi kết nối bạn.",
+		"invalidSession": "Phiên của bạn không hợp lệ hoặc thiếu nhà cung cấp. Vui lòng thử lại.",
+		"failedPrefix": "Không thể vào sảnh: {message}",
+		"launchFailedTitle": "Khởi chạy thất bại",
+		"returnHome": "Quay về trang chủ"
+	},
+	"play": {
+		"connecting": "Đang kết nối đến máy chủ trò chơi...",
+		"invalidSession": "Phiên của bạn không hợp lệ hoặc đã hết hạn. Vui lòng đăng nhập lại và thử lại.",
+		"launchFailedTitle": "Khởi chạy thất bại",
+		"returnHome": "Quay về trang chủ"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "ƯU ĐÃI CÓ HẠN",
+		"headline": "Nhận 200% Thưởng Chào mừng!",
+		"subheadline": "Kết nối ví crypto của bạn ngay bây giờ và nhận thưởng lên đến {amount} cho lần nạp đầu tiên!",
+		"featureDepositMatch": "Thưởng nạp 200%",
+		"featureZeroFees": "Không phí giao dịch",
+		"featureInstantWithdrawals": "Rút tiền tức thì",
+		"featureNoKyc": "Không yêu cầu KYC",
+		"ctaClaim": "NHẬN THƯỞNG NGAY!",
+		"offerExpires": "Ưu đãi hết hạn sau:",
+		"disclaimer": "Áp dụng Điều khoản & Điều kiện. Cờ bạc có rủi ro. Chơi có trách nhiệm. 18+",
+		"closeAria": "Đóng cửa sổ",
+		"bannerAlt": "Biểu ngữ quảng cáo",
+		"ctaOk": "Kết nối Ví & Bắt đầu Cược",
+		"enterAmount": "Nhập số tiền",
+		"balance": "Số dư",
+		"max": "Tối đa",
+		"deposit": "Nạp tiền",
+		"ethereum": "Ethereum"
+	},
+	"modalsSmall": {
+		"close": "Đóng",
+		"firstDepositBoost": "Tăng thưởng nạp lần đầu",
+		"bonus": "Thưởng",
+		"min": "Phút",
+		"sec": "Giây",
+		"deposit": "Nạp tiền"
+	},
+	"auth": {
+		"email": {
+			"title": "Đăng nhập bằng Email",
+			"description": "Chúng tôi sẽ gửi cho bạn một mã 6 chữ số",
+			"emailLabel": "Địa chỉ Email",
+			"emailPlaceholder": "ten@email.com",
+			"cancel": "Hủy",
+			"sending": "Đang gửi",
+			"continue": "Tiếp tục",
+			"enterCodeTitle": "Nhập mã",
+			"sentTo": "Đã gửi đến {email}",
+			"changeEmail": "Thay đổi email",
+			"resendCode": "Gửi lại mã",
+			"resendIn": "Gửi lại sau {seconds} giây",
+			"verifying": "Đang xác minh",
+			"successTitle": "Bạn đã vào được",
+			"successSubtitle": "Đang thiết lập...",
+			"modalAria": "Cửa sổ xác minh Email",
+			"errors": {
+				"invalidEmail": "Vui lòng nhập một địa chỉ email hợp lệ",
+				"sendFailed": "Không thể gửi mã xác minh.",
+				"invalidCode": "Vui lòng nhập mã xác minh 6 chữ số"
+			}
+		},
+		"setNickname": {
+			"title": "Đặt biệt hiệu của bạn",
+			"subtitle": "Đây là thiết lập một lần và không thể thay đổi",
+			"logoutAria": "Đăng xuất",
+			"inputPlaceholder": "Chọn biệt hiệu độc nhất của bạn",
+			"referrerCheckbox": "Tôi có mã giới thiệu",
+			"referrerPlaceholder": "Nhập mã giới thiệu",
+			"referrerHelp": "Tùy chọn. Điều này liên kết tài khoản của bạn với người giới thiệu cho các chương trình thưởng.",
+			"status": {
+				"checking": "Đang kiểm tra tính khả dụng...",
+				"available": "Biệt hiệu có sẵn!",
+				"taken": "Biệt hiệu này đã được sử dụng."
+			},
+			"register": "Đăng ký và Chơi",
+			"termsTitle": "Điều khoản & Điều kiện:",
+			"termsBody": "Bằng cách ký vào tài liệu này bằng Ví của bạn và/hoặc tiếp tục sử dụng Ứng dụng Web3 này, bạn chấp nhận các điều khoản sử dụng của ứng dụng. Việc ký chấp thuận Điều khoản Sử dụng không phải là một giao dịch blockchain và không mất phí.",
+			"errors": {
+				"verifyNicknameFailed": "Không thể xác minh biệt hiệu. Vui lòng thử lại.",
+				"registerFailed": "Đăng ký thất bại: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "Đăng nhập bằng Email",
+			"connectWalletBtn": "Kết nối Ví",
+			"player": "Người chơi",
+			"walletConnected": "Ví đã kết nối",
+			"emailConnected": "Email đã kết nối",
+			"disconnect": "Ngắt kết nối",
+			"walletAddress": "Địa chỉ Ví",
+			"balance": "Số dư",
+			"loginWithWallet": "Đăng nhập bằng Ví"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "Nạp tiền",
+				"withdraw": "Rút tiền",
+				"swap": "Hoán đổi",
+				"walletInfo": "Ví"
+			},
+			"mobileDropdown": {
+				"emailWallet": "Ví Email",
+				"wallet": "Ví",
+				"deposit": "Nạp tiền",
+				"withdraw": "Rút tiền",
+				"swap": "Hoán đổi"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "Chọn mạng",
+			"switching": "Đang chuyển...",
+			"walletNotConnected": "Ví chưa được kết nối.",
+			"failedToSwitch": "Không thể chuyển mạng. Vui lòng thử từ ví của bạn.",
+			"altLogo": "Logo mạng"
+		},
+		"tokenList": {
+			"dialogTitle": "Chọn một Token",
+			"instantDeposit": "Nạp tiền tức thì",
+			"yourWalletBalance": "Số dư ví của bạn",
+			"searchPlaceholder": "Tìm kiếm tên hoặc dán địa chỉ",
+			"emptySearch": "Không tìm thấy token nào khớp với tìm kiếm của bạn.",
+			"emptyOwned": "Không tìm thấy token nào có số dư.",
+			"searchResults": "Kết quả tìm kiếm",
+			"yourTokens": "Token của bạn",
+			"otherResults": "Kết quả khác"
+		},
+		"tabsSidebar": {
+			"walletInfo": "Ví",
+			"emailWallet": "Ví Email",
+			"deposit": "Nạp tiền",
+			"withdraw": "Rút tiền",
+			"swap": "Hoán đổi"
+		},
+		"depositPanel": {
+			"youPay": "Bạn trả",
+			"resetForm": "Đặt lại biểu mẫu",
+			"enterAmount": "Nhập số tiền",
+			"selectToken": "Chọn token",
+			"max": "Tối đa",
+			"balance": "Số dư:",
+			"calculating": "Đang tính toán...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Tối thiểu:",
+			"ratesMayVary": "Tỷ giá có thể thay đổi",
+			"emailWalletAddress": "Địa chỉ Ví Email",
+			"walletAddress": "Địa chỉ Ví",
+			"minimumIs": "Mức tối thiểu là {min}",
+			"errors": {
+				"selectTokenAndAmount": "Vui lòng chọn một token và nhập số tiền",
+				"insufficientBalance": "Số dư không đủ cho giao dịch này",
+				"amountTooHighGas": "Số tiền quá cao khi tính cả phí gas",
+				"checkForm": "Vui lòng kiểm tra lại biểu mẫu và thử lại",
+				"pendingDeposit": "Bạn có một khoản nạp đang chờ xử lý. Vui lòng đợi cho đến khi hoàn tất"
+			},
+			"status": {
+				"processing": "Đang xử lý...",
+				"awaitingApproval": "Đang chờ phê duyệt",
+				"calculatingRate": "Đang tính tỷ giá...",
+				"insufficientBalance": "Số dư không đủ"
+			},
+			"buttons": {
+				"depositUsd": "Nạp ${amount}"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "Chọn tokens",
+			"enterAmount": "Nhập số tiền",
+			"gettingQuote": "Đang lấy báo giá...",
+			"confirming": "Đang xác nhận...",
+			"approving": "Đang phê duyệt...",
+			"insufficientBalance": "Số dư không đủ để Hoán đổi",
+			"sameToken": "Không thể hoán đổi cùng một token",
+			"approveAndSwap": "Phê duyệt & Hoán đổi",
+			"swap": "Hoán đổi",
+			"slippageTolerance": "Dung sai trượt giá",
+			"custom": "Tùy chỉnh",
+			"set": "Đặt",
+			"currentSlippage": "Trượt giá hiện tại",
+			"swapSuccessful": "Hoán đổi thành công!",
+			"transactionConfirmed": "Giao dịch của bạn đã được xác nhận",
+			"hash": "Hash",
+			"newSwap": "Hoán đổi mới",
+			"youPay": "Bạn trả",
+			"max": "Tối đa",
+			"low": "Thấp",
+			"amountPlaceholder": "0",
+			"selectToken": "Chọn Token",
+			"youReceive": "Bạn nhận",
+			"gettingBestQuote": "Đang lấy báo giá tốt nhất...",
+			"gas": "Phí gas",
+			"minimumReceived": "Số tiền nhận được tối thiểu",
+			"slippageToleranceLabel": "Dung sai trượt giá",
+			"gasFee": "Phí gas",
+			"priceWarning": "Giá được cập nhật theo thời gian thực và có thể thay đổi trước khi giao dịch của bạn được xác nhận",
+			"emailWalletAddress": "Địa chỉ Ví Email",
+			"walletAddress": "Địa chỉ Ví",
+			"minimumIs": "Mức tối thiểu là {min}",
+			"errors": {
+				"selectTokenAndAmount": "Vui lòng chọn một token và nhập số tiền",
+				"insufficientBalance": "Số dư không đủ cho giao dịch này",
+				"amountTooHighGas": "Số tiền quá cao khi tính cả phí gas",
+				"checkForm": "Vui lòng kiểm tra lại biểu mẫu và thử lại",
+				"pendingDeposit": "Bạn có một khoản nạp đang chờ xử lý. Vui lòng đợi cho đến khi hoàn tất"
+			},
+			"status": {
+				"processing": "Đang xử lý...",
+				"awaitingApproval": "Đang chờ phê duyệt",
+				"calculatingRate": "Đang tính tỷ giá...",
+				"insufficientBalance": "Số dư không đủ"
+			},
+			"buttons": {
+				"depositUsd": "Nạp ${amount}"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "Nạp tiền đã được xác nhận!",
+			"submittedTitle": "Giao dịch đã được gửi",
+			"confirmedDesc": "Số dư của bạn đã được cập nhật.",
+			"submittedDesc": "Đang chờ xác nhận từ blockchain. Quá trình này có thể mất vài phút.",
+			"viewOnExplorer": "Xem trên Explorer",
+			"newDepositConfirmed": "Thực hiện một lần nạp khác",
+			"newDepositPending": "Bắt đầu một lần nạp mới"
+		},
+		"withdrawPanel": {
+			"resetForm": "Đặt lại biểu mẫu",
+			"networkNotSupported": "Việc rút tiền chỉ được hỗ trợ trên Arbitrum, Polygon và BNB",
+			"youWithdraw": "Bạn rút",
+			"loading": "Đang tải...",
+			"amount": "Số tiền",
+			"max": "Tối đa",
+			"balance": "Số dư:",
+			"available": "Khả dụng:",
+			"insufficientBalance": "Số dư không đủ",
+			"minimumIs": "Mức tối thiểu là {min}",
+			"minLabel": "Tối thiểu:",
+			"emailWalletAddress": "Địa chỉ Ví Email",
+			"walletAddress": "Địa chỉ Ví",
+			"errors": {
+				"pendingWithdrawal": "Bạn đã có một yêu cầu rút tiền đang chờ xử lý",
+				"invalidAddress": "Địa chỉ không hợp lệ",
+				"enterAmount": "Nhập số tiền",
+				"networkNotSupported": "Mạng không được hỗ trợ"
+			},
+			"status": {
+				"processing": "Đang xử lý...",
+				"insufficientBalance": "Số dư không đủ",
+				"pendingWithdrawal": "Đã có yêu cầu rút tiền đang chờ xử lý"
+			},
+			"buttons": {
+				"withdraw": "Rút {amount} {symbol}",
+				"minimum": "Tối thiểu {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "Rút tiền thành công!",
+			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ Meme Win! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
+			"withdrawnAmount": "Số tiền đã rút",
+			"shareText": "Chia sẻ",
+			"subText": "🚀 HÃY THAM GIA CHUỖI THẮNG! 🚀",
+			"generating": "Đang tạo...",
+			"screenshot": "Chụp ảnh màn hình",
+			"download": "Tải xuống hình ảnh",
+			"close": "Đóng",
+			"copiedToClipboard": "Đã sao chép liên kết chia sẻ thành công"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "Rút tiền đã được xác nhận!",
+			"submittedTitle": "Giao dịch đã được gửi",
+			"confirmedDesc": "Tiền của bạn đang trên đường đến.",
+			"submittedDesc": "Đang chờ xác nhận từ blockchain...",
+			"viewOnExplorer": "Xem trên Explorer",
+			"manualApproval": "Việc rút tiền này cần được phê duyệt thủ công.",
+			"newWithdrawalConfirmed": "Thực hiện một lần rút khác",
+			"newWithdrawalPending": "Bắt đầu một lần rút mới"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "Bạn sẽ nhận được"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "Nâng cấp lên Pro",
+		"account": "Tài khoản",
+		"billing": "Thanh toán",
+		"notifications": "Thông báo",
+		"logout": "Đăng xuất"
+	},
+	"games": {
+		"pageTitle": "Tất cả trò chơi",
+		"playNow": "Chơi ngay",
+		"byProvider": "Bởi {name}",
+		"count": "{count} Trò chơi",
+		"noResults": "Không tìm thấy trò chơi nào phù hợp với tiêu chí của bạn.",
+		"errorLoading": "Không thể tải trò chơi. Vui lòng thử lại sau.",
+		"slots": "Slots",
+		"sports": "Thể thao",
+		"liveCasino": "Casino trực tiếp",
+		"explore": "Khám phá",
+		"exploreSubtitle": "Khám phá những trải nghiệm chơi game tuyệt vời",
+		"poker": "Poker",
+		"lottery": "Xổ số",
+		"futures": "Hợp đồng tương lai",
+		"vr": "VR",
+		"swap": "Hoán đổi",
+		"slotsDescription": "Quay các cuộn và giành những giải jackpot khổng lồ",
+		"liveCasinoDescription": "Trải nghiệm hành động casino thời gian thực với các dealer trực tiếp",
+		"sportsDescription": "Đặt cược vào các đội và sự kiện thể thao yêu thích của bạn",
+		"pokerDescription": "Kiểm tra kỹ năng của bạn trong các trò chơi poker cổ điển",
+		"lotteryDescription": "Thử vận may của bạn với xổ số và các trò chơi thắng ngay lập tức",
+		"futuresDescription": "Giao dịch và dự đoán các chuyển động của thị trường",
+		"vrDescription": "Đắm mình trong trò chơi thực tế ảo",
+		"swapDescription": "Trao đổi tokens và tiền điện tử một cách liền mạch",
+		"categories": {
+			"slot": {
+				"title": "Trò chơi Slot"
+			},
+			"liveCasino": {
+				"title": "Trò chơi Casino trực tiếp"
+			},
+			"sports": {
+				"title": "Trò chơi Cá cược thể thao"
+			},
+			"rng": {
+				"title": "Trò chơi RNG"
+			},
+			"other": {
+				"title": "Trò chơi {category}"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "Tất cả các nhà cung cấp trò chơi",
+		"searchPlaceholder": "Tìm kiếm một nhà cung cấp...",
+		"empty": "Không tìm thấy nhà cung cấp nào khớp với tìm kiếm của bạn.",
+		"logoAlt": "Logo của {name}",
+		"filteredBy": "Đã lọc theo danh mục:",
+		"clearFilter": "Xóa bộ lọc",
+		"categories": {
+			"slot": {
+				"title": "Nhà cung cấp Trò chơi Slot"
+			},
+			"liveCasino": {
+				"title": "Nhà cung cấp Casino trực tiếp"
+			},
+			"sports": {
+				"title": "Nhà cung cấp Cá cược thể thao"
+			},
+			"rng": {
+				"title": "Nhà cung cấp Trò chơi RNG"
+			},
+			"other": {
+				"title": "Nhà cung cấp Trò chơi {category}"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "Tham gia hành động",
+			"subtitle": "Đăng ký ngay và nhận một phần thưởng chào mừng độc quyền!",
+			"cta": "Đăng ký ngay"
+		},
+		"welcome": {
+			"title1": "Thưởng chào mừng",
+			"title2": "Lên đến 590%",
+			"subtitle": "+ 225 Vòng quay miễn phí",
+			"cta": "Nạp tiền & Nhận"
+		},
+		"jackpot": {
+			"title1": "Giải Jackpot lớn",
+			"title2": "1.000.000 đô la",
+			"subtitle": "Chơi ngay & Thắng lớn",
+			"cta": "Chơi ngay"
+		},
+		"cards": {
+			"casino": {
+				"title": "Casino",
+				"badge": "Hơn 590 TRÒ CHƠI",
+				"desc": "Thưởng thức các trò chơi gốc của MemeWin và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
+				"link": "Đến Casino"
+			},
+			"slots": {
+				"title": "Slots",
+				"badge": "5292 TRÒ CHƠI",
+				"desc": "Quay các cuộn và trúng những giải jackpot khổng lồ với bộ sưu tập slot cao cấp của chúng tôi.",
+				"link": "Đến Slots"
+			},
+			"sports": {
+				"title": "Thể thao",
+				"badge": "3 TRÒ CHƠI",
+				"desc": "Đặt cược vào các đội và sự kiện thể thao yêu thích của bạn với tỷ lệ cược cạnh tranh.",
+				"link": "Đến Thể thao"
+			},
+			"crypto": {
+				"title": "Crypto & Kiếm tiền",
+				"badge": "60% APR",
+				"desc": "Gửi tiền, giao dịch và kiếm tiền với tiền điện tử với tỷ giá hấp dẫn.",
+				"link": "Đến Crypto"
+			}
+		},
+		"layout3": {
+			"headerTitle": "Tiêu điểm trò chơi",
+			"headerSubtitle": "Khám phá những trò chơi tuyệt vời và khám phá những cuộc phiêu lưu mới trong bộ sưu tập được tuyển chọn của chúng tôi",
+			"slider1Title": "Trò chơi nổi bật",
+			"slider1Badge": "Lựa chọn của nhân viên",
+			"slider2Title": "Khám phá thêm",
+			"slider2Badge": "Thịnh hành",
+			"featuredGameLabel": "Trò chơi nổi bật"
+		},
+		"ctaExploreGames": "Khám Phá Trò Chơi",
+		"ctaJoinAffiliate": "Tham Gia Chương Trình Liên Kết"
+	},
+	"betting": {
+		"live": {
+			"winRate": "Tỷ lệ thắng",
+			"biggestWin": "Chiến thắng lớn nhất",
+			"bigWins50": "Chiến thắng lớn (50+)",
+			"recentWins": "Chiến thắng gần đây",
+			"header": {
+				"title": "Hoạt động cá cược trực tiếp",
+				"subtitle": "Hoạt động cá cược thời gian thực • Đã tải {count} trò chơi"
+			},
+			"status": {
+				"live": "TRỰC TIẾP",
+				"paused": "Tạm dừng"
+			},
+			"actions": {
+				"pause": "Tạm dừng",
+				"resume": "Tiếp tục"
+			},
+			"tabs": {
+				"all": "Tất cả",
+				"wins": "Thắng",
+				"losses": "Thua"
+			},
+			"table": {
+				"game": "Tên trò chơi",
+				"time": "Thời gian",
+				"provider": "Nhà cung cấp",
+				"nickname": "Biệt hiệu",
+				"bet": "Cược",
+				"multiplier": "Hệ số nhân",
+				"profit": "Lợi nhuận"
+			},
+			"empty": "Không tìm thấy bản ghi cá cược nào"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "Thay đổi Phông chữ",
+		"fontSettings": "Cài đặt Phông chữ",
+		"current": "Hiện tại",
+		"browseGoogleFonts": "Duyệt qua Google Fonts",
+		"uploadCustomFont": "Tải lên Phông chữ Tùy chỉnh",
+		"quickUploadFontFile": "Tải lên Nhanh tệp Phông chữ",
+		"resetToDefault": "Đặt lại về Mặc định",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "Tìm kiếm phông chữ...",
+			"preview": "Xem trước",
+			"previewText": "Con cáo nâu nhanh nhẹn nhảy qua con chó lười biếng.",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "Áp dụng Phông chữ",
+			"clearPreview": "Xóa Xem trước",
+			"previewWith": "Xem trước văn bản với {font}",
+			"noFontsFound": "Không tìm thấy phông chữ nào khớp với \"{searchTerm}\""
+		},
+		"customUpload": {
+			"title": "Tải lên Phông chữ Tùy chỉnh",
+			"description": "Tải lên tệp phông chữ của riêng bạn để tùy chỉnh trang web",
+			"fontFile": "Tệp Phông chữ",
+			"dragDropArea": "Kéo và thả tệp phông chữ của bạn vào đây, hoặc",
+			"clickToUpload": "nhấp để tải lên",
+			"supportedFormats": "Các định dạng được hỗ trợ: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Kích thước tệp tối đa: 10MB",
+			"fontName": "Tên Phông chữ",
+			"fontNamePlaceholder": "Nhập tên cho phông chữ của bạn",
+			"previewYourFont": "Xem trước Phông chữ của bạn",
+			"uploadAndApply": "Tải lên & Áp dụng Phông chữ",
+			"cancel": "Hủy",
+			"uploading": "Đang tải lên...",
+			"errors": {
+				"invalidFileType": "Vui lòng tải lên một tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Kích thước tệp vượt quá giới hạn 10MB",
+				"uploadFailed": "Không thể tải lên tệp phông chữ",
+				"enterFontName": "Vui lòng chọn một tệp phông chữ và cung cấp một tên",
+				"readFileFailed": "Không thể đọc tệp phông chữ"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "Phông chữ \"{fontName}\" đã được áp dụng thành công!",
+			"fontUploadedSuccess": "Phông chữ \"{fontName}\" đã được tải lên và áp dụng thành công!",
+			"fontResetSuccess": "Phông chữ đã được đặt lại về mặc định",
+			"invalidFileType": "Vui lòng tải lên một tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Không thể đọc tệp phông chữ"
+		}
+	}
+}

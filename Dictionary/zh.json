@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "加载中...",
+		"save": "保存",
+		"cancel": "取消",
+		"confirm": "确认",
+		"viewAll": "查看全部"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "切换侧边栏",
+		"searchPlaceholder": "搜索游戏、提供商...",
+		"liveChat": "在线聊天",
+		"player": "玩家",
+		"vip": "VIP",
+		"profile": "个人资料",
+		"statistics": "统计数据",
+		"wallet": "存款/取款",
+		"cashier": "出纳",
+		"winLoss": "盈亏",
+		"affiliate": "联盟",
+		"logout": "登出",
+		"balance": "余额"
+	},
+	"navigation": {
+		"home": "首页",
+		"games": "游戏",
+		"profile": "个人资料",
+		"wallet": "钱包",
+		"settings": "设置",
+		"promotions": "促销活动",
+		"affiliate": "联盟",
+		"providers": "提供商",
+		"lobby": "大厅"
+	},
+	"profile": {
+		"language": "语言",
+		"welcome": "欢迎，{name}！",
+		"settingUp": "正在设置中",
+		"profileBtn": "查看个人资料",
+		"currentBalance": "当前余额",
+		"availableFunds": "可用资金",
+		"totalDeposits": "总存款",
+		"totalWithdrawals": "总取款",
+		"walletAddress": "钱包地址",
+		"copySuccess": "钱包地址已复制到剪贴板！",
+		"copyFailed": "复制钱包地址失败",
+		"notConnected": "未连接",
+		"myProfile": "我的个人资料",
+		"logout": "登出",
+		"pendingRegistration": "待注册",
+		"noEmailProvided": "未提供电子邮件",
+		"balanceOverview": "余额概览",
+		"gettingStarted": "入门指南",
+		"verifyEmail": "验证您的电子邮件",
+		"completeEmailVerification": "完成电子邮件验证",
+		"verifyPhone": "验证您的电话号码",
+		"addPhoneVerification": "添加电话验证",
+		"firstDeposit": "首次存款",
+		"makeFirstDeposit": "进行您的首次存款",
+		"placeBetOrTrade": "下注/进行交易",
+		"startFirstGame": "开始您的第一场游戏",
+		"recentActivity": "近期活动",
+		"transactionHistory": "交易历史",
+		"activityGameWinDiceRoll": "游戏胜利 - 掷骰子",
+		"activityGameLossBlackjack": "游戏失败 - 二十一点",
+		"twoHoursAgo": "2小时前",
+		"oneDayAgo": "1天前",
+		"twoDaysAgo": "2天前",
+		"deposit": "存款",
+		"loggedOutTitle": "哎呀！您已登出",
+		"loggedOutSubtitle": "请登录以查看您的个人资料",
+		"goHome": "返回首页",
+		"withdrawal": "取款",
+		"transactions": {
+			"title": "交易历史",
+			"trackDepositsWithdrawals": "追踪您的存款和取款",
+			"filters": "筛选",
+			"refresh": "刷新",
+			"advancedFilters": "高级筛选",
+			"searchTransactionComingSoon": "搜索交易（即将推出）",
+			"searchPlaceholderDisabled": "搜索功能将在API层面实现...",
+			"dateRange": "日期范围",
+			"selectDateRange": "选择日期范围",
+			"today": "今天",
+			"last7Days": "过去7天",
+			"last30Days": "过去30天",
+			"last90Days": "过去90天",
+			"thisMonth": "本月",
+			"lastMonth": "上个月",
+			"customRange": "自定义范围",
+			"fromDate": "从日期",
+			"toDate": "至日期",
+			"transactionStatus": "交易状态",
+			"allStatuses": "所有状态",
+			"success": "成功",
+			"pending": "待处理",
+			"rejected": "已拒绝",
+			"clearAll": "全部清除",
+			"cancel": "取消",
+			"applyFilters": "应用筛选",
+			"activeFilters": "当前筛选:",
+			"statusLabel": "状态",
+			"dateLabel": "日期",
+			"statsTotalTransactions": "共 {total} 笔交易",
+			"pageOf": "第 {current} 页 / 共 {total} 页",
+			"live": "直播",
+			"tabs": {
+				"all": "全部",
+				"deposits": "存款",
+				"withdrawals": "取款"
+			},
+			"errorLoadingTransactions": "加载交易出错",
+			"tryAgain": "重试",
+			"noTransactionsFound": "未找到交易记录",
+			"noTransactionsAvailableSelectedPeriod": "选定时期内无可用交易。",
+			"noDepositsFoundSelectedPeriod": "选定时期内未找到存款记录。",
+			"noWithdrawalsFoundSelectedPeriod": "选定时期内未找到取款记录。",
+			"show": "显示",
+			"ofTransactions": "共 {count} 笔交易",
+			"showingRangeOfTotal": "显示 {from}-{to} / 共 {total}",
+			"pageShort": "第 {current}/{total} 页"
+		},
+		"betHistory": {
+			"title": "投注历史",
+			"trackBetsResults": "追踪您的游戏投注和结果",
+			"filters": "筛选",
+			"refresh": "刷新",
+			"advancedFilters": "高级筛选",
+			"dateRange": "日期范围",
+			"selectDateRange": "选择日期范围",
+			"today": "今天",
+			"last7Days": "过去7天",
+			"last30Days": "过去30天",
+			"last90Days": "过去90天",
+			"thisMonth": "本月",
+			"lastMonth": "上个月",
+			"customRange": "自定义范围",
+			"fromDate": "从日期",
+			"toDate": "至日期",
+			"provider": "提供商",
+			"allProviders": "所有提供商",
+			"status": "状态",
+			"allStatuses": "所有状态",
+			"outstanding": "未结算",
+			"win": "赢",
+			"lose": "输",
+			"draw": "平局",
+			"void": "作废",
+			"bonusWin": "奖金赢取",
+			"clearAll": "全部清除",
+			"cancel": "取消",
+			"applyFilters": "应用筛选",
+			"activeFilters": "当前筛选",
+			"statusLabel": "状态",
+			"providerLabel": "提供商",
+			"dateLabel": "日期",
+			"totalBets": "总投注数",
+			"totalProfitLoss": "总盈亏",
+			"pageOf": "第 {current} 页 / 共 {total} 页",
+			"live": "直播",
+			"errorLoadingBets": "加载投注历史出错",
+			"failedToLoadBetHistory": "加载投注历史失败。请重试。",
+			"tryAgain": "重试",
+			"noBetsFound": "未找到投注记录",
+			"noBetsFoundSelectedPeriod": "在选定的时期和筛选条件下未找到投注历史。",
+			"show": "显示",
+			"ofBets": "共 {count} 条投注",
+			"showingRangeOfTotal": "显示 {from}-{to} / 共 {total}",
+			"totalBet": "总投注",
+			"totalWin": "总赢取",
+			"net": "净额",
+			"tableHeaders": {
+				"date": "日期",
+				"game": "游戏",
+				"provider": "提供商",
+				"type": "类型",
+				"status": "状态",
+				"betAmount": "投注金额",
+				"winAmount": "赢取金额",
+				"hideAmounts": "隐藏金额",
+				"showAmounts": "显示金额",
+				"gameType": "游戏类型",
+				"vendor": "供应商",
+				"lastUpdate": "最后更新",
+				"netResult": "净结果",
+				"betId": "投注ID"
+			},
+			"errorLoading": "加载出错",
+			"noBetsFoundDescription": "开始玩游戏以在此处查看您的投注历史。",
+			"betHistory": "投注历史",
+			"hideAmounts": "隐藏金额",
+			"showAmounts": "显示金额",
+			"date": "日期",
+			"game": "游戏",
+			"betId": "投注ID",
+			"amount": "金额",
+			"payout": "派彩",
+			"player": "玩家",
+			"gameType": "游戏类型",
+			"vendor": "供应商",
+			"lastUpdate": "最后更新",
+			"netResult": "净结果",
+			"totalWagered": "总投注额",
+			"totalWon": "总赢额",
+			"netProfit": "净利润",
+			"winRate": "胜率",
+			"showingResults": "显示 {start}-{end} / 共 {total} 条结果",
+			"firstPage": "首页",
+			"previousPage": "上一页",
+			"nextPage": "下一页",
+			"lastPage": "末页"
+		}
+	},
+	"chat": {
+		"title": "在线聊天",
+		"placeholder": "输入您的消息...",
+		"send": "发送",
+		"input": {
+			"replyPlaceholder": "回复 {username}..."
+		},
+		"reply": {
+			"replyingTo": "正在回复 {username}",
+			"types": {
+				"win": "赢得 {amount} {currency}",
+				"gif": "GIF 消息",
+				"image": "图片",
+				"default": "消息"
+			},
+			"preview": {
+				"winIn": "在 {game} 中赢得 {amount} {currency}",
+				"gifAlt": "GIF 预览",
+				"imageAlt": "图片预览",
+				"emoji": "表情消息",
+				"rain": "红包雨: {amount} {currency}",
+				"system": "系统: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "分享您的图片 🎰",
+			"description": "准备好在聊天室展示了吗？",
+			"previewLabel": "预览",
+			"statusReady": "准备分享",
+			"roomLabel": "🎰 赌场聊天室",
+			"shareNotice": "您的图片将与聊天室中的所有玩家分享",
+			"closeAria": "关闭对话框",
+			"cancelAria": "取消图片上传",
+			"sendAria": "发送图片到聊天室",
+			"send": "发送到聊天室"
+		},
+		"picker": {
+			"searchEmojis": "搜索表情...",
+			"searchGifs": "搜索GIF...",
+			"tabs": {
+				"emojis": "表情",
+				"gifs": "GIF"
+			},
+			"loadingEmojis": "正在加载表情...",
+			"loadingGifs": "正在加载GIF...",
+			"retry": "重试",
+			"recent": "最近使用",
+			"noEmojis": "未找到表情",
+			"noGifs": "未找到GIF",
+			"tryDifferent": "尝试不同的搜索词",
+			"gifCategories": {
+				"trending": "热门",
+				"reactions": "反应",
+				"gaming": "游戏",
+				"casino": "赌场",
+				"celebration": "庆祝",
+				"sports": "体育"
+			},
+			"searchResults": "搜索结果",
+			"availableToTag": "可@的用户 🎯",
+			"clickOrTab": "点击或按Tab键选择",
+			"noUsers": "未找到用户",
+			"noUsersMatching": "未找到匹配的用户",
+			"startTyping": "开始输入以搜索",
+			"typeAt": "输入",
+			"toSeeSuggestions": "查看建议 🎰",
+			"errors": {
+				"emojisLoad": "加载表情失败",
+				"emojisSearch": "搜索表情失败",
+				"gifsLoad": "加载GIF失败"
+			}
+		},
+		"messages": {
+			"emptyTitle": "暂无消息...",
+			"emptySubtitle": "开始对话，赢取大奖！🎰",
+			"loadingHistory": "加载聊天历史...",
+			"loadingHistorySubtitle": "获取最新消息 📜",
+			"historyError": "加载聊天历史失败"
+		},
+		"message": {
+			"you": "您",
+			"winTitle": "在“{game}”中大获全胜！🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "已上传的图片",
+			"rainTitle": "天降财运！🌧️💰",
+			"recipients": "→ {count} 位接收者",
+			"eachTo": "每人 {amount} {currency} 发给: {list}",
+			"replyCount": "{count} 条回复",
+			"loadingHistory": "加载聊天历史..."
+		},
+		"system": {
+			"slashDisabled": "斜杠命令暂时禁用。请使用普通消息。",
+			"rateLimit": "超出频率限制。请等待 {seconds} 秒后再发送另一条消息。",
+			"cannotTagSelf": "您不能在消息中@自己。",
+			"processingImage": "正在处理图片...",
+			"failedUploadPrefix": "上传图片失败: {message}",
+			"unknownError": "未知错误"
+		}
+	},
+	"sidebar": {
+		"quest": "任务",
+		"spin": "旋转",
+		"deposit": "存款",
+		"withdraw": "取款",
+		"playOnTelegram": "在Telegram上玩",
+		"dailyBonus": "每日奖励",
+		"navigation": "导航",
+		"games": "游戏",
+		"providers": "提供商",
+		"trendingNow": "热门趋势",
+		"allProviders": "所有提供商",
+		"allTopProviders": "所有顶级提供商",
+		"hotBadge": "热门"
+	},
+	"search": {
+		"title": "搜索游戏",
+		"subtitle": "按名称、提供商或类别查找",
+		"placeholder": "搜索游戏、提供商、类别...",
+		"clear": "清除",
+		"recent": "最近:",
+		"popular": "热门:",
+		"favoritesTry": "您可以尝试 — 您的收藏",
+		"hotPicks": "热门精选",
+		"resultsCount": "找到 {count} 个游戏",
+		"noResults": "无结果",
+		"filterApplied": "已按 {count} 个提供商筛选",
+		"suggestions": {
+			"category": "类别",
+			"provider": "提供商"
+		},
+		"sections": {
+			"topProviders": "顶级提供商",
+			"selectedProviders": "已选提供商",
+			"categories": "类别",
+			"games": "游戏",
+			"providers": "提供商"
+		},
+		"results": {
+			"found": "找到 {games} 个游戏, {categories} 个类别, 和 {providers} 个提供商"
+		},
+		"gameTypes": {
+			"blackjack": "二十一点",
+			"roulette": "轮盘",
+			"crash": "碰撞游戏"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "排序方式",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "筛选",
+			"optionsTitle": "筛选选项",
+			"clearAll": "清除所有筛选",
+			"activeLabel": "当前:"
+		},
+		"searchPlaceholderGeneric": "搜索...",
+		"providersDropdown": {
+			"title": "提供商",
+			"selected": "已选 {count} 个",
+			"searchPlaceholder": "搜索提供商...",
+			"empty": "未找到提供商。",
+			"clear": "清除提供商筛选"
+		},
+		"category": {
+			"label": "类别:"
+		},
+		"view": {
+			"toggleAria": "视图模式切换",
+			"gridAria": "网格视图",
+			"listAria": "列表视图"
+		},
+		"loadMore": "加载更多"
+	},
+	"commonExtra": {
+		"connecting": "连接中...",
+		"offline": "离线",
+		"online": "在线",
+		"clear": "清除"
+	},
+	"home": {
+		"topProviders": "顶级游戏提供商"
+	},
+	"lobby": {
+		"yourFavorites": "您的收藏",
+		"featuredCasinoGames": "特色赌场游戏",
+		"hotPicks": "热门精选",
+		"slots": "老虎机",
+		"sports": "体育",
+		"realTimeScoreboard": "实时记分板"
+	},
+	"affiliate": {
+		"title": "联盟计划",
+		"loginPromptTitle": "推荐计划",
+		"loginPromptSubtitle": "登录以查看您的推荐统计、奖金并领取奖励。",
+		"goHome": "返回首页",
+		"tabs": {
+			"dashboard": "仪表盘",
+			"rates": "佣金率",
+			"calculator": "计算器"
+		},
+		"refresh": "刷新",
+		"refreshing": "刷新中...",
+		"refreshAllSuccess": "所有数据已成功刷新！",
+		"refreshPartial": "部分刷新: {success}/{total} 部分已更新",
+		"refreshFailed": "刷新数据失败。请重试。",
+		"dashboard": {
+			"title": "联盟仪表盘",
+			"subtitle": "追踪您的推荐、收益和佣金表现",
+			"performanceOverview": "表现概览",
+			"referralManagement": "推荐管理",
+			"termsAndCommission": "条款与佣金结构",
+			"unclaimedEarnings": "未领取收益",
+			"claim": "领取",
+			"claiming": "领取中...",
+			"totalIncome": "总收入",
+			"totalReferrals": "总推荐数",
+			"usersUnit": "用户",
+			"yourReferralLinks": "您的推荐链接",
+			"referralLinksSubtitle": "分享这些链接以推荐新用户并赚取佣金",
+			"completeReferralLink": "完整推荐链接",
+			"fullReferralPlaceholder": "完整推荐链接将显示在此处",
+			"fullReferralHelp": "用户可点击此直接链接使用您的推荐码进行注册",
+			"referralCodeOnly": "仅推荐码",
+			"yourReferralId": "您的推荐ID",
+			"referralIdHelp": "分享此代码供用户在注册时手动输入",
+			"copyFullSuccess": "完整推荐链接已复制到剪贴板！",
+			"copyIdSuccess": "推荐ID已复制到剪贴板！"
+		},
+		"referrals": {
+			"title": "我的推荐",
+			"subtitle": "追踪和管理通过您的联盟链接推荐的所有用户",
+			"totalReferrals": "总推荐数",
+			"monitorHelp": "监控您推荐用户的活动、存款和游戏模式",
+			"sort": {
+				"placeholder": "排序方式...",
+				"nicknameAsc": "昵称 (A-Z)",
+				"nicknameDesc": "昵称 (Z-A)",
+				"lastLogin": "最后登录",
+				"unclaimedAmount": "未领取金额"
+			},
+			"table": {
+				"nickname": "昵称",
+				"totalWager": "总投注额",
+				"lastLogin": "最后登录",
+				"registered": "注册时间",
+				"lastDeposit": "最后存款",
+				"depositDate": "存款日期",
+				"tier": "等级"
+			},
+			"empty": {
+				"title": "未找到推荐用户",
+				"subtitle": "开始推荐用户以在此处看到他们。"
+			},
+			"pagination": {
+				"showing": "显示 {from} 到 {to} / 共 {total} 条结果",
+				"prev": "上一页",
+				"next": "下一页"
+			}
+		},
+		"rates": {
+			"title": "佣金率结构",
+			"subtitle": "按等级和游戏类别划分的收益百分比",
+			"howItWorks": {
+				"title": "佣金等级如何运作",
+				"body": "您的佣金等级由您推荐用户的每日总投注额决定。等级越高，所有游戏类型的佣金率也越高。"
+			},
+			"calculation": {
+				"title": "佣金如何计算",
+				"desc": "佣金每24小时根据被推荐玩家的总投注额计算。例如：",
+				"exampleTitle": "等级 {tier}:",
+				"wagerIn": "在 {gameType} 中投注 {amount}"
+			},
+			"table": {
+				"tierLevel": "等级",
+				"wagerRange": "投注范围",
+				"slots": "老虎机",
+				"liveCasino": "真人娱乐场",
+				"sports": "体育",
+				"tierPrefix": "等级",
+				"commissionLevel": "佣金等级",
+				"dailyWager": "每日投注量"
+			},
+			"claim": {
+				"title": "领取和提款",
+				"points": {
+					"0": "佣金一旦计算完毕即可提款。",
+					"1": "未领取的佣金没有有效期——它们会累积直到被领取。",
+					"2": "提款遵循平台的标准规则，如最低限额和处理时间。"
+				}
+			},
+			"system": {
+				"title": "系统时间和操作",
+				"dailyTimeframeLabel": "每日时间范围:",
+				"dailyTimeframeValue": "UTC 00:00 至 UTC 23:59 (每天)。",
+				"claimDailyLabel": "每日领取:",
+				"claimDailyValue": "每日 UTC 14:00 可用 (您的本地时间: {local})。",
+				"note": "注意：尽管我们与不同时区的提供商合作，但所有计算均遵循UTC以确保一致性并避免混淆。"
+			},
+			"amendments": {
+				"title": "修订",
+				"body": "我们可能随时更新这些条款。更改在发布后立即生效，继续参与意味着您接受新条款。"
+			},
+			"footer": {
+				"schedule": "佣金时间表:",
+				"availableDaily": "每日可用时间为",
+				"localTimeLabel": "(您的本地时间: {time})"
+			}
+		},
+		"calculator": {
+			"title": "收益计算器",
+			"subtitle": "根据您推荐用户的投注额估算您的佣金收益",
+			"interactive": {
+				"title": "互动工具:",
+				"body": "输入不同的投注额以查看所有等级的潜在收益"
+			},
+			"potentialEarnings": "潜在收益",
+			"basedOnRate": "基于 {percentage}% 的佣金率",
+			"tier": "等级 {level}",
+			"commissionLevel": "佣金等级 {level}",
+			"enterWager": "输入投注额 (USD)",
+			"wagerPlaceholder": "例如, 1000",
+			"calcFor": "正在计算 ${amount} 投注的收益",
+			"totalPotential": "总潜在收益:",
+			"combinedAtTier": "等级 {level}下所有游戏类型的合并收益"
+		}
+	},
+	"debug": {
+		"title": "调试页面"
+	},
+	"getLobby": {
+		"enteringLobby": "正在进入大厅...",
+		"connectingWait": "请稍候，我们正在为您连接。",
+		"invalidSession": "您的会话无效或提供商丢失。请重试。",
+		"failedPrefix": "进入大厅失败: {message}",
+		"launchFailedTitle": "启动失败",
+		"returnHome": "返回首页"
+	},
+	"play": {
+		"connecting": "正在连接到游戏服务器...",
+		"invalidSession": "您的会话无效或已过期。请重新登录并重试。",
+		"launchFailedTitle": "启动失败",
+		"returnHome": "返回首页"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "限时优惠",
+		"headline": "获取200%欢迎奖金！",
+		"subheadline": "立即连接您的加密钱包，首次存款即可获得高达 {amount} 的奖金！",
+		"featureDepositMatch": "200%存款匹配",
+		"featureZeroFees": "零交易费",
+		"featureInstantWithdrawals": "即时取款",
+		"featureNoKyc": "无需KYC",
+		"ctaClaim": "立即领取奖金！",
+		"offerExpires": "优惠到期时间:",
+		"disclaimer": "条款与条件适用。赌博涉及风险。请负责任地玩。18+",
+		"closeAria": "关闭模态框",
+		"bannerAlt": "促销横幅",
+		"ctaOk": "连接钱包并开始投注",
+		"enterAmount": "输入金额",
+		"balance": "余额",
+		"max": "最大",
+		"deposit": "存款",
+		"ethereum": "以太坊"
+	},
+	"modalsSmall": {
+		"close": "关闭",
+		"firstDepositBoost": "首次存款奖金提升",
+		"bonus": "奖金",
+		"min": "分",
+		"sec": "秒",
+		"deposit": "存款"
+	},
+	"auth": {
+		"email": {
+			"title": "邮箱登录",
+			"description": "我们将向您发送一个6位数的验证码",
+			"emailLabel": "电子邮件地址",
+			"emailPlaceholder": "name@email.com",
+			"cancel": "取消",
+			"sending": "发送中",
+			"continue": "继续",
+			"enterCodeTitle": "输入验证码",
+			"sentTo": "已发送至 {email}",
+			"changeEmail": "更改邮箱",
+			"resendCode": "重新发送验证码",
+			"resendIn": "{seconds}秒后重新发送",
+			"verifying": "验证中",
+			"successTitle": "您已登录",
+			"successSubtitle": "正在设置...",
+			"modalAria": "邮箱验证模态框",
+			"errors": {
+				"invalidEmail": "请输入有效的电子邮件地址",
+				"sendFailed": "发送验证码失败。",
+				"invalidCode": "请输入6位数的验证码"
+			}
+		},
+		"setNickname": {
+			"title": "设置您的昵称",
+			"subtitle": "这是一次性设置，无法更改",
+			"logoutAria": "登出",
+			"inputPlaceholder": "选择您独特的昵称",
+			"referrerCheckbox": "我有推荐人ID",
+			"referrerPlaceholder": "输入推荐人ID",
+			"referrerHelp": "可选。这将您的账户与推荐人关联以获得奖励计划。",
+			"status": {
+				"checking": "正在检查可用性...",
+				"available": "昵称可用！",
+				"taken": "该昵称已被占用。"
+			},
+			"register": "注册并开始游戏",
+			"termsTitle": "条款与条件:",
+			"termsBody": "通过使用您的钱包签署本文件和/或继续使用此Web3应用程序，即表示您接受该应用程序的使用条款。签署您对使用条款的同意并非区块链交易，不产生任何费用。",
+			"errors": {
+				"verifyNicknameFailed": "无法验证昵称。请重试。",
+				"registerFailed": "注册失败: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "使用邮箱登录",
+			"connectWalletBtn": "连接钱包",
+			"player": "玩家",
+			"walletConnected": "钱包已连接",
+			"emailConnected": "邮箱已连接",
+			"disconnect": "断开连接",
+			"walletAddress": "钱包地址",
+			"balance": "余额",
+			"loginWithWallet": "使用钱包登录"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "存款",
+				"withdraw": "取款",
+				"swap": "兑换",
+				"walletInfo": "钱包"
+			},
+			"mobileDropdown": {
+				"emailWallet": "邮箱钱包",
+				"wallet": "钱包",
+				"deposit": "存款",
+				"withdraw": "取款",
+				"swap": "兑换"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "选择网络",
+			"switching": "切换中...",
+			"walletNotConnected": "钱包未连接。",
+			"failedToSwitch": "切换网络失败。请从您的钱包尝试。",
+			"altLogo": "网络标志"
+		},
+		"tokenList": {
+			"dialogTitle": "选择一个代币",
+			"instantDeposit": "即时存款",
+			"yourWalletBalance": "您的钱包余额",
+			"searchPlaceholder": "搜索名称或粘贴地址",
+			"emptySearch": "未找到与您搜索匹配的代币。",
+			"emptyOwned": "未找到有余额的代币。",
+			"searchResults": "搜索结果",
+			"yourTokens": "您的代币",
+			"otherResults": "其他结果"
+		},
+		"tabsSidebar": {
+			"walletInfo": "钱包",
+			"emailWallet": "邮箱钱包",
+			"deposit": "存款",
+			"withdraw": "取款",
+			"swap": "兑换"
+		},
+		"depositPanel": {
+			"youPay": "您支付",
+			"resetForm": "重置表单",
+			"enterAmount": "输入金额",
+			"selectToken": "选择代币",
+			"max": "最大",
+			"balance": "余额:",
+			"calculating": "计算中...",
+			"approxUsd": "约 ${amount} 美元",
+			"minPrefix": "最小:",
+			"ratesMayVary": "汇率可能会有变动",
+			"emailWalletAddress": "邮箱钱包地址",
+			"walletAddress": "钱包地址",
+			"minimumIs": "最小为 {min}",
+			"errors": {
+				"selectTokenAndAmount": "请选择代币并输入金额",
+				"insufficientBalance": "此交易余额不足",
+				"amountTooHighGas": "考虑到燃料费，金额过高",
+				"checkForm": "请检查表单并重试",
+				"pendingDeposit": "您有待处理的存款。请等待其完成"
+			},
+			"status": {
+				"processing": "处理中...",
+				"awaitingApproval": "等待批准",
+				"calculatingRate": "正在计算汇率...",
+				"insufficientBalance": "余额不足"
+			},
+			"buttons": {
+				"depositUsd": "存款 ${amount}"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "选择代币",
+			"enterAmount": "输入金额",
+			"gettingQuote": "获取报价中...",
+			"confirming": "确认中...",
+			"approving": "批准中...",
+			"insufficientBalance": "兑换余额不足",
+			"sameToken": "不能兑换相同的代币",
+			"approveAndSwap": "批准并兑换",
+			"swap": "兑换",
+			"slippageTolerance": "滑点容差",
+			"custom": "自定义",
+			"set": "设置",
+			"currentSlippage": "当前滑点",
+			"swapSuccessful": "兑换成功！",
+			"transactionConfirmed": "您的交易已确认",
+			"hash": "哈希",
+			"newSwap": "新的兑换",
+			"youPay": "您支付",
+			"max": "最大",
+			"low": "低",
+			"amountPlaceholder": "0",
+			"selectToken": "选择代币",
+			"youReceive": "您收到",
+			"gettingBestQuote": "正在获取最佳报价...",
+			"gas": "燃料费",
+			"minimumReceived": "最少收到",
+			"slippageToleranceLabel": "滑点容差",
+			"gasFee": "燃料费",
+			"priceWarning": "价格实时更新，可能会在您的交易确认前发生变化",
+			"emailWalletAddress": "邮箱钱包地址",
+			"walletAddress": "钱包地址",
+			"minimumIs": "最小为 {min}",
+			"errors": {
+				"selectTokenAndAmount": "请选择代币并输入金额",
+				"insufficientBalance": "此交易余额不足",
+				"amountTooHighGas": "考虑到燃料费，金额过高",
+				"checkForm": "请检查表单并重试",
+				"pendingDeposit": "您有待处理的存款。请等待其完成"
+			},
+			"status": {
+				"processing": "处理中...",
+				"awaitingApproval": "等待批准",
+				"calculatingRate": "正在计算汇率...",
+				"insufficientBalance": "余额不足"
+			},
+			"buttons": {
+				"depositUsd": "存款 ${amount}"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "存款已确认！",
+			"submittedTitle": "交易已提交",
+			"confirmedDesc": "您的余额已更新。",
+			"submittedDesc": "等待区块链确认。这可能需要几分钟。",
+			"viewOnExplorer": "在浏览器上查看",
+			"newDepositConfirmed": "进行另一笔存款",
+			"newDepositPending": "开始新的存款"
+		},
+		"withdrawPanel": {
+			"resetForm": "重置表单",
+			"networkNotSupported": "仅支持在 Arbitrum、Polygon 和 BNB 上提款",
+			"youWithdraw": "您取款",
+			"loading": "加载中...",
+			"amount": "金额",
+			"max": "最大",
+			"balance": "余额:",
+			"available": "可用:",
+			"insufficientBalance": "余额不足",
+			"minimumIs": "最小为 {min}",
+			"minLabel": "最小:",
+			"emailWalletAddress": "邮箱钱包地址",
+			"walletAddress": "钱包地址",
+			"errors": {
+				"pendingWithdrawal": "您已有待处理的取款",
+				"invalidAddress": "无效地址",
+				"enterAmount": "输入金额",
+				"networkNotSupported": "不支持的网络"
+			},
+			"status": {
+				"processing": "处理中...",
+				"insufficientBalance": "余额不足",
+				"pendingWithdrawal": "已有待处理的取款"
+			},
+			"buttons": {
+				"withdraw": "取款 {amount} {symbol}",
+				"minimum": "最小 {amount} {symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "取款成功！",
+			"successMessage": "🎉 刚从 Meme Win 提取了 {withdrawAmount} {tokenSymbol}！🚀 在 {shareUrl} 加入胜利的行列",
+			"withdrawnAmount": "已取款金额",
+			"shareText": "分享",
+			"subText": "🚀 加入胜利的行列！🚀",
+			"generating": "生成中...",
+			"screenshot": "截屏",
+			"download": "下载图片",
+			"close": "关闭",
+			"copiedToClipboard": "分享链接已成功复制"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "取款已确认！",
+			"submittedTitle": "交易已提交",
+			"confirmedDesc": "您的资金正在路上。",
+			"submittedDesc": "等待区块链确认...",
+			"viewOnExplorer": "在浏览器上查看",
+			"manualApproval": "此取款需要手动批准。",
+			"newWithdrawalConfirmed": "进行另一笔取款",
+			"newWithdrawalPending": "开始新的取款"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "您将收到"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "升级到专业版",
+		"account": "账户",
+		"billing": "账单",
+		"notifications": "通知",
+		"logout": "登出"
+	},
+	"games": {
+		"pageTitle": "所有游戏",
+		"playNow": "立即游戏",
+		"byProvider": "由 {name} 提供",
+		"count": "{count} 款游戏",
+		"noResults": "未找到符合您条件的游戏。",
+		"errorLoading": "无法加载游戏。请稍后重试。",
+		"slots": "老虎机",
+		"sports": "体育",
+		"liveCasino": "真人娱乐场",
+		"explore": "探索",
+		"exploreSubtitle": "发现惊人的游戏体验",
+		"poker": "扑克",
+		"lottery": "彩票",
+		"futures": "期货",
+		"vr": "VR",
+		"swap": "兑换",
+		"slotsDescription": "旋转卷轴，赢取巨额头奖",
+		"liveCasinoDescription": "与真人荷官一起体验实时赌场行动",
+		"sportsDescription": "为您最喜爱的球队和体育赛事下注",
+		"pokerDescription": "在经典扑克游戏中测试您的技巧",
+		"lotteryDescription": "通过彩票和即时赢取游戏试试您的运气",
+		"futuresDescription": "交易并预测市场动向",
+		"vrDescription": "沉浸在虚拟现实游戏中",
+		"swapDescription": "无缝交换代币和加密货币",
+		"categories": {
+			"slot": {
+				"title": "老虎机游戏"
+			},
+			"liveCasino": {
+				"title": "真人娱乐场游戏"
+			},
+			"sports": {
+				"title": "体育博彩游戏"
+			},
+			"rng": {
+				"title": "随机数游戏"
+			},
+			"other": {
+				"title": "{category} 游戏"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "所有游戏提供商",
+		"searchPlaceholder": "搜索提供商...",
+		"empty": "未找到符合您搜索的提供商。",
+		"logoAlt": "{name} 标志",
+		"filteredBy": "按类别筛选:",
+		"clearFilter": "清除筛选",
+		"categories": {
+			"slot": {
+				"title": "老虎机游戏提供商"
+			},
+			"liveCasino": {
+				"title": "真人娱乐场提供商"
+			},
+			"sports": {
+				"title": "体育博彩提供商"
+			},
+			"rng": {
+				"title": "随机数游戏提供商"
+			},
+			"other": {
+				"title": "{category} 游戏提供商"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "加入行动",
+			"subtitle": "立即注册并获得独家欢迎奖金！",
+			"cta": "立即注册"
+		},
+		"welcome": {
+			"title1": "欢迎奖金",
+			"title2": "高达590%",
+			"subtitle": "+ 225次免费旋转",
+			"cta": "存款并获取"
+		},
+		"jackpot": {
+			"title1": "巨额头奖",
+			"title2": "$1,000,000",
+			"subtitle": "立即游戏，赢取大奖",
+			"cta": "立即游戏"
+		},
+		"cards": {
+			"casino": {
+				"title": "赌场",
+				"badge": "590+ 游戏",
+				"desc": "享受 MemeWin 原创和其他顶级提供商的赌场游戏。",
+				"link": "前往赌场"
+			},
+			"slots": {
+				"title": "老虎机",
+				"badge": "5292 游戏",
+				"desc": "旋转卷轴，通过我们的高级老虎机系列赢取巨额头奖。",
+				"link": "前往老虎机"
+			},
+			"sports": {
+				"title": "体育",
+				"badge": "3 游戏",
+				"desc": "以有竞争力的赔率为您最喜爱的球队和体育赛事下注。",
+				"link": "前往体育"
+			},
+			"crypto": {
+				"title": "加密货币与收益",
+				"badge": "60% 年利率",
+				"desc": "以诱人的利率进行质押、交易和赚取加密货币。",
+				"link": "前往加密货币"
+			}
+		},
+		"layout3": {
+			"headerTitle": "游戏焦点",
+			"headerSubtitle": "在我们精选的系列中发现惊人的游戏并探索新的冒险",
+			"slider1Title": "特色游戏",
+			"slider1Badge": "员工精选",
+			"slider2Title": "更多探索",
+			"slider2Badge": "热门",
+			"featuredGameLabel": "特色游戏"
+		},
+		"ctaExploreGames": "探索游戏",
+		"ctaJoinAffiliate": "加入联盟计划"
+	},
+	"betting": {
+		"live": {
+			"winRate": "胜率",
+			"biggestWin": "最大赢额",
+			"bigWins50": "大赢 (50+)",
+			"recentWins": "最近赢取",
+			"header": {
+				"title": "实时投注活动",
+				"subtitle": "实时投注活动 • 已加载 {count} 场游戏"
+			},
+			"status": {
+				"live": "直播",
+				"paused": "已暂停"
+			},
+			"actions": {
+				"pause": "暂停",
+				"resume": "继续"
+			},
+			"tabs": {
+				"all": "全部",
+				"wins": "赢",
+				"losses": "输"
+			},
+			"table": {
+				"game": "游戏名称",
+				"time": "时间",
+				"provider": "提供商",
+				"nickname": "昵称",
+				"bet": "投注",
+				"multiplier": "乘数",
+				"profit": "利润"
+			},
+			"empty": "未找到投注记录"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "更改字体",
+		"fontSettings": "字体设置",
+		"current": "当前",
+		"browseGoogleFonts": "浏览谷歌字体",
+		"uploadCustomFont": "上传自定义字体",
+		"quickUploadFontFile": "快速上传字体文件",
+		"resetToDefault": "重置为默认",
+		"googleFonts": {
+			"title": "谷歌字体",
+			"searchFonts": "搜索字体...",
+			"preview": "预览",
+			"previewText": "敏捷的棕色狐狸跳过了懒惰的狗",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "应用字体",
+			"clearPreview": "清除预览",
+			"previewWith": "使用 {font} 预览文本",
+			"noFontsFound": "未找到匹配 “{searchTerm}” 的字体"
+		},
+		"customUpload": {
+			"title": "上传自定义字体",
+			"description": "上传您自己的字体文件以自定义网站",
+			"fontFile": "字体文件",
+			"dragDropArea": "将您的字体文件拖放到此处，或",
+			"clickToUpload": "点击上传",
+			"supportedFormats": "支持的格式: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "最大文件大小: 10MB",
+			"fontName": "字体名称",
+			"fontNamePlaceholder": "为您的字体输入一个名称",
+			"previewYourFont": "预览您的字体",
+			"uploadAndApply": "上传并应用字体",
+			"cancel": "取消",
+			"uploading": "上传中...",
+			"errors": {
+				"invalidFileType": "请上传有效的字体文件 (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "文件大小超过10MB限制",
+				"uploadFailed": "上传字体文件失败",
+				"enterFontName": "请选择字体文件并提供名称",
+				"readFileFailed": "读取字体文件失败"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "字体 “{fontName}” 应用成功！",
+			"fontUploadedSuccess": "字体 “{fontName}” 上传并应用成功！",
+			"fontResetSuccess": "字体已重置为默认",
+			"invalidFileType": "请上传有效的字体文件 (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "读取字体文件失败"
+		}
+	}
+}

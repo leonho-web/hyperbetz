@@ -1,0 +1,1050 @@
+{
+	"common": {
+		"loading": "読み込み中...",
+		"save": "保存",
+		"cancel": "キャンセル",
+		"confirm": "確認",
+		"viewAll": "すべて表示"
+	},
+	"app": {
+		"name": "Meme Win"
+	},
+	"header": {
+		"toggleSidebar": "サイドバーの切り替え",
+		"searchPlaceholder": "ゲーム、プロバイダーを検索...",
+		"liveChat": "ライブチャット",
+		"player": "プレイヤー",
+		"vip": "VIP",
+		"profile": "プロフィール",
+		"statistics": "統計",
+		"wallet": "入金/出金",
+		"cashier": "キャッシャー",
+		"winLoss": "勝敗",
+		"affiliate": "アフィリエイト",
+		"logout": "ログアウト",
+		"balance": "残高"
+	},
+	"navigation": {
+		"home": "ホーム",
+		"games": "ゲーム",
+		"profile": "プロフィール",
+		"wallet": "ウォレット",
+		"settings": "設定",
+		"promotions": "プロモーション",
+		"affiliate": "アフィリエイト",
+		"providers": "プロバイダー",
+		"lobby": "ロビー"
+	},
+	"profile": {
+		"language": "言語",
+		"welcome": "ようこそ、{name}さん！",
+		"settingUp": "設定中",
+		"profileBtn": "プロフィールを表示",
+		"currentBalance": "現在の残高",
+		"availableFunds": "利用可能資金",
+		"totalDeposits": "合計入金額",
+		"totalWithdrawals": "合計出金額",
+		"walletAddress": "ウォレットアドレス",
+		"copySuccess": "ウォレットアドレスをクリップボードにコピーしました！",
+		"copyFailed": "ウォレットアドレスのコピーに失敗しました",
+		"notConnected": "未接続",
+		"myProfile": "マイプロフィール",
+		"logout": "ログアウト",
+		"pendingRegistration": "登録保留中",
+		"noEmailProvided": "メールアドレスが提供されていません",
+		"balanceOverview": "残高概要",
+		"gettingStarted": "はじめに",
+		"verifyEmail": "メールアドレスを確認",
+		"completeEmailVerification": "メール認証を完了してください",
+		"verifyPhone": "電話番号を確認",
+		"addPhoneVerification": "電話認証を追加",
+		"firstDeposit": "初回入金",
+		"makeFirstDeposit": "初回入金を行う",
+		"placeBetOrTrade": "ベットする / 取引する",
+		"startFirstGame": "最初のゲームを開始",
+		"recentActivity": "最近のアクティビティ",
+		"transactionHistory": "取引履歴",
+		"activityGameWinDiceRoll": "ゲーム勝利 - ダイスロール",
+		"activityGameLossBlackjack": "ゲーム敗北 - ブラックジャック",
+		"twoHoursAgo": "2時間前",
+		"oneDayAgo": "1日前",
+		"twoDaysAgo": "2日前",
+		"deposit": "入金",
+		"loggedOutTitle": "おっと！ログアウトしました",
+		"loggedOutSubtitle": "プロフィールを表示するにはログインしてください",
+		"goHome": "ホームに戻る",
+		"withdrawal": "出金",
+		"transactions": {
+			"title": "取引履歴",
+			"trackDepositsWithdrawals": "入出金を追跡",
+			"filters": "フィルター",
+			"refresh": "更新",
+			"advancedFilters": "高度なフィルター",
+			"searchTransactionComingSoon": "取引検索（近日公開）",
+			"searchPlaceholderDisabled": "検索機能はAPIレベルで実装されます...",
+			"dateRange": "日付範囲",
+			"selectDateRange": "日付範囲を選択",
+			"today": "今日",
+			"last7Days": "過去7日間",
+			"last30Days": "過去30日間",
+			"last90Days": "過去90日間",
+			"thisMonth": "今月",
+			"lastMonth": "先月",
+			"customRange": "カスタム範囲",
+			"fromDate": "開始日",
+			"toDate": "終了日",
+			"transactionStatus": "取引ステータス",
+			"allStatuses": "すべてのステータス",
+			"success": "成功",
+			"pending": "保留中",
+			"rejected": "拒否",
+			"clearAll": "すべてクリア",
+			"cancel": "キャンセル",
+			"applyFilters": "フィルターを適用",
+			"activeFilters": "有効なフィルター:",
+			"statusLabel": "ステータス",
+			"dateLabel": "日付",
+			"statsTotalTransactions": "合計{total}件の取引",
+			"pageOf": "ページ {current} / {total}",
+			"live": "ライブ",
+			"tabs": {
+				"all": "すべて",
+				"deposits": "入金",
+				"withdrawals": "出金"
+			},
+			"errorLoadingTransactions": "取引の読み込みエラー",
+			"tryAgain": "再試行",
+			"noTransactionsFound": "取引が見つかりません",
+			"noTransactionsAvailableSelectedPeriod": "選択した期間に利用可能な取引はありません。",
+			"noDepositsFoundSelectedPeriod": "選択した期間に入金は見つかりませんでした。",
+			"noWithdrawalsFoundSelectedPeriod": "選択した期間に出金は見つかりませんでした。",
+			"show": "表示",
+			"ofTransactions": "/ {count}件の取引",
+			"showingRangeOfTotal": "{total}件中{from}-{to}件を表示",
+			"pageShort": "ページ {current}/{total}"
+		},
+		"betHistory": {
+			"title": "ベット履歴",
+			"trackBetsResults": "ゲームのベットと結果を追跡",
+			"filters": "フィルター",
+			"refresh": "更新",
+			"advancedFilters": "高度なフィルター",
+			"dateRange": "日付範囲",
+			"selectDateRange": "日付範囲を選択",
+			"today": "今日",
+			"last7Days": "過去7日間",
+			"last30Days": "過去30日間",
+			"last90Days": "過去90日間",
+			"thisMonth": "今月",
+			"lastMonth": "先月",
+			"customRange": "カスタム範囲",
+			"fromDate": "開始日",
+			"toDate": "終了日",
+			"provider": "プロバイダー",
+			"allProviders": "すべてのプロバイダー",
+			"status": "ステータス",
+			"allStatuses": "すべてのステータス",
+			"outstanding": "未決済",
+			"win": "勝ち",
+			"lose": "負け",
+			"draw": "引き分け",
+			"void": "無効",
+			"bonusWin": "ボーナス勝利",
+			"clearAll": "すべてクリア",
+			"cancel": "キャンセル",
+			"applyFilters": "フィルターを適用",
+			"activeFilters": "有効なフィルター",
+			"statusLabel": "ステータス",
+			"providerLabel": "プロバイダー",
+			"dateLabel": "日付",
+			"totalBets": "合計ベット数",
+			"totalProfitLoss": "合計損益",
+			"pageOf": "ページ {current} / {total}",
+			"live": "ライブ",
+			"errorLoadingBets": "ベット履歴の読み込みエラー",
+			"failedToLoadBetHistory": "ベット履歴の読み込みに失敗しました。もう一度お試しください。",
+			"tryAgain": "再試行",
+			"noBetsFound": "ベットが見つかりません",
+			"noBetsFoundSelectedPeriod": "選択した期間とフィルターに一致するベット履歴は見つかりませんでした。",
+			"show": "表示",
+			"ofBets": "/ {count}件のベット",
+			"showingRangeOfTotal": "{total}件中{from}-{to}件を表示",
+			"totalBet": "合計ベット額",
+			"totalWin": "合計勝利額",
+			"net": "純利益",
+			"tableHeaders": {
+				"date": "日付",
+				"game": "ゲーム",
+				"provider": "プロバイダー",
+				"type": "タイプ",
+				"status": "ステータス",
+				"betAmount": "ベット額",
+				"winAmount": "勝利額",
+				"hideAmounts": "金額を非表示",
+				"showAmounts": "金額を表示",
+				"gameType": "ゲームタイプ",
+				"vendor": "ベンダー",
+				"lastUpdate": "最終更新",
+				"netResult": "純結果",
+				"betId": "ベットID"
+			},
+			"errorLoading": "読み込みエラー",
+			"noBetsFoundDescription": "ゲームをプレイして、ここにベット履歴を表示させましょう。",
+			"betHistory": "ベット履歴",
+			"hideAmounts": "金額を非表示",
+			"showAmounts": "金額を表示",
+			"date": "日付",
+			"game": "ゲーム",
+			"betId": "ベットID",
+			"amount": "金額",
+			"payout": "ペイアウト",
+			"player": "プレイヤー",
+			"gameType": "ゲームタイプ",
+			"vendor": "ベンダー",
+			"lastUpdate": "最終更新",
+			"netResult": "純結果",
+			"totalWagered": "合計賭け金",
+			"totalWon": "合計勝利金",
+			"netProfit": "純利益",
+			"winRate": "勝率",
+			"showingResults": "{total}件の結果のうち{start}-{end}件を表示中",
+			"firstPage": "最初のページ",
+			"previousPage": "前のページ",
+			"nextPage": "次のページ",
+			"lastPage": "最後のページ"
+		}
+	},
+	"chat": {
+		"title": "ライブチャット",
+		"placeholder": "メッセージを入力...",
+		"send": "送信",
+		"input": {
+			"replyPlaceholder": "{username}に返信..."
+		},
+		"reply": {
+			"replyingTo": "{username}に返信中",
+			"types": {
+				"win": "{amount}{currency}を獲得しました",
+				"gif": "GIFメッセージ",
+				"image": "画像",
+				"default": "メッセージ"
+			},
+			"preview": {
+				"winIn": "{game}で{amount}{currency}を獲得",
+				"gifAlt": "GIFプレビュー",
+				"imageAlt": "画像プレビュー",
+				"emoji": "絵文字メッセージ",
+				"rain": "レイン: {amount}{currency}",
+				"system": "システム: {content}"
+			}
+		},
+		"imageDialog": {
+			"title": "画像を共有 🎰",
+			"description": "チャットルームに表示する準備はできましたか？",
+			"previewLabel": "プレビュー",
+			"statusReady": "共有の準備ができました",
+			"roomLabel": "🎰 カジノチャット",
+			"shareNotice": "あなたの画像はチャットルームのすべてのプレイヤーと共有されます",
+			"closeAria": "ダイアログを閉じる",
+			"cancelAria": "画像のアップロードをキャンセル",
+			"sendAria": "画像をチャットに送信",
+			"send": "チャットに送信"
+		},
+		"picker": {
+			"searchEmojis": "絵文字を検索...",
+			"searchGifs": "GIFを検索...",
+			"tabs": {
+				"emojis": "絵文字",
+				"gifs": "GIF"
+			},
+			"loadingEmojis": "絵文字を読み込み中...",
+			"loadingGifs": "GIFを読み込み中...",
+			"retry": "再試行",
+			"recent": "最近",
+			"noEmojis": "絵文字が見つかりません",
+			"noGifs": "GIFが見つかりません",
+			"tryDifferent": "別の検索語をお試しください",
+			"gifCategories": {
+				"trending": "トレンド",
+				"reactions": "リアクション",
+				"gaming": "ゲーム",
+				"casino": "カジノ",
+				"celebration": "お祝い",
+				"sports": "スポーツ"
+			},
+			"searchResults": "検索結果",
+			"availableToTag": "タグ付け可能なユーザー 🎯",
+			"clickOrTab": "クリックまたはタブで選択",
+			"noUsers": "ユーザーが見つかりません",
+			"noUsersMatching": "一致するユーザーがいません",
+			"startTyping": "入力を開始して検索",
+			"typeAt": "入力",
+			"toSeeSuggestions": "して候補を表示 🎰",
+			"errors": {
+				"emojisLoad": "絵文字の読み込みに失敗しました",
+				"emojisSearch": "絵文字の検索に失敗しました",
+				"gifsLoad": "GIFの読み込みに失敗しました"
+			}
+		},
+		"messages": {
+			"emptyTitle": "まだメッセージはありません...",
+			"emptySubtitle": "会話を始めて、大きく勝ちましょう！ 🎰",
+			"loadingHistory": "チャット履歴を読み込み中...",
+			"loadingHistorySubtitle": "最新メッセージを取得中 📜",
+			"historyError": "チャット履歴の読み込みに失敗しました"
+		},
+		"message": {
+			"you": "あなた",
+			"winTitle": "「{game}」で大勝利！ 🎰",
+			"gifAlt": "GIF",
+			"imageAlt": "アップロードされた画像",
+			"rainTitle": "マネーレイン！ 🌧️💰",
+			"recipients": "→ {count}人の受信者",
+			"eachTo": "それぞれに{amount}{currency}: {list}",
+			"replyCount": "返信{count}件",
+			"loadingHistory": "チャット履歴を読み込み中..."
+		},
+		"system": {
+			"slashDisabled": "スラッシュコマンドは一時的に無効になっています。通常のメッセージを使用してください。",
+			"rateLimit": "レート制限を超えました。次のメッセージを送信するまで{seconds}秒お待ちください。",
+			"cannotTagSelf": "メッセージ内で自分自身をタグ付けすることはできません。",
+			"processingImage": "画像を処理中...",
+			"failedUploadPrefix": "画像のアップロードに失敗しました: {message}",
+			"unknownError": "不明なエラー"
+		}
+	},
+	"sidebar": {
+		"quest": "クエスト",
+		"spin": "スピン",
+		"deposit": "入金",
+		"withdraw": "出金",
+		"playOnTelegram": "Telegramでプレイ",
+		"dailyBonus": "デイリーボーナス",
+		"navigation": "ナビゲーション",
+		"games": "ゲーム",
+		"providers": "プロバイダー",
+		"trendingNow": "トレンド",
+		"allProviders": "すべてのプロバイダー",
+		"allTopProviders": "すべてのトッププロバイダー",
+		"hotBadge": "人気"
+	},
+	"search": {
+		"title": "ゲームを検索",
+		"subtitle": "名前、プロバイダー、またはカテゴリで検索",
+		"placeholder": "ゲーム、プロバイダー、カテゴリを検索...",
+		"clear": "クリア",
+		"recent": "最近の検索:",
+		"popular": "人気:",
+		"favoritesTry": "お試しください — あなたのお気に入り",
+		"hotPicks": "注目ピックアップ",
+		"resultsCount": "ゲーム{count}件が見つかりました",
+		"noResults": "結果がありません",
+		"filterApplied": "{count}件のプロバイダーでフィルター済み",
+		"suggestions": {
+			"category": "カテゴリ",
+			"provider": "プロバイダー"
+		},
+		"sections": {
+			"topProviders": "トッププロバイダー",
+			"selectedProviders": "選択中のプロバイダー",
+			"categories": "カテゴリ",
+			"games": "ゲーム",
+			"providers": "プロバイダー"
+		},
+		"results": {
+			"found": "{games}件のゲーム、{categories}件のカテゴリ、{providers}件のプロバイダーが見つかりました"
+		},
+		"gameTypes": {
+			"blackjack": "ブラックジャック",
+			"roulette": "ルーレット",
+			"crash": "クラッシュ"
+		}
+	},
+	"query": {
+		"sort": {
+			"label": "並べ替え",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
+		},
+		"filters": {
+			"filter": "フィルター",
+			"optionsTitle": "フィルターオプション",
+			"clearAll": "すべてのフィルターをクリア",
+			"activeLabel": "有効:"
+		},
+		"searchPlaceholderGeneric": "検索...",
+		"providersDropdown": {
+			"title": "プロバイダー",
+			"selected": "{count}件選択済み",
+			"searchPlaceholder": "プロバイダーを検索...",
+			"empty": "プロバイダーが見つかりません。",
+			"clear": "プロバイダーフィルターをクリア"
+		},
+		"category": {
+			"label": "カテゴリ:"
+		},
+		"view": {
+			"toggleAria": "表示モードの切り替え",
+			"gridAria": "グリッド表示",
+			"listAria": "リスト表示"
+		},
+		"loadMore": "さらに読み込む"
+	},
+	"commonExtra": {
+		"connecting": "接続中...",
+		"offline": "オフライン",
+		"online": "オンライン",
+		"clear": "クリア"
+	},
+	"home": {
+		"topProviders": "トップゲームプロバイダー"
+	},
+	"lobby": {
+		"yourFavorites": "あなたのお気に入り",
+		"featuredCasinoGames": "注目カジノゲーム",
+		"hotPicks": "人気ピックアップ",
+		"slots": "スロット",
+		"sports": "スポーツ",
+		"realTimeScoreboard": "リアルタイムスコアボード"
+	},
+	"affiliate": {
+		"title": "アフィリエイトプログラム",
+		"loginPromptTitle": "紹介プログラム",
+		"loginPromptSubtitle": "ログインして紹介統計、ボーナスを確認し、報酬を請求してください。",
+		"goHome": "ホームに戻る",
+		"tabs": {
+			"dashboard": "ダッシュボード",
+			"rates": "コミッション率",
+			"calculator": "計算ツール"
+		},
+		"refresh": "更新",
+		"refreshing": "更新中...",
+		"refreshAllSuccess": "すべてのデータが正常に更新されました！",
+		"refreshPartial": "部分的に更新: {success}/{total}セクションが更新されました",
+		"refreshFailed": "データの更新に失敗しました。もう一度お試しください。",
+		"dashboard": {
+			"title": "アフィリエイトダッシュボード",
+			"subtitle": "紹介、収益、コミッションのパフォーマンスを追跡します",
+			"performanceOverview": "パフォーマンス概要",
+			"referralManagement": "紹介管理",
+			"termsAndCommission": "規約とコミッション構造",
+			"unclaimedEarnings": "未請求の収益",
+			"claim": "請求",
+			"claiming": "請求中...",
+			"totalIncome": "総収入",
+			"totalReferrals": "総紹介数",
+			"usersUnit": "ユーザー",
+			"yourReferralLinks": "あなたの紹介リンク",
+			"referralLinksSubtitle": "これらのリンクを共有して新しいユーザーを紹介し、コミッションを獲得しましょう",
+			"completeReferralLink": "完全な紹介リンク",
+			"fullReferralPlaceholder": "完全な紹介リンクはここに表示されます",
+			"fullReferralHelp": "ユーザーがあなたの紹介コードで登録するためにクリックできる直接リンク",
+			"referralCodeOnly": "紹介コードのみ",
+			"yourReferralId": "あなたの紹介ID",
+			"referralIdHelp": "このコードを共有して、ユーザーが登録時に手動で入力できるようにします",
+			"copyFullSuccess": "完全な紹介リンクをクリップボードにコピーしました！",
+			"copyIdSuccess": "紹介IDをクリップボードにコピーしました！"
+		},
+		"referrals": {
+			"title": "私の紹介",
+			"subtitle": "アフィリエイトリンクを通じて紹介されたすべてのユーザーを追跡・管理します",
+			"totalReferrals": "総紹介数",
+			"monitorHelp": "紹介者のアクティビティ、入金、ゲームパターンを監視します",
+			"sort": {
+				"placeholder": "並べ替え...",
+				"nicknameAsc": "ニックネーム (A-Z)",
+				"nicknameDesc": "ニックネーム (Z-A)",
+				"lastLogin": "最終ログイン",
+				"unclaimedAmount": "未請求額"
+			},
+			"table": {
+				"nickname": "ニックネーム",
+				"totalWager": "合計賭け金",
+				"lastLogin": "最終ログイン",
+				"registered": "登録日",
+				"lastDeposit": "最終入金",
+				"depositDate": "入金日",
+				"tier": "ティア"
+			},
+			"empty": {
+				"title": "紹介が見つかりません",
+				"subtitle": "ユーザーの紹介を開始して、ここに表示させましょう。"
+			},
+			"pagination": {
+				"showing": "{total}件の結果のうち{from}から{to}までを表示",
+				"prev": "前へ",
+				"next": "次へ"
+			}
+		},
+		"rates": {
+			"title": "コミッション率の構造",
+			"subtitle": "ティアレベルとゲームカテゴリ別の収益率",
+			"howItWorks": {
+				"title": "コミッションティアの仕組み",
+				"body": "あなたのコミッションティアは、紹介者の1日の合計賭け金額によって決まります。ティアが高いほど、すべてのゲームタイプでより良いコミッション率が提供されます。"
+			},
+			"calculation": {
+				"title": "コミッションの計算方法",
+				"desc": "コミッションは、紹介されたプレイヤーの合計賭け金に基づいて24時間ごとに計算されます。例：",
+				"exampleTitle": "ティア {tier}:",
+				"wagerIn": "{gameType}で{amount}を賭ける"
+			},
+			"table": {
+				"tierLevel": "ティアレベル",
+				"wagerRange": "賭け金範囲",
+				"slots": "スロット",
+				"liveCasino": "ライブカジノ",
+				"sports": "スポーツ",
+				"tierPrefix": "ティア",
+				"commissionLevel": "コミッションレベル",
+				"dailyWager": "1日の賭け金ボリューム"
+			},
+			"claim": {
+				"title": "請求と出金",
+				"points": {
+					"0": "コミッションは計算され次第、出金可能です。",
+					"1": "未請求のコミッションに有効期限はありません。請求されるまで蓄積されます。",
+					"2": "出金は、最低限度額や処理時間など、プラットフォームの標準ルールに従います。"
+				}
+			},
+			"system": {
+				"title": "システム時間と運用",
+				"dailyTimeframeLabel": "1日のタイムフレーム:",
+				"dailyTimeframeValue": "毎日00:00 UTCから23:59 UTCまで。",
+				"claimDailyLabel": "毎日の請求:",
+				"claimDailyValue": "毎日14:00 UTCに利用可能（あなたの現地時間: {local}）。",
+				"note": "注意：私たちは異なるタイムゾーンのプロバイダーと協力していますが、一貫性を確保し混乱を避けるため、すべての計算はUTCに従います。"
+			},
+			"amendments": {
+				"title": "修正",
+				"body": "私たちはいつでもこれらの規約を更新することがあります。変更は掲載後すぐに有効となり、継続的な参加は新しい規約に同意したことを意味します。"
+			},
+			"footer": {
+				"schedule": "コミッションスケジュール:",
+				"availableDaily": "毎日利用可能",
+				"localTimeLabel": "（あなたの現地時間: {time}）"
+			}
+		},
+		"calculator": {
+			"title": "収益計算ツール",
+			"subtitle": "紹介者の賭け金額に基づいてコミッション収益を見積もります",
+			"interactive": {
+				"title": "インタラクティブツール:",
+				"body": "さまざまな賭け金額を入力して、すべてのティアでの潜在的な収益を確認します"
+			},
+			"potentialEarnings": "潜在的な収益",
+			"basedOnRate": "{percentage}%のコミッション率に基づく",
+			"tier": "ティア {level}",
+			"commissionLevel": "コミッションレベル {level}",
+			"enterWager": "賭け金額を入力 (USD)",
+			"wagerPlaceholder": "例: 1000",
+			"calcFor": "${amount}の賭け金の収益を計算中",
+			"totalPotential": "合計潜在収益:",
+			"combinedAtTier": "ティア {level}におけるすべてのゲームタイプからの合計収益"
+		}
+	},
+	"debug": {
+		"title": "デバッグページ"
+	},
+	"getLobby": {
+		"enteringLobby": "ロビーに入室中...",
+		"connectingWait": "接続しています。しばらくお待ちください。",
+		"invalidSession": "セッションが無効か、プロバイダーが見つかりません。もう一度お試しください。",
+		"failedPrefix": "ロビーへの入室に失敗しました: {message}",
+		"launchFailedTitle": "起動失敗",
+		"returnHome": "ホームに戻る"
+	},
+	"play": {
+		"connecting": "ゲームサーバーに接続中...",
+		"invalidSession": "セッションが無効か期限切れです。ログインしてもう一度お試しください。",
+		"launchFailedTitle": "起動失敗",
+		"returnHome": "ホームに戻る"
+	},
+	"modalsIdle": {
+		"badgeLimitedTime": "期間限定オファー",
+		"headline": "200%ウェルカムボーナスをゲット！",
+		"subheadline": "今すぐ暗号ウォレットを接続して、初回入金で最大{amount}のボーナスを受け取りましょう！",
+		"featureDepositMatch": "200%入金マッチ",
+		"featureZeroFees": "取引手数料ゼロ",
+		"featureInstantWithdrawals": "即時出金",
+		"featureNoKyc": "KYC不要",
+		"ctaClaim": "今すぐボーナスを請求！",
+		"offerExpires": "オファー終了まで:",
+		"disclaimer": "利用規約が適用されます。ギャンブルにはリスクが伴います。責任を持ってプレイしてください。18歳以上。",
+		"closeAria": "モーダルを閉じる",
+		"bannerAlt": "プロモーションバナー",
+		"ctaOk": "ウォレットを接続してベットを開始",
+		"enterAmount": "金額を入力",
+		"balance": "残高",
+		"max": "最大",
+		"deposit": "入金",
+		"ethereum": "イーサリアム"
+	},
+	"modalsSmall": {
+		"close": "閉じる",
+		"firstDepositBoost": "初回入金ボーナスブースト",
+		"bonus": "ボーナス",
+		"min": "分",
+		"sec": "秒",
+		"deposit": "入金"
+	},
+	"auth": {
+		"email": {
+			"title": "メールログイン",
+			"description": "6桁のコードを送信します",
+			"emailLabel": "メールアドレス",
+			"emailPlaceholder": "name@email.com",
+			"cancel": "キャンセル",
+			"sending": "送信中",
+			"continue": "続ける",
+			"enterCodeTitle": "コードを入力",
+			"sentTo": "{email}に送信しました",
+			"changeEmail": "メールアドレスを変更",
+			"resendCode": "コードを再送信",
+			"resendIn": "{seconds}秒後に再送信",
+			"verifying": "認証中",
+			"successTitle": "ログインしました",
+			"successSubtitle": "準備をしています...",
+			"modalAria": "メール認証モーダル",
+			"errors": {
+				"invalidEmail": "有効なメールアドレスを入力してください",
+				"sendFailed": "認証コードの送信に失敗しました。",
+				"invalidCode": "6桁の認証コードを入力してください"
+			}
+		},
+		"setNickname": {
+			"title": "ニックネームを設定",
+			"subtitle": "これは一度限りの設定で、変更はできません",
+			"logoutAria": "ログアウト",
+			"inputPlaceholder": "ユニークなニックネームを選択",
+			"referrerCheckbox": "紹介者IDを持っています",
+			"referrerPlaceholder": "紹介者IDを入力",
+			"referrerHelp": "任意。ボーナスプログラムのために、あなたのアカウントを紹介者と関連付けます。",
+			"status": {
+				"checking": "利用可能か確認中...",
+				"available": "ニックネームは利用可能です！",
+				"taken": "このニックネームは既に使用されています。"
+			},
+			"register": "登録してプレイ",
+			"termsTitle": "利用規約:",
+			"termsBody": "このドキュメントにウォレットで署名するか、このWeb3アプリケーションを引き続き使用することにより、アプリケーションの利用規約に同意したことになります。利用規約への同意の署名はブロックチェーン取引ではなく、費用はかかりません。",
+			"errors": {
+				"verifyNicknameFailed": "ニックネームの確認ができませんでした。もう一度お試しください。",
+				"registerFailed": "登録に失敗しました: {message}"
+			}
+		},
+		"walletConnect": {
+			"loginWithEmail": "メールでログイン",
+			"connectWalletBtn": "ウォレットを接続",
+			"player": "プレイヤー",
+			"walletConnected": "ウォレット接続済み",
+			"emailConnected": "メール接続済み",
+			"disconnect": "切断",
+			"walletAddress": "ウォレットアドレス",
+			"balance": "残高",
+			"loginWithWallet": "ウォレットでログイン"
+		}
+	},
+	"walletProvider": {
+		"transactionModal": {
+			"tabs": {
+				"deposit": "入金",
+				"withdraw": "出金",
+				"swap": "スワップ",
+				"walletInfo": "ウォレット"
+			},
+			"mobileDropdown": {
+				"emailWallet": "メールウォレット",
+				"wallet": "ウォレット",
+				"deposit": "入金",
+				"withdraw": "出金",
+				"swap": "スワップ"
+			}
+		},
+		"networkSelector": {
+			"placeholder": "ネットワークを選択",
+			"switching": "切り替え中...",
+			"walletNotConnected": "ウォレットが接続されていません。",
+			"failedToSwitch": "ネットワークの切り替えに失敗しました。ウォレットからお試しください。",
+			"altLogo": "ネットワークロゴ"
+		},
+		"tokenList": {
+			"dialogTitle": "トークンを選択",
+			"instantDeposit": "即時入金",
+			"yourWalletBalance": "あなたのウォレット残高",
+			"searchPlaceholder": "名前で検索またはアドレスを貼り付け",
+			"emptySearch": "検索に一致するトークンが見つかりません。",
+			"emptyOwned": "残高のあるトークンが見つかりません。",
+			"searchResults": "検索結果",
+			"yourTokens": "あなたのトークン",
+			"otherResults": "その他の結果"
+		},
+		"tabsSidebar": {
+			"walletInfo": "ウォレット",
+			"emailWallet": "メールウォレット",
+			"deposit": "入金",
+			"withdraw": "出金",
+			"swap": "スワップ"
+		},
+		"depositPanel": {
+			"youPay": "支払額",
+			"resetForm": "フォームをリセット",
+			"enterAmount": "金額を入力",
+			"selectToken": "トークンを選択",
+			"max": "最大",
+			"balance": "残高:",
+			"calculating": "計算中...",
+			"approxUsd": "約 ${amount} USD",
+			"minPrefix": "最小:",
+			"ratesMayVary": "レートは変動する可能性があります",
+			"emailWalletAddress": "メールウォレットアドレス",
+			"walletAddress": "ウォレットアドレス",
+			"minimumIs": "最小額は{min}です",
+			"errors": {
+				"selectTokenAndAmount": "トークンを選択し、金額を入力してください",
+				"insufficientBalance": "この取引には残高が不足しています",
+				"amountTooHighGas": "ガス代を考慮すると金額が高すぎます",
+				"checkForm": "フォームを確認してもう一度お試しください",
+				"pendingDeposit": "保留中の入金があります。完了するまでお待ちください"
+			},
+			"status": {
+				"processing": "処理中...",
+				"awaitingApproval": "承認待ち",
+				"calculatingRate": "レートを計算中...",
+				"insufficientBalance": "残高不足"
+			},
+			"buttons": {
+				"depositUsd": "${amount}を入金"
+			}
+		},
+		"swapPanel": {
+			"selectTokens": "トークンを選択",
+			"enterAmount": "金額を入力",
+			"gettingQuote": "見積もりを取得中...",
+			"confirming": "確認中...",
+			"approving": "承認中...",
+			"insufficientBalance": "スワップのための残高が不足しています",
+			"sameToken": "同じトークンはスワップできません",
+			"approveAndSwap": "承認してスワップ",
+			"swap": "スワップ",
+			"slippageTolerance": "スリッページ許容範囲",
+			"custom": "カスタム",
+			"set": "設定",
+			"currentSlippage": "現在のスリッページ",
+			"swapSuccessful": "スワップ成功！",
+			"transactionConfirmed": "取引が確認されました",
+			"hash": "ハッシュ",
+			"newSwap": "新しいスワップ",
+			"youPay": "支払元",
+			"max": "最大",
+			"low": "低",
+			"amountPlaceholder": "0",
+			"selectToken": "トークンを選択",
+			"youReceive": "受取額",
+			"gettingBestQuote": "最良の見積もりを取得中...",
+			"gas": "ガス代",
+			"minimumReceived": "最低受取額",
+			"slippageToleranceLabel": "スリッページ許容範囲",
+			"gasFee": "ガス代",
+			"priceWarning": "価格はリアルタイムで更新されており、取引が確認される前に変更される可能性があります",
+			"emailWalletAddress": "メールウォレットアドレス",
+			"walletAddress": "ウォレットアドレス",
+			"minimumIs": "最小額は{min}です",
+			"errors": {
+				"selectTokenAndAmount": "トークンを選択し、金額を入力してください",
+				"insufficientBalance": "この取引には残高が不足しています",
+				"amountTooHighGas": "ガス代を考慮すると金額が高すぎます",
+				"checkForm": "フォームを確認してもう一度お試しください",
+				"pendingDeposit": "保留中の入金があります。完了するまでお待ちください"
+			},
+			"status": {
+				"processing": "処理中...",
+				"awaitingApproval": "承認待ち",
+				"calculatingRate": "レートを計算中...",
+				"insufficientBalance": "残高不足"
+			},
+			"buttons": {
+				"depositUsd": "${amount}を入金"
+			}
+		},
+		"depositPending": {
+			"confirmedTitle": "入金が確認されました！",
+			"submittedTitle": "取引が送信されました",
+			"confirmedDesc": "残高が更新されました。",
+			"submittedDesc": "ブロックチェーンの確認を待っています。これには数分かかる場合があります。",
+			"viewOnExplorer": "エクスプローラーで表示",
+			"newDepositConfirmed": "別の入金を行う",
+			"newDepositPending": "新しい入金を開始する"
+		},
+		"withdrawPanel": {
+			"resetForm": "フォームをリセット",
+			"networkNotSupported": "出金はArbitrum、Polygon、BNBでのみサポートされています",
+			"youWithdraw": "出金額",
+			"loading": "読み込み中...",
+			"amount": "金額",
+			"max": "最大",
+			"balance": "残高:",
+			"available": "利用可能:",
+			"insufficientBalance": "残高不足",
+			"minimumIs": "最小額は{min}です",
+			"minLabel": "最小:",
+			"emailWalletAddress": "メールウォレットアドレス",
+			"walletAddress": "ウォレットアドレス",
+			"errors": {
+				"pendingWithdrawal": "既に保留中の出金があります",
+				"invalidAddress": "無効なアドレス",
+				"enterAmount": "金額を入力",
+				"networkNotSupported": "サポートされていないネットワーク"
+			},
+			"status": {
+				"processing": "処理中...",
+				"insufficientBalance": "残高不足",
+				"pendingWithdrawal": "既に保留中の出金あり"
+			},
+			"buttons": {
+				"withdraw": "{amount}{symbol}を出金",
+				"minimum": "最小{amount}{symbol}"
+			}
+		},
+		"withdrawSuccess": {
+			"title": "出金成功！",
+			"successMessage": "🎉 Meme Winから{withdrawAmount}{tokenSymbol}を出金しました！ 🚀 {shareUrl}で勝利の連鎖に参加しよう",
+			"withdrawnAmount": "出金額",
+			"shareText": "共有",
+			"subText": "🚀 勝利の連鎖に参加しよう！ 🚀",
+			"generating": "生成中...",
+			"screenshot": "スクリーンショットを撮る",
+			"download": "画像をダウンロード",
+			"close": "閉じる",
+			"copiedToClipboard": "共有リンクが正常にコピーされました"
+		},
+		"withdrawPending": {
+			"confirmedTitle": "出金が確認されました！",
+			"submittedTitle": "取引が送信されました",
+			"confirmedDesc": "資金は送金中です。",
+			"submittedDesc": "ブロックチェーンの確認を待っています...",
+			"viewOnExplorer": "エクスプローラーで表示",
+			"manualApproval": "この出金には手動承認が必要です。",
+			"newWithdrawalConfirmed": "別の出金を行う",
+			"newWithdrawalPending": "新しい出金を開始する"
+		},
+		"withdrawSummary": {
+			"youWillReceive": "あなたが受け取る金額"
+		}
+	},
+	"navUser": {
+		"upgradeToPro": "プロにアップグレード",
+		"account": "アカウント",
+		"billing": "請求",
+		"notifications": "通知",
+		"logout": "ログアウト"
+	},
+	"games": {
+		"pageTitle": "すべてのゲーム",
+		"playNow": "今すぐプレイ",
+		"byProvider": "{name}提供",
+		"count": "ゲーム{count}件",
+		"noResults": "基準に一致するゲームが見つかりませんでした。",
+		"errorLoading": "ゲームの読み込みに失敗しました。後でもう一度お試しください。",
+		"slots": "スロット",
+		"sports": "スポーツ",
+		"liveCasino": "ライブカジノ",
+		"explore": "探索",
+		"exploreSubtitle": "素晴らしいゲーム体験を発見",
+		"poker": "ポーカー",
+		"lottery": "宝くじ",
+		"futures": "先物",
+		"vr": "VR",
+		"swap": "スワップ",
+		"slotsDescription": "リールを回して巨大なジャックポットを獲得",
+		"liveCasinoDescription": "ライブディーラーとリアルタイムのカジノアクションを体験",
+		"sportsDescription": "お気に入りのチームやスポーツイベントにベット",
+		"pokerDescription": "クラシックなポーカーゲームでスキルを試す",
+		"lotteryDescription": "宝くじやインスタントウィンゲームで運試し",
+		"futuresDescription": "市場の動きを取引・予測",
+		"vrDescription": "バーチャルリアリティゲームに没頭",
+		"swapDescription": "トークンや暗号通貨をシームレスに交換",
+		"categories": {
+			"slot": {
+				"title": "スロットゲーム"
+			},
+			"liveCasino": {
+				"title": "ライブカジノゲーム"
+			},
+			"sports": {
+				"title": "スポーツベットゲーム"
+			},
+			"rng": {
+				"title": "RNGゲーム"
+			},
+			"other": {
+				"title": "{category}ゲーム"
+			}
+		}
+	},
+	"providers": {
+		"pageTitle": "すべてのゲームプロバイダー",
+		"searchPlaceholder": "プロバイダーを検索...",
+		"empty": "検索に一致するプロバイダーが見つかりません。",
+		"logoAlt": "{name}のロゴ",
+		"filteredBy": "カテゴリでフィルター:",
+		"clearFilter": "フィルターをクリア",
+		"categories": {
+			"slot": {
+				"title": "スロットゲームプロバイダー"
+			},
+			"liveCasino": {
+				"title": "ライブカジノプロバイダー"
+			},
+			"sports": {
+				"title": "スポーツベットプロバイダー"
+			},
+			"rng": {
+				"title": "RNGゲームプロバイダー"
+			},
+			"other": {
+				"title": "{category}ゲームプロバイダー"
+			}
+		}
+	},
+	"hero": {
+		"guest": {
+			"title": "アクションに参加しよう",
+			"subtitle": "今すぐ登録して、限定ウェルカムボーナスをゲット！",
+			"cta": "今すぐ登録"
+		},
+		"welcome": {
+			"title1": "ウェルカムボーナス",
+			"title2": "最大590%",
+			"subtitle": "+ 225フリースピン",
+			"cta": "入金してゲット"
+		},
+		"jackpot": {
+			"title1": "メガジャックポット",
+			"title2": "$1,000,000",
+			"subtitle": "今すぐプレイして大勝利",
+			"cta": "今すぐプレイ"
+		},
+		"cards": {
+			"casino": {
+				"title": "カジノ",
+				"badge": "590+ ゲーム",
+				"desc": "MemeWinオリジナルやトッププロバイダーのカジノゲームをお楽しみください。",
+				"link": "カジノへ行く"
+			},
+			"slots": {
+				"title": "スロット",
+				"badge": "5292 ゲーム",
+				"desc": "プレミアムスロットコレクションでリールを回し、巨大なジャックポットを当てましょう。",
+				"link": "スロットへ行く"
+			},
+			"sports": {
+				"title": "スポーツ",
+				"badge": "3 ゲーム",
+				"desc": "競争力のあるオッズでお気に入りのチームやスポーツイベントにベットしましょう。",
+				"link": "スポーツへ行く"
+			},
+			"crypto": {
+				"title": "暗号資産＆収益",
+				"badge": "60% APR",
+				"desc": "魅力的なレートで暗号通貨をステーク、取引、獲得しましょう。",
+				"link": "暗号資産へ行く"
+			}
+		},
+		"layout3": {
+			"headerTitle": "ゲームスポットライト",
+			"headerSubtitle": "厳選されたコレクションで素晴らしいゲームを発見し、新しい冒険を探求しましょう",
+			"slider1Title": "注目ゲーム",
+			"slider1Badge": "スタッフのおすすめ",
+			"slider2Title": "もっと探索する",
+			"slider2Badge": "トレンド",
+			"featuredGameLabel": "注目ゲーム"
+		},
+		"ctaExploreGames": "ゲームを探索",
+		"ctaJoinAffiliate": "アフィリエイトプログラムに参加"
+	},
+	"betting": {
+		"live": {
+			"winRate": "勝率",
+			"biggestWin": "最高勝利額",
+			"bigWins50": "大勝利 (50+)",
+			"recentWins": "最近の勝利",
+			"header": {
+				"title": "ライブベットアクティビティ",
+				"subtitle": "リアルタイムベットアクティビティ • {count}ゲーム読み込み済み"
+			},
+			"status": {
+				"live": "ライブ",
+				"paused": "一時停止中"
+			},
+			"actions": {
+				"pause": "一時停止",
+				"resume": "再開"
+			},
+			"tabs": {
+				"all": "すべて",
+				"wins": "勝利",
+				"losses": "敗北"
+			},
+			"table": {
+				"game": "ゲーム名",
+				"time": "時間",
+				"provider": "プロバイダー",
+				"nickname": "ニックネーム",
+				"bet": "ベット",
+				"multiplier": "マルチプライヤー",
+				"profit": "利益"
+			},
+			"empty": "ベット記録が見つかりません"
+		}
+	},
+	"fontChanger": {
+		"changeFont": "フォントを変更",
+		"fontSettings": "フォント設定",
+		"current": "現在",
+		"browseGoogleFonts": "Google Fontsを閲覧",
+		"uploadCustomFont": "カスタムフォントをアップロード",
+		"quickUploadFontFile": "フォントファイルをクイックアップロード",
+		"resetToDefault": "デフォルトにリセット",
+		"googleFonts": {
+			"title": "Google Fonts",
+			"searchFonts": "フォントを検索...",
+			"preview": "プレビュー",
+			"previewText": "いろはにほへとちりぬるを。わかよたれそつねならむ。",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "フォントを適用",
+			"clearPreview": "プレビューをクリア",
+			"previewWith": "{font}でテキストをプレビュー",
+			"noFontsFound": "「{searchTerm}」に一致するフォントが見つかりません"
+		},
+		"customUpload": {
+			"title": "カスタムフォントをアップロード",
+			"description": "独自のフォントファイルをアップロードしてウェブサイトをカスタマイズ",
+			"fontFile": "フォントファイル",
+			"dragDropArea": "ここにフォントファイルをドラッグ＆ドロップ、または",
+			"clickToUpload": "クリックしてアップロード",
+			"supportedFormats": "対応形式: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "最大ファイルサイズ: 10MB",
+			"fontName": "フォント名",
+			"fontNamePlaceholder": "フォントの名前を入力",
+			"previewYourFont": "フォントをプレビュー",
+			"uploadAndApply": "アップロードして適用",
+			"cancel": "キャンセル",
+			"uploading": "アップロード中...",
+			"errors": {
+				"invalidFileType": "有効なフォントファイルをアップロードしてください (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "ファイルサイズが10MBの制限を超えています",
+				"uploadFailed": "フォントファイルのアップロードに失敗しました",
+				"enterFontName": "フォントファイルを選択し、名前を入力してください",
+				"readFileFailed": "フォントファイルの読み込みに失敗しました"
+			}
+		},
+		"messages": {
+			"fontAppliedSuccess": "フォント「{fontName}」が正常に適用されました！",
+			"fontUploadedSuccess": "フォント「{fontName}」が正常にアップロード・適用されました！",
+			"fontResetSuccess": "フォントがデフォルトにリセットされました",
+			"invalidFileType": "有効なフォントファイルをアップロードしてください (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "フォントファイルの読み込みに失敗しました"
+		}
+	}
+}
