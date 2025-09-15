@@ -397,6 +397,21 @@ export function SearchModal({ open, onOpenChange }: SearchModalProps) {
 								icon={faMagnifyingGlass}
 								className="w-4 h-4"
 							/>
+							<ProviderCarouselSection
+							  title={
+							    selectedProviders.length > 0
+							      ? `${t(
+							          "sections.selectedProviders"
+							        )} (${selectedProviders.length})`
+							      : t("sections.topProviders")
+							  }
+							  viewAllUrl="/providers"
+							  maxProviders={12}
+							  Icon={faBuilding}
+							  firstRowFilter="all"
+							  secondRowFilter="all"
+							  providers={providersForCarousel}
+							/>
 						</div> */}
 						<div>
 							<div className="font-semibold">{t("title")}</div>
@@ -603,8 +618,8 @@ export function SearchModal({ open, onOpenChange }: SearchModalProps) {
 									viewAllUrl="/providers"
 									maxProviders={12}
 									Icon={faBuilding}
-									rows={1}
-									filter="all"
+									firstRowFilter="live casino"
+									secondRowFilter="slot"
 									providers={providersForCarousel}
 								/>
 							</div>
@@ -714,8 +729,8 @@ export function SearchModal({ open, onOpenChange }: SearchModalProps) {
 												searchResults.providers.length
 											}
 											Icon={faBuilding}
-											rows={1}
-											filter="all"
+											firstRowFilter="live casino"
+											secondRowFilter="slot"
 											providers={searchResults.providers}
 										/>
 									</div>

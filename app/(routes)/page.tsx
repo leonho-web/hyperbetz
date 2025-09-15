@@ -84,10 +84,8 @@ export default function HomePage() {
 				<DynamicProviderCarousel
 					title={t("home.topProviders")}
 					Icon={faTrophy}
-					rows={2}
-					filter="all"
 					maxProviders={16}
-				/>{" "}
+				/>
 				{/* Live Betting Activity Table */}
 				<section className="w-full">
 					<LiveBettingTable />

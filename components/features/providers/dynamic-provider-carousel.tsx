@@ -8,17 +8,13 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 interface DynamicProviderCarouselProps {
 	title: string;
 	Icon: IconDefinition;
-	rows: number;
-	filter: string;
 	maxProviders: number;
 }
 
 export const DynamicProviderCarousel = ({
 	title,
 	Icon,
-	rows,
-	filter,
-	maxProviders = 16, // Default to showing top 16 providers
+	maxProviders = 16,
 }: DynamicProviderCarouselProps) => {
 	// Check loading status for the store data
 	const status = useAppStore((state) => state.game.list.status);
@@ -40,11 +36,11 @@ export const DynamicProviderCarousel = ({
 	return (
 		<ProviderCarouselSection
 			title={title}
-			viewAllUrl="/providers" // Direct link to your new /providers page
-			maxProviders={maxProviders} // Show top 16 providers
+			viewAllUrl="/providers"
+			maxProviders={maxProviders}
 			Icon={Icon}
-			rows={rows}
-			filter={filter}
+			firstRowFilter="live casino"
+			secondRowFilter="slot"
 		/>
 	);
 };

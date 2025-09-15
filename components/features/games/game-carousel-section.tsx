@@ -136,7 +136,7 @@ export const GameCarouselSection = ({
 									icon={Icon}
 									className="h-6 w-6 text-primary"
 								/>
-								<h2 className="text-2xl font-bold tracking-tight capitalize">
+								<h2 className="text-2xl font-semibold tracking-tight capitalize">
 									{displayTitle.toLowerCase()}
 								</h2>
 							</div>
@@ -205,7 +205,7 @@ export const GameCarouselSection = ({
 									fontSize={24}
 									className="text-primary"
 								/>
-								<h2 className="text-2xl font-bold tracking-tight capitalize">
+								<h2 className="text-2xl font-semibold tracking-tight capitalize">
 									{displayTitle.toLowerCase()}
 								</h2>
 							</div>

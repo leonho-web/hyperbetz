@@ -147,8 +147,8 @@ interface ProviderCarouselSectionProps {
 	viewAllUrl: string;
 	maxProviders?: number;
 	Icon: IconDefinition;
-	rows: number;
-	filter: string;
+	firstRowFilter: string;
+	secondRowFilter: string;
 	providers?: Array<{ name: string; count: number; icon_url?: string }>; // Optional override for providers
 }
 
@@ -157,71 +157,82 @@ export const ProviderCarouselSection = memo(function ProviderCarouselSection({
 	viewAllUrl,
 	maxProviders = 12,
 	Icon = faBuildings,
-	rows,
-	filter,
-	providers: overrideProviders, // Rename to avoid confusion
+	firstRowFilter,
+	secondRowFilter,
+	providers: overrideProviders,
 }: ProviderCarouselSectionProps) {
 	const tCommon = useTranslations("common");
 
-	// Memoize the selector function so zustand doesn't resubscribe on each render
-	const providerSelector = useMemo(
+	// Selectors for each row
+	const firstRowSelector = useMemo(
 		() =>
-			filter && filter !== "all"
-				? selectProvidersByCategory(filter)
+			firstRowFilter && firstRowFilter !== "all"
+				? selectProvidersByCategory(firstRowFilter)
 				: selectAllProviders,
-		[filter]
+		[firstRowFilter]
+	);
+	const secondRowSelector = useMemo(
+		() =>
+			secondRowFilter && secondRowFilter !== "all"
+				? selectProvidersByCategory(secondRowFilter)
+				: selectAllProviders,
+		[secondRowFilter]
 	);
 
-	// Get providers from store; this will be ignored if override is provided
-	const storeProviders = useAppStore(providerSelector);
+	// Get providers for each row
+	const firstRowProvidersRaw = useAppStore(firstRowSelector);
+	const secondRowProvidersRaw = useAppStore(secondRowSelector);
 
-	// Prefer override if present; else use store
-	const allProviders = useMemo(
-		() => overrideProviders || storeProviders,
-		[overrideProviders, storeProviders]
+	// Prefer override if present (for search), else use store
+	const firstRowProviders = useMemo(
+		() =>
+			overrideProviders
+				? overrideProviders
+				: firstRowProvidersRaw.slice(0, maxProviders),
+		[overrideProviders, firstRowProvidersRaw, maxProviders]
+	);
+	const secondRowProviders = useMemo(
+		() =>
+			overrideProviders
+				? overrideProviders
+				: secondRowProvidersRaw.slice(0, maxProviders),
+		[overrideProviders, secondRowProvidersRaw, maxProviders]
 	);
 
-	// Take only the top providers based on game count
-	const topProviders = useMemo(
-		() => allProviders.slice(0, maxProviders),
-		[allProviders, maxProviders]
-	);
-
-	// For search results, don't duplicate - just show the actual results
-	// For regular browsing, duplicate for infinite scrolling
+	// For infinite scroll, duplicate
 	const shouldUseInfiniteScroll = useMemo(
 		() => !overrideProviders,
 		[overrideProviders]
 	);
-
-	const displayProviders = useMemo(
+	const displayFirstRow = useMemo(
 		() =>
 			shouldUseInfiniteScroll
 				? [
-						...topProviders,
-						...topProviders,
-						...topProviders,
-						...topProviders,
+						...firstRowProviders,
+						...firstRowProviders,
+						...firstRowProviders,
+						...firstRowProviders,
 				  ]
-				: topProviders,
-		[shouldUseInfiniteScroll, topProviders]
+				: firstRowProviders,
+		[shouldUseInfiniteScroll, firstRowProviders]
+	);
+	const displaySecondRow = useMemo(
+		() =>
+			shouldUseInfiniteScroll
+				? [
+						...secondRowProviders,
+						...secondRowProviders,
+						...secondRowProviders,
+						...secondRowProviders,
+				  ]
+				: secondRowProviders,
+		[shouldUseInfiniteScroll, secondRowProviders]
 	);
 
-	// Split providers into two rows
-	const midpoint = useMemo(
-		() => Math.ceil(displayProviders.length / 2),
-		[displayProviders.length]
-	);
-	const firstRowProviders = useMemo(
-		() => displayProviders.slice(0, midpoint),
-		[displayProviders, midpoint]
-	);
-	const secondRowProviders = useMemo(
-		() => displayProviders.slice(midpoint),
-		[displayProviders, midpoint]
-	);
-
-	if (!topProviders || topProviders.length === 0) {
+	if (
+		(!firstRowProviders || firstRowProviders.length === 0) &&
+		(!secondRowProviders || secondRowProviders.length === 0)
+	) {
 		return null;
 	}
 
@@ -259,12 +270,13 @@ export const ProviderCarouselSection = memo(function ProviderCarouselSection({
 					animation-iteration-count: infinite;
 				}
 
+				/* Slower speed: increase duration to 120s and 130s */
 				.scroll-right-to-left {
-					animation: scroll-right-to-left 60s linear infinite;
+					animation: scroll-right-to-left 120s linear infinite;
 				}
 
 				.scroll-left-to-right {
-					animation: scroll-left-to-right 65s linear infinite;
+					animation: scroll-left-to-right 130s linear infinite;
 				}
 
 				.provider-item {
@@ -347,7 +359,7 @@ export const ProviderCarouselSection = memo(function ProviderCarouselSection({
 							className="h-5 w-5 sm:h-6 sm:w-6 text-primary"
 						/>
 
-						<h2 className="text-xl sm:text-2xl font-bold tracking-tight">
+						<h2 className="text-xl sm:text-2xl font-semibold tracking-tight">
 							{title}
 						</h2>
 					</div>
@@ -367,58 +379,55 @@ export const ProviderCarouselSection = memo(function ProviderCarouselSection({
 				<div className="space-y-3 sm:space-y-4">
 					{shouldUseInfiniteScroll ? (
 						<>
-							{/* FIRST ROW - RIGHT TO LEFT (Infinite Scroll) */}
+							{/* FIRST ROW - Casino Providers */}
 							<div className="infinite-scroll-container">
 								<div className="infinite-scroll-track scroll-right-to-left">
-									{firstRowProviders.map(
-										(provider, index) => (
-											<div
-												key={`row1-${provider.name}-${index}`}
-												className="provider-item"
-											>
-												<ProviderGridCard
-													name={provider.name}
-													gameCount={provider.count}
-													iconUrl={provider.icon_url}
-												/>
-											</div>
-										)
-									)}
+									{displayFirstRow.map((provider, index) => (
+										<div
+											key={`row1-${provider.name}-${index}`}
+											className="provider-item"
+										>
+											<ProviderGridCard
+												name={provider.name}
+												gameCount={provider.count}
+												iconUrl={provider.icon_url}
+											/>
+										</div>
+									))}
 								</div>
 							</div>
-
-							{/* SECOND ROW - LEFT TO RIGHT (Infinite Scroll) */}
-							{rows > 1 && (
-								<div className="infinite-scroll-container">
-									<div className="infinite-scroll-track scroll-left-to-right">
-										{secondRowProviders.map(
-											(provider, index) => (
-												<div
-													key={`row2-${provider.name}-${index}`}
-													className="provider-item"
-												>
-													<ProviderGridCard
-														name={provider.name}
-														gameCount={
-															provider.count
-														}
-														iconUrl={
-															provider.icon_url
-														}
-													/>
-												</div>
-											)
-										)}
-									</div>
+							{/* SECOND ROW - Slot Providers */}
+							<div className="infinite-scroll-container">
+								<div className="infinite-scroll-track scroll-left-to-right">
+									{displaySecondRow.map((provider, index) => (
+										<div
+											key={`row2-${provider.name}-${index}`}
+											className="provider-item"
+										>
+											<ProviderGridCard
+												name={provider.name}
+												gameCount={provider.count}
+												iconUrl={provider.icon_url}
+											/>
+										</div>
+									))}
 								</div>
-							)}
+							</div>
 						</>
 					) : (
 						/* SEARCH RESULTS - Static Grid Layout */
 						<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3 sm:gap-4">
-							{topProviders.map((provider, index) => (
+							{firstRowProviders.map((provider, index) => (
 								<ProviderGridCard
-									key={`search-${provider.name}-${index}`}
+									key={`search-row1-${provider.name}-${index}`}
+									name={provider.name}
+									gameCount={provider.count}
+									iconUrl={provider.icon_url}
+								/>
+							))}
+							{secondRowProviders.map((provider, index) => (
+								<ProviderGridCard
+									key={`search-row2-${provider.name}-${index}`}
 									name={provider.name}
 									gameCount={provider.count}
 									iconUrl={provider.icon_url}

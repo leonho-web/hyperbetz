@@ -211,8 +211,6 @@ export default function LobbyPage() {
 									<DynamicProviderCarousel
 										Icon={faTv}
 										title={t("lobby.featuredCasinoGames")}
-										rows={1}
-										filter="live casino"
 										maxProviders={20}
 									/>
 									{/* <GameCarouselSection
@@ -294,7 +292,7 @@ export default function LobbyPage() {
 					<section className="">
 						<div className=" mx-auto">
 							<div className="text-left mb-6">
-								<h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+								<h2 className="text-2xl md:text-3xl font-semibold text-foreground mb-2">
 									{t("lobby.realTimeScoreboard")}
 								</h2>
 								{/* <p className="text-muted-foreground">Real-time betting activity and recent wins</p> */}

@@ -308,7 +308,7 @@ export const ExploreSection = () => {
 						/>
 					</div>
 					<div>
-						<h2 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">
+						<h2 className="text-2xl font-semibold tracking-tight bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">
 							{t("explore")}
 						</h2>
 					</div>
