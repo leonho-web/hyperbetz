@@ -144,7 +144,7 @@ export default function LobbyPage() {
 				{/* Welcome Section for logged in users */}
 				{/* {primaryWalletAddress && (
 					<div className="text-center py-8 px-4">
-						<h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent mb-4">
+						<h1 className="text-4xl md:text-5xl font-semibold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent mb-4">
 							Welcome to the Casino
 						</h1>
 						<p className="text-muted-foreground text-lg max-w-2xl mx-auto">

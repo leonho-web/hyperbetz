@@ -235,7 +235,7 @@ export function MessageItem({
 					{message.badge && (
 						<div
 							className={cn(
-								"absolute -bottom-1 -right-1 text-xs font-bold px-1.5 py-0.5 rounded-full border-2 border-background",
+								"absolute -bottom-1 -right-1 text-xs font-semibold px-1.5 py-0.5 rounded-full border-2 border-background",
 								userBadges[message.badge].color
 							)}
 						>
@@ -413,7 +413,7 @@ export function MessageItem({
 										icon={faCoin}
 										className="h-4 w-4 text-yellow-500"
 									/>
-									<span className="font-bold text-lg text-foreground">
+									<span className="font-semibold text-lg text-foreground">
 										{message.amount.toFixed(7)}{" "}
 										{message.currency}
 									</span>
@@ -470,7 +470,7 @@ export function MessageItem({
 											icon={faCoin}
 											className="h-4 w-4 text-yellow-500"
 										/>
-										<span className="font-bold text-foreground">
+										<span className="font-semibold text-foreground">
 											{message.amount} {message.currency}
 										</span>
 										<span className="text-xs text-muted-foreground">

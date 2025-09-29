@@ -18,7 +18,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
-import { TabsSidebar } from "@/components/features/walletProvider/tabs-sidebar";
+// Sidebar removed: using top header tabs in both views
 import { DepositPanel } from "@/components/features/walletProvider/deposit/deposit-panel";
 import { SwapPanel } from "@/components/features/walletProvider/swap/swap-panel";
 import { WithdrawPanel } from "@/components/features/walletProvider/withdraw/withdraw-panel";
@@ -161,12 +161,13 @@ const TransactionModalView = memo(function TransactionModalView({
 				{t(`tabs.${activeTab as AllowedTab}`)}
 			</DialogTitle>
 			<DialogContent
-				className="max-w-[90dvw] sm:!max-w-[80dvw] lg:!max-w-0 lg:min-w-[50dvw] p-0 gap-0 flex flex-col md:flex-row"
+				className="w-[1200px] max-w-[100dvw] h-[600px] p-0 gap-0 flex flex-col"
 				onPointerDownOutside={(e) => {
 					e.preventDefault();
 					return false;
 				}}
 			>
+				{/* Mobile: compact dropdown + underline tabs for consistency */}
 				<div className="md:hidden border-b p-4">
 					<DropdownMenu>
 						<DropdownMenuTrigger asChild>
@@ -229,16 +230,66 @@ const TransactionModalView = memo(function TransactionModalView({
 					</DropdownMenu>
 				</div>
 
-				<div className="hidden md:block md:basis-1/3 md:border-r">
-					<TabsSidebar
-						activeTab={activeTab as AllowedTab}
-						setActiveTab={setActiveTab}
-					/>
+				{/* Single desktop header (title + tabs) below; removed duplicate title */}
+
+				{/* Header + Tabs (desktop) */}
+				<div className="hidden md:block w-full">
+					<div className="px-6 pt-6 pb-3">
+						<h1 className="text-2xl font-bold text-foreground tracking-tight">
+							WALLET
+						</h1>
+					</div>
+					<div className="px-6 border-b border-border">
+						<div className="flex space-x-8">
+							<button
+								onClick={() => setActiveTab("walletInfo")}
+								className={`pb-3 px-1 text-sm font-medium transition-all duration-200 ${
+									activeTab === "walletInfo"
+										? "text-primary border-b-2 border-primary"
+										: "text-muted-foreground hover:text-foreground"
+								}`}
+							>
+								Wallet
+							</button>
+							<button
+								onClick={() => setActiveTab("deposit")}
+								className={`pb-3 px-1 text-sm font-medium transition-all duration-200 ${
+									activeTab === "deposit"
+										? "text-primary border-b-2 border-primary"
+										: "text-muted-foreground hover:text-foreground"
+								}`}
+							>
+								Deposit
+							</button>
+							<button
+								onClick={() => setActiveTab("withdraw")}
+								className={`pb-3 px-1 text-sm font-medium transition-all duration-200 ${
+									activeTab === "withdraw"
+										? "text-primary border-b-2 border-primary"
+										: "text-muted-foreground hover:text-foreground"
+								}`}
+							>
+								Withdraw
+							</button>
+							<button
+								onClick={() => setActiveTab("swap")}
+								className={`pb-3 px-1 text-sm font-medium transition-all duration-200 ${
+									activeTab === "swap"
+										? "text-primary border-b-2 border-primary"
+										: "text-muted-foreground hover:text-foreground"
+								}`}
+							>
+								Swap
+							</button>
+						</div>
+					</div>
 				</div>
 
-				{/* --- Content Area that changes based on the active tab --- */}
-				<div className="md:basis-2/3 p-4 md:p-10 lg:p-12 overflow-y-auto">
-					{tabContent[activeTab as AllowedTab]}
+				{/* Content Area under header */}
+				<div className="w-full px-6 pt-4 pb-4 overflow-y-auto">
+					<div className="w-full mx-auto max-w-[560px]">
+						{tabContent[activeTab as AllowedTab]}
+					</div>
 				</div>
 			</DialogContent>
 		</Dialog>

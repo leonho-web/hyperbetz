@@ -34,7 +34,7 @@ export default function HeroGameCarousel({
 	return (
 		<section className="w-full">
 			<div className="mb-4">
-				<h3 className="text-2xl md:text-3xl font-bold">{title}</h3>
+				<h3 className="text-2xl md:text-3xl font-semibold">{title}</h3>
 				{subtitle && (
 					<p className="text-sm text-muted-foreground">{subtitle}</p>
 				)}

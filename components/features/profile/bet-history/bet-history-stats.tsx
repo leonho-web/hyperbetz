@@ -70,7 +70,7 @@ export function BetHistoryStats({
 							{it.label}
 						</span>
 					</div>
-					<div className={`text-lg font-bold ${it.color}`}>
+					<div className={`text-lg font-semibold ${it.color}`}>
 						{it.value}
 					</div>
 				</div>

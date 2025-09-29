@@ -210,9 +210,9 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 			const userDataKeys = [
 				"referralId",
 				"mw_favorite_games",
-				"memewin_userData",
-				"memewin_betting_history",
-				"memewin_betting_table_prefs",
+				"hyperbetz_userData",
+				"hyperbetz_betting_history",
+				"hyperbetz_betting_table_prefs",
 				"app-font-config",
 				"referralId",
 				"chatUsername",

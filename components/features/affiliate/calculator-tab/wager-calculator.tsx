@@ -74,7 +74,7 @@ const GameTypeCalculator = ({
 						{t("potentialEarnings")}
 					</div>
 					<div
-						className={`text-2xl font-bold text-${color} flex items-center gap-1`}
+						className={`text-2xl font-semibold text-${color} flex items-center gap-1`}
 					>
 						<FontAwesomeIcon
 							icon={faDollarSign}
@@ -128,12 +128,12 @@ export const IndividualCalculator = ({
 						<div
 							className={`flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-${tierColor.bg}-500 to-${tierColor.bg}-600 text-white shadow-lg`}
 						>
-							<span className="text-xl font-bold">
+							<span className="text-xl font-semibold">
 								{rate.level}
 							</span>
 						</div>
 						<div>
-							<h3 className="text-2xl font-bold text-foreground">
+							<h3 className="text-2xl font-semibold text-foreground">
 								{t("tier", { level: rate.level })}
 							</h3>
 							<p className="text-sm text-muted-foreground">
@@ -239,7 +239,7 @@ export const IndividualCalculator = ({
 									{t("totalPotential")}
 								</span>
 							</div>
-							<div className="text-2xl font-bold text-primary">
+							<div className="text-2xl font-semibold text-primary">
 								$
 								{(
 									calculateEarnings(

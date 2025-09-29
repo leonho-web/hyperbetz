@@ -158,7 +158,7 @@ const StableSidebarComponent = ({
 			<div className="flex items-center p-4">
 				<img
 					src="/assets/site/Hyperbetz-logo.png"
-					alt="Meme Win Logo"
+					alt="Hyperbetz Logo"
 					className="h-12 m-auto"
 				/>
 			</div>
@@ -190,7 +190,7 @@ const StableSidebarComponent = ({
 						className="w-full shadow-lg shadow-accent/30 transition-all duration-300 text-foreground bg-sky-600"
 						asChild
 					>
-						<a href="https://t.me/memewin_bot/memewin">
+						<a href="https://t.me/hyperbetz_bot/hyperbetz">
 							<FontAwesomeIcon
 								icon={faPaperPlane}
 								fontSize={16}

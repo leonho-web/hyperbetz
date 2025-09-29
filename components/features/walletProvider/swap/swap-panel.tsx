@@ -262,7 +262,7 @@ export const SwapPanel = ({
 	return (
 		<div className="bg-card border border-border rounded-2xl shadow-lg">
 			{/* Network Header */}
-			<div className="flex items-center justify-between p-4 border-b border-border">
+			<div className="flex items-center justify-between p-3 border-b border-border">
 				<div className="flex items-center gap-1">
 					<Button
 						variant="ghost"
@@ -347,7 +347,7 @@ export const SwapPanel = ({
 
 			{/* Transaction Success State */}
 			{transactionSuccess && txHash ? (
-				<div className="p-8 text-center space-y-4">
+				<div className="p-6 text-center space-y-3">
 					<div className="text-green-500 text-4xl">✓</div>
 					<div>
 						<h3 className="text-lg font-semibold">
@@ -396,7 +396,7 @@ export const SwapPanel = ({
 			) : (
 				<div className="p-4 space-y-1">
 					{/* You Pay Card */}
-					<div className="bg-input/30 border border-border rounded-xl p-4 space-y-3">
+					<div className="bg-input/30 border border-border rounded-xl p-3 space-y-2.5">
 						<div className="flex items-center justify-between">
 							<span className="text-sm text-muted-foreground">
 								{t("youPay")}
@@ -432,7 +432,7 @@ export const SwapPanel = ({
 									handleExchangeAmountChange(e.target.value)
 								}
 								className={cn(
-									"bg-transparent  font-bold text-foreground placeholder:text-muted-foreground/50 border-none outline-none flex-1 min-w-0",
+									"bg-transparent  font-semibold text-foreground placeholder:text-muted-foreground/50 border-none outline-none flex-1 min-w-0",
 									dynamicExchangeFontClass
 								)}
 								disabled={!fromToken}
@@ -440,7 +440,7 @@ export const SwapPanel = ({
 							<Button
 								variant="ghost"
 								onClick={() => setFromTokenModalOpen(true)}
-								className="h-auto px-3 gap-2 bg-muted/30 hover:bg-muted/50 rounded-full"
+								className="h-auto px-2.5 gap-2 bg-muted/30 hover:bg-muted/50 rounded-full"
 							>
 								{fromToken ? (
 									<>
@@ -458,7 +458,7 @@ export const SwapPanel = ({
 											{!isTokenAllowed && (
 												<FontAwesomeIcon
 													icon={faLock}
-													className="text-yellow-500 font-bold"
+													className="text-yellow-500 font-semibold"
 												/>
 											)}
 										</span>
@@ -483,7 +483,7 @@ export const SwapPanel = ({
 					</div>
 
 					{/* Swap Button with Cutout Effect */}
-					<div className="flex justify-center relative -my-4.5 z-10">
+					<div className="flex justify-center relative -my-4 z-10">
 						<div className="bg-card border-border p-1 rounded-lg">
 							<Button
 								variant="ghost"
@@ -498,7 +498,7 @@ export const SwapPanel = ({
 					</div>
 
 					{/* You Receive Card */}
-					<div className="bg-input/30 border border-border rounded-xl p-4 space-y-3">
+					<div className="bg-input/30 border border-border rounded-xl p-3 space-y-2.5">
 						<div className="flex items-center justify-between">
 							<span className="text-sm text-muted-foreground">
 								{t("youReceive")}
@@ -521,7 +521,7 @@ export const SwapPanel = ({
 									handleReceivedAmountChange(e.target.value)
 								}
 								className={cn(
-									"bg-transparent  font-bold text-foreground placeholder:text-muted-foreground/50 border-none outline-none flex-1 min-w-0",
+									"bg-transparent  font-semibold text-foreground placeholder:text-muted-foreground/50 border-none outline-none flex-1 min-w-0",
 									dynamicReceiveFontClass
 								)}
 								disabled={!toToken}
@@ -547,7 +547,7 @@ export const SwapPanel = ({
 											{!isTokenAllowed && (
 												<FontAwesomeIcon
 													icon={faLock}
-													className="text-yellow-500 font-bold"
+													className="text-yellow-500 font-semibold"
 												/>
 											)}
 										</span>

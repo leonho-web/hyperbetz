@@ -3,8 +3,14 @@
  * Contains all request/response types for blockchain transaction operations
  */
 
-import { PrimaryWalletWithClient } from "@/services/walletProvider/TransactionService";
+import { Wallet } from "ethers";
+import { WalletClient, Transport, Chain, Account } from "viem";
 
+export type PrimaryWalletWithClient = Wallet & {
+	getWalletClient(
+		chainId?: string
+	): Promise<WalletClient<Transport, Chain, Account>>;
+};
 
 // --- Base Response Structure ---
 interface ApiSuccessResponse<T> {

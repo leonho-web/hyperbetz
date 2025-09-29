@@ -4,8 +4,15 @@ import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.share
 import { heroBannerPropsFactory } from "@/components/features/banners/hero/hero-banner.factory";
 import { Game } from "@/types/games/gameList.types";
 
-// const LAYOUT_STORAGE_KEY = "hero-banner-layout"; // Commented out since we force layout2
-type SupportedLayouts = "layout1" | "layout2" | "layout3" | "layout4";
+const LAYOUT_STORAGE_KEY = "hero-banner-layout";
+type SupportedLayouts =
+	| "layout1"
+	| "layout2"
+	| "layout3"
+	| "layout4"
+	| "layout6"
+	| "layout7"
+	| "layout8";
 
 /**
  * Defines the state structure for UI-related HeroBanner configurations.
@@ -46,12 +53,11 @@ export const createHeroBannerSlice: AppStateCreator<
 > = (set, get) => ({
 	heroBanner: null,
 	setHeroBanner: (props) => {
-		// Persisting layout to localStorage is disabled as we only use layout2 now.
-		// try {
-		// 	localStorage.setItem(LAYOUT_STORAGE_KEY, props.layout);
-		// } catch (error) {
-		// 	console.warn("Could not save layout preference:", error);
-		// }
+		try {
+			localStorage.setItem(LAYOUT_STORAGE_KEY, props.layout);
+		} catch (error) {
+			console.warn("Could not save layout preference:", error);
+		}
 		set((state) => {
 			state.uiDefinition.heroBanner.heroBanner = props;
 		});
@@ -62,24 +68,17 @@ export const createHeroBannerSlice: AppStateCreator<
 		if (get().uiDefinition.heroBanner.heroBanner) return;
 
 		try {
-			// Force layout2 as the only layout for HeroBannerSection.
+			const savedLayout = localStorage.getItem(
+				LAYOUT_STORAGE_KEY
+			) as SupportedLayouts | null;
 			const layoutToLoad: SupportedLayouts = "layout2";
 
 			const propsBuilder = heroBannerPropsFactory[layoutToLoad];
 			if (propsBuilder) {
 				const initialProps = await propsBuilder(deps);
+				// Call the setter, which will update state AND save to localStorage
 				get().uiDefinition.heroBanner.setHeroBanner(initialProps);
 			}
-
-			// Previous logic retained for reference:
-			// const savedLayout = localStorage.getItem(LAYOUT_STORAGE_KEY) as SupportedLayouts | null;
-			// const layoutToLoad: SupportedLayouts =
-			// 	savedLayout && deps.allGames.length >= 5 ? savedLayout : "layout2";
-			// const propsBuilder = heroBannerPropsFactory[layoutToLoad];
-			// if (propsBuilder) {
-			// 	const initialProps = await propsBuilder(deps);
-			// 	get().uiDefinition.heroBanner.setHeroBanner(initialProps);
-			// }
 		} catch (error) {
 			console.error("Failed to initialize hero banner:", error);
 		}

@@ -105,7 +105,7 @@ export function ProfileInfoCard({ onNavigate }: { onNavigate?: () => void }) {
 					<p className="text-xs text-muted-foreground uppercase tracking-wide">
 						{t("currentBalance")}
 					</p>
-					<p className="text-2xl font-bold text-primary">
+					<p className="text-2xl font-semibold text-primary">
 						${user.balance?.toFixed(2) || "0.00"}
 					</p>
 				</div>
@@ -122,7 +122,7 @@ export function ProfileInfoCard({ onNavigate }: { onNavigate?: () => void }) {
 							<p className="text-xs text-muted-foreground uppercase tracking-wide">
 								{t("totalDeposits")}
 							</p>
-							<p className="text-lg font-bold text-foreground">
+							<p className="text-lg font-semibold text-foreground">
 								{user.depositTotal || "0"}
 							</p>
 						</div>
@@ -137,7 +137,7 @@ export function ProfileInfoCard({ onNavigate }: { onNavigate?: () => void }) {
 							<p className="text-xs text-muted-foreground uppercase tracking-wide">
 								{t("totalWithdrawals")}
 							</p>
-							<p className="text-lg font-bold text-foreground">
+							<p className="text-lg font-semibold text-foreground">
 								{user.withdrawTotal || "0"}
 							</p>
 						</div>
@@ -150,7 +150,7 @@ export function ProfileInfoCard({ onNavigate }: { onNavigate?: () => void }) {
 				<Button
 					variant="outline"
 					size="sm"
-					onClick={() => handleRouteChange("/profile?section=bet")}
+					onClick={() => handleRouteChange("/history?section=bet")}
 					className="w-full h-10 border-border bg-background/50 hover:bg-accent hover:text-accent-foreground"
 				>
 					<History className="h-4 w-4 mr-2" />
@@ -161,7 +161,7 @@ export function ProfileInfoCard({ onNavigate }: { onNavigate?: () => void }) {
 					variant="outline"
 					size="sm"
 					onClick={() =>
-						handleRouteChange("/profile?section=transaction")
+						handleRouteChange("/history?section=transaction")
 					}
 					className="w-full h-10 border-border bg-background/50 hover:bg-accent hover:text-accent-foreground"
 				>

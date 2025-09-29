@@ -140,7 +140,7 @@
 				"type": "bytes"
 			}
 		],
-		"name": "GmGame_WD",
+		"name": "Withdraw_Web",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"

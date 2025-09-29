@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from "react";
 import { Token } from "@/types/blockchain/swap.types";
-import { toast } from "react-toastify";
+import { toast } from "sonner";
 import { SearchTokenResult } from "@/types/walletProvider/transaction-service.types";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
 

@@ -487,8 +487,8 @@ function generateBettingRecord(availableGames: Game[]): BettingRecord {
 }
 
 // Local storage keys for betting table preferences
-const BETTING_TABLE_PREFERENCES = "memewin_betting_table_prefs";
-const BETTING_HISTORY_CACHE = "memewin_betting_history";
+const BETTING_TABLE_PREFERENCES = "hyperbetz_betting_table_prefs";
+const BETTING_HISTORY_CACHE = "hyperbetz_betting_history";
 
 // Save/load user preferences
 function saveBettingPreferences(prefs: { isLive: boolean; activeTab: string }) {
@@ -824,9 +824,9 @@ export function LiveBettingTable({ className }: LiveBettingTableProps) {
 
 			const colorClass = isWinning
 				? isMegaMultiplier
-					? "text-purple-400 font-bold animate-pulse"
+					? "text-purple-400 font-semibold animate-pulse"
 					: isHighMultiplier
-					? "text-yellow-400 font-bold"
+					? "text-yellow-400 font-semibold"
 					: "text-green-400 font-semibold"
 				: status === "processing"
 				? "text-yellow-400"
@@ -1064,13 +1064,13 @@ export function LiveBettingTable({ className }: LiveBettingTableProps) {
 													className={cn(
 														"font-mono font-semibold transition-all duration-300",
 														record.bet >= 50 &&
-															"text-yellow-400 font-bold",
+															"text-yellow-400 font-semibold",
 														record.bet >= 200 &&
-															"text-orange-400 font-bold",
+															"text-orange-400 font-semibold",
 														record.bet >= 500 &&
-															"text-red-400 font-bold animate-pulse",
+															"text-red-400 font-semibold animate-pulse",
 														record.bet >= 1000 &&
-															"text-purple-400 font-bold animate-pulse shadow-lg shadow-purple-400/30"
+															"text-purple-400 font-semibold animate-pulse shadow-lg shadow-purple-400/30"
 													)}
 												>
 													{record.bet >= 1000 && (

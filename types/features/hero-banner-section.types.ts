@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
-import { Game } from "@/types/games/gameList.types"; // Assuming you might need this for other layouts
+import { Game } from "@/types/games/gameList.types";
 
-// --- Data Shape Definitions (No Changes Here) ---
+// --- Data Shape Definitions ---
 export interface HeroSlideData {
 	backgroundImageUrl: string;
 	title: ReactNode;
@@ -17,7 +17,6 @@ export interface InfoCardData {
 	icon: ReactNode;
 	title: string;
 	badgeText: string;
-	//   backgroundImageLink?: string;
 	badgeColor?: "primary" | "secondary" | "destructive";
 	description: string;
 	linkText: string;
@@ -27,11 +26,34 @@ export interface InfoCardData {
 	backgroundImage?: string;
 }
 
-// --- Discriminated Union for Component Props ---
+// --- New types for Layout8 ---
+export interface MainPromoData {
+	title: string;
+	subtitle: string;
+	link: string;
+	buttonText: string;
+	bgImage: string;
+	onButtonClick: () => void;
+}
+
+export interface SidePromoData {
+	title: string;
+	subtitle: string;
+	buttonText: string;
+	bgImage: string;
+	onButtonClick: () => void;
+}
+
+export interface CasinoCategoryData {
+	imageUrl: string;
+	title: string;
+	subtitle: string;
+	bgClass: string;
+	onClick: () => void;
+} // --- Discriminated Union for Component Props ---
 
 /**
  * Defines the props required specifically for Layout1.
- * The `layout` property is the discriminant.
  */
 interface Layout1Props {
 	layout: "layout1";
@@ -59,24 +81,62 @@ interface Layout3Props {
 }
 
 /**
- * Defines the props required specifically for Layout3.
+ * Defines the props required specifically for Layout4.
  */
 interface Layout4Props {
 	layout: "layout4";
 	featuredSlide: HeroSlideData;
-	cards: InfoCardData[]; // <-- Changed from `links` to `cards`
+	cards: InfoCardData[];
+}
+
+/**
+ * Defines the props required specifically for Layout6.
+ */
+interface Layout6Props {
+	layout: "layout6";
+	slides: HeroSlideData[];
+	featuredGame: Game;
+	mainGame: Game;
+	sideGames: Game[];
+}
+
+/**
+ * Defines the props required specifically for Layout7.
+ */
+interface Layout7Props {
+	layout: "layout7";
+	slides: HeroSlideData[];
+	cards?: InfoCardData[];
+	featuredSlide: HeroSlideData;
+	mainGame: Game;
+	sideGames: Game[];
+	featuredGame?: Game;
+}
+
+/**
+ * Defines the props required specifically for Layout8.
+ * This layout uses a casino-themed design with promotional banners and game categories.
+ */
+interface Layout8Props {
+	layout: "layout8";
+	mainPromo: MainPromoData;
+	sidePromos: SidePromoData[];
+	categories: CasinoCategoryData[];
 }
 
 /**
  * This is the main, public-facing props type for the HeroBannerSection component.
  * It is a union of all possible layout props. TypeScript will enforce that
- * if `layout` is "layout1", then `slides` and `cards` must be provided.
+ * if `layout` is "layout8", then `mainPromo`, `sidePromos`, and `categories` must be provided.
  */
 export type HeroBannerSectionProps = (
 	| Layout1Props
 	| Layout2Props
 	| Layout3Props
 	| Layout4Props
+	| Layout6Props
+	| Layout7Props
+	| Layout8Props
 ) & {
 	isLoading?: boolean;
 };

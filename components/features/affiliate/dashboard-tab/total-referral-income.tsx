@@ -38,7 +38,7 @@ export const TotalReferralIncome = ({
 				{isLoading ? (
 					<Skeleton className="h-8 w-28 rounded-md" />
 				) : (
-					<div className="text-2xl font-bold text-foreground">
+					<div className="text-2xl font-semibold text-foreground">
 						<span className="text-primary">$</span>
 						<CountUp
 							end={totalBonus}

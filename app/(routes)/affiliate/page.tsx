@@ -30,7 +30,7 @@
 // 			<div className="container mx-auto py-16 max-w-3xl">
 // 				<div className="flex flex-col items-center justify-center text-center gap-6">
 // 					<div className="space-y-2">
-// 						<h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-foreground via-primary to-secondary bg-clip-text text-transparent">
+// 						<h1 className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-foreground via-primary to-secondary bg-clip-text text-transparent">
 // 							Referral Program
 // 						</h1>
 // 						<p className="text-muted-foreground text-sm">
@@ -51,7 +51,7 @@
 
 // 	return (
 // 		<div className="container mx-auto py-8">
-// 			<h1 className="text-3xl font-bold tracking-tight mb-6">
+// 			<h1 className="text-3xl font-semibold tracking-tight mb-6">
 // 				Referral Program
 // 			</h1>
 // 			<Suspense fallback={<AffiliateFallback />}>
@@ -227,7 +227,7 @@ export default function AffiliatePage() {
 			<div className="container mx-auto py-16 max-w-3xl">
 				<div className="flex flex-col items-center justify-center text-center gap-6">
 					<div className="space-y-2">
-						<h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-foreground via-primary to-secondary bg-clip-text text-transparent">
+						<h1 className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-foreground via-primary to-secondary bg-clip-text text-transparent">
 							{t("affiliate.loginPromptTitle")}
 						</h1>
 						<p className="text-muted-foreground text-sm">
@@ -250,7 +250,7 @@ export default function AffiliatePage() {
 				{/* Header Section with Refresh Button */}
 				<div className="flex items-center justify-between">
 					<div className="space-y-4">
-						<h1 className="text-4xl font-bold text-foreground">
+						<h1 className="text-4xl font-semibold text-foreground">
 							{t("affiliate.title")}
 						</h1>
 					</div>

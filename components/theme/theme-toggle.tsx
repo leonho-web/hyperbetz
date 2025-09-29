@@ -31,6 +31,7 @@ import { heroBannerPropsFactory } from "../features/banners/hero/hero-banner.fac
 import { cn } from "@/lib/utils";
 import { FontChanger } from "@/components/theme/font-changer/font-changer";
 
+
 export function ThemeToggle({ className }: { className?: string }) {
 	const {
 		mode,
@@ -56,7 +57,14 @@ export function ThemeToggle({ className }: { className?: string }) {
 
 	// --- 2. THE SIMPLIFIED HANDLER ---
 	const handleLayoutChange = (
-		layout: "layout1" | "layout2" | "layout3" | "layout4"
+		layout:
+			| "layout1"
+			| "layout2"
+			| "layout3"
+			| "layout4"
+			| "layout6"
+			| "layout7"
+			| "layout8"
 	) => {
 		if (allGames.length === 0 && layout !== "layout1") {
 			// Prevent switching to a layout that needs game data if it's not ready
@@ -709,6 +717,30 @@ export function ThemeToggle({ className }: { className?: string }) {
 					>
 						<span>Minimalist Focus</span>
 						{currentLayout === "layout4" && (
+							<Check className="h-4 w-4 ml-auto" />
+						)}
+					</DropdownMenuItem>
+					<DropdownMenuItem
+						onClick={() => handleLayoutChange("layout6")}
+					>
+						<span>Layout 5</span>
+						{currentLayout === "layout6" && (
+							<Check className="h-4 w-4 ml-auto" />
+						)}
+					</DropdownMenuItem>
+					<DropdownMenuItem
+						onClick={() => handleLayoutChange("layout7")}
+					>
+						<span>Layout 6</span>
+						{currentLayout === "layout7" && (
+							<Check className="h-4 w-4 ml-auto" />
+						)}
+					</DropdownMenuItem>
+					<DropdownMenuItem
+						onClick={() => handleLayoutChange("layout8")}
+					>
+						<span>Layout 7</span>
+						{currentLayout === "layout8" && (
 							<Check className="h-4 w-4 ml-auto" />
 						)}
 					</DropdownMenuItem>

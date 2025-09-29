@@ -136,7 +136,7 @@ export default function ReferralsTable({
 							<Users className="h-5 w-5 text-primary" />
 						</div>
 						<div>
-							<h2 className="text-2xl font-bold text-foreground">
+							<h2 className="text-2xl font-semibold text-foreground">
 								{t("title")}
 							</h2>
 							<p className="text-sm text-muted-foreground">

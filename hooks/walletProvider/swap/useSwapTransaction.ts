@@ -5,9 +5,7 @@
 
 import { useState, useCallback } from "react";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
-import TransactionService, {
-	PrimaryWalletWithClient,
-} from "@/services/walletProvider/TransactionService";
+import TransactionService from "@/services/walletProvider/TransactionService";
 import { useDynamicAuth } from "@/hooks/useDynamicAuth";
 import { useAppStore } from "@/store/store";
 import { TransactionType } from "@/types/blockchain/transactions.types";
@@ -16,6 +14,7 @@ import {
 	UseSwapTransactionReturn,
 	SwapTransactionResult,
 } from "@/types/walletProvider/swap-hooks.types";
+import { PrimaryWalletWithClient } from "@/types/walletProvider/transaction-service.types";
 
 export const useSwapTransaction = ({
 	fromToken,
@@ -88,7 +87,8 @@ export const useSwapTransaction = ({
 					walletAddress: userWalletAddress,
 					slippage: slippage === "Auto" ? "1" : slippage,
 					username: user?.username as string,
-					primaryWallet: primaryWallet as PrimaryWalletWithClient,
+					primaryWallet:
+						primaryWallet as unknown as PrimaryWalletWithClient,
 				};
 
 				const transactionService = TransactionService.getInstance();

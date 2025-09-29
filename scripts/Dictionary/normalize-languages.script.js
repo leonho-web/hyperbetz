@@ -99,7 +99,7 @@ const languages = [
 ];
 
 const dictionaryPath =
-	"/home/himanshu-soni/Developer/work/qubitron/meme-win/Dictionary";
+	"/home/himanshu-soni/Developer/work/qubitron/hyperbetz/Dictionary";
 
 // Load all language files
 const languageData = {};

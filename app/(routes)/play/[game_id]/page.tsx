@@ -102,7 +102,7 @@ export default function PlayGamePage() {
 	if (error) {
 		return (
 			<div className="flex flex-col items-center justify-center min-h-screen bg-background text-destructive">
-				<h1 className="text-3xl font-bold">
+				<h1 className="text-3xl font-semibold">
 					{t("play.launchFailedTitle")}
 				</h1>
 				<p className="mt-4 max-w-md text-center">{error}</p>

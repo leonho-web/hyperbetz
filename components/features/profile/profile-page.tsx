@@ -5,84 +5,16 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import {
-	Copy,
-	Wallet,
-	LogOut,
-	Trophy,
-	Activity,
-	Mail,
-	Phone,
-	DollarSign,
-	TrendingUp,
-	Check,
-	Clock,
-} from "lucide-react";
-import { useState, useEffect } from "react";
+import { Copy, Wallet, LogOut, Trophy, Activity } from "lucide-react";
+import { useState } from "react";
 import { toast } from "sonner";
 import { useTranslations } from "@/lib/locale-provider";
 import { DynamicWidget } from "@dynamic-labs/sdk-react-core";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { TransactionHistorySection } from "./transaction-history-section";
-import BetHistorySection from "./bet-history/bet-history-section";
 
 export function ProfilePage() {
 	const { user, isLoading, logout, accountStatus } = useDynamicAuth();
 	const [copiedAddress, setCopiedAddress] = useState(false);
 	const t = useTranslations("profile");
-
-	// Use "section" instead of "tab" to avoid conflicts with transaction modal tabs
-	const getInitialSection = () => {
-		if (typeof window !== "undefined") {
-			const urlParams = new URLSearchParams(window.location.search);
-			const sectionParam = urlParams.get("section");
-			// Map URL section to tab values
-			if (sectionParam === "bet") return "bets";
-			if (sectionParam === "transaction") return "transactions";
-			return "transactions"; // default
-		}
-		return "transactions";
-	};
-
-	const [activeTab, setActiveTab] = useState(getInitialSection);
-
-	// Update URL without page reload
-	const updateUrlSection = (tabValue: string) => {
-		if (typeof window !== "undefined") {
-			const currentUrl = new URL(window.location.href);
-			const sectionParam = tabValue === "bets" ? "bet" : "transaction";
-			currentUrl.searchParams.set("section", sectionParam);
-
-			// Use pushState to update URL without reload
-			window.history.pushState(
-				{ section: sectionParam },
-				"",
-				currentUrl.toString()
-			);
-		}
-	};
-
-	const handleTabChange = (value: string) => {
-		setActiveTab(value);
-		updateUrlSection(value);
-	};
-
-	// Listen for browser back/forward navigation
-	useEffect(() => {
-		const handlePopState = () => {
-			const newSection = getInitialSection();
-			setActiveTab(newSection);
-		};
-
-		window.addEventListener("popstate", handlePopState);
-		return () => window.removeEventListener("popstate", handlePopState);
-	}, []);
-
-	// Initialize tab from URL on component mount
-	useEffect(() => {
-		const initialSection = getInitialSection();
-		setActiveTab(initialSection);
-	}, []);
 
 	const handleCopyAddress = async () => {
 		if (user?.walletAddress) {
@@ -107,75 +39,66 @@ export function ProfilePage() {
 	};
 
 	if (isLoading) {
+		// The loading skeleton can remain largely the same, but we remove the right column skeleton
 		return (
 			<div>
 				<div className="space-y-6">
 					<div className="h-8 w-32 bg-muted rounded-lg animate-pulse" />
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+						{/* We can repeat the card skeletons to fill the space */}
+						<Card className="relative overflow-hidden border-0 shadow-lg">
+							<div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10" />
+							<div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-primary/20 to-transparent rounded-full blur-2xl" />
+							<div className="absolute bottom-0 left-0 w-24 h-24  bg-gradient-to-tr from-secondary/20 to-transparent rounded-full blur-xl" />
 
-					<div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
-						<div className="xl:col-span-1 space-y-6">
-							<Card className="relative overflow-hidden border-0 shadow-lg">
-								<div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10" />
-								<div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-primary/20 to-transparent rounded-full blur-2xl" />
-								<div className="absolute bottom-0 left-0 w-24 h-24  bg-gradient-to-tr from-secondary/20 to-transparent rounded-full blur-xl" />
-
-								<CardContent className="relative p-6">
-									<div className="flex flex-col items-center gap-4">
-										<div className="relative">
-											<div className="h-20 w-20 bg-muted rounded-full animate-pulse" />
-											<div className="absolute -bottom-1 -right-1 w-6 h-6 bg-muted rounded-full animate-pulse" />
-										</div>
-										<div className="text-center space-y-2">
-											<div className="h-6 w-48 bg-muted rounded animate-pulse" />
-											<div className="h-4 w-32 bg-muted rounded animate-pulse" />
-											<div className="h-4 w-64 bg-muted rounded animate-pulse" />
-										</div>
+							<CardContent className="relative p-6">
+								<div className="flex flex-col items-center gap-4">
+									<div className="relative">
+										<div className="h-20 w-20 bg-muted rounded-full animate-pulse" />
+										<div className="absolute -bottom-1 -right-1 w-6 h-6 bg-muted rounded-full animate-pulse" />
 									</div>
-									<div className="mt-4 p-3 bg-gradient-to-r from-primary/5 via-secondary/5 to-accent/5 rounded-xl border border-primary/10">
-										<div className="flex items-center justify-between">
-											<div className="flex items-center gap-3">
-												<div className="h-8 w-8 bg-muted rounded-lg animate-pulse" />
-												<div className="space-y-2">
-													<div className="h-3 w-24 bg-muted rounded animate-pulse" />
-													<div className="h-5 w-40 bg-muted rounded animate-pulse" />
-												</div>
+									<div className="text-center space-y-2">
+										<div className="h-6 w-48 bg-muted rounded animate-pulse" />
+										<div className="h-4 w-32 bg-muted rounded animate-pulse" />
+										<div className="h-4 w-64 bg-muted rounded animate-pulse" />
+									</div>
+								</div>
+								<div className="mt-4 p-3 bg-gradient-to-r from-primary/5 via-secondary/5 to-accent/5 rounded-xl border border-primary/10">
+									<div className="flex items-center justify-between">
+										<div className="flex items-center gap-3">
+											<div className="h-8 w-8 bg-muted rounded-lg animate-pulse" />
+											<div className="space-y-2">
+												<div className="h-3 w-24 bg-muted rounded animate-pulse" />
+												<div className="h-5 w-40 bg-muted rounded animate-pulse" />
 											</div>
-											<div className="h-8 w-8 bg-muted rounded animate-pulse" />
 										</div>
+										<div className="h-8 w-8 bg-muted rounded animate-pulse" />
 									</div>
-								</CardContent>
-							</Card>
-
-							<Card>
-								<CardHeader>
-									<div className="h-6 w-32 bg-muted rounded animate-pulse" />
-								</CardHeader>
-								<CardContent className="space-y-4">
-									<div className="h-20 bg-muted rounded-lg animate-pulse" />
-									<div className="grid grid-cols-2 gap-4">
-										<div className="h-16 bg-muted rounded-lg animate-pulse" />
-										<div className="h-16 bg-muted rounded-lg animate-pulse" />
-									</div>
-								</CardContent>
-							</Card>
-						</div>
-
-						<div className="xl:col-span-2">
-							<Card className="h-full">
-								<CardHeader>
-									<div className="h-6 w-48 bg-muted rounded animate-pulse" />
-								</CardHeader>
-								<CardContent className="space-y-4">
-									<div className="h-10 bg-muted rounded animate-pulse" />
-									{[...Array(5)].map((_, i) => (
-										<div
-											key={i}
-											className="h-20 bg-muted rounded-lg animate-pulse"
-										/>
-									))}
-								</CardContent>
-							</Card>
-						</div>
+								</div>
+							</CardContent>
+						</Card>
+						<Card>
+							<CardHeader>
+								<div className="h-6 w-32 bg-muted rounded animate-pulse" />
+							</CardHeader>
+							<CardContent className="space-y-4">
+								<div className="h-20 bg-muted rounded-lg animate-pulse" />
+								<div className="grid grid-cols-2 gap-4">
+									<div className="h-16 bg-muted rounded-lg animate-pulse" />
+									<div className="h-16 bg-muted rounded-lg animate-pulse" />
+								</div>
+							</CardContent>
+						</Card>
+						<Card>
+							<CardHeader>
+								<div className="h-6 w-32 bg-muted rounded animate-pulse" />
+							</CardHeader>
+							<CardContent className="space-y-3">
+								<div className="h-12 bg-muted rounded-lg animate-pulse" />
+								<div className="h-12 bg-muted rounded-lg animate-pulse" />
+								<div className="h-12 bg-muted rounded-lg animate-pulse" />
+							</CardContent>
+						</Card>
 					</div>
 				</div>
 			</div>
@@ -187,7 +110,7 @@ export function ProfilePage() {
 			<div className="container mx-auto p-4 max-w-4xl">
 				<div className="flex flex-col items-center justify-center min-h-[400px] space-y-4">
 					<div className="text-center space-y-2">
-						<h1 className="text-2xl font-bold text-muted-foreground">
+						<h1 className="text-2xl font-semibold text-muted-foreground">
 							{t("loggedOutTitle")}
 						</h1>
 						<p className="text-muted-foreground">
@@ -214,7 +137,7 @@ export function ProfilePage() {
 			<div className="space-y-6">
 				{/* Header */}
 				<div className="flex items-center justify-between">
-					<h1 className="text-2xl font-bold">{t("myProfile")}</h1>
+					<h1 className="text-2xl font-semibold">{t("myProfile")}</h1>
 					<Button
 						onClick={logout}
 						variant="outline"
@@ -226,362 +149,202 @@ export function ProfilePage() {
 					</Button>
 				</div>
 
-				<div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
-					{/* Left Column - Profile Info */}
-					<div className="xl:col-span-1 space-y-6">
-						{/* Profile Info Card */}
-						<Card className="relative overflow-hidden border-0 shadow-lg">
-							<div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10" />
-							<div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-primary/20 to-transparent rounded-full blur-2xl" />
-							<div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-secondary/20 to-transparent rounded-full blur-xl" />
-
-							<CardContent className="relative">
-								<div className="flex items-start gap-6">
-									<div className="relative">
-										<div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full blur opacity-75"></div>
-										<Avatar className="relative h-20 w-20 border-2">
-											<AvatarImage
-												src={user.avatar}
-												alt={user.username}
+				{/* Changed grid layout to be responsive and fill the page */}
+				<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6">
+					{/* Profile Info Card */}
+					<Card className="relative overflow-hidden border-0 shadow-lg md:col-span-2 xl:col-span-1">
+						{/* ... (rest of the Profile Info Card JSX is identical) */}
+						<div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10" />
+						<div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-primary/20 to-transparent rounded-full blur-2xl" />
+						<div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-secondary/20 to-transparent rounded-full blur-xl" />
+						<CardContent className="relative">
+							<div className="flex items-start gap-6">
+								<div className="relative">
+									<div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full blur opacity-75"></div>
+									<Avatar className="relative h-20 w-20 border-2">
+										<AvatarImage
+											src={user.avatar}
+											alt={user.username}
+										/>
+										<AvatarFallback className="text-xl font-semibold bg-gradient-to-br from-primary to-secondary text-foreground">
+											{getInitials(user.nickname)}
+										</AvatarFallback>
+									</Avatar>
+								</div>
+								<div className="flex-1 min-w-0">
+									<div className="flex items-center gap-3 mb-2">
+										<h2 className="text-3xl font-semibold bg-gradient-to-r from-foreground via-primary to-secondary bg-clip-text text-transparent">
+											{user.nickname}
+										</h2>
+										<Badge
+											variant="secondary"
+											className="text-xs px-3 py-1 bg-success/10 text-success border-success/20"
+										>
+											{accountStatus === "authenticated"
+												? `${user.status}`
+												: t("pendingRegistration")}
+										</Badge>
+									</div>
+									<p className="text-sm text-muted-foreground">
+										{user.email == "-"
+											? t("noEmailProvided")
+											: user.email}
+									</p>
+								</div>
+							</div>
+							<div className="mt-6 p-2 bg-gradient-to-r from-primary/5 via-secondary/5 to-accent/5 rounded-2xl border border-primary/10 hover:border-primary/20 transition-colors">
+								<div className="flex items-center justify-between">
+									<div className="flex items-center gap-4">
+										<div className="p-3 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-xl">
+											<Wallet className="h-5 w-5 text-primary" />
+										</div>
+										<div>
+											<p className="text-sm font-semibold text-foreground mb-1">
+												{t("walletAddress")}
+											</p>
+											<code className="text-xs rounded-lg border border-border/50">
+												{user.walletAddress
+													? `${user.walletAddress.slice(
+															0,
+															8
+													  )}...${user.walletAddress.slice(
+															-8
+													  )}`
+													: t("notConnected")}
+											</code>
+										</div>
+									</div>
+									{user.walletAddress && (
+										<Button
+											variant="ghost"
+											size="sm"
+											onClick={handleCopyAddress}
+											className="h-10 w-10 p-0 hover:bg-primary/10 hover:scale-105 transition-all"
+										>
+											<Copy
+												className={`h-4 w-4 ${
+													copiedAddress
+														? "text-success"
+														: "text-muted-foreground"
+												}`}
 											/>
-											<AvatarFallback className="text-xl font-bold bg-gradient-to-br from-primary to-secondary text-foreground">
-												{getInitials(user.nickname)}
-											</AvatarFallback>
-										</Avatar>
-									</div>
-
-									<div className="flex-1 min-w-0">
-										<div className="flex items-center gap-3 mb-2">
-											<h2 className="text-3xl font-bold bg-gradient-to-r from-foreground via-primary to-secondary bg-clip-text text-transparent">
-												{user.nickname}
-											</h2>
-											<Badge
-												variant="secondary"
-												className="text-xs px-3 py-1 bg-success/10 text-success border-success/20"
-											>
-												{accountStatus ===
-												"authenticated"
-													? `${user.status}`
-													: t("pendingRegistration")}
-											</Badge>
-										</div>
-										<p className="text-sm text-muted-foreground">
-											{user.email == "-"
-												? t("noEmailProvided")
-												: user.email}
-										</p>
-									</div>
+										</Button>
+									)}
 								</div>
+							</div>
+						</CardContent>
+					</Card>
 
-								{/* Wallet Address */}
-								<div className="mt-6 p-2 bg-gradient-to-r from-primary/5 via-secondary/5 to-accent/5 rounded-2xl border border-primary/10 hover:border-primary/20 transition-colors">
-									<div className="flex items-center justify-between">
-										<div className="flex items-center gap-4">
-											<div className="p-3 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-xl">
-												<Wallet className="h-5 w-5 text-primary" />
-											</div>
-											<div>
-												<p className="text-sm font-semibold text-foreground mb-1">
-													{t("walletAddress")}
-												</p>
-												<code className="text-xs rounded-lg border border-border/50">
-													{user.walletAddress
-														? `${user.walletAddress.slice(
-																0,
-																8
-														  )}...${user.walletAddress.slice(
-																-8
-														  )}`
-														: t("notConnected")}
-												</code>
-											</div>
-										</div>
-										{user.walletAddress && (
-											<Button
-												variant="ghost"
-												size="sm"
-												onClick={handleCopyAddress}
-												className="h-10 w-10 p-0 hover:bg-primary/10 hover:scale-105 transition-all"
-											>
-												<Copy
-													className={`h-4 w-4 ${
-														copiedAddress
-															? "text-success"
-															: "text-muted-foreground"
-													}`}
-												/>
-											</Button>
-										)}
-									</div>
-								</div>
-							</CardContent>
-						</Card>
-
-						{/* Balance Overview */}
-						<Card>
-							<CardHeader>
-								<h3 className="text-lg font-semibold">
-									<Wallet className="h-5 w-5 inline-block mr-2" />
-									{t("balanceOverview")}
-								</h3>
-							</CardHeader>
-							<CardContent className="space-y-2">
-								<div className="text-center p-2 bg-success/10 rounded-lg">
-									<p className="text-sm text-foreground mb-1">
-										{t("currentBalance")}
+					{/* Balance Overview */}
+					<Card>
+						{/* ... (JSX for Balance Overview is identical) */}
+						<CardHeader>
+							<h3 className="text-lg font-semibold">
+								<Wallet className="h-5 w-5 inline-block mr-2" />
+								{t("balanceOverview")}
+							</h3>
+						</CardHeader>
+						<CardContent className="space-y-2">
+							<div className="text-center p-2 bg-success/10 rounded-lg">
+								<p className="text-sm text-foreground mb-1">
+									{t("currentBalance")}
+								</p>
+								<p className="text-2xl font-semibold text-primary">
+									${user.balance?.toFixed(2) || "0.00"}
+								</p>
+							</div>
+							<div className="grid grid-cols-2 gap-4">
+								<div className="text-center p-3 bg-muted/50 rounded-lg">
+									<p className="text-xs text-muted-foreground mb-1">
+										{t("totalDeposits")}
 									</p>
-									<p className="text-2xl font-bold text-primary">
-										${user.balance?.toFixed(2) || "0.00"}
+									<p className="text-lg font-semibold text-foreground">
+										{user.depositTotal || "0"}
 									</p>
 								</div>
-
-								<div className="grid grid-cols-2 gap-4">
-									<div className="text-center p-3 bg-muted/50 rounded-lg">
-										<p className="text-xs text-muted-foreground mb-1">
-											{t("totalDeposits")}
-										</p>
-										<p className="text-lg font-semibold text-foreground">
-											{user.depositTotal || "0"}
-										</p>
-									</div>
-									<div className="text-center p-3 bg-muted/50 rounded-lg">
-										<p className="text-xs text-muted-foreground mb-1">
-											{t("totalWithdrawals")}
-										</p>
-										<p className="text-lg font-semibold text-foreground">
-											{user.withdrawTotal || "0"}
-										</p>
-									</div>
+								<div className="text-center p-3 bg-muted/50 rounded-lg">
+									<p className="text-xs text-muted-foreground mb-1">
+										{t("totalWithdrawals")}
+									</p>
+									<p className="text-lg font-semibold text-foreground">
+										{user.withdrawTotal || "0"}
+									</p>
 								</div>
-							</CardContent>
-						</Card>
-
-						{/* Getting Started */}
-						<Card>
-							<CardHeader>
-								<h3 className="text-lg font-semibold flex items-center gap-2">
-									<Trophy className="h-5 w-5" />
-									{t("gettingStarted")}
-								</h3>
-							</CardHeader>
-							<CardContent className="space-y-3">
-								<div className="flex items-center gap-3 p-3 bg-foreground/10 rounded-lg">
-									<div className="p-2 bg-success/20 rounded-full">
-										<Mail className="h-4 w-4 text-success" />
-									</div>
-									<div className="flex-1">
-										<p className="text-sm font-medium">
-											{t("verifyEmail")}
-										</p>
-										<p className="text-xs text-muted-foreground">
-											{t("completeEmailVerification")}
-										</p>
-									</div>
-									<Check className="h-4 w-4 text-primary" />
-								</div>
-
-								<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-									<div className="p-2 bg-primary/20 rounded-full">
-										<Phone className="h-4 w-4 text-primary" />
-									</div>
-									<div className="flex-1">
-										<p className="text-sm font-medium">
-											{t("verifyPhone")}
-										</p>
-										<p className="text-xs text-muted-foreground">
-											{t("addPhoneVerification")}
-										</p>
-									</div>
-									<Clock className="h-4 w-4 text-muted-foreground animate-pulse" />
-								</div>
-
-								<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-									<div className="p-2 bg-secondary/20 rounded-full">
-										<DollarSign className="h-4 w-4 text-secondary" />
-									</div>
-									<div className="flex-1">
-										<p className="text-sm font-medium">
-											{t("firstDeposit")}
-										</p>
-										<p className="text-xs text-muted-foreground">
-											{t("makeFirstDeposit")}
-										</p>
-									</div>
-									<Clock className="h-4 w-4 text-muted-foreground animate-pulse" />
-								</div>
-
-								<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-									<div className="p-2 bg-accent/20 rounded-full">
-										<TrendingUp className="h-4 w-4 text-accent" />
-									</div>
-									<div className="flex-1">
-										<p className="text-sm font-medium">
-											{t("placeBetOrTrade")}
-										</p>
-										<p className="text-xs text-muted-foreground">
-											{t("startFirstGame")}
-										</p>
-									</div>
-									<Clock className="h-4 w-4 text-muted-foreground animate-pulse" />
-								</div>
-							</CardContent>
-						</Card>
-
-						{/* Recent Activity */}
-						<Card>
-							<CardHeader>
-								<h3 className="text-lg font-semibold flex items-center gap-2">
-									<Activity className="h-5 w-5" />
-									{t("recentActivity")}
-								</h3>
-							</CardHeader>
-							<CardContent className="space-y-3">
-								<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-									<div className="p-2 bg-success/20 rounded-full">
-										<Trophy className="h-4 w-4 text-success" />
-									</div>
-									<div className="flex-1">
-										<p className="text-sm font-medium">
-											{t("activityGameWinDiceRoll")}
-										</p>
-										<p className="text-xs text-muted-foreground">
-											{t("twoHoursAgo")}
-										</p>
-									</div>
-									<Badge
-										variant="outline"
-										className="text-success border-success text-xs"
-									>
-										+$50.00
-									</Badge>
-								</div>
-
-								<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-									<div className="p-2 bg-primary/20 rounded-full">
-										<Wallet className="h-4 w-4 text-primary" />
-									</div>
-									<div className="flex-1">
-										<p className="text-sm font-medium">
-											{t("deposit")}
-										</p>
-										<p className="text-xs text-muted-foreground">
-											{t("oneDayAgo")}
-										</p>
-									</div>
-									<Badge
-										variant="outline"
-										className="text-primary border-primary text-xs"
-									>
-										+$100.00
-									</Badge>
-								</div>
-
-								<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-									<div className="p-2 bg-destructive/20 rounded-full">
-										<Activity className="h-4 w-4 text-destructive" />
-									</div>
-									<div className="flex-1">
-										<p className="text-sm font-medium">
-											{t("activityGameLossBlackjack")}
-										</p>
-										<p className="text-xs text-muted-foreground">
-											{t("twoDaysAgo")}
-										</p>
-									</div>
-									<Badge
-										variant="outline"
-										className="text-destructive border-destructive text-xs"
-									>
-										-$25.00
-									</Badge>
-								</div>
-							</CardContent>
-						</Card>
-					</div>
-
-					{/* Right Column - History Tabs */}
-					<div className="xl:col-span-2">
-						<Tabs
-							value={activeTab}
-							onValueChange={handleTabChange}
-							className="w-full"
-						>
-							{/* Enhanced TabsList */}
-							<div className="relative mb-8">
-								<TabsList className="relative flex items-center justify-between gap-2 w-full grid-cols-2 h-14 p-1 bg-gradient-to-r from-muted/50 via-muted/30 to-muted/50 border border-border/50 rounded-xl shadow-sm backdrop-blur-sm overflow-hidden">
-									{/* Background glow effect */}
-									{/* <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5 rounded-xl" /> */}
-
-									<TabsTrigger
-										value="transactions"
-										className="group relative flex items-center justify-center gap-3 h-12 px-6 rounded-lg font-medium text-sm transition-all duration-300 hover:scale-[1.02] data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-primary/90 data-[state=active]:text-primary-foreground data-[state=active]:shadow-lg data-[state=active]:shadow-primary/25 data-[state=inactive]:text-muted-foreground data-[state=inactive]:hover:text-foreground data-[state=inactive]:hover:bg-accent/50 overflow-hidden"
-									>
-										{/* Active state background glow */}
-										<div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent opacity-0 group-data-[state=active]:opacity-100 transition-opacity duration-300" />
-
-										{/* Icon with enhanced styling */}
-										<div className="relative z-10 p-1.5 rounded-md bg-white/10 group-data-[state=active]:bg-white/20 group-data-[state=inactive]:bg-muted/20 transition-all duration-300">
-											<Wallet className="h-4 w-4 transition-transform duration-300 group-data-[state=active]:scale-110" />
-										</div>
-
-										{/* Text with better typography */}
-										<span className="relative z-10 font-semibold text-wrap text-left tracking-wide">
-											{t("transactionHistory")}
-										</span>
-
-										{/* Subtle shine effect for active state */}
-										<div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-data-[state=active]:translate-x-full transition-transform duration-1000 ease-out" />
-									</TabsTrigger>
-
-									<TabsTrigger
-										value="bets"
-										className="group relative flex items-center justify-center gap-3 h-12 px-6 rounded-lg font-medium text-sm transition-all duration-300 hover:scale-[1.02] data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-primary/90 data-[state=active]:text-primary-foreground data-[state=active]:shadow-lg data-[state=active]:shadow-primary/25 data-[state=inactive]:text-muted-foreground data-[state=inactive]:hover:text-foreground data-[state=inactive]:hover:bg-accent/50 overflow-hidden"
-									>
-										{/* Active state background glow */}
-										<div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent opacity-0 group-data-[state=active]:opacity-100 transition-opacity duration-300" />
-
-										{/* Icon with enhanced styling */}
-										<div className="relative z-10 p-1.5 rounded-md bg-white/10 group-data-[state=active]:bg-white/20 group-data-[state=inactive]:bg-muted/20 transition-all duration-300">
-											<Trophy className="h-4 w-4 transition-transform duration-300 group-data-[state=active]:scale-110 group-data-[state=active]:rotate-12" />
-										</div>
-
-										{/* Text with better typography */}
-										<span className="relative z-10 text-wrap font-semibold tracking-wide">
-											{t("betHistory.title")}
-										</span>
-
-										{/* Subtle shine effect for active state */}
-										<div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-data-[state=active]:translate-x-full transition-transform duration-1000 ease-out" />
-									</TabsTrigger>
-								</TabsList>
-
-								{/* Decorative elements */}
-								{/* <div className="absolute -top-px left-1/2 transform -translate-x-1/2 w-32 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
-								<div className="absolute -bottom-px left-1/2 transform -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" /> */}
 							</div>
+						</CardContent>
+					</Card>
 
-							{/* Enhanced TabsContent with smooth transitions */}
-							<div className="relative">
-								<TabsContent
-									value="transactions"
-									className="mt-0 data-[state=active]:animate-in data-[state=active]:fade-in-50 data-[state=active]:slide-in-from-bottom-2 duration-300"
-								>
-									<div className="rounded-xl border bg-gradient-to-br from-card via-card to-muted/20 shadow-sm">
-										<TransactionHistorySection />
-									</div>
-								</TabsContent>
+					{/* Getting Started */}
 
-								<TabsContent
-									value="bets"
-									className="mt-0 data-[state=active]:animate-in data-[state=active]:fade-in-50 data-[state=active]:slide-in-from-bottom-2 duration-300"
+					{/* Recent Activity */}
+					<Card className="md:col-span-2 xl:col-span-3">
+						{/* ... (JSX for Recent Activity is identical) */}
+						<CardHeader>
+							<h3 className="text-lg font-semibold flex items-center gap-2">
+								<Activity className="h-5 w-5" />
+								{t("recentActivity")}
+							</h3>
+						</CardHeader>
+						<CardContent className="space-y-3">
+							<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
+								<div className="p-2 bg-success/20 rounded-full">
+									<Trophy className="h-4 w-4 text-success" />
+								</div>
+								<div className="flex-1">
+									<p className="text-sm font-medium">
+										{t("activityGameWinDiceRoll")}
+									</p>
+									<p className="text-xs text-muted-foreground">
+										{t("twoHoursAgo")}
+									</p>
+								</div>
+								<Badge
+									variant="outline"
+									className="text-success border-success text-xs"
 								>
-									<div className="rounded-xl border bg-gradient-to-br from-card via-card to-muted/20 shadow-sm">
-										<BetHistorySection />
-									</div>
-								</TabsContent>
+									+$50.00
+								</Badge>
 							</div>
-						</Tabs>
-					</div>
+							<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
+								<div className="p-2 bg-primary/20 rounded-full">
+									<Wallet className="h-4 w-4 text-primary" />
+								</div>
+								<div className="flex-1">
+									<p className="text-sm font-medium">
+										{t("deposit")}
+									</p>
+									<p className="text-xs text-muted-foreground">
+										{t("oneDayAgo")}
+									</p>
+								</div>
+								<Badge
+									variant="outline"
+									className="text-primary border-primary text-xs"
+								>
+									+$100.00
+								</Badge>
+							</div>
+							<div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
+								<div className="p-2 bg-destructive/20 rounded-full">
+									<Activity className="h-4 w-4 text-destructive" />
+								</div>
+								<div className="flex-1">
+									<p className="text-sm font-medium">
+										{t("activityGameLossBlackjack")}
+									</p>
+									<p className="text-xs text-muted-foreground">
+										{t("twoDaysAgo")}
+									</p>
+								</div>
+								<Badge
+									variant="outline"
+									className="text-destructive border-destructive text-xs"
+								>
+									-$25.00
+								</Badge>
+							</div>
+						</CardContent>
+					</Card>
 				</div>
 			</div>
 		</div>

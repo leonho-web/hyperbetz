@@ -61,9 +61,9 @@ const isLobbyActive = (pathname: string) => {
  * @param pathname - The current pathname from usePathname()
  * @returns True if the current path is "/promotions", false otherwise.
  */
-const isPromotionsActive = (pathname: string) => {
-	return pathname === "/promotions";
-};
+// const isPromotionsActive = (pathname: string) => {
+// 	return pathname === "/promotions";
+// };
 /**
  * Checks if the current path is the promotions page.
  * @param pathname - The current pathname from usePathname()
@@ -134,7 +134,7 @@ export const getNavData = ({
 		// --- Static User Section ---
 		user: {
 			name: "Crypto Player",
-			email: "player@memewin.com",
+			email: "player@hyperbetz.com",
 			avatar: "/avatars/player.jpg",
 		},
 		// hell;o
@@ -245,7 +245,7 @@ export const getNavData = ({
 			},
 			{
 				title: "games.swap",
-				url: "#", // This will be handled by modal with URL sync
+				url: "?tab=swap", // This will be handled by modal with URL sync
 				icon: faArrowsRotate,
 				// count: 0,
 			},

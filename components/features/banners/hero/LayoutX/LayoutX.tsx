@@ -44,7 +44,7 @@ export function HeroBanner() {
 						</div>
 
 						{/* Main Headline */}
-						<h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground mb-4 drop-shadow-lg animate-fade-in-up">
+						<h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold text-foreground mb-4 drop-shadow-lg animate-fade-in-up">
 							WIN DAILY
 							<span className="text-primary block bg-gradient-to-r from-primary to-primary/80 bg-clip-text animate-pulse">
 								USDT 100,000
@@ -114,7 +114,7 @@ export function HeroBanner() {
 					<div className="relative group">
 						<Image
 							src={"/assets/banners/hero/banner.png"}
-							alt="MemeWin Casino Banner"
+							alt="Hyperbetz Casino Banner"
 							width={400}
 							height={320}
 							className="object-contain transition-transform duration-700 group-hover:scale-105 drop-shadow-2xl"

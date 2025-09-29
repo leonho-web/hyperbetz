@@ -69,7 +69,7 @@
 //       <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 gap-3 sm:gap-0">
 //         <div className="flex items-center gap-3">
 //           <Building2 className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
-//           <h2 className="text-xl sm:text-2xl font-bold tracking-tight">{title}</h2>
+//           <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">{title}</h2>
 //         </div>
 //         <div className="flex items-center gap-2">
 //           <Button asChild variant="outline" size="sm" className="text-xs sm:text-sm">

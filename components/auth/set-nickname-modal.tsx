@@ -101,14 +101,14 @@
 //     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
 //       <div className="w-full max-w-md p-8 space-y-6 rounded-lg shadow-xl border border-white/20 bg-primary/20 backdrop-blur-xl text-foreground">
 //         <div className="flex justify-between items-start">
-//           <h2 className="text-2xl font-bold">Set Your Nickname</h2>
+//           <h2 className="text-2xl font-semibold">Set Your Nickname</h2>
 //           <Button variant="destructive" size="icon" onClick={logout} aria-label="Log Out">
 //             <LogOut className="h-5 w-5" />
 //           </Button>
 //         </div>
 
 //         <p className="text-sm text-foreground/80">
-//           Your Nickname is a one-time setup and <span className="font-bold">cannot be changed</span>.
+//           Your Nickname is a one-time setup and <span className="font-semibold">cannot be changed</span>.
 //         </p>
 
 //         <div className="space-y-2">
@@ -169,7 +169,7 @@ export const SetNicknameModal = () => {
 	const [apiError, setApiError] = useState<string | null>(null);
 	const [hasReferrer, setHasReferrer] = useState(false);
 	const [referrerId, setReferrerId] = useState("");
-	const {setShowAuthFlow} = useDynamicContext();
+	const { setShowAuthFlow } = useDynamicContext();
 
 	// Auto-detect referral id from URL (?r= or ?referralId=)
 	useEffect(() => {
@@ -319,7 +319,7 @@ export const SetNicknameModal = () => {
 					<div className="relative p-8 pb-6">
 						<div className="flex items-start justify-between">
 							<div className="space-y-2">
-								<h2 className="text-3xl font-bold text-foreground brightness-160">
+								<h2 className="text-3xl font-semibold text-foreground brightness-160">
 									{t("title")}
 								</h2>
 								<p className="text-sm text-foreground/80">

@@ -7,7 +7,7 @@
 		"viewAll": "Zobacz wszystko"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Hyperbetz"
 	},
 	"header": {
 		"toggleSidebar": "Przełącz pasek boczny",
@@ -49,6 +49,9 @@
 		"copyFailed": "Nie udało się skopiować adresu portfela",
 		"notConnected": "Nie połączono",
 		"myProfile": "Mój profil",
+		"history": {
+			"title": "Historia"
+		},
 		"logout": "Wyloguj",
 		"pendingRegistration": "Oczekująca rejestracja",
 		"noEmailProvided": "Nie podano adresu e-mail",
@@ -808,7 +811,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Wypłata udana!",
-			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z Meme Win! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
+			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z Hyperbetz! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
 			"withdrawnAmount": "Wypłacona kwota",
 			"shareText": "Udostępnij",
 			"subText": "🚀 DOŁĄCZ DO ZWYCIĘSKIEJ PASSY! 🚀",
@@ -929,7 +932,7 @@
 			"casino": {
 				"title": "Kasyno",
 				"badge": "590+ GIER",
-				"desc": "Ciesz się oryginalnymi grami MemeWin i innymi grami kasynowymi od najlepszych dostawców.",
+				"desc": "Ciesz się oryginalnymi grami Hyperbetz i innymi grami kasynowymi od najlepszych dostawców.",
 				"link": "Przejdź do kasyna"
 			},
 			"slots": {

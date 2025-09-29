@@ -147,7 +147,7 @@ export function ImageUploadDialog({
 							<div className="flex-1">
 								<h3
 									id="modal-title"
-									className="text-xl font-bold bg-gradient-to-r from-primary to-chart-1 bg-clip-text text-transparent"
+									className="text-xl font-semibold bg-gradient-to-r from-primary to-chart-1 bg-clip-text text-transparent"
 								>
 									{t("imageDialog.title")}
 								</h3>

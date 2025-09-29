@@ -160,7 +160,7 @@
 // // 											{!isApproved && (
 // // 												<FontAwesomeIcon
 // // 													icon={faLock}
-// // 													className="text-yellow-500 font-bold"
+// // 													className="text-yellow-500 font-semibold"
 // // 												/>
 // // 											)}
 // // 										</span>
@@ -491,7 +491,7 @@
 // 											{!isApproved && (
 // 												<FontAwesomeIcon
 // 													icon={faLock}
-// 													className="text-yellow-500 font-bold"
+// 													className="text-yellow-500 font-semibold"
 // 												/>
 // 											)}
 // 										</span>
@@ -747,7 +747,7 @@ export const DepositPanel = ({
 			{/* Main container with dark background and rounded corners matching the image */}
 			<div className="bg-card border border-border rounded-2xl shadow-lg">
 				{/* --- HEADER --- */}
-				<div className="flex items-center justify-between p-4 border-b border-border">
+				<div className="flex items-center justify-between p-3 border-b border-border">
 					<Button
 						variant="ghost"
 						size="icon"
@@ -766,7 +766,7 @@ export const DepositPanel = ({
 				{/* --- CONDITIONAL CONTENT --- */}
 				{isPending ? (
 					/* Show transaction pending component */
-					<div className="p-6 pb-12 flex items-center justify-center min-h-[400px]">
+					<div className="p-4 pb-8 flex items-center justify-center min-h-[320px]">
 						<DepositTransactionPending
 							transactionHash={transactionHash}
 							timeLeft={timeLeft}
@@ -776,7 +776,7 @@ export const DepositPanel = ({
 				) : (
 					<>
 						{/* --- MAIN CONTENT --- */}
-						<div className="p-6 space-y-6">
+						<div className="p-4 space-y-4">
 							{/* "You Pay" Label */}
 							<div className="text-left">
 								<Label className="text-muted-foreground text-sm font-normal">
@@ -790,7 +790,7 @@ export const DepositPanel = ({
 								<div
 									className={cn(
 										"placeholder:text-muted-foreground dark:bg-input/30 flex h-full w-full rounded-md bg-transparent",
-										"px-5 py-2.5 shadow-xs outline-none disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50",
+										"px-4 py-2 shadow-xs outline-none disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50",
 										"focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]",
 										"aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive"
 									)}
@@ -836,7 +836,7 @@ export const DepositPanel = ({
 											{!isApproved && (
 												<FontAwesomeIcon
 													icon={faLock}
-													className="text-yellow-500 font-bold"
+													className="text-yellow-500 font-semibold"
 												/>
 											)}
 										</span>
@@ -927,14 +927,14 @@ export const DepositPanel = ({
 						</div>
 
 						{/* --- FOOTER --- */}
-						<div className="p-6 pt-0">
+						<div className="p-4 pt-0">
 							<Button
 								onClick={executeDeposit}
 								disabled={
 									isDepositDisabled() || isNetworkSwitching
 								}
-								size="lg"
-								className="w-full h-12 text-lg font-semibold rounded-xl"
+								size="default"
+								className="w-full h-11 text-base font-semibold rounded-xl"
 							>
 								{getButtonText()}
 							</Button>

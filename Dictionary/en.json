@@ -7,7 +7,7 @@
 		"viewAll": "View All"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Hyperbetz"
 	},
 	"header": {
 		"toggleSidebar": "Toggle Sidebar",
@@ -49,6 +49,9 @@
 		"copyFailed": "Failed to copy wallet address",
 		"notConnected": "Not connected",
 		"myProfile": "My Profile",
+		"history": {
+			"title": "History"
+		},
 		"logout": "Logout",
 		"pendingRegistration": "Pending Registration",
 		"noEmailProvided": "No email provided",
@@ -808,7 +811,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Withdrawal Successful!",
-			"successMessage": "🎉 Just withdrew {withdrawAmount} {tokenSymbol} from Meme Win! 🚀 Join the winning streak at {shareUrl}",
+			"successMessage": "🎉 Just withdrew {withdrawAmount} {tokenSymbol} from Hyperbetz! 🚀 Join the winning streak at {shareUrl}",
 			"withdrawnAmount": "Withdrawn Amount",
 			"shareText": "Share",
 			"subText": "🚀 JOIN THE WINNING STREAK! 🚀",
@@ -929,7 +932,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ GAMES",
-				"desc": "Enjoy MemeWin Originals and other casino games from top providers.",
+				"desc": "Enjoy Hyperbetz Originals and other casino games from top providers.",
 				"link": "Go to Casino"
 			},
 			"slots": {

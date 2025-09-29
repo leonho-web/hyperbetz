@@ -15,10 +15,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://memewin.bet"),
-	title: "Meme Win - Your Gateway to Fun and Rewards",
+	metadataBase: new URL("https://hyperbetz.games"),
+	title: "Hyperbetz - Your Gateway to Fun and Rewards",
 	description:
-		"Join Meme Win for an exciting gaming experience with amazing rewards!",
+		"Join Hyperbetz for an exciting gaming experience with amazing rewards!",
 	keywords: [
 		"gaming",
 		"rewards",
@@ -33,30 +33,30 @@ export const metadata: Metadata = {
 	],
 	authors: [
 		{
-			name: "Meme Win",
-			url: "https://memewin.bet",
+			name: "Hyperbetz",
+			url: "https://hyperbetz.games",
 		},
 	],
 	openGraph: {
-		title: "Meme Win - Your Gateway to Fun and Rewards",
+		title: "Hyperbetz - Your Gateway to Fun and Rewards",
 		description:
-			"Join Meme Win for an exciting gaming experience with amazing rewards!",
-		url: "https://memewin.bet",
-		siteName: "Meme Win",
+			"Join Hyperbetz for an exciting gaming experience with amazing rewards!",
+		url: "https://hyperbetz.games",
+		siteName: "Hyperbetz",
 		images: [
 			{
 				url: "/assets/site/Hyperbetz-logo.png",
 				width: 1200,
 				height: 630,
-				alt: "Meme Win - Your Gateway to Fun and Rewards",
+				alt: "Hyperbetz - Your Gateway to Fun and Rewards",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Meme Win - Your Gateway to Fun and Rewards",
+		title: "Hyperbetz - Your Gateway to Fun and Rewards",
 		description:
-			"Join Meme Win for an exciting gaming experience with amazing rewards!",
+			"Join Hyperbetz for an exciting gaming experience with amazing rewards!",
 	},
 	icons: {
 		icon: "/assets/site/Hyperbetz-logo.png",
@@ -84,7 +84,7 @@ export default function RootLayout({
 					themes={["light", "dark"]} // IMPORTANT: Only manage light/dark here
 				>
 					<LocaleProvider>
-						<ThemeColorProvider>
+						<ThemeColorProvider defaultTheme="green">
 							<IOSViewportFix />
 							{children}
 						</ThemeColorProvider>

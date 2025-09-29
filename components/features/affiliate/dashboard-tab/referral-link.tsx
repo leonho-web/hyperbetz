@@ -72,7 +72,7 @@ export const ReferralLink = () => {
 			<div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-2xl" />
 
 			<CardHeader className="relative">
-				<CardTitle className="flex items-center gap-3 text-xl font-bold text-foreground">
+				<CardTitle className="flex items-center gap-3 text-xl font-semibold text-foreground">
 					<div className="p-2 rounded-xl bg-primary/10 border border-primary/20">
 						<FontAwesomeIcon
 							icon={faLink}

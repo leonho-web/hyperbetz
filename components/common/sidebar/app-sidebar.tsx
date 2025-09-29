@@ -113,10 +113,10 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 			{/* Sidebar Header with logo and title */}
 
 			<div className="flex items-center p-4">
-				<Link href="/" aria-label="Meme Win Home" className="m-auto">
+				<Link href="/" aria-label="Hyperbetz Home" className="m-auto">
 					<img
 						src="/assets/site/Hyperbetz-logo.png"
-						alt="Meme Win Logo"
+						alt="Hyperbetz Logo"
 						className="h-12"
 					/>
 				</Link>
@@ -136,7 +136,7 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 						asChild
 					>
 						<a
-							href="https://t.me/memewin_bot/memewin"
+							href="https://t.me/hyperbetz_bot/hyperbetz"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

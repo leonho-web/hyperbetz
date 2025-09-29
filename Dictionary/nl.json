@@ -7,7 +7,7 @@
 		"viewAll": "Alles bekijken"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Hyperbetz"
 	},
 	"header": {
 		"toggleSidebar": "Zijbalk wisselen",
@@ -49,6 +49,9 @@
 		"copyFailed": "Kopiëren van wallet adres mislukt",
 		"notConnected": "Niet verbonden",
 		"myProfile": "Mijn Profiel",
+		"history": {
+			"title": "Geschiedenis"
+		},
 		"logout": "Uitloggen",
 		"pendingRegistration": "Registratie in behandeling",
 		"noEmailProvided": "Geen e-mailadres opgegeven",
@@ -808,7 +811,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Opname Geslaagd!",
-			"successMessage": "🎉 Zojuist {withdrawAmount} {tokenSymbol} opgenomen van Meme Win! 🚀 Sluit je aan bij de winnende reeks op {shareUrl}",
+			"successMessage": "🎉 Zojuist {withdrawAmount} {tokenSymbol} opgenomen van Hyperbetz! 🚀 Sluit je aan bij de winnende reeks op {shareUrl}",
 			"withdrawnAmount": "Opgenomen Bedrag",
 			"shareText": "Delen",
 			"subText": "🚀 SLUIT JE AAN BIJ DE WINNENDE REEKS! 🚀",
@@ -929,7 +932,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ SPELLEN",
-				"desc": "Geniet van MemeWin Originals en andere casinospellen van top providers.",
+				"desc": "Geniet van Hyperbetz Originals en andere casinospellen van top providers.",
 				"link": "Ga naar Casino"
 			},
 			"slots": {

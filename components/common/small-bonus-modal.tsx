@@ -109,7 +109,7 @@ export function SmallBonusModal({
 							{t("firstDepositBoost")}
 						</div>
 						<div className="flex items-baseline gap-1 mt-0.5">
-							<span className="text-xl font-bold text-foreground">
+							<span className="text-xl font-semibold text-foreground">
 								🔥 170%
 							</span>
 							<span className="text-xs opacity-90">
@@ -126,20 +126,20 @@ export function SmallBonusModal({
 								<div className="text-[10px] opacity-80 leading-none mb-1">
 									{t("min")}
 								</div>
-								<div className="text-lg font-bold leading-none text-foreground bg-background/40 p-2 rounded-sm">
+								<div className="text-lg font-semibold leading-none text-foreground bg-background/40 p-2 rounded-sm">
 									{countdown.minutes
 										.toString()
 										.padStart(2, "0")}
 								</div>
 							</div>
-							<div className="text-lg font-bold opacity-60 text-foreground">
+							<div className="text-lg font-semibold opacity-60 text-foreground">
 								:
 							</div>
 							<div className="text-center">
 								<div className="text-[10px] opacity-80 leading-none mb-1">
 									{t("sec")}
 								</div>
-								<div className="text-lg font-bold leading-none text-foreground bg-background/40 p-2 rounded-sm">
+								<div className="text-lg font-semibold leading-none text-foreground bg-background/40 p-2 rounded-sm">
 									{countdown.seconds
 										.toString()
 										.padStart(2, "0")}
@@ -150,7 +150,7 @@ export function SmallBonusModal({
 						{/* Deposit Button */}
 						<button
 							onClick={onDeposit}
-							className="bg-accent-foreground hover:bg-accent-foreground/90 text-background font-bold py-2 px-4 rounded-lg transition-all duration-200 hover:scale-105 flex items-center gap-1 text-sm"
+							className="bg-accent-foreground hover:bg-accent-foreground/90 text-background font-semibold py-2 px-4 rounded-lg transition-all duration-200 hover:scale-105 flex items-center gap-1 text-sm"
 						>
 							{t("deposit")}{" "}
 							<FontAwesomeIcon

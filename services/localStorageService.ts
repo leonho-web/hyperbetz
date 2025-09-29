@@ -77,8 +77,8 @@ class LocalStorageService {
 	private static instance: LocalStorageService;
 
 	// This is the key for your application's specific user data.
-	private USER_DATA_KEY = "memewin_userData";
-	private CHAT_MESSAGES_KEY = "memewin_chatMessages";
+	private USER_DATA_KEY = "hyperbetz_userData";
+	private CHAT_MESSAGES_KEY = "hyperbetz_chatMessages";
 
 	// This is the key for the JWT provided by the Dynamic SDK.
 	private DYNAMIC_AUTH_TOKEN_KEY = "dynamic_authentication_token";
@@ -455,7 +455,7 @@ class LocalStorageService {
 					key.startsWith("dyn_") ||
 					key.includes("dynamic") ||
 					key.startsWith("userBalance_") ||
-					key.startsWith("memewin_") ||
+					key.startsWith("hyperbetz_") ||
 					key.includes("transaction") ||
 					key.includes("wallet") ||
 					key.startsWith(`${this.BET_HISTORY_CACHE_KEY}_`))

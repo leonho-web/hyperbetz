@@ -48,7 +48,7 @@
 // 						</div>
 // 						<div className="flex flex-col">
 // 							<span
-// 								className="text-lg md:text-xl font-bold bg-gradient-to-r from-foreground to-foreground/90
+// 								className="text-lg md:text-xl font-semibold bg-gradient-to-r from-foreground to-foreground/90
 //                               bg-clip-text text-transparent group-hover:from-primary group-hover:to-primary/80
 //                               transition-all duration-300 leading-tight"
 // 							>

@@ -3,10 +3,10 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useAppStore } from "@/store/store";
 import { useDynamicAuth } from "@/hooks/useDynamicAuth";
-import TransactionService, { PrimaryWalletWithClient } from "@/services/walletProvider/TransactionService";
 import {
 	WithdrawToken,
 	PreWithdrawData,
+	PrimaryWalletWithClient,
 } from "@/types/walletProvider/transaction-service.types";
 import {
 	TransactionType,
@@ -16,6 +16,7 @@ import { toast } from "sonner";
 import confetti from "canvas-confetti";
 import pandaABI from "@/abi/pandaByteCore.json";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
+import TransactionService from "@/services/walletProvider/TransactionService";
 
 // --- HOOK'S "CONTRACT" (What it needs to receive) ---
 interface UseWithdrawTransactionProps {
@@ -24,7 +25,6 @@ interface UseWithdrawTransactionProps {
 	withdrawAddress: string;
 	onTransactionComplete?: () => void; // Callback when transaction completes (success or failure)
 }
-
 
 /**
  * The definitive, feature-complete hook for the withdrawal transaction lifecycle.
@@ -238,16 +238,18 @@ export const useWithdrawTransaction = ({
 				}
 
 				const decimals = data.decimal || 6;
-				
+
 				const finalWdAmountFun =
 					parseFloat(withdrawAmount) * Math.pow(10, decimals);
 
-				const walletClient = await (primaryWallet as PrimaryWalletWithClient)?.getWalletClient();
+				const walletClient = await (
+					primaryWallet as unknown as PrimaryWalletWithClient
+				)?.getWalletClient();
 
 				const hash = await walletClient.writeContract({
 					address: data.contractAddress as `0x${string}`,
 					abi: pandaABI,
-					functionName: 'Withdraw_Web',
+					functionName: "Withdraw_Web",
 					args: [
 						data.tokenAddress,
 						finalWdAmountFun,
@@ -291,7 +293,7 @@ export const useWithdrawTransaction = ({
 					} else if (
 						"message" in error &&
 						typeof (error as { message?: unknown }).message ===
-						"string"
+							"string"
 					) {
 						message = (error as { message: string }).message;
 					}

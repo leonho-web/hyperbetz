@@ -7,7 +7,7 @@
 		"viewAll": "Xem tất cả"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Hyperbetz"
 	},
 	"header": {
 		"toggleSidebar": "Chuyển đổi thanh bên",
@@ -49,6 +49,9 @@
 		"copyFailed": "Sao chép địa chỉ ví thất bại",
 		"notConnected": "Chưa kết nối",
 		"myProfile": "Hồ sơ của tôi",
+		"history": {
+			"title": "Lịch sử"
+		},
 		"logout": "Đăng xuất",
 		"pendingRegistration": "Đang chờ đăng ký",
 		"noEmailProvided": "Chưa cung cấp email",
@@ -808,7 +811,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Rút tiền thành công!",
-			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ Meme Win! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
+			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ Hyperbetz! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
 			"withdrawnAmount": "Số tiền đã rút",
 			"shareText": "Chia sẻ",
 			"subText": "🚀 HÃY THAM GIA CHUỖI THẮNG! 🚀",
@@ -929,7 +932,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "Hơn 590 TRÒ CHƠI",
-				"desc": "Thưởng thức các trò chơi gốc của MemeWin và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
+				"desc": "Thưởng thức các trò chơi gốc của Hyperbetz và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
 				"link": "Đến Casino"
 			},
 			"slots": {

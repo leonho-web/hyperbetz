@@ -105,7 +105,7 @@ function TransactionItem({ transaction }: TransactionItemProps) {
 							{/* Transaction details */}
 							<div className="space-y-1">
 								<div className="flex items-center space-x-2">
-									<h3 className="text-sm font-bold text-foreground">
+									<h3 className="text-sm font-semibold text-foreground">
 										{isDeposit
 											? tProfile("deposit")
 											: tProfile("withdrawal")}
@@ -161,7 +161,7 @@ function TransactionItem({ transaction }: TransactionItemProps) {
 						<div className="flex items-center space-x-2">
 							<div className="text-right">
 								<p
-									className={`text-lg font-bold tabular-nums ${
+									className={`text-lg font-semibold tabular-nums ${
 										isDeposit
 											? "text-success"
 											: "text-primary"
@@ -248,8 +248,8 @@ export function TransactionHistorySection() {
 		// Helper function to format date as YYYY-MM-DD in local timezone
 		const formatDateToLocal = (date: Date): string => {
 			const year = date.getFullYear();
-			const month = String(date.getMonth() + 1).padStart(2, '0');
-			const day = String(date.getDate()).padStart(2, '0');
+			const month = String(date.getMonth() + 1).padStart(2, "0");
+			const day = String(date.getDate()).padStart(2, "0");
 			return `${year}-${month}-${day}`;
 		};
 
@@ -315,8 +315,7 @@ export function TransactionHistorySection() {
 					};
 				case "custom":
 					return {
-						from:
-							customDateFrom || formatDateToLocal(today),
+						from: customDateFrom || formatDateToLocal(today),
 						to: customDateTo || formatDateToLocal(today),
 					};
 				default:
@@ -359,9 +358,7 @@ export function TransactionHistorySection() {
 	}, []);
 
 	const transactionHistoryParams = useMemo(
-		
 		() => ({
-			// Use actual user data from auth context
 			username: user?.username || "defaultuser",
 			password:
 				process.env.NEXT_PUBLIC_GAME_URL_API_PASSWORD ||
@@ -394,7 +391,7 @@ export function TransactionHistorySection() {
 	// Fetch transactions when parameters change
 	useEffect(() => {
 		// Only fetch if we have authToken
-		if (authToken) {
+		if (authToken && user?.username) {
 			const fetchData = async () => {
 				await fetchTransactionHistory(
 					transactionHistoryParams,
@@ -404,7 +401,7 @@ export function TransactionHistorySection() {
 			fetchData();
 		}
 		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [transactionHistoryParams, authToken]);
+	}, [transactionHistoryParams, authToken, user?.username]);
 
 	// Refetch function
 	const refetch = useCallback(() => {
@@ -571,7 +568,7 @@ export function TransactionHistorySection() {
 									<ArrowUpRight className="h-5 w-5 text-foreground" />
 								</div>
 								<div>
-									<h2 className="text-lg lg:text-xl font-bold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
+									<h2 className="text-lg lg:text-xl font-semibold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
 										{t("title")}
 									</h2>
 									<p className="text-[10px] lg:text-xs text-muted-foreground">
@@ -967,7 +964,7 @@ export function TransactionHistorySection() {
 									<div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-destructive/20">
 										<XCircle className="h-8 w-8 text-destructive" />
 									</div>
-									<h3 className="mb-2 text-lg font-bold text-foreground">
+									<h3 className="mb-2 text-lg font-semibold text-foreground">
 										{t("errorLoadingTransactions")}
 									</h3>
 									<p className="mb-4 text-sm text-muted-foreground">
@@ -987,7 +984,7 @@ export function TransactionHistorySection() {
 									<div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-muted/20">
 										<Clock className="h-8 w-8 text-muted-foreground" />
 									</div>
-									<h3 className="mb-2 text-lg font-bold text-foreground">
+									<h3 className="mb-2 text-lg font-semibold text-foreground">
 										{t("noTransactionsFound")}
 									</h3>
 									<p className="mb-6 text-sm text-muted-foreground">

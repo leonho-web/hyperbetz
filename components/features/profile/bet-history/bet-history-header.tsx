@@ -57,7 +57,7 @@ export function BetHistoryHeader({
 							/>
 						</div>
 						<div>
-							<h2 className="text-lg lg:text-xl font-bold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
+							<h2 className="text-lg lg:text-xl font-semibold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
 								{t("title")}
 							</h2>
 							<p className="text-[10px] lg:text-xs text-muted-foreground">

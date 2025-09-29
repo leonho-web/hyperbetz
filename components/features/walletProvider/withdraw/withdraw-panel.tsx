@@ -142,7 +142,7 @@ export const WithdrawPanel = ({
 			{/* Main container with dark background and rounded corners matching the image */}
 			<div className="bg-card border border-border rounded-2xl shadow-lg">
 				{/* --- HEADER --- */}
-				<div className="flex items-center justify-between p-4 border-b border-border">
+				<div className="flex items-center justify-between p-3 border-b border-border">
 					<Button
 						variant="ghost"
 						size="icon"
@@ -159,7 +159,7 @@ export const WithdrawPanel = ({
 				{/* --- CONDITIONAL CONTENT --- */}
 				{pendingStatus || isWithdrawalSuccessful ? (
 					/* Show transaction pending component */
-					<div className="p-6 pb-12 flex items-center justify-center min-h-[400px]">
+					<div className="p-4 pb-8 flex items-center justify-center min-h-[320px]">
 						<WithdrawTransactionPending
 							transactionHash={withdrawTxHash}
 							timeLeft={timeLeft}
@@ -171,7 +171,7 @@ export const WithdrawPanel = ({
 				) : (
 					<>
 						{/* --- MAIN CONTENT --- */}
-						<div className="p-6 space-y-6">
+						<div className="p-4 space-y-4">
 							{/* Network Not Supported Alert */}
 							{!isNetworkSupported && (
 								<Alert variant="warning" className="space-y-2">
@@ -342,12 +342,12 @@ export const WithdrawPanel = ({
 						</div>
 
 						{/* --- FOOTER --- */}
-						<div className="p-6 pt-0">
+						<div className="p-4 pt-0">
 							<Button
 								onClick={executeWithdraw}
 								disabled={isWithdrawDisabled()}
-								size="lg"
-								className="w-full h-12 text-lg font-semibold rounded-xl"
+								size="default"
+								className="w-full h-11 text-base font-semibold rounded-xl"
 							>
 								{getButtonText()}
 							</Button>

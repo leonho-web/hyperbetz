@@ -37,7 +37,7 @@ export const WithdrawalSuccessModal = (props: WithdrawalSuccessModalProps) => {
 	const [isGeneratingScreenshot, setIsGeneratingScreenshot] = useState(false);
 	console.log(Number(withdrawAmount).toFixed(3));
 	const { Image } = useQRCode();
-	const shareUrl = "https://memewin.bet";
+	const shareUrl = "https://hyperbetz.games";
 	const shareText = t("successMessage", {
 		withdrawAmount: Number(withdrawAmount).toFixed(3),
 		tokenSymbol,
@@ -62,7 +62,7 @@ export const WithdrawalSuccessModal = (props: WithdrawalSuccessModalProps) => {
 				);
 				setImage(imageData);
 				const link = document.createElement("a");
-				link.download = `meme-win-success-${Date.now()}.png`;
+				link.download = `hyperbetz-success-${Date.now()}.png`;
 				link.href = URL.createObjectURL(imageData);
 				link.click();
 			} catch (error) {
@@ -162,7 +162,7 @@ export const WithdrawalSuccessModal = (props: WithdrawalSuccessModalProps) => {
 									<h2 className="lg:text-xl 2xl:text-3xl font-black text-white drop-shadow-lg">
 										{t("title")}
 									</h2>
-									<p className="text-[10px] max-w-3xs font-bold text-primary drop-shadow-lg text-shadow-gray-700 text-shadow-sm">
+									<p className="text-[10px] max-w-3xs font-semibold text-primary drop-shadow-lg text-shadow-gray-700 text-shadow-sm">
 										{t("successMessage", {
 											withdrawAmount:
 												Number(withdrawAmount).toFixed(
@@ -178,7 +178,7 @@ export const WithdrawalSuccessModal = (props: WithdrawalSuccessModalProps) => {
 									<div className="text-center space-y-1">
 										<div className="text-2xl font-black text-green-400 drop-shadow-lg">
 											{Number(withdrawAmount).toFixed(3)}{" "}
-											<span className="text-sm font-bold text-white">
+											<span className="text-sm font-semibold text-white">
 												{tokenSymbol}
 											</span>
 										</div>
@@ -221,7 +221,7 @@ export const WithdrawalSuccessModal = (props: WithdrawalSuccessModalProps) => {
 				<Button
 					onClick={handleTakeScreenshot}
 					disabled={isGeneratingScreenshot}
-					className="mt-4 mx-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 font-bold"
+					className="mt-4 mx-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 font-semibold"
 					size="sm"
 				>
 					{isGeneratingScreenshot ? (
@@ -263,7 +263,7 @@ export const WithdrawalSuccessModal = (props: WithdrawalSuccessModalProps) => {
 
 						<FacebookShareButton
 							url={shareUrl}
-							hashtag="#MemeWin"
+							hashtag="#Hyperbetz"
 							className="w-full"
 						>
 							<div className="flex flex-col items-center p-2 bg-black/20 rounded-lg hover:bg-black/40 transition-all">

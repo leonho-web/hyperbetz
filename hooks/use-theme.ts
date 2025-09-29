@@ -33,6 +33,7 @@ export const AVAILABLE_THEME_COLORS: ThemeColorOption[] = [
 	{ name: "poker", label: "Poker", color: "#b91c1c" },
 	{ name: "poker-vibrant", label: "Poker Vibrant", color: "#ff1744" },
 	{ name: "midnight-ocean", label: "Midnight Ocean", color: "#15253DFF" },
+	{ name: "rudish-vibrant", label: "Rudish Vibrant", color: "#ff6f61" },
 ];
 
 export function useTheme() {

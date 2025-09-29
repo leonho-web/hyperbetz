@@ -10,7 +10,7 @@ import {
 	SelectValue,
 } from "@/components/ui/select";
 import { EvmNetwork, useDynamicContext } from "@dynamic-labs/sdk-react-core";
-import { toast } from "react-toastify";
+import { toast } from "sonner";
 // import { Loader2, CheckCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "@/lib/locale-provider";

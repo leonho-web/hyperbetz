@@ -47,11 +47,25 @@ export const useTransactionModal = () => {
 		searchParams,
 	]);
 
+	// Wrap closeModal to handle URL cleanup
+	const handleCloseModal = () => {
+		closeTransactionModal();
+		// Create new URLSearchParams from current params
+		const params = new URLSearchParams(searchParams.toString());
+		// Remove the tab parameter
+		params.delete("tab");
+		// Update the URL without the tab parameter, keeping other params intact
+		router.replace(
+			`${pathname}${params.toString() ? `?${params.toString()}` : ""}`,
+			{ scroll: false }
+		);
+	};
+
 	return {
 		isOpen: isTransactionModalOpen,
 		activeTab: activeTransactionModalTab,
 		openModal: openTransactionModal,
-		closeModal: closeTransactionModal,
+		closeModal: handleCloseModal,
 		setActiveTab: setActiveTransactionModalTab,
 	};
 };

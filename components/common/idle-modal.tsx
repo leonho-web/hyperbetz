@@ -217,19 +217,21 @@ export function IdleModal({
 			<div className="flex-1 text-center lg:text-left space-y-3 sm:space-y-4 lg:space-y-6 flex flex-col justify-center">
 				{/* Offer Badge */}
 				<div className="flex justify-center lg:justify-start">
-					<div className="bg-gradient-to-r from-primary to-destructive text-foreground px-3 py-1 rounded-full text-xs sm:text-sm font-bold animate-pulse">
+					<div className="bg-gradient-to-r from-primary to-destructive text-foreground px-3 py-1 rounded-full text-xs sm:text-sm font-semibold animate-pulse">
 						LIMITED TIME OFFER
 					</div>
 				</div>
 
 				{/* Main Offer Headline */}
 				<div className="space-y-1 sm:space-y-2 lg:space-y-3">
-					<h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary via-primary to-background bg-clip-text text-transparent leading-tight">
+					<h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-primary via-primary to-background bg-clip-text text-transparent leading-tight">
 						Get 200% Welcome Bonus!
 					</h1>
 					<p className="text-muted-foreground text-sm sm:text-base md:text-lg leading-relaxed">
 						Connect your crypto wallet now and receive up to{" "}
-						<span className="text-primary font-bold">$5,000</span>{" "}
+						<span className="text-primary font-semibold">
+							$5,000
+						</span>{" "}
 						bonus on your first deposit!
 					</p>
 				</div>
@@ -277,7 +279,7 @@ export function IdleModal({
 					<button
 						ref={okBtnRef}
 						className="flex-1 w-full sm:w-1/2 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 bg-primary
-                       text-foreground font-bold rounded-lg sm:rounded-xl md:rounded-2xl 
+                       text-foreground font-semibold rounded-lg sm:rounded-xl md:rounded-2xl 
                        text-sm sm:text-base md:text-xl shadow-2xl
                        hover:scale-105 transition-all duration-300
                        focus:outline-none focus:ring-4 focus:ring-ring
@@ -291,7 +293,7 @@ export function IdleModal({
 						<div className="text-destructive text-xs sm:text-sm font-medium mb-1">
 							{t("offerExpires")}
 						</div>
-						<div className="text-foreground font-bold text-base sm:text-lg">
+						<div className="text-foreground font-semibold text-base sm:text-lg">
 							{countdown}
 						</div>
 					</div>
@@ -331,7 +333,7 @@ export function IdleModal({
 										</button>
 										<div className="flex items-center gap-2 bg-muted px-3 py-1.5 rounded-lg">
 											<div className="w-4 h-4 bg-chart-2 rounded-full flex items-center justify-center">
-												<span className="text-[6px] text-foreground font-bold">
+												<span className="text-[6px] text-foreground font-semibold">
 													E
 												</span>
 											</div>
@@ -354,7 +356,7 @@ export function IdleModal({
 										<span className="text-muted-foreground text-base">
 											0.00
 										</span>
-										<button className="text-primary font-bold text-[8px] px-2 py-1 rounded bg-primary/10">
+										<button className="text-primary font-semibold text-[8px] px-2 py-1 rounded bg-primary/10">
 											{t("max")}
 										</button>
 									</div>
@@ -365,7 +367,7 @@ export function IdleModal({
 									<div className="flex items-center justify-between bg-muted rounded-lg px-2 py-2 border border-border">
 										<div className="flex items-center gap-2">
 											<div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center">
-												<span className="text-foreground text-[10px] font-bold">
+												<span className="text-foreground text-[10px] font-semibold">
 													T
 												</span>
 											</div>
@@ -396,7 +398,7 @@ export function IdleModal({
 								{/* Action Button */}
 								<div className="mt-2">
 									<button
-										className="w-full bg-primary hover:bg-primary/90 rounded-lg py-1 text-foreground font-bold text-sm transition-colors shadow-lg flex items-center justify-center gap-2"
+										className="w-full bg-primary hover:bg-primary/90 rounded-lg py-1 text-foreground font-semibold text-sm transition-colors shadow-lg flex items-center justify-center gap-2"
 										onClick={handleMainButtonClick}
 									>
 										{t("deposit")}{" "}
@@ -436,7 +438,7 @@ export function IdleModal({
 				<div className="absolute bottom-6 left-1/2 transform -translate-x-1/2">
 					<button
 						ref={okBtnRef}
-						className="px-6 py-3 bg-primary/90 backdrop-blur-sm text-foreground font-bold rounded-lg hover:bg-primary transition-colors shadow-lg"
+						className="px-6 py-3 bg-primary/90 backdrop-blur-sm text-foreground font-semibold rounded-lg hover:bg-primary transition-colors shadow-lg"
 						onClick={handleMainButtonClick}
 					>
 						{okText || t("ctaOk")}

@@ -193,7 +193,7 @@ export const QueryPageLayout = () => {
 					{/* Top Control Bar */}
 					<div className="flex flex-col w-full sticky top-16 z-30  lg:flex-row justify-between items-start gap-4 p-4 border rounded-lg bg-card">
 						<div className="flex flex-col gap-2 w-full">
-							<h1 className="text-2xl lg:text-3xl font-bold tracking-tight ">
+							<h1 className="text-2xl lg:text-3xl font-semibold tracking-tight ">
 								{getHeaderConfig.title}
 							</h1>
 							<nav

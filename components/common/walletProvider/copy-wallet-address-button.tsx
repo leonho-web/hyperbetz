@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Copy, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { toast } from "react-toastify";
+import { toast } from "sonner";
 
 interface CopyWalletAddressButtonProps {
 	/** The wallet address to copy */

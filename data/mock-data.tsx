@@ -119,7 +119,7 @@ export const mockInfoCards: InfoCardData[] = [
 		badgeText: "590+ GAMES",
 		badgeColor: "destructive",
 		description:
-			"Enjoy MemeWin Originals and other casino games from top providers.",
+			"Enjoy Hyperbetz Originals and other casino games from top providers.",
 		linkText: "Go to Casino",
 		href: "/games?category=LIVE+CASINO",
 		// backgroundImage: "/assets/banners/hero/casino.png", // Example PNG image

@@ -62,7 +62,7 @@ const languages = [
 ];
 
 const dictionaryPath =
-	"/home/himanshu-soni/Developer/work/qubitron/meme-win/Dictionary";
+	"/home/himanshu-soni/Developer/work/qubitron/hyperbetz/Dictionary";
 
 // Load English as reference (it has 100% coverage)
 const enPath = path.join(dictionaryPath, "en.json");

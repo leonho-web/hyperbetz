@@ -108,7 +108,7 @@ export const CommissionTiers = ({
 			<Card className="bg-gradient-to-br pt-0 from-background via-background to-muted/20  shadow-2xl shadow-muted/20">
 				{/* <CardHeader className="relative pt-6 overflow-hidden border-b border-border/50">
 					<div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5" />
-					<CardTitle className="relative flex items-center gap-3 text-4xl font-bold tracking-tight text-foreground">
+					<CardTitle className="relative flex items-center gap-3 text-4xl font-semibold tracking-tight text-foreground">
 						<div className="p-2 rounded-xl bg-primary/10 border border-primary/20">
 							<Shield className="h-8 w-8 text-primary" />
 						</div>
@@ -130,7 +130,7 @@ export const CommissionTiers = ({
 									className="h-6 w-6 text-blue-600 dark:text-blue-400"
 								/>
 							</div>
-							<h3 className="text-2xl font-bold text-foreground">
+							<h3 className="text-2xl font-semibold text-foreground">
 								{tRates("howItWorks.title")}
 							</h3>
 						</div>
@@ -150,7 +150,7 @@ export const CommissionTiers = ({
 									className="h-6 w-6 text-emerald-600 dark:text-emerald-400"
 								/>
 							</div>
-							<h3 className="text-2xl font-bold text-foreground">
+							<h3 className="text-2xl font-semibold text-foreground">
 								{tRates("title")}
 							</h3>
 						</div>
@@ -170,10 +170,10 @@ export const CommissionTiers = ({
 											<div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 											<div className="relative">
 												<div className="flex items-center gap-3 mb-3">
-													<div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary text-foreground text-sm font-bold">
+													<div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary text-foreground text-sm font-semibold">
 														{tier.level}
 													</div>
-													<h4 className="text-lg font-bold text-foreground">
+													<h4 className="text-lg font-semibold text-foreground">
 														{tRates(
 															"table.tierPrefix"
 														)}{" "}
@@ -200,7 +200,7 @@ export const CommissionTiers = ({
 															)}
 															:
 														</span>
-														<span className="font-bold text-foreground ml-auto">
+														<span className="font-semibold text-foreground ml-auto">
 															{tier.slot_percent}%
 														</span>
 													</div>
@@ -212,7 +212,7 @@ export const CommissionTiers = ({
 															)}
 															:
 														</span>
-														<span className="font-bold text-foreground ml-auto">
+														<span className="font-semibold text-foreground ml-auto">
 															{tier.lc_percent}%
 														</span>
 													</div>
@@ -224,7 +224,7 @@ export const CommissionTiers = ({
 															)}
 															:
 														</span>
-														<span className="font-bold text-foreground ml-auto">
+														<span className="font-semibold text-foreground ml-auto">
 															{tier.sport_percent}
 															%
 														</span>
@@ -247,7 +247,7 @@ export const CommissionTiers = ({
 									className="h-6 w-6 text-purple-600 dark:text-purple-400"
 								/>
 							</div>
-							<h3 className="text-2xl font-bold text-foreground">
+							<h3 className="text-2xl font-semibold text-foreground">
 								{tRates("calculation.title")}
 							</h3>
 						</div>
@@ -262,7 +262,7 @@ export const CommissionTiers = ({
 										className="flex items-center justify-between p-4 bg-card border border-border/30 rounded-lg hover:border-primary/30 transition-colors"
 									>
 										<div className="flex items-center gap-3">
-											<div className="flex items-center justify-center w-7 h-7 rounded-full bg-primary/10 text-primary text-sm font-bold">
+											<div className="flex items-center justify-center w-7 h-7 rounded-full bg-primary/10 text-primary text-sm font-semibold">
 												{example.tier}
 											</div>
 											<span className="text-foreground">
@@ -282,7 +282,7 @@ export const CommissionTiers = ({
 												})}
 											</span>
 										</div>
-										<div className="font-bold text-lg text-primary">
+										<div className="font-semibold text-lg text-primary">
 											{example.commission}
 										</div>
 									</div>
@@ -300,7 +300,7 @@ export const CommissionTiers = ({
 									className="h-6 w-6 text-green-600 dark:text-green-400"
 								/>
 							</div>
-							<h3 className="text-2xl font-bold text-foreground">
+							<h3 className="text-2xl font-semibold text-foreground">
 								{tRates("claim.title")}
 							</h3>
 						</div>
@@ -330,7 +330,7 @@ export const CommissionTiers = ({
 									className="h-6 w-6 text-orange-600 dark:text-orange-400"
 								/>
 							</div>
-							<h3 className="text-2xl font-bold text-foreground">
+							<h3 className="text-2xl font-semibold text-foreground">
 								{tRates("system.title")}
 							</h3>
 						</div>
@@ -382,7 +382,7 @@ export const CommissionTiers = ({
 									className="h-6 w-6 text-red-600 dark:text-red-400"
 								/>
 							</div>
-							<h3 className="text-2xl font-bold text-foreground">
+							<h3 className="text-2xl font-semibold text-foreground">
 								{tRates("amendments.title")}
 							</h3>
 						</div>

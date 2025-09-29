@@ -32,7 +32,7 @@ export const TotalReferrals = ({ isLoading, totalReferrals = 0 }: Props) => {
 				{isLoading ? (
 					<Skeleton className="h-8 w-20 rounded-md" />
 				) : (
-					<div className="text-2xl font-bold text-foreground">
+					<div className="text-2xl font-semibold text-foreground">
 						<CountUp end={totalReferrals} duration={1.5} />
 						<span className="text-sm font-medium text-muted-foreground/80 ml-1">
 							{t("usersUnit")}

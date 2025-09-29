@@ -61,7 +61,9 @@ export const DepositTransactionPending = ({
 			</p>
 
 			{/* Countdown timer is only shown while pending */}
-			{!isConfirmed && <p className="text-2xl font-bold">{timeLeft}s</p>}
+			{!isConfirmed && (
+				<p className="text-2xl font-semibold">{timeLeft}s</p>
+			)}
 
 			{transactionHash && (
 				<a

@@ -123,7 +123,7 @@ const GameCardComponent = ({
 						>
 							<div className="bg-red-600 rounded-lg px-2 py-1 shadow-lg flex items-center gap-1.5">
 								<div className="w-1.5 h-1.5 bg-white rounded-full animate-play-pulse-alt " />
-								<span className="text-xs font-bold text-white uppercase tracking-wider">
+								<span className="text-xs font-semibold text-white uppercase tracking-wider">
 									LIVE
 								</span>
 							</div>
@@ -172,7 +172,7 @@ const GameCardComponent = ({
 					{/* Game name with advanced styling */}
 					<div className="flex-1 flex flex-col justify-center space-y-2">
 						<div className="text-center">
-							<h3 className="font-bold text-base text-card-foreground line-clamp-2 leading-tight group-hover:text-primary transition-colors duration-300  min-h-[2.5rem] flex items-center justify-center">
+							<h3 className="font-semibold text-base text-card-foreground line-clamp-2 leading-tight group-hover:text-primary transition-colors duration-300  min-h-[2.5rem] flex items-center justify-center">
 								{game.game_name}
 							</h3>
 

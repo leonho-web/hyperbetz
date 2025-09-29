@@ -8,13 +8,12 @@ import {
 	TransactionType,
 	TransactionStatus,
 } from "@/types/blockchain/transactions.types";
-import TransactionService, {
-	PrimaryWalletWithClient,
-} from "@/services/walletProvider/TransactionService";
+import TransactionService from "@/services/walletProvider/TransactionService";
 import { toast } from "sonner";
 import { useDynamicAuth } from "@/hooks/useDynamicAuth";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
 import confetti from "canvas-confetti";
+import { PrimaryWalletWithClient } from "@/types/walletProvider/transaction-service.types";
 
 // --- HOOK'S "CONTRACT" (What it needs to receive) ---
 interface UseDepositTransactionProps {
@@ -70,7 +69,7 @@ export const useDepositTransaction = ({
 	useEffect(() => {
 		if (primaryWallet) {
 			transactionService.setPrimaryWallet(
-				primaryWallet as PrimaryWalletWithClient
+				primaryWallet as unknown as PrimaryWalletWithClient
 			);
 		}
 	}, [primaryWallet, transactionService]);
@@ -341,7 +340,8 @@ export const useDepositTransaction = ({
 						receiver: dstSwapInfo.wallet_address,
 						slippage: "1",
 						username: user.username,
-						primaryWallet: primaryWallet as PrimaryWalletWithClient,
+						primaryWallet:
+							primaryWallet as unknown as PrimaryWalletWithClient,
 					});
 					depositSuccess = txResult.success;
 				} else {

@@ -19,7 +19,7 @@ export const processMessageContent = (
 
 		if (isCurrentUser) {
 			// Special highlighting for when current user is tagged
-			return `<span class="text-orange-400 font-bold bg-orange-100/20 px-1 rounded border border-orange-400/30 animate-pulse">@${username}</span>`;
+			return `<span class="text-orange-400 font-semibold bg-orange-100/20 px-1 rounded border border-orange-400/30 animate-pulse">@${username}</span>`;
 		} else {
 			// Regular tag highlighting with text-primary class
 			return `<span class="text-primary font-medium">@${username}</span>`;

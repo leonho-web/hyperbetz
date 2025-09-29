@@ -1,7 +1,6 @@
 import { ethers } from "ethers";
 import abiErc20 from "@/abi/erc20.json";
-import { getAuthToken, Wallet } from "@dynamic-labs/sdk-react-core";
-
+import { getAuthToken } from "@dynamic-labs/sdk-react-core";
 
 import {
 	ApproveTokenParams,
@@ -49,8 +48,9 @@ import {
 	SearchTokenRequest,
 	SearchTokenResponse,
 	WalletAgentApiRequest,
+	PrimaryWalletWithClient,
 } from "@/types/walletProvider/transaction-service.types";
-import { Account, Chain, parseAbi, parseUnits, Transport, WalletClient } from "viem";
+import { parseAbi, parseUnits } from "viem";
 import { SendTransactionParameters } from "viem/zksync";
 
 interface ApiResponse<T> {
@@ -58,13 +58,6 @@ interface ApiResponse<T> {
 	message: string;
 	data: T;
 }
-
-export type PrimaryWalletWithClient =
-  Wallet & {
-    getWalletClient(chainId?: string): Promise<WalletClient<Transport, Chain, Account>>;
-  };
-
-
 
 /**
  * TransactionService.ts
@@ -159,22 +152,17 @@ class TransactionService {
 		} = params;
 
 		try {
-		
 			const maxAmount = unlimited
 				? "115792089237316195423570985008687907853269984665640564039457584007913129639935"
 				: ethers.parseUnits("1000000", 18);
-
 
 			const walletClient = await this.primaryWallet?.getWalletClient();
 
 			const hash = await walletClient?.writeContract({
 				address: tokenAddress as `0x${string}`,
 				abi: abiErc20,
-				functionName: 'approve',
-				args: [
-					spenderAddress,
-					maxAmount,
-				],
+				functionName: "approve",
+				args: [spenderAddress, maxAmount],
 			});
 
 			return {
@@ -297,7 +285,9 @@ class TransactionService {
 			};
 
 			const walletClient = await this.primaryWallet?.getWalletClient();
-			const hash = await walletClient?.sendTransaction(tx as unknown as SendTransactionParameters);
+			const hash = await walletClient?.sendTransaction(
+				tx as unknown as SendTransactionParameters
+			);
 
 			return {
 				success: true,
@@ -323,15 +313,14 @@ class TransactionService {
 		const { tokenAddress, recipientAddress, amount, decimals = 6 } = params;
 
 		try {
-
 			const walletClient = await this.primaryWallet?.getWalletClient();
 
 			const hash = await walletClient?.writeContract({
 				address: tokenAddress as `0x${string}`,
 				abi: parseAbi([
-					'function transfer(address to, uint256 amount) returns (bool)'
+					"function transfer(address to, uint256 amount) returns (bool)",
 				]),
-				functionName: 'transfer',
+				functionName: "transfer",
 				args: [
 					recipientAddress as `0x${string}`,
 					parseUnits(amount.toString(), decimals),
@@ -896,7 +885,7 @@ class TransactionService {
 		},
 		jwtToken?: string
 	): // eslint-disable-next-line
-		Promise<ApiResponse<any>> {
+	Promise<ApiResponse<any>> {
 		// eslint-disable-next-line
 		return this.makeRequest<any>(
 			"/api/fetchInfo",

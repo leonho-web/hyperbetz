@@ -83,7 +83,7 @@ export default function GetLobbyPage() {
 		console.error("Error launching lobby:", error);
 		return (
 			<div className="flex flex-col items-center justify-center min-h-screen bg-background text-destructive">
-				<h1 className="text-3xl font-bold">
+				<h1 className="text-3xl font-semibold">
 					{t("getLobby.launchFailedTitle")}
 				</h1>
 				<p className="mt-4 max-w-md text-center">{error}</p>

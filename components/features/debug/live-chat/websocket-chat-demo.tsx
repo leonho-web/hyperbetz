@@ -116,7 +116,9 @@ export function WebSocketChatDemo() {
 
 	return (
 		<div className="max-w-md mx-auto mt-8 p-4 border rounded-lg shadow-lg">
-			<h2 className="text-xl font-bold mb-4">WebSocket Live Chat Demo</h2>
+			<h2 className="text-xl font-semibold mb-4">
+				WebSocket Live Chat Demo
+			</h2>
 
 			{/* Connection Status */}
 			<div

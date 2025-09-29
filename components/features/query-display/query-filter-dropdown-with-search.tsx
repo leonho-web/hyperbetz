@@ -113,7 +113,7 @@ export const QueryFilterDropdownWithSearch = ({
 					role="combobox"
 					aria-expanded={open}
 					className={cn(
-						"w-full sm:w-[250px] justify-between min-w-0",
+						"w-full sm:w-[250px] h-11 px-3 justify-between min-w-0",
 						className
 					)}
 				>
@@ -150,10 +150,10 @@ export const QueryFilterDropdownWithSearch = ({
 										onSelect={() => {
 											onToggle(option.value);
 										}}
-										className={`flex items-center p-2 sm:p-3 cursor-pointer hover:bg-accent hover:text-accent-foreground rounded-md border border-border/50 transition-colors ${
+										className={`flex items-center p-2 sm:p-3 cursor-pointer rounded-md border border-border/50 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary/40 ${
 											activeValues.includes(option.value)
-												? "border-primary/50"
-												: "bg-background/50"
+												? "border-primary/50 bg-accent/10"
+												: "bg-background/50 hover:bg-muted/30 hover:text-foreground"
 										}`}
 									>
 										<Check

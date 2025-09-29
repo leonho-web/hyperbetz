@@ -254,7 +254,7 @@ export function NavMain({
 								)?.url || "/"
 							}
 						>
-							<span className="border rounded-2xl text-[11px] px-2 py-1 hover:bg-accent">
+							<span className="border rounded-2xl text-[11px] px-2 py-1 hover:bg-muted/40 hover:text-foreground">
 								View all
 							</span>
 						</Link>
@@ -274,7 +274,7 @@ export function NavMain({
 												e
 											)
 										}
-										className="group rounded-lg bg-muted/50 hover:bg-accent/30 border border-border hover:border-primary/50 cursor-pointer py-2 px-2 flex items-center justify-between"
+										className="group rounded-lg bg-muted/10 hover:bg-muted/20 border border-border hover:border-primary/50 cursor-pointer py-2 px-2 flex items-center justify-between"
 									>
 										<div className="flex items-center gap-3 min-w-0">
 											<span className="w-1.5 h-1.5 rounded-full bg-primary/70" />
@@ -592,7 +592,7 @@ export function NavMain({
 								<SidebarMenuButton asChild>
 									<Link
 										href={category.url}
-										className="flex items-center lg:px-4 lg:py-2 tracking-wide font-semibold justify-between w-full hover:bg-accent/30 transition-all duration-200 rounded-lg"
+										className="flex items-center lg:px-4 lg:py-2 tracking-wide font-semibold justify-between w-full hover:bg-muted/30 transition-all duration-200 rounded-lg"
 										prefetch
 										onFocus={handleTriggerFocus}
 										onBlur={handleTriggerBlur}
@@ -664,7 +664,7 @@ export function NavMain({
 		<div className="-space-y-1">
 			{items.length > 0 && (
 				<SidebarGroup>
-					<SidebarGroupLabel className="text-primary font-bold">
+					<SidebarGroupLabel className="text-primary font-semibold">
 						{tSidebar("navigation")}
 					</SidebarGroupLabel>
 					<SidebarMenu>
@@ -703,7 +703,7 @@ export function NavMain({
 						<SidebarMenuItem className="list-none">
 							<CollapsibleTrigger asChild>
 								<SidebarMenuButton tooltip="Providers">
-									<span className="text-primary text-xs font-bold">
+									<span className="text-primary text-xs font-semibold">
 										{tSidebar("trendingNow")}
 									</span>
 									<FontAwesomeIcon
@@ -729,7 +729,7 @@ export function NavMain({
 															>
 																<Link
 																	href={p.url}
-																	className="flex font-medium tracking-wider items-center justify-between w-full hover:bg-accent/30 transition-all duration-300"
+																	className="flex font-medium tracking-wider items-center justify-between w-full hover:bg-muted/30 transition-all duration-300"
 																	prefetch
 																>
 																	<span className="text-sm text-foreground">

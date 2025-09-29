@@ -87,14 +87,14 @@
 //     <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-20 ">
 //       {/* --- Main Featured Game Column --- */}
 //       <div className="lg:col-span-2 h-full">
-//         <h2 className="text-2xl font-bold mb-6 tracking-tight text-foreground">Featured Game</h2>
+//         <h2 className="text-2xl font-semibold mb-6 tracking-tight text-foreground">Featured Game</h2>
 //         <GameCard game={mainGame} />
 //         {/* </div> */}
 //       </div>
 
 //       {/* --- Side Vertical Auto-Scrolling Column --- */}
 //       <div className="lg:col-span-3 h-full">
-//         <h2 className="text-2xl font-bold mb-6 tracking-tight text-foreground">More To Explore</h2>
+//         <h2 className="text-2xl font-semibold mb-6 tracking-tight text-foreground">More To Explore</h2>
 //         <Card className="h-[calc(100%-3.5rem)] p-0 overflow-hidden bg-card/50 backdrop-blur-sm border-border/50 shadow-xl relative">
 //           {/* Gradient overlays */}
 //           <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-card to-transparent z-10 pointer-events-none" />
@@ -232,7 +232,7 @@
 //       {/* Game Info Section */}
 //       <CardContent className="p-6 h-[120px] flex flex-col justify-center bg-gradient-to-t from-card/50 to-transparent">
 //         <div className="space-y-3 text-center">
-//           <h3 className="text-xl font-bold truncate group-hover:text-primary transition-colors duration-300">{game.game_name}</h3>
+//           <h3 className="text-xl font-semibold truncate group-hover:text-primary transition-colors duration-300">{game.game_name}</h3>
 //           <div className="flex items-center justify-center gap-2">
 //             <Star className="h-4 w-4 text-yellow-400 fill-yellow-400" />
 //             <span className="text-sm text-muted-foreground font-medium">Featured Game</span>
@@ -334,7 +334,7 @@
 //     <div className="w-full space-y-8 py-8">
 //       {/* Header Section */}
 //       <div className="text-center space-y-3">
-//         <h1 className="text-4xl font-bold tracking-tight text-foreground">Game Spotlight</h1>
+//         <h1 className="text-4xl font-semibold tracking-tight text-foreground">Game Spotlight</h1>
 //         <p className="text-muted-foreground max-w-2xl mx-auto">Discover amazing games and explore new adventures in our curated collection</p>
 //       </div>
 
@@ -343,7 +343,7 @@
 //         {/* Slider 1: Featured Games */}
 //         <div className="space-y-6">
 //           <div className="flex items-center justify-between">
-//             <h2 className="text-2xl font-bold text-foreground">Featured Games</h2>
+//             <h2 className="text-2xl font-semibold text-foreground">Featured Games</h2>
 //             <Badge variant="outline" className="text-primary border-primary/30">
 //               Staff Picks
 //             </Badge>
@@ -374,7 +374,7 @@
 //         {/* Slider 2: More to Explore */}
 //         <div className="space-y-6">
 //           <div className="flex items-center justify-between">
-//             <h2 className="text-2xl font-bold text-foreground">More to Explore</h2>
+//             <h2 className="text-2xl font-semibold text-foreground">More to Explore</h2>
 //             <Badge variant="outline" className="text-secondary-foreground border-secondary/30">
 //               Trending
 //             </Badge>
@@ -521,7 +521,7 @@ const FeaturedGameCard = ({ game }: { game: Game }) => {
 						</span>
 					</div>
 
-					<h3 className="text-2xl font-bold text-white group-hover:text-primary transition-colors duration-300 leading-tight">
+					<h3 className="text-2xl font-semibold text-white group-hover:text-primary transition-colors duration-300 leading-tight">
 						{game.game_name}
 					</h3>
 				</div>
@@ -592,7 +592,7 @@ const CompactGameCard = ({ game }: { game: Game }) => {
 
 				{/* Bottom Section - Game Info */}
 				<div className="space-y-3">
-					<h4 className="font-bold text-white text-lg group-hover:text-foreground transition-colors duration-300 leading-tight">
+					<h4 className="font-semibold text-white text-lg group-hover:text-foreground transition-colors duration-300 leading-tight">
 						{game.game_name}
 					</h4>
 
@@ -654,7 +654,7 @@ export const Layout3 = ({
 		<div className="w-full space-y-8 py-8">
 			{/* Header Section */}
 			<div className="text-center space-y-3">
-				<h1 className="text-4xl font-bold tracking-tight text-foreground">
+				<h1 className="text-4xl font-semibold tracking-tight text-foreground">
 					{tHero("layout3.headerTitle")}
 				</h1>
 				<p className="text-muted-foreground max-w-2xl mx-auto">
@@ -667,7 +667,7 @@ export const Layout3 = ({
 				{/* Slider 1: Featured Games */}
 				<div className="space-y-6">
 					<div className="flex items-center justify-between">
-						<h2 className="text-2xl font-bold text-foreground">
+						<h2 className="text-2xl font-semibold text-foreground">
 							{tHero("layout3.slider1Title")}
 						</h2>
 						<Badge
@@ -706,7 +706,7 @@ export const Layout3 = ({
 				{/* Slider 2: More to Explore */}
 				<div className="space-y-6">
 					<div className="flex items-center justify-between">
-						<h2 className="text-2xl font-bold text-foreground">
+						<h2 className="text-2xl font-semibold text-foreground">
 							{tHero("layout3.slider2Title")}
 						</h2>
 						<Badge

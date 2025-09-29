@@ -1,6 +1,6 @@
 {
 	"app": {
-		"name": "Meme Win"
+		"name": "Hyperbetz"
 	},
 	"header": {
 		"toggleSidebar": "Alternar barra lateral",
@@ -49,6 +49,9 @@
 		"copyFailed": "Error al copiar la dirección",
 		"notConnected": "No conectado",
 		"myProfile": "Mi Perfil",
+		"history": {
+			"title": "Historial"
+		},
 		"logout": "Cerrar sesión",
 		"pendingRegistration": "Registro pendiente",
 		"noEmailProvided": "Sin correo electrónico",
@@ -808,7 +811,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "¡Retiro Exitoso!",
-			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de Meme Win! 🚀 ¡Únete a la racha ganadora en {shareUrl}",
+			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de Hyperbetz! 🚀 ¡Únete a la racha ganadora en {shareUrl}",
 			"withdrawnAmount": "Cantidad Retirada",
 			"shareText": "¡Comparte",
 			"subText": "🚀 ¡ÚNETE A LA RACHA GANADORA! 🚀",
@@ -929,7 +932,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JUEGOS",
-				"desc": "Disfruta de MemeWin Originals y otros juegos de casino de los mejores proveedores.",
+				"desc": "Disfruta de Hyperbetz Originals y otros juegos de casino de los mejores proveedores.",
 				"link": "Ir al Casino"
 			},
 			"slots": {

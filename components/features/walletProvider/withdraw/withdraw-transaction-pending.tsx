@@ -72,7 +72,7 @@ export const WithdrawTransactionPending = ({
 				{isSuccessful ? t("confirmedDesc") : t("submittedDesc")}
 			</p>
 			{!isSuccessful && transactionHash !== "manual_approval_pending" && (
-				<p className="text-2xl font-bold">{timeLeft}s</p>
+				<p className="text-2xl font-semibold">{timeLeft}s</p>
 			)}
 			{transactionHash &&
 				transactionHash !== "manual_approval_pending" &&

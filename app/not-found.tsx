@@ -139,7 +139,7 @@ export default function NotFound() {
 						</div>
 
 						<div className="space-y-4">
-							<h2 className="text-3xl md:text-4xl font-bold casino-heading-enhanced">
+							<h2 className="text-3xl md:text-4xl font-semibold casino-heading-enhanced">
 								Page Not Found!
 							</h2>
 							<p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">

@@ -21,7 +21,7 @@ export default function Page() {
 
 			{/* Test Success Modal Button */}
 			<div className="mb-6 p-4 border rounded-lg bg-yellow-50">
-				<h2 className="font-bold mb-2">
+				<h2 className="font-semibold mb-2">
 					Test Withdrawal Success Modal
 				</h2>
 				<Button onClick={() => setShowTestModal(true)}>
